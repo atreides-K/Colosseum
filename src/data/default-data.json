@@ -1,6 +1,6 @@
 {
   "tournamentName": "Spectrum 2026",
-  "isAdmin": true,
+  "isAdmin": false,
   "events": [
     {
       "id": "evt-athletics",
