@@ -129,7 +129,7 @@
         <div class="big-tile-icon">{{ evt.icon }}</div>
         <div class="big-tile-name">{{ evt.sport }}</div>
         <span class="badge" :class="statusBadge(evt.status)">{{ evt.status }}</span>
-        <div class="big-tile-info">{{ evt.type === 'team' ? 'Team' : 'Individual' }}</div>
+        <div class="big-tile-info">{{ evt.type === 'team' ? 'Team' : evt.type === 'both' ? 'Individual + Team' : 'Individual' }}</div>
       </router-link>
     </div>
   </template>

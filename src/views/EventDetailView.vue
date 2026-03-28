@@ -6,7 +6,7 @@
         <h1 style="margin-bottom:4px">{{ evt.sport }}</h1>
         <div class="flex gap-8 items-center">
           <span class="badge" :class="statusBadge(evt.status)">{{ evt.status }}</span>
-          <span class="text-dim text-sm">{{ evt.type === 'team' ? 'Team Sport' : 'Individual' }}</span>
+          <span class="text-dim text-sm">{{ evt.type === 'team' ? 'Team' : evt.type === 'both' ? 'Individual + Team' : 'Individual' }}</span>
           <span class="text-dim text-sm">{{ evt.venue }}</span>
         </div>
       </div>

@@ -23,7 +23,7 @@
           <div class="big-tile-name">{{ evt.sport }}</div>
           <span class="badge" :class="statusBadge(evt.status)">{{ evt.status }}</span>
           <div class="big-tile-info">
-            <span>{{ evt.type === 'team' ? 'Team' : 'Individual' }}</span>
+            <span>{{ evt.type === 'team' ? 'Team' : evt.type === 'both' ? 'Individual + Team' : 'Individual' }}</span>
             <span v-if="evt.venue && evt.venue !== 'TBA'"> &bull; {{ evt.venue }}</span>
           </div>
           <div v-if="evt.categories" class="big-tile-note">{{ evt.categories }}</div>
@@ -39,7 +39,7 @@
         <div class="big-tile-name">{{ evt.sport }}</div>
         <span class="badge" :class="statusBadge(evt.status)">{{ evt.status }}</span>
         <div class="big-tile-info">
-          <span>{{ evt.type === 'team' ? 'Team' : 'Individual' }}</span>
+          <span>{{ evt.type === 'team' ? 'Team' : evt.type === 'both' ? 'Individual + Team' : 'Individual' }}</span>
           <span v-if="evt.venue && evt.venue !== 'TBA'"> &bull; {{ evt.venue }}</span>
         </div>
         <div v-if="evt.categories" class="big-tile-note">{{ evt.categories }}</div>
@@ -61,7 +61,7 @@
           <div class="event-card-title">{{ evt.sport }}</div>
           <div class="event-card-meta">
             <span class="badge" :class="statusBadge(evt.status)">{{ evt.status }}</span>
-            <span class="text-dim text-sm">{{ evt.type === 'team' ? 'Team' : 'Individual' }}</span>
+            <span class="text-dim text-sm">{{ evt.type === 'team' ? 'Team' : evt.type === 'both' ? 'Individual + Team' : 'Individual' }}</span>
           </div>
           <div class="event-card-stats text-sm text-dim">
             <span v-if="evt.type === 'team'">{{ evt.teams.length }} teams</span>
@@ -84,8 +84,8 @@ const filter = ref('all')
 
 const filteredEvents = computed(() => {
   if (filter.value === 'all') return store.events
-  if (filter.value === 'team') return store.events.filter(e => e.type === 'team')
-  if (filter.value === 'individual') return store.events.filter(e => e.type === 'individual')
+  if (filter.value === 'team') return store.events.filter(e => e.type === 'team' || e.type === 'both')
+  if (filter.value === 'individual') return store.events.filter(e => e.type === 'individual' || e.type === 'both')
   return store.events.filter(e => e.status === filter.value)
 })
 
