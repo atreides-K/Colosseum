@@ -24,32 +24,56 @@ function defaultState() {
   return JSON.parse(JSON.stringify(defaultData))
 }
 
-const saved = loadData()
-export const store = reactive(saved || defaultState())
+// Always start fresh from default data (localStorage disabled for now)
+localStorage.removeItem(STORAGE_KEY)
+export const store = reactive(defaultState())
 
 // Migrate old football-only data
 if (store.teams && !store.events) {
   Object.assign(store, defaultState())
 }
 
-// Migrate: add bracket data to events that don't have it
+// Migrate: ensure all events have required operational fields + new info fields
 if (store.events) {
   const defaults = defaultState()
   store.events.forEach(evt => {
-    if (!evt.bracket) {
-      const defEvt = defaults.events.find(d => d.id === evt.id)
-      evt.bracket = defEvt?.bracket || { generated: false, matches: [] }
+    // Ensure operational arrays/objects exist
+    if (!evt.teams) evt.teams = []
+    if (!evt.participants) evt.participants = []
+    if (!evt.volunteers) evt.volunteers = []
+    if (!evt.schedule) evt.schedule = []
+    if (!evt.notes) evt.notes = []
+    if (!evt.bracket) evt.bracket = { generated: false, matches: [] }
+    if (!evt.logistics) evt.logistics = { venue: evt.venue || 'TBA', equipment: '', notes: '' }
+    // Migrate venue: top-level takes precedence
+    if (evt.venue === undefined) evt.venue = evt.logistics?.venue || 'TBA'
+
+    // Copy new info fields from defaults
+    const defEvt = defaults.events.find(d => d.id === evt.id)
+    if (defEvt) {
+      for (const key of ['categories', 'teamSize', 'guestPlayers', 'format', 'registrationLink', 'registrationDeadline', 'whatsappLink', 'contacts', 'hasRules', 'registrationLinkWomens', 'venue']) {
+        if (evt[key] === undefined && defEvt[key] !== undefined) {
+          evt[key] = defEvt[key]
+        }
+      }
+    }
+  })
+  // Add new events that don't exist yet (e.g. Kabaddi)
+  defaults.events.forEach(defEvt => {
+    if (!store.events.find(e => e.id === defEvt.id)) {
+      store.events.push(JSON.parse(JSON.stringify(defEvt)))
     }
   })
 }
 
-watch(
-  () => JSON.parse(JSON.stringify(store)),
-  (val) => {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(val))
-  },
-  { deep: true }
-)
+// localStorage persistence disabled for now
+// watch(
+//   () => JSON.parse(JSON.stringify(store)),
+//   (val) => {
+//     localStorage.setItem(STORAGE_KEY, JSON.stringify(val))
+//   },
+//   { deep: true }
+// )
 
 // ---- CRUD helpers ----
 

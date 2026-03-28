@@ -7,7 +7,7 @@
         <div class="flex gap-8 items-center">
           <span class="badge" :class="statusBadge(evt.status)">{{ evt.status }}</span>
           <span class="text-dim text-sm">{{ evt.type === 'team' ? 'Team Sport' : 'Individual' }}</span>
-          <span class="text-dim text-sm">{{ evt.logistics.venue }}</span>
+          <span class="text-dim text-sm">{{ evt.venue }}</span>
         </div>
       </div>
       <div style="margin-left:auto" class="flex gap-8 items-center">
@@ -33,10 +33,10 @@
         <p class="info-para">
           <span class="info-label-inline">Venue:</span>
           <template v-if="store.isAdmin">
-            <input v-model="evt.logistics.venue" class="info-input-inline" placeholder="Enter venue" @input="flashSaved" />
+            <input v-model="evt.venue" class="info-input-inline" placeholder="Enter venue" @input="flashSaved" />
           </template>
           <template v-else>
-            <span>{{ evt.logistics.venue || 'TBD' }}</span>
+            <span>{{ evt.venue || 'TBD' }}</span>
           </template>
           <span class="info-sep">&bull;</span>
           <span class="info-label-inline">{{ evt.type === 'team' ? 'Teams' : 'Participants' }}:</span>
@@ -48,24 +48,20 @@
           </template>
         </p>
         <p class="info-para">
-          <span class="info-label-inline">Point of Contact:</span>
-          <template v-if="store.isAdmin && evt.volunteers.length">
-            <input v-model="evt.volunteers[0].name" class="info-input-inline" style="width:160px" placeholder="Name" @input="flashSaved" />
-            <input v-model="evt.volunteers[0].contact" class="info-input-inline" style="width:160px" placeholder="Phone/Email" @input="flashSaved" />
+          <span class="info-label-inline">Contact:</span>
+          <template v-if="evt.contacts && evt.contacts.length">
+            <span v-for="(c, i) in evt.contacts.slice(0, 2)" :key="i">
+              <span v-if="i > 0"> &bull; </span>
+              {{ c.name || 'Organizer' }}<span v-if="c.phone" class="text-dim"> &mdash; {{ c.phone }}</span>
+            </span>
           </template>
           <template v-else-if="evt.volunteers.length">
             <span>{{ evt.volunteers[0].name }}<span v-if="evt.volunteers[0].contact" class="text-dim"> &mdash; {{ evt.volunteers[0].contact }}</span></span>
           </template>
           <span v-else class="text-dim">Not assigned</span>
         </p>
-        <div class="info-notes-block" v-if="store.isAdmin || evt.logistics.notes || latestNote">
-          <template v-if="store.isAdmin">
-            <textarea v-model="evt.logistics.notes" class="info-textarea" placeholder="Logistics notes (e.g. first-aid setup, PA system...)" rows="2" @input="flashSaved"></textarea>
-          </template>
-          <template v-else>
-            <p v-if="evt.logistics.notes" class="info-note-text">{{ evt.logistics.notes }}</p>
-          </template>
-          <p v-if="latestNote" class="info-note-text" style="margin-top:6px">
+        <div class="info-notes-block" v-if="latestNote">
+          <p class="info-note-text">
             <span style="opacity:0.5">Latest:</span> {{ latestNote }}
           </p>
         </div>
@@ -74,14 +70,61 @@
 
     <!-- Tabs -->
     <div class="tabs">
+      <button class="tab" :class="{ active: tab === 'info' }" @click="tab = 'info'">Info</button>
+      <button v-if="eventRules" class="tab" :class="{ active: tab === 'rules' }" @click="tab = 'rules'">Rules</button>
       <button class="tab" :class="{ active: tab === 'participants' }" @click="tab = 'participants'">
         {{ evt.type === 'team' ? 'Teams' : 'Participants' }}
       </button>
       <button class="tab" :class="{ active: tab === 'schedule' }" @click="tab = 'schedule'">Schedule</button>
-      <button class="tab" :class="{ active: tab === 'volunteers' }" @click="tab = 'volunteers'">Volunteers</button>
       <button class="tab" :class="{ active: tab === 'bracket' }" @click="tab = 'bracket'">Bracket</button>
-      <button class="tab" :class="{ active: tab === 'logistics' }" @click="tab = 'logistics'">Logistics</button>
       <button class="tab" :class="{ active: tab === 'notes' }" @click="tab = 'notes'">Notes</button>
+    </div>
+
+    <!-- INFO TAB -->
+    <div v-if="tab === 'info'">
+      <div class="card event-detail-info">
+        <div class="info-grid">
+          <div class="info-item" v-if="evt.categories">
+            <span class="info-label">Categories</span>
+            <span>{{ evt.categories }}</span>
+          </div>
+          <div class="info-item" v-if="evt.teamSize">
+            <span class="info-label">Team Size</span>
+            <span>{{ evt.teamSize }}</span>
+          </div>
+          <div class="info-item" v-if="evt.guestPlayers">
+            <span class="info-label">Guest Players</span>
+            <span>{{ evt.guestPlayers }}</span>
+          </div>
+          <div class="info-item" v-if="evt.registrationDeadline">
+            <span class="info-label">Registration Deadline</span>
+            <span>{{ evt.registrationDeadline }}</span>
+          </div>
+        </div>
+        <div class="format-block" v-if="evt.format">
+          <h3>Format &amp; Details</h3>
+          <div class="format-text" v-html="formatToHtml(evt.format)"></div>
+        </div>
+        <div class="event-links">
+          <a v-if="evt.registrationLink" :href="evt.registrationLink" target="_blank" rel="noopener" class="btn btn-primary">Register</a>
+          <a v-if="evt.registrationLinkWomens" :href="evt.registrationLinkWomens" target="_blank" rel="noopener" class="btn btn-primary">Register (Women's)</a>
+          <a v-if="evt.whatsappLink" :href="evt.whatsappLink" target="_blank" rel="noopener" class="btn btn-whatsapp">WhatsApp Group</a>
+          <button v-if="eventRules" class="btn" @click="tab = 'rules'">View Rulebook</button>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- RULES TAB -->
+    <div v-if="tab === 'rules' && eventRules">
+      <div class="rules-pdf-links">
+        <template v-if="props.id === 'evt-chess'">
+          <a href="rules/chess-individual.pdf" target="_blank" rel="noopener" class="btn btn-sm">Individual Rules PDF</a>
+          <a href="rules/chess-team.pdf" target="_blank" rel="noopener" class="btn btn-sm">Team Rules PDF</a>
+        </template>
+        <a v-else :href="`rules/${props.id.replace('evt-', '')}.pdf`" target="_blank" rel="noopener" class="btn btn-sm">Download Rules PDF</a>
+      </div>
+      <div class="card rules-content" v-html="renderedRules"></div>
     </div>
 
     <!-- TEAMS TAB (team sports) -->
@@ -195,7 +238,7 @@
           </div>
           <div class="field">
             <label>Venue</label>
-            <input v-model="newSch.venue" :placeholder="evt.logistics.venue" />
+            <input v-model="newSch.venue" :placeholder="evt.venue || 'Venue'" />
           </div>
           <button class="btn btn-primary" @click="doAddSchedule">Add</button>
         </div>
@@ -235,84 +278,6 @@
 
       <div class="empty-state" v-if="!evt.schedule.length">
         <p>No schedule entries yet.</p>
-      </div>
-    </div>
-
-    <!-- VOLUNTEERS TAB -->
-    <div v-if="tab === 'volunteers'">
-      <div class="card" v-if="store.isAdmin">
-        <h3>Add Volunteer</h3>
-        <div class="form-row">
-          <div class="field">
-            <label>Name</label>
-            <input v-model="newVol.name" placeholder="Name" @keyup.enter="doAddVolunteer" />
-          </div>
-          <div class="field">
-            <label>Role</label>
-            <input v-model="newVol.role" placeholder="e.g. Referee" @keyup.enter="doAddVolunteer" />
-          </div>
-          <div class="field">
-            <label>Contact</label>
-            <input v-model="newVol.contact" placeholder="Phone/Email" @keyup.enter="doAddVolunteer" />
-          </div>
-          <button class="btn btn-primary" @click="doAddVolunteer">Add</button>
-        </div>
-      </div>
-
-      <div class="card" v-if="evt.volunteers.length">
-        <table class="data-table">
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>Name</th>
-              <th>Role</th>
-              <th>Contact</th>
-              <th v-if="store.isAdmin" style="width:60px"></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr v-for="(v, i) in evt.volunteers" :key="v.id">
-              <td class="num">{{ i + 1 }}</td>
-              <td class="team-name">{{ v.name }}</td>
-              <td>{{ v.role }}</td>
-              <td class="text-dim">{{ v.contact || '-' }}</td>
-              <td v-if="store.isAdmin">
-                <button class="btn btn-sm btn-danger" @click="doRemoveVolunteer(v.id)">X</button>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <div class="empty-state" v-if="!evt.volunteers.length">
-        <p>No volunteers assigned yet.</p>
-      </div>
-    </div>
-
-    <!-- LOGISTICS TAB -->
-    <div v-if="tab === 'logistics'">
-      <div class="card">
-        <h3>Venue</h3>
-        <template v-if="store.isAdmin">
-          <input v-model="evt.logistics.venue" placeholder="Venue name" style="width:100%;max-width:400px" @input="flashSaved" />
-        </template>
-        <p v-else>{{ evt.logistics.venue || 'TBD' }}</p>
-      </div>
-
-      <div class="card">
-        <h3>Equipment</h3>
-        <template v-if="store.isAdmin">
-          <textarea v-model="evt.logistics.equipment" placeholder="List required equipment" rows="4" style="width:100%;max-width:500px;background:var(--bg-input);border:1px solid var(--border);border-radius:6px;padding:8px 12px;color:var(--text-h);font-size:14px;font-family:inherit;resize:vertical" @input="flashSaved"></textarea>
-        </template>
-        <p v-else style="white-space:pre-wrap">{{ evt.logistics.equipment || 'No equipment listed.' }}</p>
-      </div>
-
-      <div class="card">
-        <h3>Additional Notes</h3>
-        <template v-if="store.isAdmin">
-          <textarea v-model="evt.logistics.notes" placeholder="Any logistics notes..." rows="3" style="width:100%;max-width:500px;background:var(--bg-input);border:1px solid var(--border);border-radius:6px;padding:8px 12px;color:var(--text-h);font-size:14px;font-family:inherit;resize:vertical" @input="flashSaved"></textarea>
-        </template>
-        <p v-else style="white-space:pre-wrap">{{ evt.logistics.notes || 'No notes.' }}</p>
       </div>
     </div>
 
@@ -427,17 +392,29 @@ import {
   store, getEvent,
   addTeam, removeTeam, addTeamMember, removeTeamMember,
   addParticipant, removeParticipant,
-  addVolunteer, removeVolunteer,
   addScheduleItem, removeScheduleItem,
   addNote, removeNote,
   togglePinEvent, isEventPinned,
   generateBracket, setMatchWinner, clearBracket,
 } from '../stores/tournament.js'
+import { getRules } from '../data/rules.js'
+import { renderMarkdown } from '../utils/markdown.js'
 
 const props = defineProps({ id: String })
 const evt = computed(() => getEvent(props.id))
 const isPinned = computed(() => isEventPinned(props.id))
-const tab = ref('participants')
+const tab = ref('info')
+
+const eventRules = computed(() => getRules(props.id))
+const renderedRules = computed(() => eventRules.value ? renderMarkdown(eventRules.value) : '')
+
+function formatToHtml(text) {
+  if (!text) return ''
+  return text
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\n\n/g, '<br><br>')
+    .replace(/\n/g, '<br>')
+}
 const dirty = ref(false)
 let saveTimer = null
 
@@ -512,7 +489,7 @@ const sortedSchedule = computed(() =>
 
 function doAddSchedule() {
   if (!newSch.title.trim() || !newSch.date) return
-  addScheduleItem(props.id, { ...newSch, venue: newSch.venue || evt.value?.logistics.venue || '' })
+  addScheduleItem(props.id, { ...newSch, venue: newSch.venue || evt.value?.venue || '' })
   newSch.title = ''
   newSch.date = ''
   newSch.time = ''
@@ -522,22 +499,6 @@ function doAddSchedule() {
 }
 function doRemoveSchedule(schId) {
   removeScheduleItem(props.id, schId)
-  flashSaved()
-}
-
-// -- Volunteers --
-const newVol = reactive({ name: '', role: '', contact: '' })
-
-function doAddVolunteer() {
-  if (!newVol.name.trim()) return
-  addVolunteer(props.id, { name: newVol.name.trim(), role: newVol.role.trim(), contact: newVol.contact.trim() })
-  newVol.name = ''
-  newVol.role = ''
-  newVol.contact = ''
-  flashSaved()
-}
-function doRemoveVolunteer(volId) {
-  removeVolunteer(props.id, volId)
   flashSaved()
 }
 

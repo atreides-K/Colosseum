@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build:rules": "node -e \"const fs=require('fs'),p=require('path'),r={};fs.readdirSync('./events').forEach(d=>{const f=p.join('events',d,'rules.md');if(fs.existsSync(f))r['evt-'+d]=fs.readFileSync(f,'utf-8')});fs.writeFileSync('./src/data/rules-data.json',JSON.stringify(r,null,2));console.log('Rules:',Object.keys(r).length)\"",
+    "build:posters": "node -e \"const fs=require('fs'),d='./public/posters';if(!fs.existsSync(d))fs.mkdirSync(d,{recursive:true});const f=fs.readdirSync(d).filter(f=>/\\.(jpe?g|png|webp|gif|svg)$/i.test(f)).sort();fs.writeFileSync('./src/data/posters.json',JSON.stringify(f,null,2));console.log('Posters:',f.length)\"",
+    "build": "npm run build:rules && npm run build:posters && vite build",
     "preview": "vite preview",
     "setup:claude": "sh scripts/setup-claude.sh"
   },

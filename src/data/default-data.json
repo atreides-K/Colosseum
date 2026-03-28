@@ -1,5 +1,5 @@
 {
-  "tournamentName": "Spectrum 2026",
+  "tournamentName": "SPECTRUM 2026",
   "isAdmin": false,
   "events": [
     {
@@ -8,1262 +8,114 @@
       "icon": "🏃",
       "type": "individual",
       "status": "upcoming",
-      "teams": [],
-      "participants": [
-        {
-          "id": "part-0001",
-          "name": "Aarav",
-          "department": "CSE",
-          "contact": ""
-        },
-        {
-          "id": "part-0002",
-          "name": "Vivaan",
-          "department": "ECE",
-          "contact": ""
-        },
-        {
-          "id": "part-0003",
-          "name": "Aditya",
-          "department": "Mech",
-          "contact": ""
-        },
-        {
-          "id": "part-0004",
-          "name": "Vihaan",
-          "department": "Civil",
-          "contact": ""
-        },
-        {
-          "id": "part-0005",
-          "name": "Arjun",
-          "department": "EEE",
-          "contact": ""
-        },
-        {
-          "id": "part-0006",
-          "name": "Sai",
-          "department": "Chem",
-          "contact": ""
-        },
-        {
-          "id": "part-0007",
-          "name": "Reyansh",
-          "department": "Math",
-          "contact": ""
-        },
-        {
-          "id": "part-0008",
-          "name": "Ayaan",
-          "department": "Physics",
-          "contact": ""
-        },
-        {
-          "id": "part-0009",
-          "name": "Krishna",
-          "department": "MBA",
-          "contact": ""
-        },
-        {
-          "id": "part-0010",
-          "name": "Ishaan",
-          "department": "Bio",
-          "contact": ""
-        },
-        {
-          "id": "part-0011",
-          "name": "Ananya",
-          "department": "CSE",
-          "contact": ""
-        },
-        {
-          "id": "part-0012",
-          "name": "Diya",
-          "department": "ECE",
-          "contact": ""
-        }
+      "venue": "TBA",
+      "categories": "Men's, Women's",
+      "teamSize": "",
+      "guestPlayers": "",
+      "format": "**Track:** 100m, 200m, 400m, 800m, 1500m, 3000m, 5000m, 10000m, 4x100m Relay, 4x400m Relay\n\n**Field:** Long Jump, Triple Jump, High Jump, Shot Put, Discus Throw, Javelin Throw\n\nEach participant may enter 2 track + 1 field event OR 2 field + 1 track event. Up to 2 relay events allowed in addition. Relay teams: 4 participants per relay.",
+      "registrationLink": "https://docs.google.com/forms/d/e/1FAIpQLScnFtEIlFYqjEArgx8mLZe5DvNDk3huze6G4URicg258O0MCQ/viewform",
+      "registrationDeadline": "",
+      "whatsappLink": "",
+      "contacts": [
+        { "name": "Akshai Krishnan", "phone": "8668088342", "role": "Athletics Convener" }
       ],
-      "volunteers": [
-        {
-          "id": "vol-0013",
-          "name": "Prof. Sharma",
-          "role": "Event Coordinator",
-          "contact": "9892234127"
-        },
-        {
-          "id": "vol-0014",
-          "name": "Prof. Gupta",
-          "role": "Referee / Judge",
-          "contact": "9813837440"
-        }
-      ],
-      "schedule": [
-        {
-          "id": "sch-0015",
-          "title": "Round 1",
-          "date": "2026-04-09",
-          "time": "09:00",
-          "venue": "Main Ground Track",
-          "description": "Opening rounds for Athletics",
-          "status": "scheduled"
-        },
-        {
-          "id": "sch-0016",
-          "title": "Finals",
-          "date": "2026-04-11",
-          "time": "16:00",
-          "venue": "Main Ground Track",
-          "description": "Athletics finals and medal ceremony",
-          "status": "scheduled"
-        }
-      ],
-      "logistics": {
-        "venue": "Main Ground Track",
-        "equipment": "Lane markers, hurdles, shot put, discus, javelin, stopwatches, measuring tape",
-        "notes": "Water and first-aid station to be set up 30 mins before event."
-      },
-      "notes": [
-        {
-          "id": "note-0017",
-          "text": "Registrations open. Contact Prof. Sharma for queries.",
-          "createdAt": "2026-03-20T00:00:00.000Z"
-        }
-      ],
-      "bracket": {
-        "generated": false,
-        "matches": []
-      }
+      "hasRules": false
+    },
+    {
+      "id": "evt-badminton",
+      "sport": "Badminton",
+      "icon": "🏸",
+      "type": "team",
+      "status": "upcoming",
+      "venue": "TBA",
+      "categories": "Men's Singles, Women's Singles, Men's Doubles, Women's Doubles, Mixed Doubles",
+      "teamSize": "Min 4 male + 3 female, max 12 players (including guests)",
+      "guestPlayers": "Max 1 male + 1 female",
+      "format": "Team match consists of 5 games: Men's Singles, Women's Singles, Men's Doubles, Women's Doubles, Mixed Doubles. Win by 3 out of 5 games.\n\nLeague stage: Best-of-3 sets to 21 points. Knockout format communicated after registration.\n\nTiebreak: matches won → game difference → point difference → head-to-head.\n\nOfficial shuttle: Yonex Mavis 350. Non-marking badminton shoes mandatory. BWF rules apply.",
+      "registrationLink": "",
+      "registrationDeadline": "",
+      "whatsappLink": "",
+      "contacts": [],
+      "hasRules": true
     },
     {
       "id": "evt-basketball",
       "sport": "Basketball",
       "icon": "🏀",
       "type": "team",
-      "status": "ongoing",
-      "teams": [
-        {
-          "id": "team-0018",
-          "name": "CSE Basketball",
-          "members": [
-            "Myra",
-            "Sara",
-            "Aanya",
-            "Ira",
-            "Riya"
-          ]
-        },
-        {
-          "id": "team-0019",
-          "name": "ECE Basketball",
-          "members": [
-            "Priya",
-            "Neha",
-            "Kavya",
-            "Rohan",
-            "Karan"
-          ]
-        },
-        {
-          "id": "team-0020",
-          "name": "Mech Basketball",
-          "members": [
-            "Vikram",
-            "Amit",
-            "Rahul",
-            "Suresh",
-            "Deepak"
-          ]
-        },
-        {
-          "id": "team-0021",
-          "name": "Civil Basketball",
-          "members": [
-            "Manoj",
-            "Nikhil",
-            "Rajesh",
-            "Sneha",
-            "Pooja"
-          ]
-        },
-        {
-          "id": "team-0022",
-          "name": "EEE Basketball",
-          "members": [
-            "Meera",
-            "Lakshmi",
-            "Divya",
-            "Shruti",
-            "Anjali"
-          ]
-        },
-        {
-          "id": "team-0023",
-          "name": "Chem Basketball",
-          "members": [
-            "Nisha",
-            "Tanvi",
-            "Swati",
-            "Aarav",
-            "Vivaan"
-          ]
-        }
+      "status": "upcoming",
+      "venue": "KV Court",
+      "categories": "Men's, Women's",
+      "teamSize": "Men's: 5–12 players; Women's: 5+3 players",
+      "guestPlayers": "Max 2 per team, max 1 on court at a time",
+      "format": "Men's: 5v5 full court. Women's: 5v5 or 3v3 half court (depending on team sizes).\n\nPool-based round robin → Semifinals → Finals. Pool structure varies by number of teams (2/3/4 pools).\n\nFIBA rules apply. 4 quarters of 10 minutes each (running time except last minute of final quarter). 24-second shot clock.",
+      "registrationLink": "https://docs.google.com/forms/d/e/1FAIpQLScYvKuQ-ZlyKc3e4j95udHv2shBZ9yaRpwnU2mWXqmKIowGJw/viewform",
+      "registrationDeadline": "",
+      "whatsappLink": "",
+      "contacts": [
+        { "name": "Aditya Garg", "phone": "6301806327" },
+        { "name": "Savio Joseph", "phone": "7604997904" }
       ],
-      "participants": [],
-      "volunteers": [
-        {
-          "id": "vol-0024",
-          "name": "Dr. Patel",
-          "role": "Event Coordinator",
-          "contact": "9817482611"
-        },
-        {
-          "id": "vol-0025",
-          "name": "Dr. Reddy",
-          "role": "Referee / Judge",
-          "contact": "9847426337"
-        }
-      ],
-      "schedule": [
-        {
-          "id": "sch-0026",
-          "title": "Group Stage / Prelims",
-          "date": "2026-04-10",
-          "time": "14:00",
-          "venue": "Indoor Basketball Court",
-          "description": "Opening rounds for Basketball",
-          "status": "scheduled"
-        },
-        {
-          "id": "sch-0027",
-          "title": "Finals",
-          "date": "2026-04-12",
-          "time": "16:00",
-          "venue": "Indoor Basketball Court",
-          "description": "Basketball finals and medal ceremony",
-          "status": "scheduled"
-        }
-      ],
-      "logistics": {
-        "venue": "Indoor Basketball Court",
-        "equipment": "Basketballs (6), scoreboards, whistles, jerseys",
-        "notes": "PA system required for announcements."
-      },
-      "notes": [
-        {
-          "id": "note-0028",
-          "text": "Registrations open. Contact Dr. Patel for queries.",
-          "createdAt": "2026-03-20T00:00:00.000Z"
-        }
-      ],
-      "bracket": {
-        "generated": true,
-        "matches": [
-          {
-            "id": "bm-5000",
-            "round": 0,
-            "position": 0,
-            "slots": [
-              {
-                "seedId": "team-0018",
-                "name": "CSE Basketball",
-                "score": null
-              },
-              {
-                "seedId": "team-0019",
-                "name": "ECE Basketball",
-                "score": null
-              }
-            ],
-            "winnerId": "team-0018"
-          },
-          {
-            "id": "bm-5001",
-            "round": 0,
-            "position": 1,
-            "slots": [
-              {
-                "seedId": "team-0020",
-                "name": "Mech Basketball",
-                "score": null
-              },
-              {
-                "seedId": "team-0021",
-                "name": "Civil Basketball",
-                "score": null
-              }
-            ],
-            "winnerId": "team-0021"
-          },
-          {
-            "id": "bm-5002",
-            "round": 0,
-            "position": 2,
-            "slots": [
-              {
-                "seedId": "team-0022",
-                "name": "EEE Basketball",
-                "score": null
-              },
-              {
-                "seedId": "team-0023",
-                "name": "Chem Basketball",
-                "score": null
-              }
-            ],
-            "winnerId": "team-0023"
-          },
-          {
-            "id": "bm-5003",
-            "round": 0,
-            "position": 3,
-            "slots": [
-              {
-                "seedId": null,
-                "name": "BYE",
-                "score": null
-              },
-              {
-                "seedId": null,
-                "name": "BYE",
-                "score": null
-              }
-            ],
-            "winnerId": null
-          },
-          {
-            "id": "bm-5004",
-            "round": 1,
-            "position": 0,
-            "slots": [
-              {
-                "seedId": "team-0018",
-                "name": "CSE Basketball",
-                "score": null
-              },
-              {
-                "seedId": "team-0021",
-                "name": "Civil Basketball",
-                "score": null
-              }
-            ],
-            "winnerId": "team-0021"
-          },
-          {
-            "id": "bm-5005",
-            "round": 1,
-            "position": 1,
-            "slots": [
-              {
-                "seedId": "team-0023",
-                "name": "Chem Basketball",
-                "score": null
-              },
-              {
-                "seedId": null,
-                "name": "BYE",
-                "score": null
-              }
-            ],
-            "winnerId": null
-          },
-          {
-            "id": "bm-5006",
-            "round": 2,
-            "position": 0,
-            "slots": [
-              {
-                "seedId": "team-0021",
-                "name": "Civil Basketball",
-                "score": null
-              },
-              {
-                "seedId": null,
-                "name": "TBD",
-                "score": null
-              }
-            ],
-            "winnerId": null
-          }
-        ]
-      }
-    },
-    {
-      "id": "evt-badminton",
-      "sport": "Badminton",
-      "icon": "🏸",
-      "type": "individual",
-      "status": "completed",
-      "teams": [],
-      "participants": [
-        {
-          "id": "part-0029",
-          "name": "Aditya",
-          "department": "CSE",
-          "contact": ""
-        },
-        {
-          "id": "part-0030",
-          "name": "Vihaan",
-          "department": "ECE",
-          "contact": ""
-        },
-        {
-          "id": "part-0031",
-          "name": "Arjun",
-          "department": "Mech",
-          "contact": ""
-        },
-        {
-          "id": "part-0032",
-          "name": "Sai",
-          "department": "Civil",
-          "contact": ""
-        },
-        {
-          "id": "part-0033",
-          "name": "Reyansh",
-          "department": "EEE",
-          "contact": ""
-        },
-        {
-          "id": "part-0034",
-          "name": "Ayaan",
-          "department": "Chem",
-          "contact": ""
-        },
-        {
-          "id": "part-0035",
-          "name": "Krishna",
-          "department": "Math",
-          "contact": ""
-        },
-        {
-          "id": "part-0036",
-          "name": "Ishaan",
-          "department": "Physics",
-          "contact": ""
-        }
-      ],
-      "volunteers": [
-        {
-          "id": "vol-0037",
-          "name": "Prof. Iyer",
-          "role": "Event Coordinator",
-          "contact": "9836733826"
-        },
-        {
-          "id": "vol-0038",
-          "name": "Dr. Singh",
-          "role": "Referee / Judge",
-          "contact": "9829723228"
-        }
-      ],
-      "schedule": [
-        {
-          "id": "sch-0039",
-          "title": "Round 1",
-          "date": "2026-04-11",
-          "time": "09:00",
-          "venue": "Badminton Hall",
-          "description": "Opening rounds for Badminton",
-          "status": "completed"
-        },
-        {
-          "id": "sch-0040",
-          "title": "Finals",
-          "date": "2026-04-13",
-          "time": "16:00",
-          "venue": "Badminton Hall",
-          "description": "Badminton finals and medal ceremony",
-          "status": "scheduled"
-        }
-      ],
-      "logistics": {
-        "venue": "Badminton Hall",
-        "equipment": "Shuttlecocks (50), nets (4), rackets (spare)",
-        "notes": ""
-      },
-      "notes": [
-        {
-          "id": "note-0041",
-          "text": "Registrations open. Contact Prof. Iyer for queries.",
-          "createdAt": "2026-03-20T00:00:00.000Z"
-        }
-      ],
-      "bracket": {
-        "generated": true,
-        "matches": [
-          {
-            "id": "bm-5007",
-            "round": 0,
-            "position": 0,
-            "slots": [
-              {
-                "seedId": "part-0029",
-                "name": "Aditya",
-                "score": null
-              },
-              {
-                "seedId": "part-0030",
-                "name": "Vihaan",
-                "score": null
-              }
-            ],
-            "winnerId": "part-0029"
-          },
-          {
-            "id": "bm-5008",
-            "round": 0,
-            "position": 1,
-            "slots": [
-              {
-                "seedId": "part-0031",
-                "name": "Arjun",
-                "score": null
-              },
-              {
-                "seedId": "part-0032",
-                "name": "Sai",
-                "score": null
-              }
-            ],
-            "winnerId": "part-0031"
-          },
-          {
-            "id": "bm-5009",
-            "round": 0,
-            "position": 2,
-            "slots": [
-              {
-                "seedId": "part-0033",
-                "name": "Reyansh",
-                "score": null
-              },
-              {
-                "seedId": "part-0034",
-                "name": "Ayaan",
-                "score": null
-              }
-            ],
-            "winnerId": "part-0034"
-          },
-          {
-            "id": "bm-5010",
-            "round": 0,
-            "position": 3,
-            "slots": [
-              {
-                "seedId": "part-0035",
-                "name": "Krishna",
-                "score": null
-              },
-              {
-                "seedId": "part-0036",
-                "name": "Ishaan",
-                "score": null
-              }
-            ],
-            "winnerId": "part-0036"
-          },
-          {
-            "id": "bm-5011",
-            "round": 1,
-            "position": 0,
-            "slots": [
-              {
-                "seedId": "part-0029",
-                "name": "Aditya",
-                "score": null
-              },
-              {
-                "seedId": "part-0031",
-                "name": "Arjun",
-                "score": null
-              }
-            ],
-            "winnerId": "part-0029"
-          },
-          {
-            "id": "bm-5012",
-            "round": 1,
-            "position": 1,
-            "slots": [
-              {
-                "seedId": "part-0034",
-                "name": "Ayaan",
-                "score": null
-              },
-              {
-                "seedId": "part-0036",
-                "name": "Ishaan",
-                "score": null
-              }
-            ],
-            "winnerId": "part-0034"
-          },
-          {
-            "id": "bm-5013",
-            "round": 2,
-            "position": 0,
-            "slots": [
-              {
-                "seedId": "part-0029",
-                "name": "Aditya",
-                "score": null
-              },
-              {
-                "seedId": "part-0034",
-                "name": "Ayaan",
-                "score": null
-              }
-            ],
-            "winnerId": "part-0029"
-          }
-        ]
-      }
+      "hasRules": true
     },
     {
       "id": "evt-carrom",
       "sport": "Carrom",
       "icon": "🎯",
-      "type": "individual",
+      "type": "team",
       "status": "upcoming",
-      "teams": [],
-      "participants": [
-        {
-          "id": "part-0042",
-          "name": "Ananya",
-          "department": "CSE",
-          "contact": ""
-        },
-        {
-          "id": "part-0043",
-          "name": "Diya",
-          "department": "ECE",
-          "contact": ""
-        },
-        {
-          "id": "part-0044",
-          "name": "Myra",
-          "department": "Mech",
-          "contact": ""
-        },
-        {
-          "id": "part-0045",
-          "name": "Sara",
-          "department": "Civil",
-          "contact": ""
-        },
-        {
-          "id": "part-0046",
-          "name": "Aanya",
-          "department": "EEE",
-          "contact": ""
-        },
-        {
-          "id": "part-0047",
-          "name": "Ira",
-          "department": "Chem",
-          "contact": ""
-        },
-        {
-          "id": "part-0048",
-          "name": "Riya",
-          "department": "Math",
-          "contact": ""
-        },
-        {
-          "id": "part-0049",
-          "name": "Priya",
-          "department": "Physics",
-          "contact": ""
-        }
+      "venue": "B Block TV Room (Carrom Room)",
+      "categories": "Singles, Doubles-1, Doubles-2",
+      "teamSize": "Max 7 players (min 1 woman), max 1 guest",
+      "guestPlayers": "Max 1 per team",
+      "format": "Each team plays 3 games: 1 Singles + 2 Doubles. Only 3 player combinations allowed per team. Best 2 of 3 games wins the match.\n\nEach game: 25 points or 45 minutes (whichever is earlier).\n\nIndian Carrom rules apply. Queen = 3 points, other tokens = 1 point. 15 seconds per shot.",
+      "registrationLink": "https://forms.office.com/pages/responsepage.aspx?id=l80Vb6f240Gyxa1Bk5dkdnvvHRd9lvRImqLscehwM95UNzEzOFFJVjc1SzRVNFlXNzJVREFF",
+      "registrationDeadline": "",
+      "whatsappLink": "",
+      "contacts": [
+        { "name": "Akash Bhoir", "phone": "8380988656" },
+        { "name": "Vimal Ruhela", "phone": "9927855902" }
       ],
-      "volunteers": [
-        {
-          "id": "vol-0050",
-          "name": "Akash (4th yr)",
-          "role": "Event Coordinator",
-          "contact": "9831784947"
-        },
-        {
-          "id": "vol-0051",
-          "name": "Megha (3rd yr)",
-          "role": "Referee / Judge",
-          "contact": "9839707152"
-        }
-      ],
-      "schedule": [
-        {
-          "id": "sch-0052",
-          "title": "Round 1",
-          "date": "2026-04-12",
-          "time": "14:00",
-          "venue": "Recreation Room, Block A",
-          "description": "Opening rounds for Carrom",
-          "status": "scheduled"
-        },
-        {
-          "id": "sch-0053",
-          "title": "Finals",
-          "date": "2026-04-14",
-          "time": "16:00",
-          "venue": "Recreation Room, Block A",
-          "description": "Carrom finals and medal ceremony",
-          "status": "scheduled"
-        }
-      ],
-      "logistics": {
-        "venue": "Recreation Room, Block A",
-        "equipment": "Carrom boards (6), powder, coins, strikers",
-        "notes": "Water and first-aid station to be set up 30 mins before event."
-      },
-      "notes": [
-        {
-          "id": "note-0054",
-          "text": "Registrations open. Contact Akash (4th yr) for queries.",
-          "createdAt": "2026-03-20T00:00:00.000Z"
-        }
-      ],
-      "bracket": {
-        "generated": false,
-        "matches": []
-      }
+      "hasRules": true
     },
     {
       "id": "evt-chess",
       "sport": "Chess",
       "icon": "♟️",
-      "type": "individual",
-      "status": "ongoing",
-      "teams": [],
-      "participants": [
-        {
-          "id": "part-0055",
-          "name": "Neha",
-          "department": "CSE",
-          "contact": ""
-        },
-        {
-          "id": "part-0056",
-          "name": "Kavya",
-          "department": "ECE",
-          "contact": ""
-        },
-        {
-          "id": "part-0057",
-          "name": "Rohan",
-          "department": "Mech",
-          "contact": ""
-        },
-        {
-          "id": "part-0058",
-          "name": "Karan",
-          "department": "Civil",
-          "contact": ""
-        },
-        {
-          "id": "part-0059",
-          "name": "Vikram",
-          "department": "EEE",
-          "contact": ""
-        },
-        {
-          "id": "part-0060",
-          "name": "Amit",
-          "department": "Chem",
-          "contact": ""
-        },
-        {
-          "id": "part-0061",
-          "name": "Rahul",
-          "department": "Math",
-          "contact": ""
-        },
-        {
-          "id": "part-0062",
-          "name": "Suresh",
-          "department": "Physics",
-          "contact": ""
-        },
-        {
-          "id": "part-0063",
-          "name": "Deepak",
-          "department": "MBA",
-          "contact": ""
-        },
-        {
-          "id": "part-0064",
-          "name": "Manoj",
-          "department": "Bio",
-          "contact": ""
-        },
-        {
-          "id": "part-0065",
-          "name": "Nikhil",
-          "department": "CSE",
-          "contact": ""
-        },
-        {
-          "id": "part-0066",
-          "name": "Rajesh",
-          "department": "ECE",
-          "contact": ""
-        },
-        {
-          "id": "part-0067",
-          "name": "Sneha",
-          "department": "Mech",
-          "contact": ""
-        },
-        {
-          "id": "part-0068",
-          "name": "Pooja",
-          "department": "Civil",
-          "contact": ""
-        },
-        {
-          "id": "part-0069",
-          "name": "Meera",
-          "department": "EEE",
-          "contact": ""
-        },
-        {
-          "id": "part-0070",
-          "name": "Lakshmi",
-          "department": "Chem",
-          "contact": ""
-        }
+      "type": "team",
+      "status": "upcoming",
+      "venue": "TBA",
+      "categories": "Open (Individual + Team events)",
+      "teamSize": "Team: 4 open + 1 female + 2 reserves (max 2 guests per roster, 1 per match)",
+      "guestPlayers": "Max 2 per roster, max 1 per match",
+      "format": "**Individual:** Swiss System — Blitz (5 min + 3 sec increment). FIDE rules. Tiebreak: Armageddon for 1st place; Buchholz for others.\n\n**Team:** Group Stage (10 min + 5 sec) → Double Elimination (30 min + 30 sec). 5 boards per match (at least 1 female). Board 5 (Female Board) can only be substituted by a female player. Rolling substitution with 2 subs. Departments may register up to 2 teams.",
+      "registrationLink": "https://docs.google.com/forms/d/e/1FAIpQLSf_MYGcYTtvd4iY4o2iQTklBh-qPCh1PnBY4Q_Fj5d3NY3suw/viewform",
+      "registrationDeadline": "",
+      "whatsappLink": "",
+      "contacts": [
+        { "name": "Ayush Priyadarshi", "phone": "83038 71628", "email": "ayushp@iisc.ac.in" },
+        { "name": "Rajat Narandekar", "phone": "88568 98789", "email": "rajatn@iisc.ac.in" }
       ],
-      "volunteers": [
-        {
-          "id": "vol-0071",
-          "name": "Ravi (4th yr)",
-          "role": "Event Coordinator",
-          "contact": "9866430950"
-        },
-        {
-          "id": "vol-0072",
-          "name": "Sunita (3rd yr)",
-          "role": "Referee / Judge",
-          "contact": "9868351310"
-        }
-      ],
-      "schedule": [
-        {
-          "id": "sch-0073",
-          "title": "Round 1",
-          "date": "2026-04-13",
-          "time": "09:00",
-          "venue": "Seminar Hall 2",
-          "description": "Opening rounds for Chess",
-          "status": "scheduled"
-        },
-        {
-          "id": "sch-0074",
-          "title": "Finals",
-          "date": "2026-04-15",
-          "time": "16:00",
-          "venue": "Seminar Hall 2",
-          "description": "Chess finals and medal ceremony",
-          "status": "scheduled"
-        }
-      ],
-      "logistics": {
-        "venue": "Seminar Hall 2",
-        "equipment": "Chess sets (20), clocks (20), score sheets",
-        "notes": "PA system required for announcements."
-      },
-      "notes": [
-        {
-          "id": "note-0075",
-          "text": "Registrations open. Contact Ravi (4th yr) for queries.",
-          "createdAt": "2026-03-20T00:00:00.000Z"
-        }
-      ],
-      "bracket": {
-        "generated": true,
-        "matches": [
-          {
-            "id": "bm-5014",
-            "round": 0,
-            "position": 0,
-            "slots": [
-              {
-                "seedId": "part-0055",
-                "name": "Neha",
-                "score": null
-              },
-              {
-                "seedId": "part-0056",
-                "name": "Kavya",
-                "score": null
-              }
-            ],
-            "winnerId": "part-0056"
-          },
-          {
-            "id": "bm-5015",
-            "round": 0,
-            "position": 1,
-            "slots": [
-              {
-                "seedId": "part-0057",
-                "name": "Rohan",
-                "score": null
-              },
-              {
-                "seedId": "part-0058",
-                "name": "Karan",
-                "score": null
-              }
-            ],
-            "winnerId": "part-0057"
-          },
-          {
-            "id": "bm-5016",
-            "round": 0,
-            "position": 2,
-            "slots": [
-              {
-                "seedId": "part-0059",
-                "name": "Vikram",
-                "score": null
-              },
-              {
-                "seedId": "part-0060",
-                "name": "Amit",
-                "score": null
-              }
-            ],
-            "winnerId": "part-0059"
-          },
-          {
-            "id": "bm-5017",
-            "round": 0,
-            "position": 3,
-            "slots": [
-              {
-                "seedId": "part-0061",
-                "name": "Rahul",
-                "score": null
-              },
-              {
-                "seedId": "part-0062",
-                "name": "Suresh",
-                "score": null
-              }
-            ],
-            "winnerId": "part-0061"
-          },
-          {
-            "id": "bm-5018",
-            "round": 0,
-            "position": 4,
-            "slots": [
-              {
-                "seedId": "part-0063",
-                "name": "Deepak",
-                "score": null
-              },
-              {
-                "seedId": "part-0064",
-                "name": "Manoj",
-                "score": null
-              }
-            ],
-            "winnerId": "part-0063"
-          },
-          {
-            "id": "bm-5019",
-            "round": 0,
-            "position": 5,
-            "slots": [
-              {
-                "seedId": "part-0065",
-                "name": "Nikhil",
-                "score": null
-              },
-              {
-                "seedId": "part-0066",
-                "name": "Rajesh",
-                "score": null
-              }
-            ],
-            "winnerId": "part-0066"
-          },
-          {
-            "id": "bm-5020",
-            "round": 0,
-            "position": 6,
-            "slots": [
-              {
-                "seedId": "part-0067",
-                "name": "Sneha",
-                "score": null
-              },
-              {
-                "seedId": "part-0068",
-                "name": "Pooja",
-                "score": null
-              }
-            ],
-            "winnerId": "part-0067"
-          },
-          {
-            "id": "bm-5021",
-            "round": 0,
-            "position": 7,
-            "slots": [
-              {
-                "seedId": "part-0069",
-                "name": "Meera",
-                "score": null
-              },
-              {
-                "seedId": "part-0070",
-                "name": "Lakshmi",
-                "score": null
-              }
-            ],
-            "winnerId": "part-0070"
-          },
-          {
-            "id": "bm-5022",
-            "round": 1,
-            "position": 0,
-            "slots": [
-              {
-                "seedId": "part-0056",
-                "name": "Kavya",
-                "score": null
-              },
-              {
-                "seedId": "part-0057",
-                "name": "Rohan",
-                "score": null
-              }
-            ],
-            "winnerId": "part-0056"
-          },
-          {
-            "id": "bm-5023",
-            "round": 1,
-            "position": 1,
-            "slots": [
-              {
-                "seedId": "part-0059",
-                "name": "Vikram",
-                "score": null
-              },
-              {
-                "seedId": "part-0061",
-                "name": "Rahul",
-                "score": null
-              }
-            ],
-            "winnerId": "part-0059"
-          },
-          {
-            "id": "bm-5024",
-            "round": 1,
-            "position": 2,
-            "slots": [
-              {
-                "seedId": "part-0063",
-                "name": "Deepak",
-                "score": null
-              },
-              {
-                "seedId": "part-0066",
-                "name": "Rajesh",
-                "score": null
-              }
-            ],
-            "winnerId": "part-0066"
-          },
-          {
-            "id": "bm-5025",
-            "round": 1,
-            "position": 3,
-            "slots": [
-              {
-                "seedId": "part-0067",
-                "name": "Sneha",
-                "score": null
-              },
-              {
-                "seedId": "part-0070",
-                "name": "Lakshmi",
-                "score": null
-              }
-            ],
-            "winnerId": "part-0070"
-          },
-          {
-            "id": "bm-5026",
-            "round": 2,
-            "position": 0,
-            "slots": [
-              {
-                "seedId": "part-0056",
-                "name": "Kavya",
-                "score": null
-              },
-              {
-                "seedId": "part-0059",
-                "name": "Vikram",
-                "score": null
-              }
-            ],
-            "winnerId": null
-          },
-          {
-            "id": "bm-5027",
-            "round": 2,
-            "position": 1,
-            "slots": [
-              {
-                "seedId": "part-0066",
-                "name": "Rajesh",
-                "score": null
-              },
-              {
-                "seedId": "part-0070",
-                "name": "Lakshmi",
-                "score": null
-              }
-            ],
-            "winnerId": null
-          },
-          {
-            "id": "bm-5028",
-            "round": 3,
-            "position": 0,
-            "slots": [
-              {
-                "seedId": null,
-                "name": "TBD",
-                "score": null
-              },
-              {
-                "seedId": null,
-                "name": "TBD",
-                "score": null
-              }
-            ],
-            "winnerId": null
-          }
-        ]
-      }
+      "hasRules": true
     },
     {
       "id": "evt-cycling",
       "sport": "Cycling",
       "icon": "🚴",
       "type": "individual",
-      "status": "completed",
-      "teams": [],
-      "participants": [
-        {
-          "id": "part-0076",
-          "name": "Divya",
-          "department": "CSE",
-          "contact": ""
-        },
-        {
-          "id": "part-0077",
-          "name": "Shruti",
-          "department": "ECE",
-          "contact": ""
-        },
-        {
-          "id": "part-0078",
-          "name": "Anjali",
-          "department": "Mech",
-          "contact": ""
-        },
-        {
-          "id": "part-0079",
-          "name": "Nisha",
-          "department": "Civil",
-          "contact": ""
-        },
-        {
-          "id": "part-0080",
-          "name": "Tanvi",
-          "department": "EEE",
-          "contact": ""
-        },
-        {
-          "id": "part-0081",
-          "name": "Swati",
-          "department": "Chem",
-          "contact": ""
-        },
-        {
-          "id": "part-0082",
-          "name": "Aarav",
-          "department": "Math",
-          "contact": ""
-        },
-        {
-          "id": "part-0083",
-          "name": "Vivaan",
-          "department": "Physics",
-          "contact": ""
-        }
+      "status": "upcoming",
+      "venue": "IISc Campus (Library entrance, Gulmohar Marg)",
+      "categories": "Men's Road Bike, Women's Road Bike, Men's Hybrid/Mountain, Women's Hybrid/Mountain",
+      "teamSize": "",
+      "guestPlayers": "",
+      "format": "**Qualifiers:** Individual Time Trial (2 laps) — only if >20 registrations per category.\n\n**Finals:** Road racing with laps. Men Road: 7+1 laps, Women Road: 4+1 laps, Men Hybrid: 5+1 laps, Women Hybrid: 2+1 laps.\n\nRolling start with motorized vehicle pacing on first lap. Helmets mandatory. No e-bikes. GPS tracking required.",
+      "registrationLink": "https://docs.google.com/forms/d/e/1FAIpQLScVt58usJVYanDHROYRKTcga65ywi98BCWT9v96rBu2pqtPtg/viewform",
+      "registrationDeadline": "",
+      "whatsappLink": "",
+      "contacts": [
+        { "name": "Rohit", "phone": "9442894962", "email": "rohitsuryak@iisc.ac.in" }
       ],
-      "volunteers": [
-        {
-          "id": "vol-0084",
-          "name": "Varun (2nd yr)",
-          "role": "Event Coordinator",
-          "contact": "9828502620"
-        },
-        {
-          "id": "vol-0085",
-          "name": "Priyanka (4th yr)",
-          "role": "Referee / Judge",
-          "contact": "9866758420"
-        }
-      ],
-      "schedule": [
-        {
-          "id": "sch-0086",
-          "title": "Round 1",
-          "date": "2026-04-14",
-          "time": "14:00",
-          "venue": "Campus Perimeter Road",
-          "description": "Opening rounds for Cycling",
-          "status": "completed"
-        },
-        {
-          "id": "sch-0087",
-          "title": "Finals",
-          "date": "2026-04-16",
-          "time": "16:00",
-          "venue": "Campus Perimeter Road",
-          "description": "Cycling finals and medal ceremony",
-          "status": "scheduled"
-        }
-      ],
-      "logistics": {
-        "venue": "Campus Perimeter Road",
-        "equipment": "Cones (30), timing chips, first-aid kit, barriers",
-        "notes": ""
-      },
-      "notes": [
-        {
-          "id": "note-0088",
-          "text": "Registrations open. Contact Varun (2nd yr) for queries.",
-          "createdAt": "2026-03-20T00:00:00.000Z"
-        }
-      ],
-      "bracket": {
-        "generated": false,
-        "matches": []
-      }
+      "hasRules": true
     },
     {
       "id": "evt-football",
@@ -1271,511 +123,138 @@
       "icon": "⚽",
       "type": "team",
       "status": "upcoming",
-      "teams": [
-        {
-          "id": "team-0089",
-          "name": "CSE Football",
-          "members": [
-            "Aditya",
-            "Vihaan",
-            "Arjun",
-            "Sai",
-            "Reyansh",
-            "Ayaan",
-            "Krishna",
-            "Ishaan",
-            "Ananya",
-            "Diya",
-            "Myra"
-          ]
-        },
-        {
-          "id": "team-0090",
-          "name": "ECE Football",
-          "members": [
-            "Sara",
-            "Aanya",
-            "Ira",
-            "Riya",
-            "Priya",
-            "Neha",
-            "Kavya",
-            "Rohan",
-            "Karan",
-            "Vikram",
-            "Amit"
-          ]
-        },
-        {
-          "id": "team-0091",
-          "name": "Mech Football",
-          "members": [
-            "Rahul",
-            "Suresh",
-            "Deepak",
-            "Manoj",
-            "Nikhil",
-            "Rajesh",
-            "Sneha",
-            "Pooja",
-            "Meera",
-            "Lakshmi",
-            "Divya"
-          ]
-        },
-        {
-          "id": "team-0092",
-          "name": "Civil Football",
-          "members": [
-            "Shruti",
-            "Anjali",
-            "Nisha",
-            "Tanvi",
-            "Swati",
-            "Aarav",
-            "Vivaan",
-            "Aditya",
-            "Vihaan",
-            "Arjun",
-            "Sai"
-          ]
-        },
-        {
-          "id": "team-0093",
-          "name": "EEE Football",
-          "members": [
-            "Reyansh",
-            "Ayaan",
-            "Krishna",
-            "Ishaan",
-            "Ananya",
-            "Diya",
-            "Myra",
-            "Sara",
-            "Aanya",
-            "Ira",
-            "Riya"
-          ]
-        },
-        {
-          "id": "team-0094",
-          "name": "Chem Football",
-          "members": [
-            "Priya",
-            "Neha",
-            "Kavya",
-            "Rohan",
-            "Karan",
-            "Vikram",
-            "Amit",
-            "Rahul",
-            "Suresh",
-            "Deepak",
-            "Manoj"
-          ]
-        }
+      "venue": "TBA",
+      "categories": "Men's, Women's",
+      "teamSize": "Men's: 11+5 (no rolling subs); Women's: 5+3 (rolling subs)",
+      "guestPlayers": "Men's: max 4 per match; Women's: max 2 per match",
+      "format": "Max 2 teams per department (except UG). Guest players cannot represent multiple teams. Captain is responsible for team adherence to rules.\n\nDetailed schedule shared via WhatsApp after registration.",
+      "registrationLink": "https://docs.google.com/forms/d/e/1FAIpQLSft_CHLHcUzO4A6IW0I-CMe9ZkrPdxUrfi_TCysCRbE3W0CiA/viewform",
+      "registrationDeadline": "",
+      "whatsappLink": "",
+      "contacts": [
+        { "name": "Devak", "phone": "9400930704" },
+        { "name": "Sathvik", "phone": "9353794629" },
+        { "name": "Arnab", "phone": "7595862114" }
       ],
-      "participants": [],
-      "volunteers": [
-        {
-          "id": "vol-0095",
-          "name": "Arun (3rd yr)",
-          "role": "Event Coordinator",
-          "contact": "9883982312"
-        },
-        {
-          "id": "vol-0096",
-          "name": "Nandini (4th yr)",
-          "role": "Referee / Judge",
-          "contact": "9879317536"
-        }
-      ],
-      "schedule": [
-        {
-          "id": "sch-0097",
-          "title": "Group Stage / Prelims",
-          "date": "2026-04-15",
-          "time": "09:00",
-          "venue": "Main Football Ground",
-          "description": "Opening rounds for Football",
-          "status": "scheduled"
-        },
-        {
-          "id": "sch-0098",
-          "title": "Finals",
-          "date": "2026-04-17",
-          "time": "16:00",
-          "venue": "Main Football Ground",
-          "description": "Football finals and medal ceremony",
-          "status": "scheduled"
-        }
-      ],
-      "logistics": {
-        "venue": "Main Football Ground",
-        "equipment": "Footballs (10), goalnets, corner flags, whistles, jerseys",
-        "notes": "Water and first-aid station to be set up 30 mins before event."
-      },
-      "notes": [
-        {
-          "id": "note-0099",
-          "text": "Registrations open. Contact Arun (3rd yr) for queries.",
-          "createdAt": "2026-03-20T00:00:00.000Z"
-        }
-      ],
-      "bracket": {
-        "generated": false,
-        "matches": []
-      }
+      "hasRules": false
+    },
+    {
+      "id": "evt-foosball",
+      "sport": "Foosball",
+      "icon": "🎮",
+      "type": "team",
+      "status": "upcoming",
+      "venue": "TBA",
+      "categories": "2 Open Doubles + 1 Mixed Doubles per match",
+      "teamSize": "5 players + 1 backup; at least 1 player of different gender",
+      "guestPlayers": "",
+      "format": "Each match: 3 games (2 Open Doubles + 1 Mixed Doubles). Game to 10 points (switch sides at 5). Only 1 player can play in max 2 games; all others play 1 game each.\n\nBall must touch 2+ foosball figures before a goal counts. No spinning rods more than 360 degrees. No table shaking.",
+      "registrationLink": "https://forms.office.com/pages/responsepage.aspx?id=l80Vb6f240Gyxa1Bk5dkdpFpSaRepwFFp4bGgIPq9KVUNDRFTllBTzhJSTBDMldWWkJUMT",
+      "registrationDeadline": "29 March 2026, 11:00 PM",
+      "whatsappLink": "https://chat.whatsapp.com/JymLyR0SyhHGTzvI4JYY9I",
+      "contacts": [],
+      "hasRules": true
     },
     {
       "id": "evt-frisbee",
-      "sport": "Frisbee",
+      "sport": "Ultimate Frisbee",
       "icon": "🥏",
       "type": "team",
-      "status": "ongoing",
-      "teams": [
-        {
-          "id": "team-0100",
-          "name": "CSE Frisbee",
-          "members": [
-            "Nikhil",
-            "Rajesh",
-            "Sneha",
-            "Pooja",
-            "Meera",
-            "Lakshmi",
-            "Divya"
-          ]
-        },
-        {
-          "id": "team-0101",
-          "name": "ECE Frisbee",
-          "members": [
-            "Shruti",
-            "Anjali",
-            "Nisha",
-            "Tanvi",
-            "Swati",
-            "Aarav",
-            "Vivaan"
-          ]
-        },
-        {
-          "id": "team-0102",
-          "name": "Mech Frisbee",
-          "members": [
-            "Aditya",
-            "Vihaan",
-            "Arjun",
-            "Sai",
-            "Reyansh",
-            "Ayaan",
-            "Krishna"
-          ]
-        },
-        {
-          "id": "team-0103",
-          "name": "Civil Frisbee",
-          "members": [
-            "Ishaan",
-            "Ananya",
-            "Diya",
-            "Myra",
-            "Sara",
-            "Aanya",
-            "Ira"
-          ]
-        }
+      "status": "upcoming",
+      "venue": "IISc Gymkhana Turf",
+      "categories": "Open (Mixed Gender)",
+      "teamSize": "7 on line, min 3 female players",
+      "guestPlayers": "Max 3 allowed on line",
+      "format": "Game to 15 points. 3-minute halftime at 8 points or halfway mark. 75-second timeout per game. Gendered pull system.\n\nNon-contact sport. Captain submits MVP from opposite team after each game (Spirit Circle). Game observer's ruling is final.\n\nGender ratio: 4 Men : 3 Women.",
+      "registrationLink": "https://docs.google.com/forms/d/e/1FAIpQLSey13gelRmXRwWFRSgtvDcD8wsse-qbYAnLzj2v297SHfK1Xg/viewform",
+      "registrationDeadline": "",
+      "whatsappLink": "",
+      "contacts": [
+        { "name": "D. S. Karthik", "phone": "6305591949" },
+        { "name": "Sahil", "phone": "8653280175" }
       ],
-      "participants": [],
-      "volunteers": [
-        {
-          "id": "vol-0104",
-          "name": "Tarun (2nd yr)",
-          "role": "Event Coordinator",
-          "contact": "9830915545"
-        },
-        {
-          "id": "vol-0105",
-          "name": "Geeta (3rd yr)",
-          "role": "Referee / Judge",
-          "contact": "9826999001"
-        }
+      "hasRules": true
+    },
+    {
+      "id": "evt-handball",
+      "sport": "Handball",
+      "icon": "🤾",
+      "type": "team",
+      "status": "upcoming",
+      "venue": "TBA",
+      "categories": "Men's, Women's",
+      "teamSize": "",
+      "guestPlayers": "",
+      "format": "Only captain registration required (on behalf of team). Details shared after registration closes.",
+      "registrationLink": "https://docs.google.com/forms/d/e/1FAIpQLSeNktpmvOpDHdhXyC70mhmSs6Dt1gfD3mAo2_x3nT0vnTWwLg/viewform",
+      "registrationDeadline": "",
+      "whatsappLink": "",
+      "contacts": [
+        { "name": "Satyajeeb Palai", "phone": "7898286674", "email": "satyasundarp@iisc.ac.in" },
+        { "name": "Neivisita Hinge", "email": "neivisitah@iisc.ac.in" }
       ],
-      "schedule": [
-        {
-          "id": "sch-0106",
-          "title": "Group Stage / Prelims",
-          "date": "2026-04-09",
-          "time": "14:00",
-          "venue": "Open Ground B",
-          "description": "Opening rounds for Frisbee",
-          "status": "scheduled"
-        },
-        {
-          "id": "sch-0107",
-          "title": "Finals",
-          "date": "2026-04-11",
-          "time": "16:00",
-          "venue": "Open Ground B",
-          "description": "Frisbee finals and medal ceremony",
-          "status": "scheduled"
-        }
-      ],
-      "logistics": {
-        "venue": "Open Ground B",
-        "equipment": "Discs (10), cones (40), bibs",
-        "notes": "PA system required for announcements."
-      },
-      "notes": [
-        {
-          "id": "note-0108",
-          "text": "Registrations open. Contact Tarun (2nd yr) for queries.",
-          "createdAt": "2026-03-20T00:00:00.000Z"
-        }
-      ],
-      "bracket": {
-        "generated": true,
-        "matches": [
-          {
-            "id": "bm-5029",
-            "round": 0,
-            "position": 0,
-            "slots": [
-              {
-                "seedId": "team-0100",
-                "name": "CSE Frisbee",
-                "score": null
-              },
-              {
-                "seedId": "team-0101",
-                "name": "ECE Frisbee",
-                "score": null
-              }
-            ],
-            "winnerId": "team-0101"
-          },
-          {
-            "id": "bm-5030",
-            "round": 0,
-            "position": 1,
-            "slots": [
-              {
-                "seedId": "team-0102",
-                "name": "Mech Frisbee",
-                "score": null
-              },
-              {
-                "seedId": "team-0103",
-                "name": "Civil Frisbee",
-                "score": null
-              }
-            ],
-            "winnerId": "team-0102"
-          },
-          {
-            "id": "bm-5031",
-            "round": 1,
-            "position": 0,
-            "slots": [
-              {
-                "seedId": "team-0101",
-                "name": "ECE Frisbee",
-                "score": null
-              },
-              {
-                "seedId": "team-0102",
-                "name": "Mech Frisbee",
-                "score": null
-              }
-            ],
-            "winnerId": null
-          }
-        ]
-      }
+      "hasRules": false
     },
     {
       "id": "evt-hockey",
       "sport": "Hockey",
       "icon": "🏑",
+      "type": "individual",
+      "status": "upcoming",
+      "venue": "TBA",
+      "categories": "Open (mixed across departments)",
+      "teamSize": "",
+      "guestPlayers": "",
+      "format": "Individual registration — teams formed based on participants by organizers. Prior hockey experience required (school level or above).\n\nTrial session in the week before the game (mandatory attendance). Trial may be conducted to assess skill level.\n\nFIH rules apply. 11 players on field.",
+      "registrationLink": "https://docs.google.com/forms/d/e/1FAIpQLSeG4bB6ygec78Q_0qZvRraKzg1ARrM77zwXkS18E80bu92X8Q/viewform",
+      "registrationDeadline": "",
+      "whatsappLink": "",
+      "contacts": [
+        { "name": "Siddharth", "phone": "9120393393" },
+        { "name": "Saurav", "phone": "9162534885" }
+      ],
+      "hasRules": true
+    },
+    {
+      "id": "evt-kabaddi",
+      "sport": "Kabaddi",
+      "icon": "🤼",
       "type": "team",
-      "status": "completed",
-      "teams": [
-        {
-          "id": "team-0109",
-          "name": "CSE Hockey",
-          "members": [
-            "Riya",
-            "Priya",
-            "Neha",
-            "Kavya",
-            "Rohan",
-            "Karan",
-            "Vikram",
-            "Amit",
-            "Rahul",
-            "Suresh",
-            "Deepak"
-          ]
-        },
-        {
-          "id": "team-0110",
-          "name": "ECE Hockey",
-          "members": [
-            "Manoj",
-            "Nikhil",
-            "Rajesh",
-            "Sneha",
-            "Pooja",
-            "Meera",
-            "Lakshmi",
-            "Divya",
-            "Shruti",
-            "Anjali",
-            "Nisha"
-          ]
-        },
-        {
-          "id": "team-0111",
-          "name": "Mech Hockey",
-          "members": [
-            "Tanvi",
-            "Swati",
-            "Aarav",
-            "Vivaan",
-            "Aditya",
-            "Vihaan",
-            "Arjun",
-            "Sai",
-            "Reyansh",
-            "Ayaan",
-            "Krishna"
-          ]
-        },
-        {
-          "id": "team-0112",
-          "name": "Civil Hockey",
-          "members": [
-            "Ishaan",
-            "Ananya",
-            "Diya",
-            "Myra",
-            "Sara",
-            "Aanya",
-            "Ira",
-            "Riya",
-            "Priya",
-            "Neha",
-            "Kavya"
-          ]
-        }
+      "status": "upcoming",
+      "venue": "TMC Ground",
+      "categories": "Men's, Women's (separate registration)",
+      "teamSize": "Max 12 members, 7 on court, min 7 players",
+      "guestPlayers": "",
+      "format": "**Men's:** 30 min (two 15-min halves, 5-min break); Semis/Finals: 40 min.\n**Women's:** 20 min (two 10-min halves); Semis/Finals: 30 min.\n\n1 point per defender out. Bonus line: 1 point if 6+ defenders on ground. League: 3 points for win.\n\nTiebreak: 5 alternate raids → Golden Raid if still tied.\n\nAKFI rules. Weight restrictions: Men 85kg, Women 75kg max.",
+      "registrationLink": "https://docs.google.com/forms/d/e/1FAIpQLSd5ZKp8zsm7kXW8FeGQaYIDL6rz-DdBQ2JWi2z1cHbLJvDhlg/viewform",
+      "registrationLinkWomens": "https://docs.google.com/forms/d/e/1FAIpQLSezCp01mhNzsaMs0e37ucSHS3j-_frRVBv0kKirtckclarkHg/viewform",
+      "registrationDeadline": "",
+      "whatsappLink": "https://chat.whatsapp.com/LbHL44Rmj4CK79bYNu0ilU?mode=gi_t",
+      "contacts": [
+        { "phone": "6303190090" },
+        { "phone": "9084431077" }
       ],
-      "participants": [],
-      "volunteers": [
-        {
-          "id": "vol-0113",
-          "name": "Prof. Sharma",
-          "role": "Event Coordinator",
-          "contact": "9811874306"
-        },
-        {
-          "id": "vol-0114",
-          "name": "Prof. Gupta",
-          "role": "Referee / Judge",
-          "contact": "9883070829"
-        }
+      "hasRules": true
+    },
+    {
+      "id": "evt-kho-kho",
+      "sport": "Kho-Kho",
+      "icon": "🤸",
+      "type": "team",
+      "status": "upcoming",
+      "venue": "KV Ground",
+      "categories": "Men's, Women's (separate registration)",
+      "teamSize": "9–12 players, 9 on court",
+      "guestPlayers": "Men's: max 2; Women's: max 3",
+      "format": "Two innings of 14 minutes each (7 min chase + 7 min defend, 5-min break). Finals: 9 minutes per inning.\n\n1 point per defender out (chasing team). League: 2 points for win.\n\nTiebreak: Sudden death — time to catch first opponent runner. KKFI rules apply.",
+      "registrationLink": "https://forms.office.com/pages/responsepage.aspx?id=l80Vb6f240Gyxa1Bk5dkdmPKONoD6UtNuT4AHNkWLERUQks1NjFNSDVCVDVKNVVPS0",
+      "registrationLinkWomens": "https://forms.office.com/pages/responsepage.aspx?id=l80Vb6f240Gyxa1Bk5dkdmPKONoD6UtNuT4AHNkWLERURDczTjNaTDYzNVJJRTlTOE1W",
+      "registrationDeadline": "",
+      "whatsappLink": "",
+      "contacts": [
+        { "name": "Suresh", "phone": "6381911360" }
       ],
-      "schedule": [
-        {
-          "id": "sch-0115",
-          "title": "Group Stage / Prelims",
-          "date": "2026-04-10",
-          "time": "09:00",
-          "venue": "Hockey Turf",
-          "description": "Opening rounds for Hockey",
-          "status": "completed"
-        },
-        {
-          "id": "sch-0116",
-          "title": "Finals",
-          "date": "2026-04-12",
-          "time": "16:00",
-          "venue": "Hockey Turf",
-          "description": "Hockey finals and medal ceremony",
-          "status": "scheduled"
-        }
-      ],
-      "logistics": {
-        "venue": "Hockey Turf",
-        "equipment": "Hockey sticks (spare), balls (10), goalie gear, whistles",
-        "notes": ""
-      },
-      "notes": [
-        {
-          "id": "note-0117",
-          "text": "Registrations open. Contact Prof. Sharma for queries.",
-          "createdAt": "2026-03-20T00:00:00.000Z"
-        }
-      ],
-      "bracket": {
-        "generated": true,
-        "matches": [
-          {
-            "id": "bm-5032",
-            "round": 0,
-            "position": 0,
-            "slots": [
-              {
-                "seedId": "team-0109",
-                "name": "CSE Hockey",
-                "score": null
-              },
-              {
-                "seedId": "team-0110",
-                "name": "ECE Hockey",
-                "score": null
-              }
-            ],
-            "winnerId": "team-0110"
-          },
-          {
-            "id": "bm-5033",
-            "round": 0,
-            "position": 1,
-            "slots": [
-              {
-                "seedId": "team-0111",
-                "name": "Mech Hockey",
-                "score": null
-              },
-              {
-                "seedId": "team-0112",
-                "name": "Civil Hockey",
-                "score": null
-              }
-            ],
-            "winnerId": "team-0111"
-          },
-          {
-            "id": "bm-5034",
-            "round": 1,
-            "position": 0,
-            "slots": [
-              {
-                "seedId": "team-0110",
-                "name": "ECE Hockey",
-                "score": null
-              },
-              {
-                "seedId": "team-0111",
-                "name": "Mech Hockey",
-                "score": null
-              }
-            ],
-            "winnerId": "team-0110"
-          }
-        ]
-      }
+      "hasRules": true
     },
     {
       "id": "evt-lawn-tennis",
@@ -1783,509 +262,57 @@
       "icon": "🎾",
       "type": "individual",
       "status": "upcoming",
-      "teams": [],
-      "participants": [
-        {
-          "id": "part-0118",
-          "name": "Rohan",
-          "department": "CSE",
-          "contact": ""
-        },
-        {
-          "id": "part-0119",
-          "name": "Karan",
-          "department": "ECE",
-          "contact": ""
-        },
-        {
-          "id": "part-0120",
-          "name": "Vikram",
-          "department": "Mech",
-          "contact": ""
-        },
-        {
-          "id": "part-0121",
-          "name": "Amit",
-          "department": "Civil",
-          "contact": ""
-        },
-        {
-          "id": "part-0122",
-          "name": "Rahul",
-          "department": "EEE",
-          "contact": ""
-        },
-        {
-          "id": "part-0123",
-          "name": "Suresh",
-          "department": "Chem",
-          "contact": ""
-        },
-        {
-          "id": "part-0124",
-          "name": "Deepak",
-          "department": "Math",
-          "contact": ""
-        },
-        {
-          "id": "part-0125",
-          "name": "Manoj",
-          "department": "Physics",
-          "contact": ""
-        }
+      "venue": "TBA",
+      "categories": "Men's Singles, Women's Singles, Men's Doubles, Women's Doubles, Mixed Doubles",
+      "teamSize": "",
+      "guestPlayers": "",
+      "format": "All knockout format. Minimum 4 entries per category required (otherwise exhibition match).\n\nPlayers can participate in all 3 formats (singles, doubles, mixed). Inter- and intra-department doubles teams allowed.",
+      "registrationLink": "https://docs.google.com/forms/d/e/1FAIpQLSdjFaaTeKQ5L_prvbwQ9FdgcjpaWbKf5zhz7La37nFj0O6WSA/viewform",
+      "registrationDeadline": "",
+      "whatsappLink": "https://chat.whatsapp.com/J9TsC46U0ihFHXeVXgeET7?mode=hqctcla",
+      "contacts": [
+        { "name": "Srihari Sivasubramony", "phone": "7016307279" },
+        { "name": "Shiv Pratap Singh Rathore", "phone": "7869529189" }
       ],
-      "volunteers": [
-        {
-          "id": "vol-0126",
-          "name": "Dr. Patel",
-          "role": "Event Coordinator",
-          "contact": "9862664877"
-        },
-        {
-          "id": "vol-0127",
-          "name": "Dr. Reddy",
-          "role": "Referee / Judge",
-          "contact": "9887665964"
-        }
-      ],
-      "schedule": [
-        {
-          "id": "sch-0128",
-          "title": "Round 1",
-          "date": "2026-04-11",
-          "time": "14:00",
-          "venue": "Tennis Courts",
-          "description": "Opening rounds for Lawn Tennis",
-          "status": "scheduled"
-        },
-        {
-          "id": "sch-0129",
-          "title": "Finals",
-          "date": "2026-04-13",
-          "time": "16:00",
-          "venue": "Tennis Courts",
-          "description": "Lawn Tennis finals and medal ceremony",
-          "status": "scheduled"
-        }
-      ],
-      "logistics": {
-        "venue": "Tennis Courts",
-        "equipment": "Tennis balls (60), nets, rackets (spare)",
-        "notes": "Water and first-aid station to be set up 30 mins before event."
-      },
-      "notes": [
-        {
-          "id": "note-0130",
-          "text": "Registrations open. Contact Dr. Patel for queries.",
-          "createdAt": "2026-03-20T00:00:00.000Z"
-        }
-      ],
-      "bracket": {
-        "generated": false,
-        "matches": []
-      }
+      "hasRules": false
     },
     {
-      "id": "evt-kho-kho",
-      "sport": "Kho-Kho",
-      "icon": "🏃‍♂️",
-      "type": "team",
-      "status": "ongoing",
-      "teams": [
-        {
-          "id": "team-0131",
-          "name": "CSE Kho-Kho",
-          "members": [
-            "Nikhil",
-            "Rajesh",
-            "Sneha",
-            "Pooja",
-            "Meera",
-            "Lakshmi",
-            "Divya"
-          ]
-        },
-        {
-          "id": "team-0132",
-          "name": "ECE Kho-Kho",
-          "members": [
-            "Shruti",
-            "Anjali",
-            "Nisha",
-            "Tanvi",
-            "Swati",
-            "Aarav",
-            "Vivaan"
-          ]
-        },
-        {
-          "id": "team-0133",
-          "name": "Mech Kho-Kho",
-          "members": [
-            "Aditya",
-            "Vihaan",
-            "Arjun",
-            "Sai",
-            "Reyansh",
-            "Ayaan",
-            "Krishna"
-          ]
-        },
-        {
-          "id": "team-0134",
-          "name": "Civil Kho-Kho",
-          "members": [
-            "Ishaan",
-            "Ananya",
-            "Diya",
-            "Myra",
-            "Sara",
-            "Aanya",
-            "Ira"
-          ]
-        }
+      "id": "evt-powerlifting",
+      "sport": "Powerlifting",
+      "icon": "💪",
+      "type": "individual",
+      "status": "upcoming",
+      "venue": "TBA",
+      "categories": "Men's, Women's (5 weight categories each)",
+      "teamSize": "",
+      "guestPlayers": "",
+      "format": "3 lifts: Squat, Bench Press, Deadlift. 3 attempts per lift, best counts. Total = Squat + Bench + Deadlift. Tiebreak: lighter lifter ranks higher.\n\n**Men's Weight Classes:** <60kg, 60–70kg, 70–80kg, 80–90kg, 90+kg\n**Women's Weight Classes:** <50kg, 50–60kg, 60–70kg, 70–80kg, 80+kg\n\nSmith Machine for squats. Straps allowed for deadlifts only.",
+      "registrationLink": "https://forms.office.com/Pages/ResponsePage.aspx?id=l80Vb6f240Gyxa1Bk5dkdlTBkVTJoDJCs1-GYIm5gP9UM0hTWTIzN1lXSVFWTDJENUs4RU",
+      "registrationDeadline": "",
+      "whatsappLink": "",
+      "contacts": [
+        { "phone": "6290556638" }
       ],
-      "participants": [],
-      "volunteers": [
-        {
-          "id": "vol-0135",
-          "name": "Prof. Iyer",
-          "role": "Event Coordinator",
-          "contact": "9855476948"
-        },
-        {
-          "id": "vol-0136",
-          "name": "Dr. Singh",
-          "role": "Referee / Judge",
-          "contact": "9896988691"
-        }
-      ],
-      "schedule": [
-        {
-          "id": "sch-0137",
-          "title": "Group Stage / Prelims",
-          "date": "2026-04-12",
-          "time": "09:00",
-          "venue": "Open Ground A",
-          "description": "Opening rounds for Kho-Kho",
-          "status": "scheduled"
-        },
-        {
-          "id": "sch-0138",
-          "title": "Finals",
-          "date": "2026-04-14",
-          "time": "16:00",
-          "venue": "Open Ground A",
-          "description": "Kho-Kho finals and medal ceremony",
-          "status": "scheduled"
-        }
-      ],
-      "logistics": {
-        "venue": "Open Ground A",
-        "equipment": "Poles (2), chalk, stopwatches, bibs",
-        "notes": "PA system required for announcements."
-      },
-      "notes": [
-        {
-          "id": "note-0139",
-          "text": "Registrations open. Contact Prof. Iyer for queries.",
-          "createdAt": "2026-03-20T00:00:00.000Z"
-        }
-      ],
-      "bracket": {
-        "generated": true,
-        "matches": [
-          {
-            "id": "bm-5035",
-            "round": 0,
-            "position": 0,
-            "slots": [
-              {
-                "seedId": "team-0131",
-                "name": "CSE Kho-Kho",
-                "score": null
-              },
-              {
-                "seedId": "team-0132",
-                "name": "ECE Kho-Kho",
-                "score": null
-              }
-            ],
-            "winnerId": "team-0132"
-          },
-          {
-            "id": "bm-5036",
-            "round": 0,
-            "position": 1,
-            "slots": [
-              {
-                "seedId": "team-0133",
-                "name": "Mech Kho-Kho",
-                "score": null
-              },
-              {
-                "seedId": "team-0134",
-                "name": "Civil Kho-Kho",
-                "score": null
-              }
-            ],
-            "winnerId": "team-0134"
-          },
-          {
-            "id": "bm-5037",
-            "round": 1,
-            "position": 0,
-            "slots": [
-              {
-                "seedId": "team-0132",
-                "name": "ECE Kho-Kho",
-                "score": null
-              },
-              {
-                "seedId": "team-0134",
-                "name": "Civil Kho-Kho",
-                "score": null
-              }
-            ],
-            "winnerId": null
-          }
-        ]
-      }
+      "hasRules": true
     },
     {
       "id": "evt-snooker",
       "sport": "Snooker",
       "icon": "🎱",
       "type": "individual",
-      "status": "completed",
-      "teams": [],
-      "participants": [
-        {
-          "id": "part-0140",
-          "name": "Riya",
-          "department": "CSE",
-          "contact": ""
-        },
-        {
-          "id": "part-0141",
-          "name": "Priya",
-          "department": "ECE",
-          "contact": ""
-        },
-        {
-          "id": "part-0142",
-          "name": "Neha",
-          "department": "Mech",
-          "contact": ""
-        },
-        {
-          "id": "part-0143",
-          "name": "Kavya",
-          "department": "Civil",
-          "contact": ""
-        },
-        {
-          "id": "part-0144",
-          "name": "Rohan",
-          "department": "EEE",
-          "contact": ""
-        },
-        {
-          "id": "part-0145",
-          "name": "Karan",
-          "department": "Chem",
-          "contact": ""
-        },
-        {
-          "id": "part-0146",
-          "name": "Vikram",
-          "department": "Math",
-          "contact": ""
-        },
-        {
-          "id": "part-0147",
-          "name": "Amit",
-          "department": "Physics",
-          "contact": ""
-        }
+      "status": "upcoming",
+      "venue": "TBA",
+      "categories": "Open Singles, Men's Doubles, Mixed Doubles, Women's Doubles",
+      "teamSize": "",
+      "guestPlayers": "",
+      "format": "Knockout throughout.\n\n**Men's Doubles:** Rounds 1–2: 1 singles (30min) each table + 1 doubles tiebreaker (45min). QF/SF/Finals progressively longer.\n\n**Mixed Doubles:** Similar structure with longer time limits (45–60min).\n\n**Women's Doubles:** Format depends on number of registrations.\n\nWPBSA rulebook applies. Players pre-decide table allocation, cannot switch.",
+      "registrationLink": "https://docs.google.com/forms/d/e/1FAIpQLScU3oqD0FIiqeoVlTIJTplwTwzugqdai_QOPYwcOLoVP80Z4g/viewform",
+      "registrationDeadline": "",
+      "whatsappLink": "",
+      "contacts": [
+        { "name": "Snooker Club Convenor", "phone": "7063616634" }
       ],
-      "volunteers": [
-        {
-          "id": "vol-0148",
-          "name": "Akash (4th yr)",
-          "role": "Event Coordinator",
-          "contact": "9877017328"
-        },
-        {
-          "id": "vol-0149",
-          "name": "Megha (3rd yr)",
-          "role": "Referee / Judge",
-          "contact": "9813301351"
-        }
-      ],
-      "schedule": [
-        {
-          "id": "sch-0150",
-          "title": "Round 1",
-          "date": "2026-04-13",
-          "time": "14:00",
-          "venue": "Games Room, Block C",
-          "description": "Opening rounds for Snooker",
-          "status": "completed"
-        },
-        {
-          "id": "sch-0151",
-          "title": "Finals",
-          "date": "2026-04-15",
-          "time": "16:00",
-          "venue": "Games Room, Block C",
-          "description": "Snooker finals and medal ceremony",
-          "status": "scheduled"
-        }
-      ],
-      "logistics": {
-        "venue": "Games Room, Block C",
-        "equipment": "Cue sticks (spare), chalk, triangle rack",
-        "notes": ""
-      },
-      "notes": [
-        {
-          "id": "note-0152",
-          "text": "Registrations open. Contact Akash (4th yr) for queries.",
-          "createdAt": "2026-03-20T00:00:00.000Z"
-        }
-      ],
-      "bracket": {
-        "generated": true,
-        "matches": [
-          {
-            "id": "bm-5038",
-            "round": 0,
-            "position": 0,
-            "slots": [
-              {
-                "seedId": "part-0140",
-                "name": "Riya",
-                "score": null
-              },
-              {
-                "seedId": "part-0141",
-                "name": "Priya",
-                "score": null
-              }
-            ],
-            "winnerId": "part-0140"
-          },
-          {
-            "id": "bm-5039",
-            "round": 0,
-            "position": 1,
-            "slots": [
-              {
-                "seedId": "part-0142",
-                "name": "Neha",
-                "score": null
-              },
-              {
-                "seedId": "part-0143",
-                "name": "Kavya",
-                "score": null
-              }
-            ],
-            "winnerId": "part-0142"
-          },
-          {
-            "id": "bm-5040",
-            "round": 0,
-            "position": 2,
-            "slots": [
-              {
-                "seedId": "part-0144",
-                "name": "Rohan",
-                "score": null
-              },
-              {
-                "seedId": "part-0145",
-                "name": "Karan",
-                "score": null
-              }
-            ],
-            "winnerId": "part-0144"
-          },
-          {
-            "id": "bm-5041",
-            "round": 0,
-            "position": 3,
-            "slots": [
-              {
-                "seedId": "part-0146",
-                "name": "Vikram",
-                "score": null
-              },
-              {
-                "seedId": "part-0147",
-                "name": "Amit",
-                "score": null
-              }
-            ],
-            "winnerId": "part-0146"
-          },
-          {
-            "id": "bm-5042",
-            "round": 1,
-            "position": 0,
-            "slots": [
-              {
-                "seedId": "part-0140",
-                "name": "Riya",
-                "score": null
-              },
-              {
-                "seedId": "part-0142",
-                "name": "Neha",
-                "score": null
-              }
-            ],
-            "winnerId": "part-0140"
-          },
-          {
-            "id": "bm-5043",
-            "round": 1,
-            "position": 1,
-            "slots": [
-              {
-                "seedId": "part-0144",
-                "name": "Rohan",
-                "score": null
-              },
-              {
-                "seedId": "part-0146",
-                "name": "Vikram",
-                "score": null
-              }
-            ],
-            "winnerId": "part-0144"
-          },
-          {
-            "id": "bm-5044",
-            "round": 2,
-            "position": 0,
-            "slots": [
-              {
-                "seedId": "part-0140",
-                "name": "Riya",
-                "score": null
-              },
-              {
-                "seedId": "part-0144",
-                "name": "Rohan",
-                "score": null
-              }
-            ],
-            "winnerId": "part-0140"
-          }
-        ]
-      }
+      "hasRules": true
     },
     {
       "id": "evt-swimming",
@@ -2293,1105 +320,78 @@
       "icon": "🏊",
       "type": "individual",
       "status": "upcoming",
-      "teams": [],
-      "participants": [
-        {
-          "id": "part-0153",
-          "name": "Rahul",
-          "department": "CSE",
-          "contact": ""
-        },
-        {
-          "id": "part-0154",
-          "name": "Suresh",
-          "department": "ECE",
-          "contact": ""
-        },
-        {
-          "id": "part-0155",
-          "name": "Deepak",
-          "department": "Mech",
-          "contact": ""
-        },
-        {
-          "id": "part-0156",
-          "name": "Manoj",
-          "department": "Civil",
-          "contact": ""
-        },
-        {
-          "id": "part-0157",
-          "name": "Nikhil",
-          "department": "EEE",
-          "contact": ""
-        },
-        {
-          "id": "part-0158",
-          "name": "Rajesh",
-          "department": "Chem",
-          "contact": ""
-        },
-        {
-          "id": "part-0159",
-          "name": "Sneha",
-          "department": "Math",
-          "contact": ""
-        },
-        {
-          "id": "part-0160",
-          "name": "Pooja",
-          "department": "Physics",
-          "contact": ""
-        },
-        {
-          "id": "part-0161",
-          "name": "Meera",
-          "department": "MBA",
-          "contact": ""
-        },
-        {
-          "id": "part-0162",
-          "name": "Lakshmi",
-          "department": "Bio",
-          "contact": ""
-        },
-        {
-          "id": "part-0163",
-          "name": "Divya",
-          "department": "CSE",
-          "contact": ""
-        },
-        {
-          "id": "part-0164",
-          "name": "Shruti",
-          "department": "ECE",
-          "contact": ""
-        }
+      "venue": "TBA",
+      "categories": "Men's, Women's",
+      "teamSize": "",
+      "guestPlayers": "",
+      "format": "**Events:** 50m Freestyle, 50m Breast Stroke, 50m Back Stroke, 50m Butterfly, 500m Freestyle, 4x50m Freestyle Relay.\n\nNo cap on individual event participants per department. Relay teams: max 2 per department (4 participants per relay).\n\nDates: March 31 – April 1, 2026 (tentative).",
+      "registrationLink": "https://docs.google.com/forms/d/e/1FAIpQLSeevxUS5O2pKCDNNdSim5_BXvxkylk680Co_kabRLQ2lt0xfw/viewform",
+      "registrationDeadline": "March 29, 2026, 11:59 AM",
+      "whatsappLink": "",
+      "contacts": [
+        { "name": "Satyajeeb Palai", "phone": "7898286674", "email": "satyajeebp@iisc.ac.in" }
       ],
-      "volunteers": [
-        {
-          "id": "vol-0165",
-          "name": "Ravi (4th yr)",
-          "role": "Event Coordinator",
-          "contact": "9837571981"
-        },
-        {
-          "id": "vol-0166",
-          "name": "Sunita (3rd yr)",
-          "role": "Referee / Judge",
-          "contact": "9896990858"
-        }
-      ],
-      "schedule": [
-        {
-          "id": "sch-0167",
-          "title": "Round 1",
-          "date": "2026-04-14",
-          "time": "09:00",
-          "venue": "Aquatic Centre",
-          "description": "Opening rounds for Swimming",
-          "status": "scheduled"
-        },
-        {
-          "id": "sch-0168",
-          "title": "Finals",
-          "date": "2026-04-16",
-          "time": "16:00",
-          "venue": "Aquatic Centre",
-          "description": "Swimming finals and medal ceremony",
-          "status": "scheduled"
-        }
-      ],
-      "logistics": {
-        "venue": "Aquatic Centre",
-        "equipment": "Lane dividers, starting blocks, stopwatches, caps",
-        "notes": "Water and first-aid station to be set up 30 mins before event."
-      },
-      "notes": [
-        {
-          "id": "note-0169",
-          "text": "Registrations open. Contact Ravi (4th yr) for queries.",
-          "createdAt": "2026-03-20T00:00:00.000Z"
-        }
-      ],
-      "bracket": {
-        "generated": false,
-        "matches": []
-      }
+      "hasRules": false
     },
     {
       "id": "evt-table-tennis",
       "sport": "Table Tennis",
       "icon": "🏓",
-      "type": "individual",
-      "status": "ongoing",
-      "teams": [],
-      "participants": [
-        {
-          "id": "part-0170",
-          "name": "Anjali",
-          "department": "CSE",
-          "contact": ""
-        },
-        {
-          "id": "part-0171",
-          "name": "Nisha",
-          "department": "ECE",
-          "contact": ""
-        },
-        {
-          "id": "part-0172",
-          "name": "Tanvi",
-          "department": "Mech",
-          "contact": ""
-        },
-        {
-          "id": "part-0173",
-          "name": "Swati",
-          "department": "Civil",
-          "contact": ""
-        },
-        {
-          "id": "part-0174",
-          "name": "Aarav",
-          "department": "EEE",
-          "contact": ""
-        },
-        {
-          "id": "part-0175",
-          "name": "Vivaan",
-          "department": "Chem",
-          "contact": ""
-        },
-        {
-          "id": "part-0176",
-          "name": "Aditya",
-          "department": "Math",
-          "contact": ""
-        },
-        {
-          "id": "part-0177",
-          "name": "Vihaan",
-          "department": "Physics",
-          "contact": ""
-        }
+      "type": "team",
+      "status": "upcoming",
+      "venue": "TBA",
+      "categories": "Men's Singles, Women's Singles, 2 Open Singles, Open Doubles",
+      "teamSize": "5 players (4 compulsory + 1 optional); at least 1 female in playing 4",
+      "guestPlayers": "Max 1 per team",
+      "format": "2 knockout rounds → League stage (8 teams in 2 pools of 4, round-robin) → Semifinals → Finals.\n\nKnockout: best of 3 sets. League/Semis/Finals: best of 5 sets. Each match: Men's Singles, Women's Singles, 2 Open Singles, Open Doubles. First to 3 games wins.\n\nSeeding based on top 8 teams from Spectrum 2025.",
+      "registrationLink": "https://forms.office.com/",
+      "registrationDeadline": "",
+      "whatsappLink": "https://chat.whatsapp.com/ImpMBWA3vKBBiNrmzEgrtV?mode=gi_t",
+      "contacts": [],
+      "hasRules": true
+    },
+    {
+      "id": "evt-throwball",
+      "sport": "Throwball",
+      "icon": "🏐",
+      "type": "team",
+      "status": "upcoming",
+      "venue": "TBA",
+      "categories": "Open",
+      "teamSize": "12 players (7 active + 5 substitutes)",
+      "guestPlayers": "Max 2 per team",
+      "format": "Best of 3 sets, 25 points per set (rally scoring). 2-3-2 player position on court.\n\nCourt: 12.2m x 18.3m, net height 2.2m, 1m neutral boxes.\n\nCatch with both hands, return with one hand only. 3-second release time. No double touches. 2 timeouts of 30 seconds per set.",
+      "registrationLink": "https://forms.office.com/",
+      "registrationDeadline": "",
+      "whatsappLink": "",
+      "contacts": [
+        { "name": "Srinithya", "phone": "82771 82290" },
+        { "name": "Baradh", "phone": "89257 71396" }
       ],
-      "volunteers": [
-        {
-          "id": "vol-0178",
-          "name": "Varun (2nd yr)",
-          "role": "Event Coordinator",
-          "contact": "9815037571"
-        },
-        {
-          "id": "vol-0179",
-          "name": "Priyanka (4th yr)",
-          "role": "Referee / Judge",
-          "contact": "9884357637"
-        }
-      ],
-      "schedule": [
-        {
-          "id": "sch-0180",
-          "title": "Round 1",
-          "date": "2026-04-15",
-          "time": "14:00",
-          "venue": "TT Hall, Sports Block",
-          "description": "Opening rounds for Table Tennis",
-          "status": "scheduled"
-        },
-        {
-          "id": "sch-0181",
-          "title": "Finals",
-          "date": "2026-04-17",
-          "time": "16:00",
-          "venue": "TT Hall, Sports Block",
-          "description": "Table Tennis finals and medal ceremony",
-          "status": "scheduled"
-        }
-      ],
-      "logistics": {
-        "venue": "TT Hall, Sports Block",
-        "equipment": "TT balls (50), nets (8), paddles (spare)",
-        "notes": "PA system required for announcements."
-      },
-      "notes": [
-        {
-          "id": "note-0182",
-          "text": "Registrations open. Contact Varun (2nd yr) for queries.",
-          "createdAt": "2026-03-20T00:00:00.000Z"
-        }
-      ],
-      "bracket": {
-        "generated": true,
-        "matches": [
-          {
-            "id": "bm-5045",
-            "round": 0,
-            "position": 0,
-            "slots": [
-              {
-                "seedId": "part-0170",
-                "name": "Anjali",
-                "score": null
-              },
-              {
-                "seedId": "part-0171",
-                "name": "Nisha",
-                "score": null
-              }
-            ],
-            "winnerId": "part-0170"
-          },
-          {
-            "id": "bm-5046",
-            "round": 0,
-            "position": 1,
-            "slots": [
-              {
-                "seedId": "part-0172",
-                "name": "Tanvi",
-                "score": null
-              },
-              {
-                "seedId": "part-0173",
-                "name": "Swati",
-                "score": null
-              }
-            ],
-            "winnerId": "part-0172"
-          },
-          {
-            "id": "bm-5047",
-            "round": 0,
-            "position": 2,
-            "slots": [
-              {
-                "seedId": "part-0174",
-                "name": "Aarav",
-                "score": null
-              },
-              {
-                "seedId": "part-0175",
-                "name": "Vivaan",
-                "score": null
-              }
-            ],
-            "winnerId": "part-0174"
-          },
-          {
-            "id": "bm-5048",
-            "round": 0,
-            "position": 3,
-            "slots": [
-              {
-                "seedId": "part-0176",
-                "name": "Aditya",
-                "score": null
-              },
-              {
-                "seedId": "part-0177",
-                "name": "Vihaan",
-                "score": null
-              }
-            ],
-            "winnerId": "part-0176"
-          },
-          {
-            "id": "bm-5049",
-            "round": 1,
-            "position": 0,
-            "slots": [
-              {
-                "seedId": "part-0170",
-                "name": "Anjali",
-                "score": null
-              },
-              {
-                "seedId": "part-0172",
-                "name": "Tanvi",
-                "score": null
-              }
-            ],
-            "winnerId": "part-0170"
-          },
-          {
-            "id": "bm-5050",
-            "round": 1,
-            "position": 1,
-            "slots": [
-              {
-                "seedId": "part-0174",
-                "name": "Aarav",
-                "score": null
-              },
-              {
-                "seedId": "part-0176",
-                "name": "Aditya",
-                "score": null
-              }
-            ],
-            "winnerId": "part-0176"
-          },
-          {
-            "id": "bm-5051",
-            "round": 2,
-            "position": 0,
-            "slots": [
-              {
-                "seedId": "part-0170",
-                "name": "Anjali",
-                "score": null
-              },
-              {
-                "seedId": "part-0176",
-                "name": "Aditya",
-                "score": null
-              }
-            ],
-            "winnerId": null
-          }
-        ]
-      }
+      "hasRules": true
     },
     {
       "id": "evt-volleyball",
       "sport": "Volleyball",
       "icon": "🏐",
       "type": "team",
-      "status": "completed",
-      "teams": [
-        {
-          "id": "team-0183",
-          "name": "CSE Volleyball",
-          "members": [
-            "Arjun",
-            "Sai",
-            "Reyansh",
-            "Ayaan",
-            "Krishna",
-            "Ishaan",
-            "Ananya"
-          ]
-        },
-        {
-          "id": "team-0184",
-          "name": "ECE Volleyball",
-          "members": [
-            "Diya",
-            "Myra",
-            "Sara",
-            "Aanya",
-            "Ira",
-            "Riya",
-            "Priya"
-          ]
-        },
-        {
-          "id": "team-0185",
-          "name": "Mech Volleyball",
-          "members": [
-            "Neha",
-            "Kavya",
-            "Rohan",
-            "Karan",
-            "Vikram",
-            "Amit",
-            "Rahul"
-          ]
-        },
-        {
-          "id": "team-0186",
-          "name": "Civil Volleyball",
-          "members": [
-            "Suresh",
-            "Deepak",
-            "Manoj",
-            "Nikhil",
-            "Rajesh",
-            "Sneha",
-            "Pooja"
-          ]
-        }
-      ],
-      "participants": [],
-      "volunteers": [
-        {
-          "id": "vol-0187",
-          "name": "Arun (3rd yr)",
-          "role": "Event Coordinator",
-          "contact": "9816848900"
-        },
-        {
-          "id": "vol-0188",
-          "name": "Nandini (4th yr)",
-          "role": "Referee / Judge",
-          "contact": "9814871254"
-        }
-      ],
-      "schedule": [
-        {
-          "id": "sch-0189",
-          "title": "Group Stage / Prelims",
-          "date": "2026-04-09",
-          "time": "09:00",
-          "venue": "Volleyball Court",
-          "description": "Opening rounds for Volleyball",
-          "status": "completed"
-        },
-        {
-          "id": "sch-0190",
-          "title": "Finals",
-          "date": "2026-04-11",
-          "time": "16:00",
-          "venue": "Volleyball Court",
-          "description": "Volleyball finals and medal ceremony",
-          "status": "scheduled"
-        }
-      ],
-      "logistics": {
-        "venue": "Volleyball Court",
-        "equipment": "Volleyballs (6), nets, antenna markers, knee pads",
-        "notes": ""
-      },
-      "notes": [
-        {
-          "id": "note-0191",
-          "text": "Registrations open. Contact Arun (3rd yr) for queries.",
-          "createdAt": "2026-03-20T00:00:00.000Z"
-        }
-      ],
-      "bracket": {
-        "generated": true,
-        "matches": [
-          {
-            "id": "bm-5052",
-            "round": 0,
-            "position": 0,
-            "slots": [
-              {
-                "seedId": "team-0183",
-                "name": "CSE Volleyball",
-                "score": null
-              },
-              {
-                "seedId": "team-0184",
-                "name": "ECE Volleyball",
-                "score": null
-              }
-            ],
-            "winnerId": "team-0184"
-          },
-          {
-            "id": "bm-5053",
-            "round": 0,
-            "position": 1,
-            "slots": [
-              {
-                "seedId": "team-0185",
-                "name": "Mech Volleyball",
-                "score": null
-              },
-              {
-                "seedId": "team-0186",
-                "name": "Civil Volleyball",
-                "score": null
-              }
-            ],
-            "winnerId": "team-0186"
-          },
-          {
-            "id": "bm-5054",
-            "round": 1,
-            "position": 0,
-            "slots": [
-              {
-                "seedId": "team-0184",
-                "name": "ECE Volleyball",
-                "score": null
-              },
-              {
-                "seedId": "team-0186",
-                "name": "Civil Volleyball",
-                "score": null
-              }
-            ],
-            "winnerId": "team-0184"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evt-powerlifting",
-      "sport": "Powerlifting",
-      "icon": "🏋️",
-      "type": "individual",
       "status": "upcoming",
-      "teams": [],
-      "participants": [
-        {
-          "id": "part-0192",
-          "name": "Meera",
-          "department": "CSE",
-          "contact": ""
-        },
-        {
-          "id": "part-0193",
-          "name": "Lakshmi",
-          "department": "ECE",
-          "contact": ""
-        },
-        {
-          "id": "part-0194",
-          "name": "Divya",
-          "department": "Mech",
-          "contact": ""
-        },
-        {
-          "id": "part-0195",
-          "name": "Shruti",
-          "department": "Civil",
-          "contact": ""
-        },
-        {
-          "id": "part-0196",
-          "name": "Anjali",
-          "department": "EEE",
-          "contact": ""
-        },
-        {
-          "id": "part-0197",
-          "name": "Nisha",
-          "department": "Chem",
-          "contact": ""
-        },
-        {
-          "id": "part-0198",
-          "name": "Tanvi",
-          "department": "Math",
-          "contact": ""
-        },
-        {
-          "id": "part-0199",
-          "name": "Swati",
-          "department": "Physics",
-          "contact": ""
-        }
+      "venue": "TBA",
+      "categories": "Men's, Women's",
+      "teamSize": "6–12 players per team",
+      "guestPlayers": "Max 2 on court at any time; alumni counted as guests",
+      "format": "Pools → League → Knockouts (if needed) → Quarterfinals → Semifinals → 3rd-place match → Final.\n\nBest of 3 sets (25-25-15 points), except Semis/Finals. League scoring: 2 points for win, 1 for technical forfeit.\n\nFIVB rules with NO ROTATION (fixed player positions). 10-minute grace period before walkover.\n\nOpen to all IISc community (students, staff, professors, alumni, interns).\n\nMatch schedule: 5 PM – 12 AM, including holiday mornings if needed.",
+      "registrationLink": "https://forms.office.com/",
+      "registrationDeadline": "March 31, 2026",
+      "whatsappLink": "https://chat.whatsapp.com/EeZfo80XwXvGsd9Z6hkolq",
+      "contacts": [
+        { "phone": "7842815191" },
+        { "phone": "7466993970" }
       ],
-      "volunteers": [
-        {
-          "id": "vol-0200",
-          "name": "Tarun (2nd yr)",
-          "role": "Event Coordinator",
-          "contact": "9824118420"
-        },
-        {
-          "id": "vol-0201",
-          "name": "Geeta (3rd yr)",
-          "role": "Referee / Judge",
-          "contact": "9830970648"
-        }
-      ],
-      "schedule": [
-        {
-          "id": "sch-0202",
-          "title": "Round 1",
-          "date": "2026-04-10",
-          "time": "14:00",
-          "venue": "Gym, Sports Block",
-          "description": "Opening rounds for Powerlifting",
-          "status": "scheduled"
-        },
-        {
-          "id": "sch-0203",
-          "title": "Finals",
-          "date": "2026-04-12",
-          "time": "16:00",
-          "venue": "Gym, Sports Block",
-          "description": "Powerlifting finals and medal ceremony",
-          "status": "scheduled"
-        }
-      ],
-      "logistics": {
-        "venue": "Gym, Sports Block",
-        "equipment": "Barbells, weight plates, chalk, belts, platform mats",
-        "notes": "Water and first-aid station to be set up 30 mins before event."
-      },
-      "notes": [
-        {
-          "id": "note-0204",
-          "text": "Registrations open. Contact Tarun (2nd yr) for queries.",
-          "createdAt": "2026-03-20T00:00:00.000Z"
-        }
-      ],
-      "bracket": {
-        "generated": false,
-        "matches": []
-      }
-    },
-    {
-      "id": "evt-throwball",
-      "sport": "Throwball",
-      "icon": "🤾",
-      "type": "team",
-      "status": "ongoing",
-      "teams": [
-        {
-          "id": "team-0205",
-          "name": "CSE Throwball",
-          "members": [
-            "Aarav",
-            "Vivaan",
-            "Aditya",
-            "Vihaan",
-            "Arjun",
-            "Sai",
-            "Reyansh"
-          ]
-        },
-        {
-          "id": "team-0206",
-          "name": "ECE Throwball",
-          "members": [
-            "Ayaan",
-            "Krishna",
-            "Ishaan",
-            "Ananya",
-            "Diya",
-            "Myra",
-            "Sara"
-          ]
-        },
-        {
-          "id": "team-0207",
-          "name": "Mech Throwball",
-          "members": [
-            "Aanya",
-            "Ira",
-            "Riya",
-            "Priya",
-            "Neha",
-            "Kavya",
-            "Rohan"
-          ]
-        },
-        {
-          "id": "team-0208",
-          "name": "Civil Throwball",
-          "members": [
-            "Karan",
-            "Vikram",
-            "Amit",
-            "Rahul",
-            "Suresh",
-            "Deepak",
-            "Manoj"
-          ]
-        }
-      ],
-      "participants": [],
-      "volunteers": [
-        {
-          "id": "vol-0209",
-          "name": "Prof. Sharma",
-          "role": "Event Coordinator",
-          "contact": "9818527740"
-        },
-        {
-          "id": "vol-0210",
-          "name": "Prof. Gupta",
-          "role": "Referee / Judge",
-          "contact": "9825875180"
-        }
-      ],
-      "schedule": [
-        {
-          "id": "sch-0211",
-          "title": "Group Stage / Prelims",
-          "date": "2026-04-11",
-          "time": "09:00",
-          "venue": "Multipurpose Court",
-          "description": "Opening rounds for Throwball",
-          "status": "scheduled"
-        },
-        {
-          "id": "sch-0212",
-          "title": "Finals",
-          "date": "2026-04-13",
-          "time": "16:00",
-          "venue": "Multipurpose Court",
-          "description": "Throwball finals and medal ceremony",
-          "status": "scheduled"
-        }
-      ],
-      "logistics": {
-        "venue": "Multipurpose Court",
-        "equipment": "Throwballs (6), nets, whistles",
-        "notes": "PA system required for announcements."
-      },
-      "notes": [
-        {
-          "id": "note-0213",
-          "text": "Registrations open. Contact Prof. Sharma for queries.",
-          "createdAt": "2026-03-20T00:00:00.000Z"
-        }
-      ],
-      "bracket": {
-        "generated": true,
-        "matches": [
-          {
-            "id": "bm-5055",
-            "round": 0,
-            "position": 0,
-            "slots": [
-              {
-                "seedId": "team-0205",
-                "name": "CSE Throwball",
-                "score": null
-              },
-              {
-                "seedId": "team-0206",
-                "name": "ECE Throwball",
-                "score": null
-              }
-            ],
-            "winnerId": "team-0206"
-          },
-          {
-            "id": "bm-5056",
-            "round": 0,
-            "position": 1,
-            "slots": [
-              {
-                "seedId": "team-0207",
-                "name": "Mech Throwball",
-                "score": null
-              },
-              {
-                "seedId": "team-0208",
-                "name": "Civil Throwball",
-                "score": null
-              }
-            ],
-            "winnerId": "team-0207"
-          },
-          {
-            "id": "bm-5057",
-            "round": 1,
-            "position": 0,
-            "slots": [
-              {
-                "seedId": "team-0206",
-                "name": "ECE Throwball",
-                "score": null
-              },
-              {
-                "seedId": "team-0207",
-                "name": "Mech Throwball",
-                "score": null
-              }
-            ],
-            "winnerId": null
-          }
-        ]
-      }
-    },
-    {
-      "id": "evt-handball",
-      "sport": "Handball",
-      "icon": "🤾‍♂️",
-      "type": "team",
-      "status": "completed",
-      "teams": [
-        {
-          "id": "team-0214",
-          "name": "CSE Handball",
-          "members": [
-            "Nikhil",
-            "Rajesh",
-            "Sneha",
-            "Pooja",
-            "Meera",
-            "Lakshmi",
-            "Divya"
-          ]
-        },
-        {
-          "id": "team-0215",
-          "name": "ECE Handball",
-          "members": [
-            "Shruti",
-            "Anjali",
-            "Nisha",
-            "Tanvi",
-            "Swati",
-            "Aarav",
-            "Vivaan"
-          ]
-        },
-        {
-          "id": "team-0216",
-          "name": "Mech Handball",
-          "members": [
-            "Aditya",
-            "Vihaan",
-            "Arjun",
-            "Sai",
-            "Reyansh",
-            "Ayaan",
-            "Krishna"
-          ]
-        },
-        {
-          "id": "team-0217",
-          "name": "Civil Handball",
-          "members": [
-            "Ishaan",
-            "Ananya",
-            "Diya",
-            "Myra",
-            "Sara",
-            "Aanya",
-            "Ira"
-          ]
-        }
-      ],
-      "participants": [],
-      "volunteers": [
-        {
-          "id": "vol-0218",
-          "name": "Dr. Patel",
-          "role": "Event Coordinator",
-          "contact": "9834108976"
-        },
-        {
-          "id": "vol-0219",
-          "name": "Dr. Reddy",
-          "role": "Referee / Judge",
-          "contact": "9897301703"
-        }
-      ],
-      "schedule": [
-        {
-          "id": "sch-0220",
-          "title": "Group Stage / Prelims",
-          "date": "2026-04-12",
-          "time": "14:00",
-          "venue": "Handball Court",
-          "description": "Opening rounds for Handball",
-          "status": "completed"
-        },
-        {
-          "id": "sch-0221",
-          "title": "Finals",
-          "date": "2026-04-14",
-          "time": "16:00",
-          "venue": "Handball Court",
-          "description": "Handball finals and medal ceremony",
-          "status": "scheduled"
-        }
-      ],
-      "logistics": {
-        "venue": "Handball Court",
-        "equipment": "Handballs (6), goalnets, whistles, bibs",
-        "notes": ""
-      },
-      "notes": [
-        {
-          "id": "note-0222",
-          "text": "Registrations open. Contact Dr. Patel for queries.",
-          "createdAt": "2026-03-20T00:00:00.000Z"
-        }
-      ],
-      "bracket": {
-        "generated": true,
-        "matches": [
-          {
-            "id": "bm-5058",
-            "round": 0,
-            "position": 0,
-            "slots": [
-              {
-                "seedId": "team-0214",
-                "name": "CSE Handball",
-                "score": null
-              },
-              {
-                "seedId": "team-0215",
-                "name": "ECE Handball",
-                "score": null
-              }
-            ],
-            "winnerId": "team-0214"
-          },
-          {
-            "id": "bm-5059",
-            "round": 0,
-            "position": 1,
-            "slots": [
-              {
-                "seedId": "team-0216",
-                "name": "Mech Handball",
-                "score": null
-              },
-              {
-                "seedId": "team-0217",
-                "name": "Civil Handball",
-                "score": null
-              }
-            ],
-            "winnerId": "team-0216"
-          },
-          {
-            "id": "bm-5060",
-            "round": 1,
-            "position": 0,
-            "slots": [
-              {
-                "seedId": "team-0214",
-                "name": "CSE Handball",
-                "score": null
-              },
-              {
-                "seedId": "team-0216",
-                "name": "Mech Handball",
-                "score": null
-              }
-            ],
-            "winnerId": "team-0216"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evt-foosball",
-      "sport": "Foosball",
-      "icon": "⚽",
-      "type": "individual",
-      "status": "upcoming",
-      "teams": [],
-      "participants": [
-        {
-          "id": "part-0223",
-          "name": "Riya",
-          "department": "CSE",
-          "contact": ""
-        },
-        {
-          "id": "part-0224",
-          "name": "Priya",
-          "department": "ECE",
-          "contact": ""
-        },
-        {
-          "id": "part-0225",
-          "name": "Neha",
-          "department": "Mech",
-          "contact": ""
-        },
-        {
-          "id": "part-0226",
-          "name": "Kavya",
-          "department": "Civil",
-          "contact": ""
-        },
-        {
-          "id": "part-0227",
-          "name": "Rohan",
-          "department": "EEE",
-          "contact": ""
-        },
-        {
-          "id": "part-0228",
-          "name": "Karan",
-          "department": "Chem",
-          "contact": ""
-        },
-        {
-          "id": "part-0229",
-          "name": "Vikram",
-          "department": "Math",
-          "contact": ""
-        },
-        {
-          "id": "part-0230",
-          "name": "Amit",
-          "department": "Physics",
-          "contact": ""
-        }
-      ],
-      "volunteers": [
-        {
-          "id": "vol-0231",
-          "name": "Prof. Iyer",
-          "role": "Event Coordinator",
-          "contact": "9858841580"
-        },
-        {
-          "id": "vol-0232",
-          "name": "Dr. Singh",
-          "role": "Referee / Judge",
-          "contact": "9899426871"
-        }
-      ],
-      "schedule": [
-        {
-          "id": "sch-0233",
-          "title": "Round 1",
-          "date": "2026-04-13",
-          "time": "09:00",
-          "venue": "Recreation Room, Block B",
-          "description": "Opening rounds for Foosball",
-          "status": "scheduled"
-        },
-        {
-          "id": "sch-0234",
-          "title": "Finals",
-          "date": "2026-04-15",
-          "time": "16:00",
-          "venue": "Recreation Room, Block B",
-          "description": "Foosball finals and medal ceremony",
-          "status": "scheduled"
-        }
-      ],
-      "logistics": {
-        "venue": "Recreation Room, Block B",
-        "equipment": "Foosball tables (4), spare balls",
-        "notes": "Water and first-aid station to be set up 30 mins before event."
-      },
-      "notes": [
-        {
-          "id": "note-0235",
-          "text": "Registrations open. Contact Prof. Iyer for queries.",
-          "createdAt": "2026-03-20T00:00:00.000Z"
-        }
-      ],
-      "bracket": {
-        "generated": false,
-        "matches": []
-      }
+      "hasRules": true
     }
   ],
-  "announcements": [
-    {
-      "id": "ann-0236",
-      "text": "Welcome to Spectrum 2026! Check the schedule for event timings.",
-      "pinned": true,
-      "createdAt": "2026-03-20T00:00:00.000Z"
-    },
-    {
-      "id": "ann-0237",
-      "text": "Registration deadline extended to April 5 for all events.",
-      "pinned": false,
-      "createdAt": "2026-03-22T00:00:00.000Z"
-    },
-    {
-      "id": "ann-0238",
-      "text": "Badminton and Cycling events completed! Congratulations to all winners.",
-      "pinned": false,
-      "createdAt": "2026-03-23T00:00:00.000Z"
-    }
-  ],
+  "announcements": [],
   "pinnedEvents": [],
   "tourSeen": false
 }

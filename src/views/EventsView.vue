@@ -23,10 +23,10 @@
           <div class="big-tile-name">{{ evt.sport }}</div>
           <span class="badge" :class="statusBadge(evt.status)">{{ evt.status }}</span>
           <div class="big-tile-info">
-            <span v-if="evt.type === 'team'">{{ evt.teams.length }} teams</span>
-            <span v-else>{{ evt.participants.length }} players</span>
+            <span>{{ evt.type === 'team' ? 'Team' : 'Individual' }}</span>
+            <span v-if="evt.venue && evt.venue !== 'TBA'"> &bull; {{ evt.venue }}</span>
           </div>
-          <div v-if="latestNote(evt)" class="big-tile-note">{{ latestNote(evt) }}</div>
+          <div v-if="evt.categories" class="big-tile-note">{{ evt.categories }}</div>
         </router-link>
       </div>
     </div>
@@ -39,10 +39,10 @@
         <div class="big-tile-name">{{ evt.sport }}</div>
         <span class="badge" :class="statusBadge(evt.status)">{{ evt.status }}</span>
         <div class="big-tile-info">
-          <span v-if="evt.type === 'team'">{{ evt.teams.length }} teams</span>
-          <span v-else>{{ evt.participants.length }} players</span>
+          <span>{{ evt.type === 'team' ? 'Team' : 'Individual' }}</span>
+          <span v-if="evt.venue && evt.venue !== 'TBA'"> &bull; {{ evt.venue }}</span>
         </div>
-        <div v-if="latestNote(evt)" class="big-tile-note">{{ latestNote(evt) }}</div>
+        <div v-if="evt.categories" class="big-tile-note">{{ evt.categories }}</div>
       </router-link>
     </div>
   </template>
@@ -66,7 +66,8 @@
           <div class="event-card-stats text-sm text-dim">
             <span v-if="evt.type === 'team'">{{ evt.teams.length }} teams</span>
             <span v-else>{{ evt.participants.length }} participants</span>
-            <span>{{ evt.volunteers.length }} volunteers</span>
+            <span v-if="evt.venue && evt.venue !== 'TBA'">{{ evt.venue }}</span>
+            <span v-else>{{ evt.volunteers.length }} volunteers</span>
           </div>
         </div>
         <div class="event-card-status-dot" :class="evt.status"></div>

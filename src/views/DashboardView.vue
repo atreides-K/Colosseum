@@ -44,28 +44,92 @@
       </div>
     </div>
 
-    <!-- Pinned events -->
-    <div v-if="pinnedEventsData.length" class="mb-24">
-      <h2>Your Events</h2>
-      <div class="big-tiles-grid">
-        <router-link v-for="evt in pinnedEventsData" :key="evt.id" :to="`/events/${evt.id}`" class="big-tile pinned">
-          <div class="big-tile-icon">{{ evt.icon }}</div>
-          <div class="big-tile-name">{{ evt.sport }}</div>
-          <span class="badge" :class="statusBadge(evt.status)">{{ evt.status }}</span>
-          <div class="big-tile-info">{{ evt.logistics.venue }}</div>
+    <!-- Pinned events with full details -->
+    <div v-for="evt in pinnedEventsData" :key="evt.id" class="pinned-detail-card mb-24">
+      <div class="pinned-detail-header">
+        <router-link :to="`/events/${evt.id}`" class="pinned-detail-title">
+          <span class="pinned-detail-icon">{{ evt.icon }}</span>
+          <span>{{ evt.sport }}</span>
         </router-link>
+        <div class="flex gap-8 items-center">
+          <span class="badge" :class="statusBadge(evt.status)">{{ evt.status }}</span>
+          <button class="pin-btn pinned" @click="togglePinEvent(evt.id)" title="Unpin">&#128204;</button>
+        </div>
+      </div>
+
+      <!-- Quick info row -->
+      <div class="pinned-info-grid">
+        <div v-if="evt.categories" class="pinned-info-item">
+          <span class="pinned-info-label">Categories</span>
+          <span>{{ evt.categories }}</span>
+        </div>
+        <div v-if="evt.venue && evt.venue !== 'TBA'" class="pinned-info-item">
+          <span class="pinned-info-label">Venue</span>
+          <span>{{ evt.venue }}</span>
+        </div>
+        <div v-if="evt.teamSize" class="pinned-info-item">
+          <span class="pinned-info-label">Team Size</span>
+          <span>{{ evt.teamSize }}</span>
+        </div>
+        <div v-if="evt.guestPlayers" class="pinned-info-item">
+          <span class="pinned-info-label">Guest Players</span>
+          <span>{{ evt.guestPlayers }}</span>
+        </div>
+        <div v-if="evt.registrationDeadline" class="pinned-info-item">
+          <span class="pinned-info-label">Reg. Deadline</span>
+          <span>{{ evt.registrationDeadline }}</span>
+        </div>
+      </div>
+
+      <!-- Format -->
+      <div v-if="evt.format" class="pinned-detail-section">
+        <h3>Format &amp; Details</h3>
+        <div class="pinned-detail-format" v-html="formatToHtml(evt.format)"></div>
+      </div>
+
+      <!-- Schedule -->
+      <div v-if="eventSchedule(evt).length" class="pinned-detail-section">
+        <h3>Schedule</h3>
+        <div v-for="sch in eventSchedule(evt)" :key="sch.id" class="pinned-schedule-item">
+          <span class="pinned-schedule-date">{{ formatShortDate(sch.date) }}</span>
+          <span v-if="sch.time" class="text-dim">{{ sch.time }}</span>
+          <span class="pinned-schedule-title">{{ sch.title }}</span>
+          <span v-if="sch.venue" class="text-dim">— {{ sch.venue }}</span>
+          <span class="badge btn-sm" :class="sch.status === 'completed' ? 'badge-green' : sch.status === 'cancelled' ? 'badge-red' : 'badge-upcoming'">{{ sch.status }}</span>
+        </div>
+      </div>
+
+      <!-- Contacts -->
+      <div v-if="evt.contacts && evt.contacts.length" class="pinned-detail-section">
+        <h3>Contact</h3>
+        <div class="pinned-detail-contacts">
+          <span v-for="(c, i) in evt.contacts" :key="i" class="pinned-contact">
+            <template v-if="c.name">{{ c.name }}</template>
+            <template v-else>Organizer</template>
+            <span v-if="c.phone" class="text-dim"> — {{ c.phone }}</span>
+            <a v-if="c.email" :href="'mailto:' + c.email" class="contact-email">{{ c.email }}</a>
+          </span>
+        </div>
+      </div>
+
+      <!-- Action links -->
+      <div class="pinned-detail-links">
+        <a v-if="evt.registrationLink" :href="evt.registrationLink" target="_blank" rel="noopener" class="btn btn-primary">Register</a>
+        <a v-if="evt.registrationLinkWomens" :href="evt.registrationLinkWomens" target="_blank" rel="noopener" class="btn btn-primary">Register (Women's)</a>
+        <a v-if="evt.whatsappLink" :href="evt.whatsappLink" target="_blank" rel="noopener" class="btn btn-whatsapp">WhatsApp Group</a>
+        <router-link :to="`/events/${evt.id}`" class="btn">Full Details &rarr;</router-link>
       </div>
     </div>
 
     <!-- All events as big tiles -->
     <h2>All Events</h2>
     <div class="big-tiles-grid">
-      <router-link v-for="evt in store.events" :key="evt.id" :to="`/events/${evt.id}`" class="big-tile" :class="{ pinned: isEventPinned(evt.id) }">
-        <button class="pin-btn" :class="{ pinned: isEventPinned(evt.id) }" @click.prevent="togglePinEvent(evt.id)" title="Pin event">&#128204;</button>
+      <router-link v-for="evt in unpinnedEvents" :key="evt.id" :to="`/events/${evt.id}`" class="big-tile">
+        <button class="pin-btn" @click.prevent="togglePinEvent(evt.id)" title="Pin this event">&#128204;</button>
         <div class="big-tile-icon">{{ evt.icon }}</div>
         <div class="big-tile-name">{{ evt.sport }}</div>
         <span class="badge" :class="statusBadge(evt.status)">{{ evt.status }}</span>
-        <div class="big-tile-info">{{ evt.logistics.venue }}</div>
+        <div class="big-tile-info">{{ evt.type === 'team' ? 'Team' : 'Individual' }}</div>
       </router-link>
     </div>
   </template>
@@ -156,6 +220,23 @@ const completedCount = computed(() => completedEvents.value.length)
 const pinnedEventsData = computed(() =>
   (store.pinnedEvents || []).map(id => getEvent(id)).filter(Boolean)
 )
+
+const unpinnedEvents = computed(() =>
+  store.events.filter(e => !isEventPinned(e.id))
+)
+
+function formatToHtml(text) {
+  if (!text) return ''
+  return text
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\n\n/g, '<br><br>')
+    .replace(/\n/g, '<br>')
+}
+
+function eventSchedule(evt) {
+  return [...evt.schedule]
+    .sort((a, b) => (a.date + a.time).localeCompare(b.date + b.time))
+}
 
 const pinnedAnnouncements = computed(() =>
   (store.announcements || []).filter(a => a.pinned).sort((a, b) => b.createdAt.localeCompare(a.createdAt))
