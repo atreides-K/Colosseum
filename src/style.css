@@ -1495,6 +1495,35 @@ label {
 }
 
 /* ---- EVENT INFO TAB ---- */
+.event-info-layout.has-poster {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+.event-info-layout.has-poster .event-detail-info {
+  flex: 1;
+  min-width: 0;
+}
+.event-poster-side {
+  flex: 0 0 280px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.event-poster-side img {
+  width: 100%;
+  display: block;
+  border-radius: 12px;
+}
+@media (max-width: 768px) {
+  .event-info-layout.has-poster {
+    flex-direction: column;
+  }
+  .event-poster-side {
+    flex: none;
+    width: 100%;
+    max-width: 320px;
+  }
+}
 .event-detail-info { }
 .info-grid {
   display: grid;

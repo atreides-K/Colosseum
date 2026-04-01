@@ -127,8 +127,9 @@ const allSlides = computed(() => {
       img: null,
     },
   ]
-  // Poster images as additional slides
-  const posters = posterFiles.map(file => ({
+  // Only keep the main poster (poster.png), event-specific posters moved to event detail pages
+  const mainPoster = posterFiles.filter(f => !f.match(/^(athletics|badminton|basketball|football|frisbee|swimming|tennis|volleyball)\./))
+  const posters = mainPoster.map(file => ({
     title: '',
     subtitle: '',
     bg: '#0f1923',

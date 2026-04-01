@@ -82,37 +82,41 @@
 
     <!-- INFO TAB -->
     <div v-if="tab === 'info'">
-      <div class="card event-detail-info">
-        <div class="info-grid">
-          <div class="info-item" v-if="evt.categories">
-            <span class="info-label">Categories</span>
-            <span>{{ evt.categories }}</span>
+      <div class="event-info-layout" :class="{ 'has-poster': eventPoster }">
+        <div class="card event-detail-info">
+          <div class="info-grid">
+            <div class="info-item" v-if="evt.categories">
+              <span class="info-label">Categories</span>
+              <span>{{ evt.categories }}</span>
+            </div>
+            <div class="info-item" v-if="evt.teamSize">
+              <span class="info-label">Team Size</span>
+              <span>{{ evt.teamSize }}</span>
+            </div>
+            <div class="info-item" v-if="evt.guestPlayers">
+              <span class="info-label">Guest Players</span>
+              <span>{{ evt.guestPlayers }}</span>
+            </div>
+            <div class="info-item" v-if="evt.registrationDeadline">
+              <span class="info-label">Registration Deadline</span>
+              <span>{{ evt.registrationDeadline }}</span>
+            </div>
           </div>
-          <div class="info-item" v-if="evt.teamSize">
-            <span class="info-label">Team Size</span>
-            <span>{{ evt.teamSize }}</span>
+          <div class="format-block" v-if="evt.format">
+            <h3>Format &amp; Details</h3>
+            <div class="format-text" v-html="formatToHtml(evt.format)"></div>
           </div>
-          <div class="info-item" v-if="evt.guestPlayers">
-            <span class="info-label">Guest Players</span>
-            <span>{{ evt.guestPlayers }}</span>
-          </div>
-          <div class="info-item" v-if="evt.registrationDeadline">
-            <span class="info-label">Registration Deadline</span>
-            <span>{{ evt.registrationDeadline }}</span>
+          <div class="event-links">
+            <a v-if="evt.registrationLink" :href="evt.registrationLink" target="_blank" rel="noopener" class="btn btn-primary">Register</a>
+            <a v-if="evt.registrationLinkWomens" :href="evt.registrationLinkWomens" target="_blank" rel="noopener" class="btn btn-primary">Register (Women's)</a>
+            <a v-if="evt.whatsappLink" :href="evt.whatsappLink" target="_blank" rel="noopener" class="btn btn-whatsapp">WhatsApp Group</a>
+            <button v-if="eventRules" class="btn" @click="tab = 'rules'">View Rulebook</button>
           </div>
         </div>
-        <div class="format-block" v-if="evt.format">
-          <h3>Format &amp; Details</h3>
-          <div class="format-text" v-html="formatToHtml(evt.format)"></div>
-        </div>
-        <div class="event-links">
-          <a v-if="evt.registrationLink" :href="evt.registrationLink" target="_blank" rel="noopener" class="btn btn-primary">Register</a>
-          <a v-if="evt.registrationLinkWomens" :href="evt.registrationLinkWomens" target="_blank" rel="noopener" class="btn btn-primary">Register (Women's)</a>
-          <a v-if="evt.whatsappLink" :href="evt.whatsappLink" target="_blank" rel="noopener" class="btn btn-whatsapp">WhatsApp Group</a>
-          <button v-if="eventRules" class="btn" @click="tab = 'rules'">View Rulebook</button>
+        <div v-if="eventPoster" class="event-poster-side">
+          <img :src="eventPoster" :alt="evt.sport + ' poster'" />
         </div>
       </div>
-
     </div>
 
     <!-- RULES TAB -->
@@ -433,6 +437,7 @@ import {
 } from '../stores/tournament.js'
 import { getRules } from '../data/rules.js'
 import { renderMarkdown } from '../utils/markdown.js'
+import posterFiles from '../data/posters.json'
 
 const props = defineProps({ id: String })
 const evt = computed(() => getEvent(props.id))
@@ -441,6 +446,15 @@ const tab = ref('info')
 
 const eventRules = computed(() => getRules(props.id))
 const renderedRules = computed(() => eventRules.value ? renderMarkdown(eventRules.value) : '')
+
+const eventPoster = computed(() => {
+  const slug = props.id.replace('evt-', '').replace(/-/g, '')
+  const match = posterFiles.find(f => {
+    const name = f.replace(/\.[^.]+$/, '').toLowerCase()
+    return name === slug || name === props.id.replace('evt-', '')
+  })
+  return match ? `posters/${match}` : null
+})
 
 function formatToHtml(text) {
   if (!text) return ''
