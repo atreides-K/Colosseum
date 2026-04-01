@@ -201,6 +201,42 @@
           "venue": "KV Court",
           "description": "Match 4",
           "status": "scheduled"
+        },
+        {
+          "id": "sch-bball-9",
+          "title": "Pool 4: UG Juniors vs Electrical",
+          "date": "2026-04-02",
+          "time": "6:00 PM - 7:00 PM",
+          "venue": "KV Court",
+          "description": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-bball-10",
+          "title": "Pool 3: CES vs ECE",
+          "date": "2026-04-02",
+          "time": "7:00 PM - 8:00 PM",
+          "venue": "KV Court",
+          "description": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-bball-11",
+          "title": "Pool 1: BioEng vs CNS",
+          "date": "2026-04-02",
+          "time": "8:00 PM - 9:00 PM",
+          "venue": "KV Court",
+          "description": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-bball-12",
+          "title": "Pool 2: DOMS vs UG Seniors",
+          "date": "2026-04-02",
+          "time": "9:00 PM - 10:00 PM",
+          "venue": "KV Court",
+          "description": "",
+          "status": "scheduled"
         }
       ]
     },
