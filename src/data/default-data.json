@@ -45,7 +45,7 @@
         {
           "id": "team-bad-ug1",
           "name": "UG Seniors (UG1)",
-          "players": [
+          "members": [
             "Bhuvan C",
             "Aneesh V",
             "Anshul",
@@ -61,7 +61,7 @@
         {
           "id": "team-bad-cense",
           "name": "Centre for Nano Science and Engineering (CeNSE)",
-          "players": [
+          "members": [
             "Varun Varma",
             "Abhishek Khuntia",
             "Dilip Pradhan",
@@ -78,7 +78,7 @@
         {
           "id": "team-bad-ece",
           "name": "Electrical Communication Engineering (ECE)",
-          "players": [
+          "members": [
             "Krishnendu Dandapat",
             "Piyush Lalitkumar Tiwary",
             "Shiv Pratap Singh Rathore",
@@ -92,7 +92,7 @@
         {
           "id": "team-bad-ae1",
           "name": "Aerospace Engineering 1 (AE1)",
-          "players": [
+          "members": [
             "Prasenjeet Padhi",
             "Raja Janmejay",
             "Manish Mandal",
@@ -106,7 +106,7 @@
         {
           "id": "team-bad-ph",
           "name": "Physics (PH)",
-          "players": [
+          "members": [
             "Anjan Banerjee",
             "Rayirth Bhat",
             "Akash Gugnani",
@@ -123,7 +123,7 @@
         {
           "id": "team-bad-iap",
           "name": "Instrumentation & Applied Physics (IAP)",
-          "players": [
+          "members": [
             "Krishna",
             "Kaustav",
             "Achu Ashok",
@@ -139,7 +139,7 @@
         {
           "id": "team-bad-icwar",
           "name": "Interdisciplinary Centre for Water Research (ICWaR)",
-          "players": [
+          "members": [
             "Chethan V A",
             "Bramha Dutt Vishwakarma",
             "Satish Kumar K",
@@ -157,7 +157,7 @@
         {
           "id": "team-bad-me1",
           "name": "Mechanical Engineering 1 (ME1)",
-          "players": [
+          "members": [
             "Ashita K B",
             "Rajpal Singh",
             "Rishika",
@@ -174,7 +174,7 @@
         {
           "id": "team-bad-admin",
           "name": "Administration (ADMIN)",
-          "players": [
+          "members": [
             "Sneha S",
             "Kurlapalli Manjunath",
             "Ausali Naresh",
@@ -191,7 +191,7 @@
         {
           "id": "team-bad-csa1",
           "name": "Computer Science & Automation 1 (CSA1)",
-          "players": [
+          "members": [
             "Megha Patidar",
             "Deodhar Vritika Ketan Vedanta",
             "Kriti Chaudhari",
@@ -208,7 +208,7 @@
         {
           "id": "team-bad-ae2",
           "name": "Aerospace Engineering 2 (AE2)",
-          "players": [
+          "members": [
             "Anjali Meena",
             "Shambhavi Pandey",
             "Donga Hanika",
@@ -225,7 +225,7 @@
         {
           "id": "team-bad-ce",
           "name": "Civil Engineering (CE)",
-          "players": [
+          "members": [
             "Vaishnav Raj T",
             "Manu B M",
             "Mir Zeeshan Ali",
@@ -240,7 +240,7 @@
         {
           "id": "team-bad-me2",
           "name": "Mechanical Engineering 2 (ME2)",
-          "players": [
+          "members": [
             "Sudiksha Mishra",
             "Sreenivas Saurab Kumar",
             "Telikicherlakandalai V S S Sri Krishna",
@@ -258,7 +258,7 @@
         {
           "id": "team-bad-icer",
           "name": "Interdisciplinary Centre for Energy Research (ICER)",
-          "players": [
+          "members": [
             "Saunam Halder",
             "Badekar Vineet Anil Jyoti",
             "Deepanshu Singh",
@@ -274,7 +274,7 @@
         {
           "id": "team-bad-be",
           "name": "Bioengineering (BE)",
-          "players": [
+          "members": [
             "Sauhardya Goswami",
             "Hadrian Xavier",
             "Chinmay Patade",
@@ -288,7 +288,7 @@
         {
           "id": "team-bad-mgt",
           "name": "Management Studies (MGT)",
-          "players": [
+          "members": [
             "S Vaishnav Ghautham",
             "Vaibav Bajra S",
             "Nayan Dhar",
@@ -304,7 +304,7 @@
         {
           "id": "team-bad-ug2",
           "name": "UG Juniors (UG2)",
-          "players": [
+          "members": [
             "Puppala Naga Siva Sankar",
             "Omkaar Ajay Nerurkar",
             "Sreelakshmi P A",
@@ -320,7 +320,7 @@
         {
           "id": "team-bad-ese",
           "name": "Electronics Systems Engineering (ESE)",
-          "players": [
+          "members": [
             "Sidharth Ravi",
             "Sai Shanmukha",
             "Sai Santhosh",
@@ -337,7 +337,7 @@
         {
           "id": "team-bad-cns",
           "name": "Centre for Neuroscience (CNS)",
-          "players": [
+          "members": [
             "Pradeep",
             "Kalpajyothi",
             "Atharva Modi",
@@ -353,7 +353,7 @@
         {
           "id": "team-bad-ai",
           "name": "Artificial Intelligence (AI)",
-          "players": [
+          "members": [
             "Hrithik Reddy",
             "Paras Raina",
             "Eluru Sai Venkat",
@@ -369,7 +369,7 @@
         {
           "id": "team-bad-csa2",
           "name": "Computer Science & Automation 2 (CSA2)",
-          "players": [
+          "members": [
             "Archie Gaur",
             "Arpita Patra",
             "Adithya Chippa",
@@ -387,7 +387,7 @@
         {
           "id": "team-bad-cistup",
           "name": "Centre for Infrastructure, Sustainable Transportation & Urban Planning (CiSTUP)",
-          "players": [
+          "members": [
             "Ishika",
             "Aneesha",
             "Revathy Ramesh",
