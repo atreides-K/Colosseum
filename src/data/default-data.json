@@ -30,8 +30,8 @@
       "sport": "Badminton",
       "icon": "🏸",
       "type": "team",
-      "status": "upcoming",
-      "venue": "TBA",
+      "status": "ongoing",
+      "venue": "Gymkhana Badminton Courts",
       "categories": "Men's Singles, Women's Singles, Men's Doubles, Women's Doubles, Mixed Doubles",
       "teamSize": "Min 4 male + 3 female, max 12 players (including guests)",
       "guestPlayers": "Max 1 male + 1 female",
@@ -40,7 +40,466 @@
       "registrationDeadline": "",
       "whatsappLink": "",
       "contacts": [],
-      "hasRules": true
+      "hasRules": true,
+      "teams": [
+        {
+          "id": "team-bad-ug1",
+          "name": "UG Seniors (UG1)",
+          "players": [
+            "Bhuvan C",
+            "Aneesh V",
+            "Anshul",
+            "Vivek",
+            "Bhupendra",
+            "Tanisha",
+            "Renu",
+            "Akshitha",
+            "Subraja",
+            "Radha"
+          ]
+        },
+        {
+          "id": "team-bad-cense",
+          "name": "Centre for Nano Science and Engineering (CeNSE)",
+          "players": [
+            "Varun Varma",
+            "Abhishek Khuntia",
+            "Dilip Pradhan",
+            "Anudeep Tullibilli",
+            "Nikhil Peranpati",
+            "Shankar Kumar Selvaraja",
+            "Amrita Raj",
+            "Radhika Dutt",
+            "Amruta",
+            "Jyothi",
+            "Sharmistha"
+          ]
+        },
+        {
+          "id": "team-bad-ece",
+          "name": "Electrical Communication Engineering (ECE)",
+          "players": [
+            "Krishnendu Dandapat",
+            "Piyush Lalitkumar Tiwary",
+            "Shiv Pratap Singh Rathore",
+            "Kota Srinivasa Rao",
+            "Jefrin Sharmitha Prabhu",
+            "Sonakshi Dua",
+            "Shaili Sett",
+            "Ushna Kuri"
+          ]
+        },
+        {
+          "id": "team-bad-ae1",
+          "name": "Aerospace Engineering 1 (AE1)",
+          "players": [
+            "Prasenjeet Padhi",
+            "Raja Janmejay",
+            "Manish Mandal",
+            "Abhishek S",
+            "Madhuvanti Srivatsav R",
+            "Aruna Priyadharsini M",
+            "Bhavika Sharma",
+            "Anjali Vadakke Veetil"
+          ]
+        },
+        {
+          "id": "team-bad-ph",
+          "name": "Physics (PH)",
+          "players": [
+            "Anjan Banerjee",
+            "Rayirth Bhat",
+            "Akash Gugnani",
+            "Minakshi Jangir",
+            "Srashti Vishvakarma",
+            "Jalaj Siroliya",
+            "Brijesh Kanodia",
+            "Satyam Panchal",
+            "Harsimran Kaur Mann",
+            "Tanvi Agarwal",
+            "Anjali Lamani"
+          ]
+        },
+        {
+          "id": "team-bad-iap",
+          "name": "Instrumentation & Applied Physics (IAP)",
+          "players": [
+            "Krishna",
+            "Kaustav",
+            "Achu Ashok",
+            "Vikash",
+            "Santanu",
+            "Mariya",
+            "Dorothy",
+            "Suparna",
+            "Nivetha",
+            "Sindhuja"
+          ]
+        },
+        {
+          "id": "team-bad-icwar",
+          "name": "Interdisciplinary Centre for Water Research (ICWaR)",
+          "players": [
+            "Chethan V A",
+            "Bramha Dutt Vishwakarma",
+            "Satish Kumar K",
+            "Rahul Singh",
+            "Diljit Dutta",
+            "Vighneshkumar Rana (G)",
+            "Vivek Jadhav (G)",
+            "Vemuri Harini",
+            "Rajani Pandey",
+            "Maya Suryawanshi R",
+            "Darshana Gautam",
+            "Aarushi Chitkara (G)"
+          ]
+        },
+        {
+          "id": "team-bad-me1",
+          "name": "Mechanical Engineering 1 (ME1)",
+          "players": [
+            "Ashita K B",
+            "Rajpal Singh",
+            "Rishika",
+            "Bazeela Banday",
+            "Lakhinana Harshavardhan",
+            "Raghunadan S",
+            "Namashivayaa V",
+            "Ashita D Pattabi",
+            "Sahitya Yadav",
+            "Nivedita Dharmendra Tiwari",
+            "Handral Poornakanta"
+          ]
+        },
+        {
+          "id": "team-bad-admin",
+          "name": "Administration (ADMIN)",
+          "players": [
+            "Sneha S",
+            "Kurlapalli Manjunath",
+            "Ausali Naresh",
+            "Anoop Yadav",
+            "Rakshitha Yadav",
+            "Tejakshi V",
+            "Manish Pokhriyal",
+            "Midhun B S",
+            "Shreenath",
+            "Dandu Naveen Reddy",
+            "Mohan Kumar N"
+          ]
+        },
+        {
+          "id": "team-bad-csa1",
+          "name": "Computer Science & Automation 1 (CSA1)",
+          "players": [
+            "Megha Patidar",
+            "Deodhar Vritika Ketan Vedanta",
+            "Kriti Chaudhari",
+            "Rakshita Babu (G)",
+            "Abhishek Ranjan (G)",
+            "Karnati Venkata Naga Sreenivasulu",
+            "Kaustubh Kartikey",
+            "Vedant Balasubramaniam",
+            "Utkarsh Yadav",
+            "Bhavsar Mitanshu Trushar",
+            "Yogesh Kumar Sahu"
+          ]
+        },
+        {
+          "id": "team-bad-ae2",
+          "name": "Aerospace Engineering 2 (AE2)",
+          "players": [
+            "Anjali Meena",
+            "Shambhavi Pandey",
+            "Donga Hanika",
+            "Surabhi Shivhare",
+            "Chandra Prakash Sharma",
+            "Pramay Bhatphari",
+            "Sajad Ahmad Bhat",
+            "Gautam",
+            "Bal Krishna Raj Vijeta",
+            "Saurav Mishra",
+            "Archana YS"
+          ]
+        },
+        {
+          "id": "team-bad-ce",
+          "name": "Civil Engineering (CE)",
+          "players": [
+            "Vaishnav Raj T",
+            "Manu B M",
+            "Mir Zeeshan Ali",
+            "Alvin Joshua",
+            "Krish Salve",
+            "Ankush Kaundal",
+            "Srinithya A",
+            "Shabana Iqbal",
+            "Hana Aboobacker"
+          ]
+        },
+        {
+          "id": "team-bad-me2",
+          "name": "Mechanical Engineering 2 (ME2)",
+          "players": [
+            "Sudiksha Mishra",
+            "Sreenivas Saurab Kumar",
+            "Telikicherlakandalai V S S Sri Krishna",
+            "Gautam Arora",
+            "Rathvakoli Keyurkumar Pravinbhai",
+            "Mahendra Kumar Vishwakarma",
+            "Sanjay Sain",
+            "Saya Sai Chandana",
+            "Vaibhav V B",
+            "Shivangi Shukla",
+            "Jadhav Shital Somanath",
+            "Manik Bhowmik"
+          ]
+        },
+        {
+          "id": "team-bad-icer",
+          "name": "Interdisciplinary Centre for Energy Research (ICER)",
+          "players": [
+            "Saunam Halder",
+            "Badekar Vineet Anil Jyoti",
+            "Deepanshu Singh",
+            "Shikhar Verma",
+            "Gracy Bhatt",
+            "Rikta Das",
+            "Meghna Choudhary",
+            "Eluri Venkata Vamsidhar",
+            "Meer Thahir AA",
+            "Naveen N"
+          ]
+        },
+        {
+          "id": "team-bad-be",
+          "name": "Bioengineering (BE)",
+          "players": [
+            "Sauhardya Goswami",
+            "Hadrian Xavier",
+            "Chinmay Patade",
+            "Shamayeeta Roy",
+            "Charu Parjapati",
+            "Shweta Kumari",
+            "Prem",
+            "Pratibha"
+          ]
+        },
+        {
+          "id": "team-bad-mgt",
+          "name": "Management Studies (MGT)",
+          "players": [
+            "S Vaishnav Ghautham",
+            "Vaibav Bajra S",
+            "Nayan Dhar",
+            "Neerav Chilkoti",
+            "Mehak",
+            "Anysheya M",
+            "Majji Deepak",
+            "Kulsoom Zehra Naqvi",
+            "Pankaja Vinayak Vaidya",
+            "R Ganesh Kumar"
+          ]
+        },
+        {
+          "id": "team-bad-ug2",
+          "name": "UG Juniors (UG2)",
+          "players": [
+            "Puppala Naga Siva Sankar",
+            "Omkaar Ajay Nerurkar",
+            "Sreelakshmi P A",
+            "Rakshita K",
+            "Advik Adatiya",
+            "Apratim Tewari",
+            "Kunwar Utkarsh",
+            "Ritaja Dutta",
+            "Baradh Raj B",
+            "Uday Regeon"
+          ]
+        },
+        {
+          "id": "team-bad-ese",
+          "name": "Electronics Systems Engineering (ESE)",
+          "players": [
+            "Sidharth Ravi",
+            "Sai Shanmukha",
+            "Sai Santhosh",
+            "Tejendra",
+            "Aravind Sunder",
+            "Elizabeth Kuruvilla",
+            "Lakshmi Soumya",
+            "Sai Manjusha",
+            "Shubham",
+            "Prakash",
+            "Jagan"
+          ]
+        },
+        {
+          "id": "team-bad-cns",
+          "name": "Centre for Neuroscience (CNS)",
+          "players": [
+            "Pradeep",
+            "Kalpajyothi",
+            "Atharva Modi",
+            "Vinay Karman (G)",
+            "Vinod Kumar",
+            "Anchal",
+            "Yatika",
+            "Smrithi",
+            "Sahana",
+            "Sweta Chakravarthi"
+          ]
+        },
+        {
+          "id": "team-bad-ai",
+          "name": "Artificial Intelligence (AI)",
+          "players": [
+            "Hrithik Reddy",
+            "Paras Raina",
+            "Eluru Sai Venkat",
+            "Paylam Bhuvan",
+            "Sharanya Marathe",
+            "Payal Saha",
+            "Mude Sai Mukhund",
+            "Sangam Jena",
+            "Dharini Babu",
+            "Raja Phanindra Kolla"
+          ]
+        },
+        {
+          "id": "team-bad-csa2",
+          "name": "Computer Science & Automation 2 (CSA2)",
+          "players": [
+            "Archie Gaur",
+            "Arpita Patra",
+            "Adithya Chippa",
+            "Vikrant Singh Jaryal",
+            "Vaishnavi Gorkhnath Jadhav",
+            "Ashish Nambiar",
+            "Sahu Dinesh Biswanath Sumitra",
+            "Pradeep Kumar Mahato",
+            "Rahul Dewangan",
+            "Vivek Kumar",
+            "Amandeep Nokhwal",
+            "Dharini Babu (G)"
+          ]
+        },
+        {
+          "id": "team-bad-cistup",
+          "name": "Centre for Infrastructure, Sustainable Transportation & Urban Planning (CiSTUP)",
+          "players": [
+            "Ishika",
+            "Aneesha",
+            "Revathy Ramesh",
+            "Vidhi Sonkar",
+            "Anant Rajput",
+            "Aditya Sharma",
+            "Kartikeya Gaur",
+            "Gopichand"
+          ]
+        }
+      ],
+      "schedule": [
+        {
+          "id": "sch-bad-k1",
+          "title": "K1: CE vs UG Juniors",
+          "date": "2026-04-01",
+          "time": "17:30",
+          "venue": "Gymkhana Badminton Courts",
+          "status": "scheduled",
+          "description": "Round of 16"
+        },
+        {
+          "id": "sch-bad-k2",
+          "title": "K2: Administration vs Bioengineering",
+          "date": "2026-04-01",
+          "time": "19:00",
+          "venue": "Gymkhana Badminton Courts",
+          "status": "scheduled",
+          "description": "Round of 16"
+        },
+        {
+          "id": "sch-bad-k3",
+          "title": "K3: ICWaR vs CNS",
+          "date": "2026-04-01",
+          "time": "20:30",
+          "venue": "Gymkhana Badminton Courts",
+          "status": "scheduled",
+          "description": "Round of 16"
+        },
+        {
+          "id": "sch-bad-k4",
+          "title": "K4: UG Seniors vs CSA 2",
+          "date": "2026-04-02",
+          "time": "17:30",
+          "venue": "Gymkhana Badminton Courts",
+          "status": "scheduled",
+          "description": "Round of 16"
+        },
+        {
+          "id": "sch-bad-k5",
+          "title": "K5: ECE vs ESE",
+          "date": "2026-04-02",
+          "time": "19:00",
+          "venue": "Gymkhana Badminton Courts",
+          "status": "scheduled",
+          "description": "Round of 16"
+        },
+        {
+          "id": "sch-bad-k6",
+          "title": "K6: Physics vs AE 2",
+          "date": "2026-04-02",
+          "time": "20:30",
+          "venue": "Gymkhana Badminton Courts",
+          "status": "scheduled",
+          "description": "Round of 16"
+        },
+        {
+          "id": "sch-bad-k7",
+          "title": "K7: ME 1 vs AI",
+          "date": "2026-04-02",
+          "time": "17:30",
+          "venue": "Gymkhana Badminton Courts",
+          "status": "scheduled",
+          "description": "Round of 16"
+        },
+        {
+          "id": "sch-bad-k8",
+          "title": "K8: CeNSE vs ICER",
+          "date": "2026-04-02",
+          "time": "19:00",
+          "venue": "Gymkhana Badminton Courts",
+          "status": "scheduled",
+          "description": "Round of 16"
+        },
+        {
+          "id": "sch-bad-k9",
+          "title": "K9: AE 1 vs MGT",
+          "date": "2026-04-02",
+          "time": "20:30",
+          "venue": "Gymkhana Badminton Courts",
+          "status": "scheduled",
+          "description": "Round of 16"
+        },
+        {
+          "id": "sch-bad-k10",
+          "title": "K10: CSA 1 vs ME 2",
+          "date": "",
+          "time": "",
+          "venue": "Gymkhana Badminton Courts",
+          "status": "scheduled",
+          "description": "Round of 16"
+        },
+        {
+          "id": "sch-bad-k11",
+          "title": "K11: IAP vs CiSTUP",
+          "date": "",
+          "time": "",
+          "venue": "Gymkhana Badminton Courts",
+          "status": "scheduled",
+          "description": "Round of 16"
+        }
+      ]
     },
     {
       "id": "evt-basketball",
