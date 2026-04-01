@@ -949,13 +949,13 @@
       "icon": "🏓",
       "type": "team",
       "status": "in-progress",
-      "venue": "TBA",
+      "venue": "TT Hall (above A Mess)",
       "schedule": [
         {
           "id": "sch-tt-m1",
           "title": "M1: CSA vs AI",
           "date": "2026-04-01",
-          "time": "6:00 PM",
+          "time": "6:30 PM",
           "venue": "",
           "description": "Round 1 Knockout",
           "status": "scheduled"
@@ -964,7 +964,7 @@
           "id": "sch-tt-m2",
           "title": "M2: DESE vs CeNSE-B",
           "date": "2026-04-01",
-          "time": "6:00 PM",
+          "time": "7:30 PM",
           "venue": "",
           "description": "Round 1 Knockout",
           "status": "scheduled"
@@ -973,7 +973,7 @@
           "id": "sch-tt-m3",
           "title": "M3: Winner M1 vs Winner M2",
           "date": "2026-04-01",
-          "time": "7:00 PM",
+          "time": "8:00 PM",
           "venue": "",
           "description": "Round 2 Knockout",
           "status": "scheduled"
