@@ -826,7 +826,7 @@
       "sport": "Carrom",
       "icon": "🎯",
       "type": "team",
-      "status": "upcoming",
+      "status": "ongoing",
       "venue": "B Block TV Room (Carrom Room)",
       "categories": "Singles, Doubles-1, Doubles-2",
       "teamSize": "Max 7 players (min 1 woman), max 1 guest",
@@ -845,7 +845,36 @@
           "phone": "9927855902"
         }
       ],
-      "hasRules": true
+      "hasRules": true,
+      "schedule": [
+        {
+          "id": "sch-car-1",
+          "title": "Mission Pocket vs UG Jr",
+          "date": "2026-04-02",
+          "time": "6:00 PM",
+          "venue": "",
+          "description": "Referee: IAP Flickers & EES",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-car-2",
+          "title": "Admin Strikers vs EE",
+          "date": "2026-04-02",
+          "time": "6:45 PM",
+          "venue": "",
+          "description": "Referee: Supa Strikers & Physics Bombers",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-car-3",
+          "title": "Circuit Breakers vs Low Energy Department",
+          "date": "2026-04-02",
+          "time": "9:15 PM",
+          "venue": "",
+          "description": "Referee: CeNSEre & CIVIL K",
+          "status": "scheduled"
+        }
+      ]
     },
     {
       "id": "evt-chess",
