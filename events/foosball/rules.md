@@ -1,5 +1,39 @@
 # 🎮 Foosball Rules — Spectrum '26
 
+## Tournament Format
+
+- **28 teams** divided into **4 pools** of 7 teams each
+- Pooling by partial seeding — no two teams from the same department in the same pool
+
+### Pool Stage
+- **Knockout format** within each pool
+- Each pool produces **1 pool topper**
+
+### Round Robin Stage
+- The 4 pool toppers advance to a round robin stage
+- Each team plays against every other team
+- Standings determined by: **Most sets won** → Goal difference (tiebreak)
+
+### Finals
+- **Top 2 teams** → Final
+- **3rd & 4th teams** → Bronze Medal Match
+
+### Individual Awards
+- **MVP (Male)** and **MVP (Female)** trophies awarded
+- Based on highest number of goals scored (round robin stage only)
+
+### Pools
+
+| Pool A | Pool B | Pool C | Pool D |
+|--------|--------|--------|--------|
+| CeNSE-2 | CDS-1 | Aerospace-2 | Aerospace-1 |
+| Chemical Sciences | Civil-1 | CeNSE-1 | Civil-2 |
+| CNS-1 | DESE-1 | Chemistry-1 | ECE-2 |
+| CSA | ECE-1 | CPDM | ICER-1 |
+| DOMS-1 | ICER-2 | DESE-2 | IPC |
+| IAP | Physics-1 | DOMS-2 | RBCCPS |
+| UG Juniors 2 | UG Juniors 1 | UG Seniors 2 | UG Seniors 1 |
+
 ## Match Structure
 
 Matches are played between departments. Each team plays **3 games** in the following order:
@@ -40,4 +74,3 @@ The referee's decision is **final** in all situations.
 2. Loss of point
 3. Forfeit of the match
 
-> Tournament format and match schedule will be finalized after registration, based on total number of teams, to ensure fair and structured competition.
