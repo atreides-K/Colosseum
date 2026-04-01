@@ -5,6 +5,7 @@
     </button>
     <div class="sidebar-top">
       <div class="brand">
+        <img src="/icons/logo-original.jpg" alt="Spectrum" class="brand-logo" />
         <span class="brand-full">SPECTRUM 2026</span>
         <span class="brand-short">S</span>
       </div>
