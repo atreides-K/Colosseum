@@ -27,22 +27,6 @@
       </div>
     </div>
 
-    <div v-if="nextDaysSchedule.length" class="mb-24">
-      <h2>Coming Up</h2>
-      <div v-for="item in nextDaysSchedule" :key="item.id" class="schedule-row">
-        <div class="schedule-time">
-          <div>{{ formatShortDate(item.date) }}</div>
-          <div class="text-dim" style="font-size:11px">{{ item.time || '' }}</div>
-        </div>
-        <router-link :to="`/events/${item.eventId}`" class="schedule-detail">
-          <span class="schedule-icon">{{ item.icon }}</span>
-          <div>
-            <div class="schedule-sport">{{ item.sport }} <span class="text-dim">&mdash;</span> {{ item.title }}</div>
-            <div class="schedule-venue">{{ item.venue }}</div>
-          </div>
-        </router-link>
-      </div>
-    </div>
 
     <!-- Pinned events with full details -->
     <div v-for="evt in pinnedEventsData" :key="evt.id" class="pinned-detail-card mb-24">
