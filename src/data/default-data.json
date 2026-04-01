@@ -463,6 +463,98 @@
           "description": "Men's Final",
           "status": "scheduled"
         }
+      ],
+      "teams": [
+        {
+          "id": "team-football-1",
+          "name": "CNS (W)",
+          "members": []
+        },
+        {
+          "id": "team-football-2",
+          "name": "CSA (W)",
+          "members": []
+        },
+        {
+          "id": "team-football-3",
+          "name": "Civilians (W)",
+          "members": []
+        },
+        {
+          "id": "team-football-4",
+          "name": "Supersonic Strikers (W)",
+          "members": []
+        },
+        {
+          "id": "team-football-5",
+          "name": "CeNSE (W)",
+          "members": []
+        },
+        {
+          "id": "team-football-6",
+          "name": "Physics",
+          "members": []
+        },
+        {
+          "id": "team-football-7",
+          "name": "IAP",
+          "members": []
+        },
+        {
+          "id": "team-football-8",
+          "name": "Cummingtonite",
+          "members": []
+        },
+        {
+          "id": "team-football-9",
+          "name": "CeNSE",
+          "members": []
+        },
+        {
+          "id": "team-football-10",
+          "name": "CES",
+          "members": []
+        },
+        {
+          "id": "team-football-11",
+          "name": "Underdawgs",
+          "members": []
+        },
+        {
+          "id": "team-football-12",
+          "name": "DESE",
+          "members": []
+        },
+        {
+          "id": "team-football-13",
+          "name": "CSA FC",
+          "members": []
+        },
+        {
+          "id": "team-football-14",
+          "name": "DoMinatorS",
+          "members": []
+        },
+        {
+          "id": "team-football-15",
+          "name": "Bioblasters",
+          "members": []
+        },
+        {
+          "id": "team-football-16",
+          "name": "ECE",
+          "members": []
+        },
+        {
+          "id": "team-football-17",
+          "name": "Mech Spartans",
+          "members": []
+        },
+        {
+          "id": "team-football-18",
+          "name": "MTE",
+          "members": []
+        }
       ]
     },
     {
@@ -626,7 +718,149 @@
       "registrationDeadline": "29 March 2026, 11:00 PM",
       "whatsappLink": "https://chat.whatsapp.com/JymLyR0SyhHGTzvI4JYY9I",
       "contacts": [],
-      "hasRules": true
+      "hasRules": true,
+      "teams": [
+        {
+          "id": "team-foosball-1",
+          "name": "CeNSE-2",
+          "members": []
+        },
+        {
+          "id": "team-foosball-2",
+          "name": "Chemical Sciences",
+          "members": []
+        },
+        {
+          "id": "team-foosball-3",
+          "name": "CNS-1",
+          "members": []
+        },
+        {
+          "id": "team-foosball-4",
+          "name": "CSA",
+          "members": []
+        },
+        {
+          "id": "team-foosball-5",
+          "name": "DOMS-1",
+          "members": []
+        },
+        {
+          "id": "team-foosball-6",
+          "name": "IAP",
+          "members": []
+        },
+        {
+          "id": "team-foosball-7",
+          "name": "UG Juniors 2",
+          "members": []
+        },
+        {
+          "id": "team-foosball-8",
+          "name": "CDS-1",
+          "members": []
+        },
+        {
+          "id": "team-foosball-9",
+          "name": "Civil-1",
+          "members": []
+        },
+        {
+          "id": "team-foosball-10",
+          "name": "DESE-1",
+          "members": []
+        },
+        {
+          "id": "team-foosball-11",
+          "name": "ECE-1",
+          "members": []
+        },
+        {
+          "id": "team-foosball-12",
+          "name": "ICER-2",
+          "members": []
+        },
+        {
+          "id": "team-foosball-13",
+          "name": "Physics-1",
+          "members": []
+        },
+        {
+          "id": "team-foosball-14",
+          "name": "UG Juniors 1",
+          "members": []
+        },
+        {
+          "id": "team-foosball-15",
+          "name": "Aerospace-2",
+          "members": []
+        },
+        {
+          "id": "team-foosball-16",
+          "name": "CeNSE-1",
+          "members": []
+        },
+        {
+          "id": "team-foosball-17",
+          "name": "Chemistry-1",
+          "members": []
+        },
+        {
+          "id": "team-foosball-18",
+          "name": "CPDM",
+          "members": []
+        },
+        {
+          "id": "team-foosball-19",
+          "name": "DESE-2",
+          "members": []
+        },
+        {
+          "id": "team-foosball-20",
+          "name": "DOMS-2",
+          "members": []
+        },
+        {
+          "id": "team-foosball-21",
+          "name": "UG Seniors 2",
+          "members": []
+        },
+        {
+          "id": "team-foosball-22",
+          "name": "Aerospace-1",
+          "members": []
+        },
+        {
+          "id": "team-foosball-23",
+          "name": "Civil-2",
+          "members": []
+        },
+        {
+          "id": "team-foosball-24",
+          "name": "ECE-2",
+          "members": []
+        },
+        {
+          "id": "team-foosball-25",
+          "name": "ICER-1",
+          "members": []
+        },
+        {
+          "id": "team-foosball-26",
+          "name": "IPC",
+          "members": []
+        },
+        {
+          "id": "team-foosball-27",
+          "name": "RBCCPS",
+          "members": []
+        },
+        {
+          "id": "team-foosball-28",
+          "name": "UG Seniors 1",
+          "members": []
+        }
+      ]
     },
     {
       "id": "evt-frisbee",
@@ -681,7 +915,34 @@
           "phone": "8653280175"
         }
       ],
-      "hasRules": true
+      "hasRules": true,
+      "teams": [
+        {
+          "id": "team-frisbee-1",
+          "name": "BE",
+          "members": []
+        },
+        {
+          "id": "team-frisbee-2",
+          "name": "CPS 1",
+          "members": []
+        },
+        {
+          "id": "team-frisbee-3",
+          "name": "CPS 2",
+          "members": []
+        },
+        {
+          "id": "team-frisbee-4",
+          "name": "UG Juniors",
+          "members": []
+        },
+        {
+          "id": "team-frisbee-5",
+          "name": "UG Seniors",
+          "members": []
+        }
+      ]
     },
     {
       "id": "evt-handball",
@@ -1970,7 +2231,59 @@
           "phone": "7466993970"
         }
       ],
-      "hasRules": true
+      "hasRules": true,
+      "teams": [
+        {
+          "id": "team-volleyball-1",
+          "name": "CPS",
+          "members": []
+        },
+        {
+          "id": "team-volleyball-2",
+          "name": "Biochemistry",
+          "members": []
+        },
+        {
+          "id": "team-volleyball-3",
+          "name": "ECE-1",
+          "members": []
+        },
+        {
+          "id": "team-volleyball-4",
+          "name": "Management",
+          "members": []
+        },
+        {
+          "id": "team-volleyball-5",
+          "name": "UG-2",
+          "members": []
+        },
+        {
+          "id": "team-volleyball-6",
+          "name": "Materials Engineering",
+          "members": []
+        },
+        {
+          "id": "team-volleyball-7",
+          "name": "ECE-2",
+          "members": []
+        },
+        {
+          "id": "team-volleyball-8",
+          "name": "CNS",
+          "members": []
+        },
+        {
+          "id": "team-volleyball-9",
+          "name": "UG",
+          "members": []
+        },
+        {
+          "id": "team-volleyball-10",
+          "name": "ESE",
+          "members": []
+        }
+      ]
     }
   ],
   "announcements": [],
