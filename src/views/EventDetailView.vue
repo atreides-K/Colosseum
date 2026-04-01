@@ -76,7 +76,7 @@
         {{ evt.type === 'team' ? 'Teams' : 'Participants' }}
       </button>
       <button class="tab" :class="{ active: tab === 'schedule' }" @click="tab = 'schedule'">Schedule</button>
-      <button class="tab" :class="{ active: tab === 'bracket' }" @click="tab = 'bracket'">Bracket</button>
+      <button class="tab" :class="{ active: tab === 'standings' }" @click="tab = 'standings'">Standings</button>
       <button class="tab" :class="{ active: tab === 'notes' }" @click="tab = 'notes'">Notes</button>
     </div>
 
@@ -309,8 +309,42 @@
       </div>
     </div>
 
-    <!-- BRACKET TAB -->
-    <div v-if="tab === 'bracket'">
+    <!-- STANDINGS TAB -->
+    <div v-if="tab === 'standings'">
+      <!-- Pool/Group Standings Tables -->
+      <div v-if="evt.standings && evt.standings.length" class="standings-pools">
+        <div v-for="pool in evt.standings" :key="pool.pool" class="card standings-pool-card">
+          <h3>{{ pool.pool }}</h3>
+          <table class="data-table standings-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Team</th>
+                <th>P</th>
+                <th>W</th>
+                <th>D</th>
+                <th>L</th>
+                <th>Pts</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="(row, i) in pool.table" :key="row.team" :class="{ 'standings-qualified': i < pool.qualify }">
+                <td class="num">{{ i + 1 }}</td>
+                <td class="team-name">{{ row.team }}</td>
+                <td class="num">{{ row.p }}</td>
+                <td class="num">{{ row.w }}</td>
+                <td class="num">{{ row.d }}</td>
+                <td class="num">{{ row.l }}</td>
+                <td class="num" style="font-weight:700">{{ row.pts }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- BRACKET (inside standings or standalone) -->
+    <div v-if="tab === 'standings'">
       <!-- Generate / Reset controls -->
       <div class="card" v-if="store.isAdmin">
         <div class="flex justify-between items-center">
@@ -373,8 +407,8 @@
       </div>
 
       <!-- Empty state -->
-      <div class="empty-state" v-if="!evt.bracket?.generated && !store.isAdmin">
-        <p>Bracket not yet generated.</p>
+      <div class="empty-state" v-if="!evt.bracket?.generated && !store.isAdmin && (!evt.standings || !evt.standings.length)">
+        <p>Standings not yet available.</p>
       </div>
     </div>
   </div>

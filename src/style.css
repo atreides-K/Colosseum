@@ -720,6 +720,40 @@ label {
   margin-bottom: 2px;
 }
 
+/* ---- STANDINGS TABLES ---- */
+.standings-pools {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.standings-pool-card {
+  padding: 16px;
+}
+.standings-pool-card h3 {
+  margin-bottom: 12px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-dim);
+}
+.standings-table th,
+.standings-table td {
+  padding: 6px 10px;
+  text-align: center;
+}
+.standings-table th:nth-child(2),
+.standings-table td:nth-child(2) {
+  text-align: left;
+}
+.standings-table th:first-child,
+.standings-table td:first-child {
+  width: 30px;
+}
+.standings-qualified td {
+  border-left: 2px solid var(--accent);
+}
+
 /* ---- SHAREABLE CARD ---- */
 .share-card {
   background: var(--bg-card);

@@ -44,6 +44,7 @@ if (store.events) {
     if (!evt.schedule) evt.schedule = []
     if (!evt.notes) evt.notes = []
     if (!evt.bracket) evt.bracket = { generated: false, matches: [] }
+    if (!evt.standings) evt.standings = []
     if (!evt.logistics) evt.logistics = { venue: evt.venue || 'TBA', equipment: '', notes: '' }
     // Migrate venue: top-level takes precedence
     if (evt.venue === undefined) evt.venue = evt.logistics?.venue || 'TBA'
@@ -51,7 +52,7 @@ if (store.events) {
     // Copy new info fields from defaults
     const defEvt = defaults.events.find(d => d.id === evt.id)
     if (defEvt) {
-      for (const key of ['categories', 'teamSize', 'guestPlayers', 'format', 'registrationLink', 'registrationDeadline', 'whatsappLink', 'contacts', 'hasRules', 'registrationLinkWomens', 'venue']) {
+      for (const key of ['categories', 'teamSize', 'guestPlayers', 'format', 'registrationLink', 'registrationDeadline', 'whatsappLink', 'contacts', 'hasRules', 'registrationLinkWomens', 'venue', 'standings']) {
         if (evt[key] === undefined && defEvt[key] !== undefined) {
           evt[key] = defEvt[key]
         }
