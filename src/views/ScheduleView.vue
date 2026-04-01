@@ -53,7 +53,7 @@
 
   <!-- CHRONO VIEW (grouped by date, then by sport+time) -->
   <template v-if="viewMode === 'chrono'">
-    <div v-for="(group, date) in groupedByDate" :key="date" class="mb-24">
+    <div v-for="(group, date) in groupedByDate" :key="date" :ref="el => setDateRef(date, el)" class="mb-24">
       <h2 style="position:sticky;top:0;background:var(--bg);padding:8px 0;z-index:1">{{ formatDateHeader(date) }}</h2>
       <div class="card schedule-group-card" v-for="cluster in clusterGroup(group)" :key="cluster.key" style="margin-bottom:12px">
         <div class="schedule-group-header">
@@ -145,13 +145,28 @@
 </template>
 
 <script setup>
-import { ref, reactive, computed } from 'vue'
+import { ref, reactive, computed, onMounted, nextTick } from 'vue'
 import { store, addScheduleItem, removeScheduleItem, getEvent } from '../stores/tournament.js'
 
 const filter = ref('all')
 const viewMode = ref('chrono')
 const editing = ref(null)
 const editData = reactive({ title: '', date: '', time: '', venue: '', description: '' })
+
+const dateRefs = {}
+function setDateRef(date, el) { if (el) dateRefs[date] = el }
+
+onMounted(() => {
+  nextTick(() => {
+    const today = new Date().toISOString().slice(0, 10)
+    const dates = Object.keys(groupedByDate.value).sort()
+    // Find today or the nearest future date
+    const target = dates.find(d => d >= today) || dates[dates.length - 1]
+    if (target && dateRefs[target]) {
+      dateRefs[target].scrollIntoView({ behavior: 'instant', block: 'start' })
+    }
+  })
+})
 
 const newEntry = reactive({
   eventId: '', title: '', date: '', time: '', venue: '', description: '',
