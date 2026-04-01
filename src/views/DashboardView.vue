@@ -11,19 +11,46 @@
       </span>
     </div>
 
-    <!-- Today's / Upcoming schedule -->
+    <!-- Today's schedule -->
     <div v-if="todaySchedule.length" class="mb-24">
-      <h2>Today's Events</h2>
-      <div v-for="item in todaySchedule" :key="item.id" class="schedule-row">
-        <div class="schedule-time">{{ item.time || '--:--' }}</div>
-        <router-link :to="`/events/${item.eventId}`" class="schedule-detail">
-          <span class="schedule-icon">{{ item.icon }}</span>
-          <div>
-            <div class="schedule-sport">{{ item.sport }} <span class="text-dim">&mdash;</span> {{ item.title }}</div>
-            <div class="schedule-venue">{{ item.venue }}</div>
-          </div>
-          <span class="badge" :class="item.status === 'completed' ? 'badge-green' : 'badge-upcoming'">{{ item.status }}</span>
-        </router-link>
+      <div class="flex justify-between items-center" style="margin-bottom:12px">
+        <h2 style="margin:0">Today's Events</h2>
+        <button v-if="hasPinnedEvents && todayOtherSchedule.length" class="btn btn-sm" @click="showAllToday = !showAllToday">
+          {{ showAllToday ? 'Show Pinned Only' : 'Show All (' + todaySchedule.length + ')' }}
+        </button>
+      </div>
+      <!-- Pinned events schedule -->
+      <template v-if="hasPinnedEvents && todayPinnedSchedule.length">
+        <div v-for="item in todayPinnedSchedule" :key="item.id" class="schedule-row">
+          <div class="schedule-time">{{ item.time || '--:--' }}</div>
+          <router-link :to="`/events/${item.eventId}`" class="schedule-detail">
+            <span class="schedule-icon">{{ item.icon }}</span>
+            <div>
+              <div class="schedule-sport">{{ item.sport }} <span class="text-dim">&mdash;</span> {{ item.title }}</div>
+              <div class="schedule-venue">{{ item.venue }}</div>
+            </div>
+            <span class="badge" :class="item.status === 'completed' ? 'badge-green' : 'badge-upcoming'">{{ item.status }}</span>
+          </router-link>
+        </div>
+      </template>
+      <!-- Other events schedule (collapsed by default if pinned exist) -->
+      <template v-if="!hasPinnedEvents || showAllToday">
+        <div v-if="hasPinnedEvents && todayOtherSchedule.length" class="text-dim text-sm" style="margin:12px 0 8px;border-top:1px solid var(--border);padding-top:12px">Other Events</div>
+        <div v-for="item in todayOtherSchedule" :key="item.id" class="schedule-row">
+          <div class="schedule-time">{{ item.time || '--:--' }}</div>
+          <router-link :to="`/events/${item.eventId}`" class="schedule-detail">
+            <span class="schedule-icon">{{ item.icon }}</span>
+            <div>
+              <div class="schedule-sport">{{ item.sport }} <span class="text-dim">&mdash;</span> {{ item.title }}</div>
+              <div class="schedule-venue">{{ item.venue }}</div>
+            </div>
+            <span class="badge" :class="item.status === 'completed' ? 'badge-green' : 'badge-upcoming'">{{ item.status }}</span>
+          </router-link>
+        </div>
+      </template>
+      <div v-if="hasPinnedEvents && !todayPinnedSchedule.length && !showAllToday" class="text-dim text-sm" style="padding:8px 0">
+        No matches today for your pinned events.
+        <button class="btn btn-sm" style="margin-left:8px" @click="showAllToday = true">Show All</button>
       </div>
     </div>
 
@@ -187,7 +214,7 @@
 </template>
 
 <script setup>
-import { computed } from 'vue'
+import { ref, computed } from 'vue'
 import { store, totalParticipants, totalVolunteers, getEvent, isEventPinned, togglePinEvent } from '../stores/tournament.js'
 
 const participantCount = computed(() => totalParticipants())
@@ -239,8 +266,20 @@ const allScheduleItems = computed(() => {
 
 const today = computed(() => new Date().toISOString().slice(0, 10))
 
+const showAllToday = ref(false)
+
+const hasPinnedEvents = computed(() => (store.pinnedEvents || []).length > 0)
+
 const todaySchedule = computed(() =>
   allScheduleItems.value.filter(s => s.date === today.value)
+)
+
+const todayPinnedSchedule = computed(() =>
+  todaySchedule.value.filter(s => isEventPinned(s.eventId))
+)
+
+const todayOtherSchedule = computed(() =>
+  todaySchedule.value.filter(s => !isEventPinned(s.eventId))
 )
 
 const nextDaysSchedule = computed(() =>
