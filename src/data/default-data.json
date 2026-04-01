@@ -2465,17 +2465,8 @@
       "venue": "TBA",
       "schedule": [
         {
-          "id": "sch-volleyball-1",
-          "title": "Knockout 1: CPS vs Biochemistry",
-          "date": "2026-04-01",
-          "time": "5:30 PM - 6:15 PM",
-          "venue": "",
-          "description": "Day 1",
-          "status": "scheduled"
-        },
-        {
-          "id": "sch-volleyball-2",
-          "title": "Knockout 2: ECE-1 vs Management",
+          "id": "sch-vb-1",
+          "title": "Knockout 1: ECE-1 vs Management",
           "date": "2026-04-01",
           "time": "6:15 PM - 7:00 PM",
           "venue": "",
@@ -2483,8 +2474,8 @@
           "status": "scheduled"
         },
         {
-          "id": "sch-volleyball-3",
-          "title": "Knockout 3: UG-2 vs Materials Engineering",
+          "id": "sch-vb-2",
+          "title": "Knockout 2: UG-2 vs Materials Engineering",
           "date": "2026-04-01",
           "time": "7:00 PM - 7:45 PM",
           "venue": "",
@@ -2492,21 +2483,66 @@
           "status": "scheduled"
         },
         {
-          "id": "sch-volleyball-4",
-          "title": "Knockout 4: ECE-2 vs CNS",
+          "id": "sch-vb-3",
+          "title": "Knockout 3: UG vs ESE",
           "date": "2026-04-01",
-          "time": "8:00 PM - 8:45 PM",
+          "time": "8:30 PM - 9:15 PM",
           "venue": "",
           "description": "Day 1",
           "status": "scheduled"
         },
         {
-          "id": "sch-volleyball-5",
-          "title": "Knockout 5: UG vs ESE",
+          "id": "sch-vb-4",
+          "title": "Knockout 4: ECE-2 vs CNS",
           "date": "2026-04-01",
-          "time": "9:00 PM - 9:45 PM",
+          "time": "7:00 PM - 7:45 PM",
           "venue": "",
           "description": "Day 1",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-vb-5",
+          "title": "Knockout 5: CPS vs Bio",
+          "date": "2026-04-02",
+          "time": "5:30 PM - 6:15 PM",
+          "venue": "",
+          "description": "Day 2",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-vb-6",
+          "title": "Knockout 6: Samadhan vs Cistup",
+          "date": "2026-04-02",
+          "time": "6:15 PM - 7:00 PM",
+          "venue": "",
+          "description": "Day 2",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-vb-7",
+          "title": "Knockout 7: CES vs Admin",
+          "date": "2026-04-02",
+          "time": "7:00 PM - 7:45 PM",
+          "venue": "",
+          "description": "Day 2",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-vb-8",
+          "title": "Knockout 8: DBS vs ICWaR",
+          "date": "2026-04-02",
+          "time": "7:45 PM - 8:30 PM",
+          "venue": "",
+          "description": "Day 2",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-vb-9",
+          "title": "Knockout 9: CSA vs DM",
+          "date": "2026-04-02",
+          "time": "8:30 PM - 9:15 PM",
+          "venue": "",
+          "description": "Day 2",
           "status": "scheduled"
         }
       ],
@@ -2528,53 +2564,93 @@
       "hasRules": true,
       "teams": [
         {
-          "id": "team-volleyball-1",
-          "name": "CPS",
-          "members": []
-        },
-        {
-          "id": "team-volleyball-2",
-          "name": "Biochemistry",
-          "members": []
-        },
-        {
-          "id": "team-volleyball-3",
+          "id": "team-vb-1",
           "name": "ECE-1",
           "members": []
         },
         {
-          "id": "team-volleyball-4",
+          "id": "team-vb-2",
           "name": "Management",
           "members": []
         },
         {
-          "id": "team-volleyball-5",
+          "id": "team-vb-3",
           "name": "UG-2",
           "members": []
         },
         {
-          "id": "team-volleyball-6",
+          "id": "team-vb-4",
           "name": "Materials Engineering",
           "members": []
         },
         {
-          "id": "team-volleyball-7",
-          "name": "ECE-2",
-          "members": []
-        },
-        {
-          "id": "team-volleyball-8",
-          "name": "CNS",
-          "members": []
-        },
-        {
-          "id": "team-volleyball-9",
+          "id": "team-vb-5",
           "name": "UG",
           "members": []
         },
         {
-          "id": "team-volleyball-10",
+          "id": "team-vb-6",
           "name": "ESE",
+          "members": []
+        },
+        {
+          "id": "team-vb-7",
+          "name": "ECE-2",
+          "members": []
+        },
+        {
+          "id": "team-vb-8",
+          "name": "CNS",
+          "members": []
+        },
+        {
+          "id": "team-vb-9",
+          "name": "CPS",
+          "members": []
+        },
+        {
+          "id": "team-vb-10",
+          "name": "Bio",
+          "members": []
+        },
+        {
+          "id": "team-vb-11",
+          "name": "Samadhan",
+          "members": []
+        },
+        {
+          "id": "team-vb-12",
+          "name": "Cistup",
+          "members": []
+        },
+        {
+          "id": "team-vb-13",
+          "name": "CES",
+          "members": []
+        },
+        {
+          "id": "team-vb-14",
+          "name": "Admin",
+          "members": []
+        },
+        {
+          "id": "team-vb-15",
+          "name": "DBS",
+          "members": []
+        },
+        {
+          "id": "team-vb-16",
+          "name": "ICWaR",
+          "members": []
+        },
+        {
+          "id": "team-vb-17",
+          "name": "CSA",
+          "members": []
+        },
+        {
+          "id": "team-vb-18",
+          "name": "DM",
           "members": []
         }
       ]
