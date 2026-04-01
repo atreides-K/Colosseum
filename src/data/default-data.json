@@ -143,8 +143,11 @@
       "sport": "Foosball",
       "icon": "🎮",
       "type": "team",
-      "status": "upcoming",
-      "venue": "TBA",
+      "status": "in-progress",
+      "venue": "Aryabhatta, A Block, NBH",
+      "schedule": [
+        { "id": "sch-foosball-1", "title": "Round 1 Knockouts", "date": "2026-04-01", "time": "6:00 PM - 8:30 PM", "venue": "Aryabhatta, A Block, NBH", "description": "All teams play. Volunteers: 4, Refreshments: 130", "status": "scheduled" }
+      ],
       "categories": "2 Open Doubles + 1 Mixed Doubles per match",
       "teamSize": "5 players + 1 backup; at least 1 player of different gender",
       "guestPlayers": "",
@@ -160,8 +163,13 @@
       "sport": "Ultimate Frisbee",
       "icon": "🥏",
       "type": "team",
-      "status": "upcoming",
+      "status": "in-progress",
       "venue": "IISc Gymkhana Turf",
+      "schedule": [
+        { "id": "sch-frisbee-1", "title": "BE v CPS 2", "date": "2026-03-31", "time": "6:30 PM - 7:20 PM", "venue": "Gymkhana Turf", "description": "", "status": "completed" },
+        { "id": "sch-frisbee-2", "title": "UG Juniors v CPS 1", "date": "2026-03-31", "time": "7:30 PM - 8:20 PM", "venue": "Gymkhana Turf", "description": "", "status": "completed" },
+        { "id": "sch-frisbee-3", "title": "BE v UG Seniors", "date": "2026-03-31", "time": "8:30 PM - 9:20 PM", "venue": "Gymkhana Turf", "description": "", "status": "completed" }
+      ],
       "categories": "Open (Mixed Gender)",
       "teamSize": "7 on line, min 3 female players",
       "guestPlayers": "Max 3 allowed on line",
@@ -182,6 +190,8 @@
       "type": "team",
       "status": "upcoming",
       "venue": "TBA",
+      "guestPlayers": "Max 2 on field at a time",
+      "teamSize": "7 players per side",
       "categories": "Men's, Women's",
       "teamSize": "",
       "guestPlayers": "",
@@ -193,7 +203,7 @@
         { "name": "Satyajeeb Palai", "phone": "7898286674", "email": "satyasundarp@iisc.ac.in" },
         { "name": "Neivisita Hinge", "email": "neivisitah@iisc.ac.in" }
       ],
-      "hasRules": false
+      "hasRules": true
     },
     {
       "id": "evt-hockey",
@@ -282,7 +292,10 @@
       "icon": "💪",
       "type": "individual",
       "status": "upcoming",
-      "venue": "TBA",
+      "venue": "Janta Gym",
+      "schedule": [
+        { "id": "sch-powerlifting-1", "title": "Powerlifting Competition", "date": "2026-04-07", "time": "5:30 PM onwards", "venue": "Janta Gym", "description": "Individual participation. Volunteers: 2, Refreshments: 50", "status": "scheduled" }
+      ],
       "categories": "Men's, Women's (5 weight categories each)",
       "teamSize": "",
       "guestPlayers": "",
@@ -319,8 +332,16 @@
       "sport": "Swimming",
       "icon": "🏊",
       "type": "both",
-      "status": "upcoming",
+      "status": "in-progress",
       "venue": "TBA",
+      "schedule": [
+        { "id": "sch-swimming-1", "title": "50m Freestyle (Men & Women)", "date": "2026-04-01", "time": "8:00 AM - 10:00 AM", "venue": "", "description": "Morning session", "status": "scheduled" },
+        { "id": "sch-swimming-2", "title": "50m Backstroke (Men & Women)", "date": "2026-04-01", "time": "8:00 AM - 10:00 AM", "venue": "", "description": "Morning session", "status": "scheduled" },
+        { "id": "sch-swimming-3", "title": "50m Butterfly (Men & Women)", "date": "2026-04-01", "time": "4:00 PM - 6:30 PM", "venue": "", "description": "Evening session", "status": "scheduled" },
+        { "id": "sch-swimming-4", "title": "50m Breaststroke (Men & Women)", "date": "2026-04-01", "time": "4:00 PM - 6:30 PM", "venue": "", "description": "Evening session", "status": "scheduled" },
+        { "id": "sch-swimming-5", "title": "500m Freestyle (Men & Women)", "date": "2026-04-01", "time": "4:00 PM - 6:30 PM", "venue": "", "description": "Evening session", "status": "scheduled" },
+        { "id": "sch-swimming-6", "title": "4x50m Relay Freestyle (Men & Women)", "date": "2026-04-01", "time": "4:00 PM - 6:30 PM", "venue": "", "description": "Evening session", "status": "scheduled" }
+      ],
       "categories": "Men's, Women's",
       "teamSize": "",
       "guestPlayers": "",
@@ -375,8 +396,15 @@
       "sport": "Volleyball",
       "icon": "🏐",
       "type": "team",
-      "status": "upcoming",
+      "status": "in-progress",
       "venue": "TBA",
+      "schedule": [
+        { "id": "sch-volleyball-1", "title": "Knockout 1: CPS vs Biochemistry", "date": "2026-04-01", "time": "5:30 PM - 6:15 PM", "venue": "", "description": "Day 1", "status": "scheduled" },
+        { "id": "sch-volleyball-2", "title": "Knockout 2: ECE-1 vs Management", "date": "2026-04-01", "time": "6:15 PM - 7:00 PM", "venue": "", "description": "Day 1", "status": "scheduled" },
+        { "id": "sch-volleyball-3", "title": "Knockout 3: UG-2 vs Materials Engineering", "date": "2026-04-01", "time": "7:00 PM - 7:45 PM", "venue": "", "description": "Day 1", "status": "scheduled" },
+        { "id": "sch-volleyball-4", "title": "Knockout 4: ECE-2 vs CNS", "date": "2026-04-01", "time": "8:00 PM - 8:45 PM", "venue": "", "description": "Day 1", "status": "scheduled" },
+        { "id": "sch-volleyball-5", "title": "Knockout 5: UG vs ESE", "date": "2026-04-01", "time": "9:00 PM - 9:45 PM", "venue": "", "description": "Day 1", "status": "scheduled" }
+      ],
       "categories": "Men's, Women's",
       "teamSize": "6–12 players per team",
       "guestPlayers": "Max 2 on court at any time; alumni counted as guests",

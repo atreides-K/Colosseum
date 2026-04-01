@@ -223,12 +223,19 @@ export function toggleAnnouncementPin(annId) {
   if (ann) ann.pinned = !ann.pinned
 }
 
-// -- Pinned Events --
+// -- Pinned Events (persisted separately in localStorage) --
+const PINNED_KEY = 'spectrum-pinned-events'
+try {
+  const saved = localStorage.getItem(PINNED_KEY)
+  if (saved) store.pinnedEvents = JSON.parse(saved)
+} catch (e) { /* ignore */ }
+
 export function togglePinEvent(eventId) {
   if (!store.pinnedEvents) store.pinnedEvents = []
   const idx = store.pinnedEvents.indexOf(eventId)
   if (idx >= 0) store.pinnedEvents.splice(idx, 1)
   else store.pinnedEvents.push(eventId)
+  localStorage.setItem(PINNED_KEY, JSON.stringify(store.pinnedEvents))
 }
 
 export function isEventPinned(eventId) {
