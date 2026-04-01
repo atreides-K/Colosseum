@@ -47,7 +47,7 @@
       "sport": "Basketball",
       "icon": "🏀",
       "type": "team",
-      "status": "upcoming",
+      "status": "in-progress",
       "venue": "KV Court",
       "categories": "Men's, Women's",
       "teamSize": "Men's: 5–12 players; Women's: 5+3 players",
@@ -66,7 +66,143 @@
           "phone": "7604997904"
         }
       ],
-      "hasRules": true
+      "hasRules": true,
+      "teams": [
+        {
+          "id": "team-bball-1",
+          "name": "CSA",
+          "members": []
+        },
+        {
+          "id": "team-bball-2",
+          "name": "CNS",
+          "members": []
+        },
+        {
+          "id": "team-bball-3",
+          "name": "BioEng",
+          "members": []
+        },
+        {
+          "id": "team-bball-4",
+          "name": "DOMS",
+          "members": []
+        },
+        {
+          "id": "team-bball-5",
+          "name": "Mech",
+          "members": []
+        },
+        {
+          "id": "team-bball-6",
+          "name": "UG Seniors",
+          "members": []
+        },
+        {
+          "id": "team-bball-7",
+          "name": "ECE",
+          "members": []
+        },
+        {
+          "id": "team-bball-8",
+          "name": "CeNSE",
+          "members": []
+        },
+        {
+          "id": "team-bball-9",
+          "name": "CES",
+          "members": []
+        },
+        {
+          "id": "team-bball-10",
+          "name": "CPS",
+          "members": []
+        },
+        {
+          "id": "team-bball-11",
+          "name": "Electrical",
+          "members": []
+        },
+        {
+          "id": "team-bball-12",
+          "name": "UG Juniors",
+          "members": []
+        }
+      ],
+      "schedule": [
+        {
+          "id": "sch-bball-1",
+          "title": "Pool 2: Mech vs DOMS",
+          "date": "2026-03-31",
+          "time": "",
+          "venue": "KV Court",
+          "description": "Result: Mech won",
+          "status": "completed"
+        },
+        {
+          "id": "sch-bball-2",
+          "title": "Pool 1: BioEng vs CSA",
+          "date": "2026-03-31",
+          "time": "",
+          "venue": "KV Court",
+          "description": "Result: CSA won",
+          "status": "completed"
+        },
+        {
+          "id": "sch-bball-3",
+          "title": "Pool 4: CPS vs Electrical",
+          "date": "2026-03-31",
+          "time": "",
+          "venue": "KV Court",
+          "description": "Result: CPS won",
+          "status": "completed"
+        },
+        {
+          "id": "sch-bball-4",
+          "title": "Pool 3: ECE vs CeNSE",
+          "date": "2026-03-31",
+          "time": "",
+          "venue": "KV Court",
+          "description": "Result: ECE won",
+          "status": "completed"
+        },
+        {
+          "id": "sch-bball-5",
+          "title": "Pool 2: Mech vs UG Seniors",
+          "date": "2026-03-31",
+          "time": "",
+          "venue": "KV Court",
+          "description": "Result: UG Seniors won",
+          "status": "completed"
+        },
+        {
+          "id": "sch-bball-6",
+          "title": "Pool 1: CNS vs CSA",
+          "date": "2026-03-31",
+          "time": "",
+          "venue": "KV Court",
+          "description": "Result: CNS won",
+          "status": "completed"
+        },
+        {
+          "id": "sch-bball-7",
+          "title": "Pool 3: CeNSE vs CES",
+          "date": "2026-04-01",
+          "time": "8:00 PM - 9:00 PM",
+          "venue": "KV Court",
+          "description": "Match 3",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-bball-8",
+          "title": "Pool 4: CPS vs UG Juniors",
+          "date": "2026-04-01",
+          "time": "9:00 PM - 10:00 PM",
+          "venue": "KV Court",
+          "description": "Match 4",
+          "status": "scheduled"
+        }
+      ]
     },
     {
       "id": "evt-carrom",
