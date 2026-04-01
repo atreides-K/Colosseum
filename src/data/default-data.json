@@ -1649,6 +1649,42 @@
           "venue": "Gymkhana Turf",
           "description": "",
           "status": "completed"
+        },
+        {
+          "id": "sch-frisbee-4",
+          "title": "CPS 1 v CSA",
+          "date": "2026-04-02",
+          "time": "6:00 PM - 6:50 PM",
+          "venue": "Gymkhana Turf",
+          "description": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-frisbee-5",
+          "title": "UG Juniors v CeNSE",
+          "date": "2026-04-02",
+          "time": "7:00 PM - 7:50 PM",
+          "venue": "Gymkhana Turf",
+          "description": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-frisbee-6",
+          "title": "UG Seniors v CPS 2",
+          "date": "2026-04-02",
+          "time": "8:00 PM - 8:50 PM",
+          "venue": "Gymkhana Turf",
+          "description": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-frisbee-7",
+          "title": "CeNSE v CSA",
+          "date": "2026-04-02",
+          "time": "9:00 PM - 9:50 PM",
+          "venue": "Gymkhana Turf",
+          "description": "",
+          "status": "scheduled"
         }
       ],
       "categories": "Open (Mixed Gender)",
