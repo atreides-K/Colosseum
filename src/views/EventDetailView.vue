@@ -416,7 +416,7 @@
   <div v-else class="empty-state">
     <div class="icon">&#128533;</div>
     <p>Event not found.</p>
-    <router-link to="/events" class="btn" style="margin-top:12px">Back to Events</router-link>
+    <router-link to="/" class="btn" style="margin-top:12px">Back to Events</router-link>
   </div>
 </template>
 
