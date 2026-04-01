@@ -672,18 +672,18 @@
         },
         {
           "id": "sch-bball-10",
-          "title": "Pool 3: CES vs ECE",
+          "title": "Pool 1: BioEng vs CNS",
           "date": "2026-04-02",
-          "time": "7:00 PM - 8:00 PM",
+          "time": "7:30 PM - 8:30 PM",
           "venue": "KV Court",
           "description": "",
           "status": "scheduled"
         },
         {
           "id": "sch-bball-11",
-          "title": "Pool 1: BioEng vs CNS",
+          "title": "Pool 3: CES vs ECE",
           "date": "2026-04-02",
-          "time": "8:00 PM - 9:00 PM",
+          "time": "8:30 PM - 9:30 PM",
           "venue": "KV Court",
           "description": "",
           "status": "scheduled"
@@ -692,7 +692,7 @@
           "id": "sch-bball-12",
           "title": "Pool 2: DOMS vs UG Seniors",
           "date": "2026-04-02",
-          "time": "9:00 PM - 10:00 PM",
+          "time": "9:30 PM - 10:30 PM",
           "venue": "KV Court",
           "description": "",
           "status": "scheduled"
