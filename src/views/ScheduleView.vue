@@ -51,49 +51,41 @@
     </div>
   </div>
 
-  <!-- CHRONO VIEW (grouped by date) -->
+  <!-- CHRONO VIEW (grouped by date, then by sport+time) -->
   <template v-if="viewMode === 'chrono'">
     <div v-for="(group, date) in groupedByDate" :key="date" class="mb-24">
       <h2 style="position:sticky;top:0;background:var(--bg);padding:8px 0;z-index:1">{{ formatDateHeader(date) }}</h2>
-      <div class="card" v-for="item in group" :key="item.id" style="margin-bottom:12px">
-        <div class="flex justify-between items-center">
+      <div class="card schedule-group-card" v-for="cluster in clusterGroup(group)" :key="cluster.key" style="margin-bottom:12px">
+        <div class="schedule-group-header">
           <div class="flex items-center gap-12">
-            <span style="font-size:22px">{{ item.icon }}</span>
+            <span style="font-size:22px">{{ cluster.icon }}</span>
             <div>
-              <div class="flex items-center gap-8">
-                <router-link :to="`/events/${item.eventId}`" class="event-name" style="text-decoration:none">{{ item.sport }}</router-link>
-                <span class="text-dim">&mdash;</span>
-                <span v-if="editing !== item.id" class="team-name">{{ item.title }}</span>
+              <router-link :to="`/events/${cluster.eventId}`" class="event-name" style="text-decoration:none;font-weight:600">{{ cluster.sport }}</router-link>
+              <div class="text-sm text-dim">
+                <span v-if="cluster.time">{{ cluster.time }}</span>
+                <span v-if="cluster.venue"> &mdash; {{ cluster.venue }}</span>
               </div>
-              <div v-if="editing === item.id" class="form-row" style="margin-top:6px">
-                <input v-model="editData.title" style="width:140px" />
-                <input v-model="editData.date" type="date" style="width:140px" />
-                <input v-model="editData.time" type="time" style="width:100px" />
-                <input v-model="editData.venue" placeholder="Venue" style="width:140px" />
-                <input v-model="editData.description" placeholder="Description" style="width:180px" />
-                <button class="btn btn-sm btn-primary" @click="doSaveEdit(item)">Save</button>
-                <button class="btn btn-sm" @click="editing = null">Cancel</button>
-              </div>
-              <template v-else>
-                <div class="text-sm text-dim">
-                  <span v-if="item.time">{{ item.time }}</span>
-                  <span v-if="item.venue"> &mdash; {{ item.venue }}</span>
-                </div>
-                <div class="text-sm" v-if="item.description" style="margin-top:4px;color:var(--text)">{{ item.description }}</div>
-              </template>
             </div>
           </div>
-          <div class="flex gap-8 items-center">
-            <span v-if="editing !== item.id" class="badge" :class="statusBadge(item.status)">{{ item.status }}</span>
-            <template v-if="store.isAdmin && editing !== item.id">
-              <select :value="item.status" @change="doChangeStatus(item, $event.target.value)" class="btn btn-sm" style="width:auto;cursor:pointer;padding:3px 6px;font-size:11px">
-                <option value="scheduled">Scheduled</option>
-                <option value="completed">Completed</option>
-                <option value="cancelled">Cancelled</option>
-              </select>
-              <button class="btn btn-sm" @click="startEdit(item)" title="Edit">&#9998;</button>
-              <button class="btn btn-sm btn-danger" @click="doRemove(item)">X</button>
-            </template>
+        </div>
+        <div v-for="item in cluster.items" :key="item.id" class="schedule-group-item">
+          <div class="flex justify-between items-center">
+            <div>
+              <span class="team-name">{{ item.title }}</span>
+              <span v-if="item.venue && item.venue !== cluster.venue" class="text-dim text-sm"> &mdash; {{ item.venue }}</span>
+              <div class="text-sm" v-if="item.description" style="margin-top:2px;color:var(--text-dim)">{{ item.description }}</div>
+            </div>
+            <div class="flex gap-8 items-center">
+              <span class="badge" :class="statusBadge(item.status)">{{ item.status }}</span>
+              <template v-if="store.isAdmin">
+                <select :value="item.status" @change="doChangeStatus(item, $event.target.value)" class="btn btn-sm" style="width:auto;cursor:pointer;padding:3px 6px;font-size:11px">
+                  <option value="scheduled">Scheduled</option>
+                  <option value="completed">Completed</option>
+                  <option value="cancelled">Cancelled</option>
+                </select>
+                <button class="btn btn-sm btn-danger" @click="doRemove(item)">X</button>
+              </template>
+            </div>
           </div>
         </div>
       </div>
@@ -200,6 +192,21 @@ const groupedByEvent = computed(() => {
   })
   return groups
 })
+
+// Group items within a date by sport + time
+function clusterGroup(items) {
+  const clusters = []
+  const map = {}
+  items.forEach(item => {
+    const key = item.eventId + '|' + (item.time || '')
+    if (!map[key]) {
+      map[key] = { key, sport: item.sport, icon: item.icon, eventId: item.eventId, time: item.time, venue: item.venue, items: [] }
+      clusters.push(map[key])
+    }
+    map[key].items.push(item)
+  })
+  return clusters
+}
 
 function statusBadge(status) {
   return status === 'completed' ? 'badge-green' : status === 'cancelled' ? 'badge-red' : 'badge-upcoming'
