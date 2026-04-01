@@ -17,7 +17,11 @@
       "registrationDeadline": "",
       "whatsappLink": "",
       "contacts": [
-        { "name": "Akshai Krishnan", "phone": "8668088342", "role": "Athletics Convener" }
+        {
+          "name": "Akshai Krishnan",
+          "phone": "8668088342",
+          "role": "Athletics Convener"
+        }
       ],
       "hasRules": false
     },
@@ -53,8 +57,14 @@
       "registrationDeadline": "",
       "whatsappLink": "",
       "contacts": [
-        { "name": "Aditya Garg", "phone": "6301806327" },
-        { "name": "Savio Joseph", "phone": "7604997904" }
+        {
+          "name": "Aditya Garg",
+          "phone": "6301806327"
+        },
+        {
+          "name": "Savio Joseph",
+          "phone": "7604997904"
+        }
       ],
       "hasRules": true
     },
@@ -73,8 +83,14 @@
       "registrationDeadline": "",
       "whatsappLink": "",
       "contacts": [
-        { "name": "Akash Bhoir", "phone": "8380988656" },
-        { "name": "Vimal Ruhela", "phone": "9927855902" }
+        {
+          "name": "Akash Bhoir",
+          "phone": "8380988656"
+        },
+        {
+          "name": "Vimal Ruhela",
+          "phone": "9927855902"
+        }
       ],
       "hasRules": true
     },
@@ -93,8 +109,16 @@
       "registrationDeadline": "",
       "whatsappLink": "",
       "contacts": [
-        { "name": "Ayush Priyadarshi", "phone": "83038 71628", "email": "ayushp@iisc.ac.in" },
-        { "name": "Rajat Narandekar", "phone": "88568 98789", "email": "rajatn@iisc.ac.in" }
+        {
+          "name": "Ayush Priyadarshi",
+          "phone": "83038 71628",
+          "email": "ayushp@iisc.ac.in"
+        },
+        {
+          "name": "Rajat Narandekar",
+          "phone": "88568 98789",
+          "email": "rajatn@iisc.ac.in"
+        }
       ],
       "hasRules": true
     },
@@ -113,7 +137,11 @@
       "registrationDeadline": "",
       "whatsappLink": "",
       "contacts": [
-        { "name": "Rohit", "phone": "9442894962", "email": "rohitsuryak@iisc.ac.in" }
+        {
+          "name": "Rohit",
+          "phone": "9442894962",
+          "email": "rohitsuryak@iisc.ac.in"
+        }
       ],
       "hasRules": true
     },
@@ -132,44 +160,309 @@
       "registrationDeadline": "",
       "whatsappLink": "",
       "contacts": [
-        { "name": "Devak", "phone": "9400930704" },
-        { "name": "Sathvik", "phone": "9353794629" },
-        { "name": "Arnab", "phone": "7595862114" }
+        {
+          "name": "Devak",
+          "phone": "9400930704"
+        },
+        {
+          "name": "Sathvik",
+          "phone": "9353794629"
+        },
+        {
+          "name": "Arnab",
+          "phone": "7595862114"
+        }
       ],
       "hasRules": true,
       "schedule": [
-        { "id": "sch-fb-w1", "title": "W1: CSA vs Civilians (Women's)", "date": "2026-04-03", "time": "5:30 PM", "venue": "", "description": "Women's League", "status": "scheduled" },
-        { "id": "sch-fb-w2", "title": "W2: Supersonic Strikers vs CeNSE (Women's)", "date": "2026-04-03", "time": "6:10 PM", "venue": "", "description": "Women's League", "status": "scheduled" },
-        { "id": "sch-fb-k1", "title": "K1: IAP vs Cummingtonite (Men's KO)", "date": "2026-04-03", "time": "7:00 PM", "venue": "", "description": "Men's Knockout", "status": "scheduled" },
-        { "id": "sch-fb-k2", "title": "K2: CeNSE vs CES (Men's KO)", "date": "2026-04-03", "time": "8:00 PM", "venue": "", "description": "Men's Knockout", "status": "scheduled" },
-        { "id": "sch-fb-k3", "title": "K3: Underdawgs vs DESE (Men's KO)", "date": "2026-04-03", "time": "9:00 PM", "venue": "", "description": "Men's Knockout", "status": "scheduled" },
-        { "id": "sch-fb-k4", "title": "K4: CSA FC vs DoMinatorS (Men's KO)", "date": "2026-04-04", "time": "6:30 PM", "venue": "", "description": "Men's Knockout", "status": "scheduled" },
-        { "id": "sch-fb-k5", "title": "K5: Bioblasters vs ECE (Men's KO)", "date": "2026-04-04", "time": "7:30 PM", "venue": "", "description": "Men's Knockout", "status": "scheduled" },
-        { "id": "sch-fb-k6", "title": "K6: Mech Spartans vs MTE (Men's KO)", "date": "2026-04-04", "time": "8:30 PM", "venue": "", "description": "Men's Knockout", "status": "scheduled" },
-        { "id": "sch-fb-m1", "title": "M1: A1 vs A2 (Men's Group)", "date": "2026-04-05", "time": "6:30 PM", "venue": "", "description": "Group Stage", "status": "scheduled" },
-        { "id": "sch-fb-m2", "title": "M2: B1 vs B4 (Men's Group)", "date": "2026-04-05", "time": "7:30 PM", "venue": "", "description": "Group Stage", "status": "scheduled" },
-        { "id": "sch-fb-m3", "title": "M3: B2 vs B3 (Men's Group)", "date": "2026-04-05", "time": "8:30 PM", "venue": "", "description": "Group Stage", "status": "scheduled" },
-        { "id": "sch-fb-w3", "title": "W3: CNS vs Supersonic Strikers (Women's)", "date": "2026-04-06", "time": "5:30 PM", "venue": "", "description": "Women's League", "status": "scheduled" },
-        { "id": "sch-fb-w4", "title": "W4: Civilians vs CeNSE (Women's)", "date": "2026-04-06", "time": "6:10 PM", "venue": "", "description": "Women's League", "status": "scheduled" },
-        { "id": "sch-fb-m4", "title": "M4: A1 vs A3 (Men's Group)", "date": "2026-04-06", "time": "7:00 PM", "venue": "", "description": "Group Stage", "status": "scheduled" },
-        { "id": "sch-fb-m5", "title": "M5: A2 vs A4 (Men's Group)", "date": "2026-04-06", "time": "8:00 PM", "venue": "", "description": "Group Stage", "status": "scheduled" },
-        { "id": "sch-fb-m6", "title": "M6: B1 vs B2 (Men's Group)", "date": "2026-04-06", "time": "9:00 PM", "venue": "", "description": "Group Stage", "status": "scheduled" },
-        { "id": "sch-fb-w5", "title": "W5: CNS vs CeNSE (Women's)", "date": "2026-04-08", "time": "5:30 PM", "venue": "", "description": "Women's League", "status": "scheduled" },
-        { "id": "sch-fb-w6", "title": "W6: CSA vs Supersonic Strikers (Women's)", "date": "2026-04-08", "time": "6:10 PM", "venue": "", "description": "Women's League", "status": "scheduled" },
-        { "id": "sch-fb-m7", "title": "M7: A3 vs A4 (Men's Group)", "date": "2026-04-08", "time": "7:00 PM", "venue": "", "description": "Group Stage", "status": "scheduled" },
-        { "id": "sch-fb-m8", "title": "M8: B2 vs B4 (Men's Group)", "date": "2026-04-08", "time": "8:00 PM", "venue": "", "description": "Group Stage", "status": "scheduled" },
-        { "id": "sch-fb-m9", "title": "M9: B1 vs B3 (Men's Group)", "date": "2026-04-08", "time": "9:00 PM", "venue": "", "description": "Group Stage", "status": "scheduled" },
-        { "id": "sch-fb-w7", "title": "W7: CSA vs CeNSE (Women's)", "date": "2026-04-10", "time": "5:30 PM", "venue": "", "description": "Women's League", "status": "scheduled" },
-        { "id": "sch-fb-w8", "title": "W8: CNS vs Civilians (Women's)", "date": "2026-04-10", "time": "6:10 PM", "venue": "", "description": "Women's League", "status": "scheduled" },
-        { "id": "sch-fb-m10", "title": "M10: A1 vs A4 (Men's Group)", "date": "2026-04-10", "time": "7:00 PM", "venue": "", "description": "Group Stage", "status": "scheduled" },
-        { "id": "sch-fb-m11", "title": "M11: A2 vs A3 (Men's Group)", "date": "2026-04-10", "time": "8:00 PM", "venue": "", "description": "Group Stage", "status": "scheduled" },
-        { "id": "sch-fb-m12", "title": "M12: B3 vs B4 (Men's Group)", "date": "2026-04-10", "time": "9:00 PM", "venue": "", "description": "Group Stage", "status": "scheduled" },
-        { "id": "sch-fb-w9", "title": "W9: CNS vs CSA (Women's)", "date": "2026-04-11", "time": "5:30 PM", "venue": "", "description": "Women's League", "status": "scheduled" },
-        { "id": "sch-fb-w10", "title": "W10: Civilians vs Supersonic Strikers (Women's)", "date": "2026-04-11", "time": "6:10 PM", "venue": "", "description": "Women's League", "status": "scheduled" },
-        { "id": "sch-fb-s1", "title": "S1: 1st Group A vs 2nd Group B (Men's Semi)", "date": "2026-04-11", "time": "7:00 PM", "venue": "", "description": "Men's Semi-final", "status": "scheduled" },
-        { "id": "sch-fb-s2", "title": "S2: 1st Group B vs 2nd Group A (Men's Semi)", "date": "2026-04-11", "time": "8:00 PM", "venue": "", "description": "Men's Semi-final", "status": "scheduled" },
-        { "id": "sch-fb-wf", "title": "Women's Final: 1st vs 2nd Place", "date": "2026-04-12", "time": "5:30 PM", "venue": "", "description": "Women's Final", "status": "scheduled" },
-        { "id": "sch-fb-mf", "title": "Men's Final: Semi 1 Winner vs Semi 2 Winner", "date": "2026-04-12", "time": "7:00 PM", "venue": "", "description": "Men's Final", "status": "scheduled" }
+        {
+          "id": "sch-fb-w1",
+          "title": "W1: CSA vs Civilians (Women's)",
+          "date": "2026-04-03",
+          "time": "5:30 PM",
+          "venue": "",
+          "description": "Women's League",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-fb-w2",
+          "title": "W2: Supersonic Strikers vs CeNSE (Women's)",
+          "date": "2026-04-03",
+          "time": "6:10 PM",
+          "venue": "",
+          "description": "Women's League",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-fb-k1",
+          "title": "K1: IAP vs Cummingtonite (Men's KO)",
+          "date": "2026-04-03",
+          "time": "7:00 PM",
+          "venue": "",
+          "description": "Men's Knockout",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-fb-k2",
+          "title": "K2: CeNSE vs CES (Men's KO)",
+          "date": "2026-04-03",
+          "time": "8:00 PM",
+          "venue": "",
+          "description": "Men's Knockout",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-fb-k3",
+          "title": "K3: Underdawgs vs DESE (Men's KO)",
+          "date": "2026-04-03",
+          "time": "9:00 PM",
+          "venue": "",
+          "description": "Men's Knockout",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-fb-k4",
+          "title": "K4: CSA FC vs DoMinatorS (Men's KO)",
+          "date": "2026-04-04",
+          "time": "6:30 PM",
+          "venue": "",
+          "description": "Men's Knockout",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-fb-k5",
+          "title": "K5: Bioblasters vs ECE (Men's KO)",
+          "date": "2026-04-04",
+          "time": "7:30 PM",
+          "venue": "",
+          "description": "Men's Knockout",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-fb-k6",
+          "title": "K6: Mech Spartans vs MTE (Men's KO)",
+          "date": "2026-04-04",
+          "time": "8:30 PM",
+          "venue": "",
+          "description": "Men's Knockout",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-fb-m1",
+          "title": "M1: A1 vs A2 (Men's Group)",
+          "date": "2026-04-05",
+          "time": "6:30 PM",
+          "venue": "",
+          "description": "Group Stage",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-fb-m2",
+          "title": "M2: B1 vs B4 (Men's Group)",
+          "date": "2026-04-05",
+          "time": "7:30 PM",
+          "venue": "",
+          "description": "Group Stage",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-fb-m3",
+          "title": "M3: B2 vs B3 (Men's Group)",
+          "date": "2026-04-05",
+          "time": "8:30 PM",
+          "venue": "",
+          "description": "Group Stage",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-fb-w3",
+          "title": "W3: CNS vs Supersonic Strikers (Women's)",
+          "date": "2026-04-06",
+          "time": "5:30 PM",
+          "venue": "",
+          "description": "Women's League",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-fb-w4",
+          "title": "W4: Civilians vs CeNSE (Women's)",
+          "date": "2026-04-06",
+          "time": "6:10 PM",
+          "venue": "",
+          "description": "Women's League",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-fb-m4",
+          "title": "M4: A1 vs A3 (Men's Group)",
+          "date": "2026-04-06",
+          "time": "7:00 PM",
+          "venue": "",
+          "description": "Group Stage",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-fb-m5",
+          "title": "M5: A2 vs A4 (Men's Group)",
+          "date": "2026-04-06",
+          "time": "8:00 PM",
+          "venue": "",
+          "description": "Group Stage",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-fb-m6",
+          "title": "M6: B1 vs B2 (Men's Group)",
+          "date": "2026-04-06",
+          "time": "9:00 PM",
+          "venue": "",
+          "description": "Group Stage",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-fb-w5",
+          "title": "W5: CNS vs CeNSE (Women's)",
+          "date": "2026-04-08",
+          "time": "5:30 PM",
+          "venue": "",
+          "description": "Women's League",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-fb-w6",
+          "title": "W6: CSA vs Supersonic Strikers (Women's)",
+          "date": "2026-04-08",
+          "time": "6:10 PM",
+          "venue": "",
+          "description": "Women's League",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-fb-m7",
+          "title": "M7: A3 vs A4 (Men's Group)",
+          "date": "2026-04-08",
+          "time": "7:00 PM",
+          "venue": "",
+          "description": "Group Stage",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-fb-m8",
+          "title": "M8: B2 vs B4 (Men's Group)",
+          "date": "2026-04-08",
+          "time": "8:00 PM",
+          "venue": "",
+          "description": "Group Stage",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-fb-m9",
+          "title": "M9: B1 vs B3 (Men's Group)",
+          "date": "2026-04-08",
+          "time": "9:00 PM",
+          "venue": "",
+          "description": "Group Stage",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-fb-w7",
+          "title": "W7: CSA vs CeNSE (Women's)",
+          "date": "2026-04-10",
+          "time": "5:30 PM",
+          "venue": "",
+          "description": "Women's League",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-fb-w8",
+          "title": "W8: CNS vs Civilians (Women's)",
+          "date": "2026-04-10",
+          "time": "6:10 PM",
+          "venue": "",
+          "description": "Women's League",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-fb-m10",
+          "title": "M10: A1 vs A4 (Men's Group)",
+          "date": "2026-04-10",
+          "time": "7:00 PM",
+          "venue": "",
+          "description": "Group Stage",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-fb-m11",
+          "title": "M11: A2 vs A3 (Men's Group)",
+          "date": "2026-04-10",
+          "time": "8:00 PM",
+          "venue": "",
+          "description": "Group Stage",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-fb-m12",
+          "title": "M12: B3 vs B4 (Men's Group)",
+          "date": "2026-04-10",
+          "time": "9:00 PM",
+          "venue": "",
+          "description": "Group Stage",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-fb-w9",
+          "title": "W9: CNS vs CSA (Women's)",
+          "date": "2026-04-11",
+          "time": "5:30 PM",
+          "venue": "",
+          "description": "Women's League",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-fb-w10",
+          "title": "W10: Civilians vs Supersonic Strikers (Women's)",
+          "date": "2026-04-11",
+          "time": "6:10 PM",
+          "venue": "",
+          "description": "Women's League",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-fb-s1",
+          "title": "S1: 1st Group A vs 2nd Group B (Men's Semi)",
+          "date": "2026-04-11",
+          "time": "7:00 PM",
+          "venue": "",
+          "description": "Men's Semi-final",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-fb-s2",
+          "title": "S2: 1st Group B vs 2nd Group A (Men's Semi)",
+          "date": "2026-04-11",
+          "time": "8:00 PM",
+          "venue": "",
+          "description": "Men's Semi-final",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-fb-wf",
+          "title": "Women's Final: 1st vs 2nd Place",
+          "date": "2026-04-12",
+          "time": "5:30 PM",
+          "venue": "",
+          "description": "Women's Final",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-fb-mf",
+          "title": "Men's Final: Semi 1 Winner vs Semi 2 Winner",
+          "date": "2026-04-12",
+          "time": "7:00 PM",
+          "venue": "",
+          "description": "Men's Final",
+          "status": "scheduled"
+        }
       ]
     },
     {
@@ -180,22 +473,150 @@
       "status": "in-progress",
       "venue": "Aryabhatta, A Block, NBH",
       "schedule": [
-        { "id": "sch-foos-a1", "title": "Pool A: CNS-1 vs CeNSE-2", "date": "2026-04-01", "time": "6:00 PM", "venue": "A Block", "description": "Round 1 Pool A — Ref: Jitendra", "status": "scheduled" },
-        { "id": "sch-foos-a2", "title": "Pool A: Chemical Sciences vs UG Juniors 2", "date": "2026-04-01", "time": "6:30 PM", "venue": "A Block", "description": "Round 1 Pool A — Ref: Jitendra", "status": "scheduled" },
-        { "id": "sch-foos-a3", "title": "Pool A: DOMS-1 vs CSA", "date": "2026-04-01", "time": "7:00 PM", "venue": "A Block", "description": "Round 1 Pool A — Ref: Jitendra", "status": "scheduled" },
-        { "id": "sch-foos-a4", "title": "Pool A: IAP (bye)", "date": "2026-04-01", "time": "", "venue": "A Block", "description": "Round 1 Pool A — Bye", "status": "scheduled" },
-        { "id": "sch-foos-b1", "title": "Pool B: UG Juniors 1 vs DESE-1", "date": "2026-04-01", "time": "6:00 PM", "venue": "A Block", "description": "Round 1 Pool B — Ref: Vidisha", "status": "scheduled" },
-        { "id": "sch-foos-b2", "title": "Pool B: Civil-1 vs CDS-1", "date": "2026-04-01", "time": "6:30 PM", "venue": "A Block", "description": "Round 1 Pool B — Ref: Vidisha", "status": "scheduled" },
-        { "id": "sch-foos-b3", "title": "Pool B: Physics-1 vs ECE-1", "date": "2026-04-01", "time": "7:00 PM", "venue": "A Block", "description": "Round 1 Pool B — Ref: Vidisha", "status": "scheduled" },
-        { "id": "sch-foos-b4", "title": "Pool B: ICER-2 (bye)", "date": "2026-04-01", "time": "", "venue": "A Block", "description": "Round 1 Pool B — Bye", "status": "scheduled" },
-        { "id": "sch-foos-c1", "title": "Pool C: UG Seniors 2 vs CeNSE-1", "date": "2026-04-01", "time": "6:00 PM", "venue": "NBH", "description": "Round 1 Pool C — Ref: Pratik", "status": "scheduled" },
-        { "id": "sch-foos-c2", "title": "Pool C: DESE-2 vs CPDM", "date": "2026-04-01", "time": "6:30 PM", "venue": "NBH", "description": "Round 1 Pool C — Ref: Pratik", "status": "scheduled" },
-        { "id": "sch-foos-c3", "title": "Pool C: Chemistry-1 vs DOMS-2", "date": "2026-04-01", "time": "7:00 PM", "venue": "NBH", "description": "Round 1 Pool C — Ref: Pratik", "status": "scheduled" },
-        { "id": "sch-foos-c4", "title": "Pool C: Aerospace-2 (bye)", "date": "2026-04-01", "time": "", "venue": "NBH", "description": "Round 1 Pool C — Bye", "status": "scheduled" },
-        { "id": "sch-foos-d1", "title": "Pool D: UG Seniors 1 vs ICER-1", "date": "2026-04-01", "time": "6:00 PM", "venue": "Aryabhatta", "description": "Round 1 Pool D — Ref: Faisal", "status": "scheduled" },
-        { "id": "sch-foos-d2", "title": "Pool D: Civil-2 vs IPC", "date": "2026-04-01", "time": "6:30 PM", "venue": "Aryabhatta", "description": "Round 1 Pool D — Ref: Faisal", "status": "scheduled" },
-        { "id": "sch-foos-d3", "title": "Pool D: RBCCPS vs Aerospace-1", "date": "2026-04-01", "time": "7:00 PM", "venue": "Aryabhatta", "description": "Round 1 Pool D — Ref: Faisal", "status": "scheduled" },
-        { "id": "sch-foos-d4", "title": "Pool D: ECE-2 (bye)", "date": "2026-04-01", "time": "", "venue": "Aryabhatta", "description": "Round 1 Pool D — Bye", "status": "scheduled" }
+        {
+          "id": "sch-foos-a1",
+          "title": "Pool A: CNS-1 vs CeNSE-2",
+          "date": "2026-04-01",
+          "time": "6:00 PM",
+          "venue": "A Block",
+          "description": "Round 1 Pool A — Ref: Jitendra",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-foos-a2",
+          "title": "Pool A: Chemical Sciences vs UG Juniors 2",
+          "date": "2026-04-01",
+          "time": "6:30 PM",
+          "venue": "A Block",
+          "description": "Round 1 Pool A — Ref: Jitendra",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-foos-a3",
+          "title": "Pool A: DOMS-1 vs CSA",
+          "date": "2026-04-01",
+          "time": "7:00 PM",
+          "venue": "A Block",
+          "description": "Round 1 Pool A — Ref: Jitendra",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-foos-a4",
+          "title": "Pool A: IAP (bye)",
+          "date": "2026-04-01",
+          "time": "",
+          "venue": "A Block",
+          "description": "Round 1 Pool A — Bye",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-foos-b1",
+          "title": "Pool B: UG Juniors 1 vs DESE-1",
+          "date": "2026-04-01",
+          "time": "6:00 PM",
+          "venue": "A Block",
+          "description": "Round 1 Pool B — Ref: Vidisha",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-foos-b2",
+          "title": "Pool B: Civil-1 vs CDS-1",
+          "date": "2026-04-01",
+          "time": "6:30 PM",
+          "venue": "A Block",
+          "description": "Round 1 Pool B — Ref: Vidisha",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-foos-b3",
+          "title": "Pool B: Physics-1 vs ECE-1",
+          "date": "2026-04-01",
+          "time": "7:00 PM",
+          "venue": "A Block",
+          "description": "Round 1 Pool B — Ref: Vidisha",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-foos-b4",
+          "title": "Pool B: ICER-2 (bye)",
+          "date": "2026-04-01",
+          "time": "",
+          "venue": "A Block",
+          "description": "Round 1 Pool B — Bye",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-foos-c1",
+          "title": "Pool C: UG Seniors 2 vs CeNSE-1",
+          "date": "2026-04-01",
+          "time": "6:00 PM",
+          "venue": "NBH",
+          "description": "Round 1 Pool C — Ref: Pratik",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-foos-c2",
+          "title": "Pool C: DESE-2 vs CPDM",
+          "date": "2026-04-01",
+          "time": "6:30 PM",
+          "venue": "NBH",
+          "description": "Round 1 Pool C — Ref: Pratik",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-foos-c3",
+          "title": "Pool C: Chemistry-1 vs DOMS-2",
+          "date": "2026-04-01",
+          "time": "7:00 PM",
+          "venue": "NBH",
+          "description": "Round 1 Pool C — Ref: Pratik",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-foos-c4",
+          "title": "Pool C: Aerospace-2 (bye)",
+          "date": "2026-04-01",
+          "time": "",
+          "venue": "NBH",
+          "description": "Round 1 Pool C — Bye",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-foos-d1",
+          "title": "Pool D: UG Seniors 1 vs ICER-1",
+          "date": "2026-04-01",
+          "time": "6:00 PM",
+          "venue": "Aryabhatta",
+          "description": "Round 1 Pool D — Ref: Faisal",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-foos-d2",
+          "title": "Pool D: Civil-2 vs IPC",
+          "date": "2026-04-01",
+          "time": "6:30 PM",
+          "venue": "Aryabhatta",
+          "description": "Round 1 Pool D — Ref: Faisal",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-foos-d3",
+          "title": "Pool D: RBCCPS vs Aerospace-1",
+          "date": "2026-04-01",
+          "time": "7:00 PM",
+          "venue": "Aryabhatta",
+          "description": "Round 1 Pool D — Ref: Faisal",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-foos-d4",
+          "title": "Pool D: ECE-2 (bye)",
+          "date": "2026-04-01",
+          "time": "",
+          "venue": "Aryabhatta",
+          "description": "Round 1 Pool D — Bye",
+          "status": "scheduled"
+        }
       ],
       "categories": "2 Open Doubles + 1 Mixed Doubles per match",
       "teamSize": "5 players + 1 backup; at least 1 player of different gender",
@@ -215,9 +636,33 @@
       "status": "in-progress",
       "venue": "IISc Gymkhana Turf",
       "schedule": [
-        { "id": "sch-frisbee-1", "title": "BE v CPS 2", "date": "2026-03-31", "time": "6:30 PM - 7:20 PM", "venue": "Gymkhana Turf", "description": "", "status": "completed" },
-        { "id": "sch-frisbee-2", "title": "UG Juniors v CPS 1", "date": "2026-03-31", "time": "7:30 PM - 8:20 PM", "venue": "Gymkhana Turf", "description": "", "status": "completed" },
-        { "id": "sch-frisbee-3", "title": "BE v UG Seniors", "date": "2026-03-31", "time": "8:30 PM - 9:20 PM", "venue": "Gymkhana Turf", "description": "", "status": "completed" }
+        {
+          "id": "sch-frisbee-1",
+          "title": "BE v CPS 2",
+          "date": "2026-03-31",
+          "time": "6:30 PM - 7:20 PM",
+          "venue": "Gymkhana Turf",
+          "description": "",
+          "status": "completed"
+        },
+        {
+          "id": "sch-frisbee-2",
+          "title": "UG Juniors v CPS 1",
+          "date": "2026-03-31",
+          "time": "7:30 PM - 8:20 PM",
+          "venue": "Gymkhana Turf",
+          "description": "",
+          "status": "completed"
+        },
+        {
+          "id": "sch-frisbee-3",
+          "title": "BE v UG Seniors",
+          "date": "2026-03-31",
+          "time": "8:30 PM - 9:20 PM",
+          "venue": "Gymkhana Turf",
+          "description": "",
+          "status": "completed"
+        }
       ],
       "categories": "Open (Mixed Gender)",
       "teamSize": "7 on line, min 3 female players",
@@ -227,8 +672,14 @@
       "registrationDeadline": "",
       "whatsappLink": "",
       "contacts": [
-        { "name": "D. S. Karthik", "phone": "6305591949" },
-        { "name": "Sahil", "phone": "8653280175" }
+        {
+          "name": "D. S. Karthik",
+          "phone": "6305591949"
+        },
+        {
+          "name": "Sahil",
+          "phone": "8653280175"
+        }
       ],
       "hasRules": true
     },
@@ -247,8 +698,15 @@
       "registrationDeadline": "",
       "whatsappLink": "",
       "contacts": [
-        { "name": "Satyajeeb Palai", "phone": "7898286674", "email": "satyasundarp@iisc.ac.in" },
-        { "name": "Neivisita Hinge", "email": "neivisitah@iisc.ac.in" }
+        {
+          "name": "Satyajeeb Palai",
+          "phone": "7898286674",
+          "email": "satyasundarp@iisc.ac.in"
+        },
+        {
+          "name": "Neivisita Hinge",
+          "email": "neivisitah@iisc.ac.in"
+        }
       ],
       "hasRules": true
     },
@@ -267,8 +725,14 @@
       "registrationDeadline": "",
       "whatsappLink": "",
       "contacts": [
-        { "name": "Siddharth", "phone": "9120393393" },
-        { "name": "Saurav", "phone": "9162534885" }
+        {
+          "name": "Siddharth",
+          "phone": "9120393393"
+        },
+        {
+          "name": "Saurav",
+          "phone": "9162534885"
+        }
       ],
       "hasRules": true
     },
@@ -288,8 +752,12 @@
       "registrationDeadline": "",
       "whatsappLink": "https://chat.whatsapp.com/LbHL44Rmj4CK79bYNu0ilU?mode=gi_t",
       "contacts": [
-        { "phone": "6303190090" },
-        { "phone": "9084431077" }
+        {
+          "phone": "6303190090"
+        },
+        {
+          "phone": "9084431077"
+        }
       ],
       "hasRules": true
     },
@@ -309,7 +777,10 @@
       "registrationDeadline": "",
       "whatsappLink": "",
       "contacts": [
-        { "name": "Suresh", "phone": "6381911360" }
+        {
+          "name": "Suresh",
+          "phone": "6381911360"
+        }
       ],
       "hasRules": true
     },
@@ -328,8 +799,14 @@
       "registrationDeadline": "",
       "whatsappLink": "https://chat.whatsapp.com/J9TsC46U0ihFHXeVXgeET7?mode=hqctcla",
       "contacts": [
-        { "name": "Srihari Sivasubramony", "phone": "7016307279" },
-        { "name": "Shiv Pratap Singh Rathore", "phone": "7869529189" }
+        {
+          "name": "Srihari Sivasubramony",
+          "phone": "7016307279"
+        },
+        {
+          "name": "Shiv Pratap Singh Rathore",
+          "phone": "7869529189"
+        }
       ],
       "hasRules": false
     },
@@ -341,7 +818,15 @@
       "status": "upcoming",
       "venue": "Janta Gym",
       "schedule": [
-        { "id": "sch-powerlifting-1", "title": "Powerlifting Competition", "date": "2026-04-07", "time": "5:30 PM onwards", "venue": "Janta Gym", "description": "Individual participation. Volunteers: 2, Refreshments: 50", "status": "scheduled" }
+        {
+          "id": "sch-powerlifting-1",
+          "title": "Powerlifting Competition",
+          "date": "2026-04-07",
+          "time": "5:30 PM onwards",
+          "venue": "Janta Gym",
+          "description": "Individual participation. Volunteers: 2, Refreshments: 50",
+          "status": "scheduled"
+        }
       ],
       "categories": "Men's, Women's (5 weight categories each)",
       "teamSize": "",
@@ -351,7 +836,9 @@
       "registrationDeadline": "",
       "whatsappLink": "",
       "contacts": [
-        { "phone": "6290556638" }
+        {
+          "phone": "6290556638"
+        }
       ],
       "hasRules": true
     },
@@ -370,7 +857,10 @@
       "registrationDeadline": "",
       "whatsappLink": "",
       "contacts": [
-        { "name": "Snooker Club Convenor", "phone": "7063616634" }
+        {
+          "name": "Snooker Club Convenor",
+          "phone": "7063616634"
+        }
       ],
       "hasRules": true
     },
@@ -382,12 +872,60 @@
       "status": "in-progress",
       "venue": "TBA",
       "schedule": [
-        { "id": "sch-swimming-1", "title": "50m Freestyle (Men & Women)", "date": "2026-04-01", "time": "8:00 AM - 10:00 AM", "venue": "", "description": "Morning session", "status": "scheduled" },
-        { "id": "sch-swimming-2", "title": "50m Backstroke (Men & Women)", "date": "2026-04-01", "time": "8:00 AM - 10:00 AM", "venue": "", "description": "Morning session", "status": "scheduled" },
-        { "id": "sch-swimming-3", "title": "50m Butterfly (Men & Women)", "date": "2026-04-01", "time": "4:00 PM - 6:30 PM", "venue": "", "description": "Evening session", "status": "scheduled" },
-        { "id": "sch-swimming-4", "title": "50m Breaststroke (Men & Women)", "date": "2026-04-01", "time": "4:00 PM - 6:30 PM", "venue": "", "description": "Evening session", "status": "scheduled" },
-        { "id": "sch-swimming-5", "title": "500m Freestyle (Men & Women)", "date": "2026-04-01", "time": "4:00 PM - 6:30 PM", "venue": "", "description": "Evening session", "status": "scheduled" },
-        { "id": "sch-swimming-6", "title": "4x50m Relay Freestyle (Men & Women)", "date": "2026-04-01", "time": "4:00 PM - 6:30 PM", "venue": "", "description": "Evening session", "status": "scheduled" }
+        {
+          "id": "sch-swimming-1",
+          "title": "50m Freestyle (Men & Women)",
+          "date": "2026-04-01",
+          "time": "8:00 AM - 10:00 AM",
+          "venue": "",
+          "description": "Morning session",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-swimming-2",
+          "title": "50m Backstroke (Men & Women)",
+          "date": "2026-04-01",
+          "time": "8:00 AM - 10:00 AM",
+          "venue": "",
+          "description": "Morning session",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-swimming-3",
+          "title": "50m Butterfly (Men & Women)",
+          "date": "2026-04-01",
+          "time": "4:00 PM - 6:30 PM",
+          "venue": "",
+          "description": "Evening session",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-swimming-4",
+          "title": "50m Breaststroke (Men & Women)",
+          "date": "2026-04-01",
+          "time": "4:00 PM - 6:30 PM",
+          "venue": "",
+          "description": "Evening session",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-swimming-5",
+          "title": "500m Freestyle (Men & Women)",
+          "date": "2026-04-01",
+          "time": "4:00 PM - 6:30 PM",
+          "venue": "",
+          "description": "Evening session",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-swimming-6",
+          "title": "4x50m Relay Freestyle (Men & Women)",
+          "date": "2026-04-01",
+          "time": "4:00 PM - 6:30 PM",
+          "venue": "",
+          "description": "Evening session",
+          "status": "scheduled"
+        }
       ],
       "categories": "Men's, Women's",
       "teamSize": "",
@@ -397,7 +935,11 @@
       "registrationDeadline": "March 29, 2026, 11:59 AM",
       "whatsappLink": "",
       "contacts": [
-        { "name": "Satyajeeb Palai", "phone": "7898286674", "email": "satyajeebp@iisc.ac.in" }
+        {
+          "name": "Satyajeeb Palai",
+          "phone": "7898286674",
+          "email": "satyajeebp@iisc.ac.in"
+        }
       ],
       "hasRules": false
     },
@@ -409,28 +951,204 @@
       "status": "in-progress",
       "venue": "TBA",
       "schedule": [
-        { "id": "sch-tt-m1", "title": "M1: CSA vs AI", "date": "2026-04-01", "time": "6:00 PM", "venue": "", "description": "Round 1 Knockout", "status": "scheduled" },
-        { "id": "sch-tt-m2", "title": "M2: DESE vs CeNSE-B", "date": "2026-04-01", "time": "6:00 PM", "venue": "", "description": "Round 1 Knockout", "status": "scheduled" },
-        { "id": "sch-tt-m3", "title": "M3: Winner M1 vs Winner M2", "date": "2026-04-01", "time": "7:00 PM", "venue": "", "description": "Round 2 Knockout", "status": "scheduled" },
-        { "id": "sch-tt-m4", "title": "M4: CDS-A vs CPS-B", "date": "2026-04-01", "time": "8:00 PM", "venue": "", "description": "Round 1 Knockout", "status": "scheduled" },
-        { "id": "sch-tt-m5", "title": "M5: Maths-A vs Winner M4", "date": "2026-04-01", "time": "9:00 PM", "venue": "", "description": "Round 2 Knockout", "status": "scheduled" },
-        { "id": "sch-tt-m6", "title": "M6: ECE-A vs Management", "date": "2026-04-02", "time": "6:00 PM", "venue": "", "description": "Round 1 Knockout", "status": "scheduled" },
-        { "id": "sch-tt-m7", "title": "M7: ICWaR vs Maths-B", "date": "2026-04-02", "time": "6:00 PM", "venue": "", "description": "Round 1 Knockout", "status": "scheduled" },
-        { "id": "sch-tt-m8", "title": "M8: Winner M6 vs Winner M7", "date": "2026-04-02", "time": "7:00 PM", "venue": "", "description": "Round 2 Knockout", "status": "scheduled" },
-        { "id": "sch-tt-m9", "title": "M9: ECE-C vs ICER", "date": "2026-04-02", "time": "7:00 PM", "venue": "", "description": "Round 1 Knockout", "status": "scheduled" },
-        { "id": "sch-tt-m10", "title": "M10: Civil-A vs CNS", "date": "2026-04-04", "time": "6:00 PM", "venue": "", "description": "Round 1 Knockout", "status": "scheduled" },
-        { "id": "sch-tt-m11", "title": "M11: CPS-C vs UG-C", "date": "2026-04-04", "time": "6:00 PM", "venue": "", "description": "Round 1 Knockout", "status": "scheduled" },
-        { "id": "sch-tt-m12", "title": "M12: Winner M10 vs Winner M11", "date": "2026-04-04", "time": "7:00 PM", "venue": "", "description": "Round 2 Knockout", "status": "scheduled" },
-        { "id": "sch-tt-m13", "title": "M13: UG-B vs CDS-B", "date": "2026-04-03", "time": "6:00 PM", "venue": "", "description": "Round 1 Knockout", "status": "scheduled" },
-        { "id": "sch-tt-m14", "title": "M14: UG-A vs CSA-B", "date": "2026-04-03", "time": "6:00 PM", "venue": "", "description": "Round 1 Knockout", "status": "scheduled" },
-        { "id": "sch-tt-m15", "title": "M15: Winner M13 vs Winner M14", "date": "2026-04-03", "time": "7:00 PM", "venue": "", "description": "Round 2 Knockout", "status": "scheduled" },
-        { "id": "sch-tt-m16", "title": "M16: Mechanical vs Genetics", "date": "2026-04-03", "time": "7:00 PM", "venue": "", "description": "Round 1 Knockout", "status": "scheduled" },
-        { "id": "sch-tt-m17", "title": "M17: MRC vs ECE-B", "date": "2026-04-03", "time": "8:00 PM", "venue": "", "description": "Round 1 Knockout", "status": "scheduled" },
-        { "id": "sch-tt-m18", "title": "M18: Civil-B vs CPS-A", "date": "2026-04-03", "time": "8:00 PM", "venue": "", "description": "Round 1 Knockout", "status": "scheduled" },
-        { "id": "sch-tt-m19", "title": "M19: Winner M16 vs Winner M17", "date": "2026-04-03", "time": "9:00 PM", "venue": "", "description": "Round 2 Knockout", "status": "scheduled" },
-        { "id": "sch-tt-m20", "title": "M20: CeNSE-A vs Winner M18", "date": "2026-04-03", "time": "9:00 PM", "venue": "", "description": "Round 2 Knockout", "status": "scheduled" },
-        { "id": "sch-tt-m21", "title": "M21: Admin vs Electrical", "date": "2026-04-05", "time": "6:00 PM", "venue": "", "description": "Round 1 Knockout", "status": "scheduled" },
-        { "id": "sch-tt-m22", "title": "M22: Winner M9 vs Winner M18", "date": "2026-04-05", "time": "7:00 PM", "venue": "", "description": "Round 2 Knockout", "status": "scheduled" }
+        {
+          "id": "sch-tt-m1",
+          "title": "M1: CSA vs AI",
+          "date": "2026-04-01",
+          "time": "6:00 PM",
+          "venue": "",
+          "description": "Round 1 Knockout",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-tt-m2",
+          "title": "M2: DESE vs CeNSE-B",
+          "date": "2026-04-01",
+          "time": "6:00 PM",
+          "venue": "",
+          "description": "Round 1 Knockout",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-tt-m3",
+          "title": "M3: Winner M1 vs Winner M2",
+          "date": "2026-04-01",
+          "time": "7:00 PM",
+          "venue": "",
+          "description": "Round 2 Knockout",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-tt-m4",
+          "title": "M4: CDS-A vs CPS-B",
+          "date": "2026-04-01",
+          "time": "8:00 PM",
+          "venue": "",
+          "description": "Round 1 Knockout",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-tt-m5",
+          "title": "M5: Maths-A vs Winner M4",
+          "date": "2026-04-01",
+          "time": "9:00 PM",
+          "venue": "",
+          "description": "Round 2 Knockout",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-tt-m6",
+          "title": "M6: ECE-A vs Management",
+          "date": "2026-04-02",
+          "time": "6:00 PM",
+          "venue": "",
+          "description": "Round 1 Knockout",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-tt-m7",
+          "title": "M7: ICWaR vs Maths-B",
+          "date": "2026-04-02",
+          "time": "6:00 PM",
+          "venue": "",
+          "description": "Round 1 Knockout",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-tt-m8",
+          "title": "M8: Winner M6 vs Winner M7",
+          "date": "2026-04-02",
+          "time": "7:00 PM",
+          "venue": "",
+          "description": "Round 2 Knockout",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-tt-m9",
+          "title": "M9: ECE-C vs ICER",
+          "date": "2026-04-02",
+          "time": "7:00 PM",
+          "venue": "",
+          "description": "Round 1 Knockout",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-tt-m10",
+          "title": "M10: Civil-A vs CNS",
+          "date": "2026-04-04",
+          "time": "6:00 PM",
+          "venue": "",
+          "description": "Round 1 Knockout",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-tt-m11",
+          "title": "M11: CPS-C vs UG-C",
+          "date": "2026-04-04",
+          "time": "6:00 PM",
+          "venue": "",
+          "description": "Round 1 Knockout",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-tt-m12",
+          "title": "M12: Winner M10 vs Winner M11",
+          "date": "2026-04-04",
+          "time": "7:00 PM",
+          "venue": "",
+          "description": "Round 2 Knockout",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-tt-m13",
+          "title": "M13: UG-B vs CDS-B",
+          "date": "2026-04-03",
+          "time": "6:00 PM",
+          "venue": "",
+          "description": "Round 1 Knockout",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-tt-m14",
+          "title": "M14: UG-A vs CSA-B",
+          "date": "2026-04-03",
+          "time": "6:00 PM",
+          "venue": "",
+          "description": "Round 1 Knockout",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-tt-m15",
+          "title": "M15: Winner M13 vs Winner M14",
+          "date": "2026-04-03",
+          "time": "7:00 PM",
+          "venue": "",
+          "description": "Round 2 Knockout",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-tt-m16",
+          "title": "M16: Mechanical vs Genetics",
+          "date": "2026-04-03",
+          "time": "7:00 PM",
+          "venue": "",
+          "description": "Round 1 Knockout",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-tt-m17",
+          "title": "M17: MRC vs ECE-B",
+          "date": "2026-04-03",
+          "time": "8:00 PM",
+          "venue": "",
+          "description": "Round 1 Knockout",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-tt-m18",
+          "title": "M18: Civil-B vs CPS-A",
+          "date": "2026-04-03",
+          "time": "8:00 PM",
+          "venue": "",
+          "description": "Round 1 Knockout",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-tt-m19",
+          "title": "M19: Winner M16 vs Winner M17",
+          "date": "2026-04-03",
+          "time": "9:00 PM",
+          "venue": "",
+          "description": "Round 2 Knockout",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-tt-m20",
+          "title": "M20: CeNSE-A vs Winner M18",
+          "date": "2026-04-03",
+          "time": "9:00 PM",
+          "venue": "",
+          "description": "Round 2 Knockout",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-tt-m21",
+          "title": "M21: Admin vs Electrical",
+          "date": "2026-04-05",
+          "time": "6:00 PM",
+          "venue": "",
+          "description": "Round 1 Knockout",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-tt-m22",
+          "title": "M22: Winner M9 vs Winner M18",
+          "date": "2026-04-05",
+          "time": "7:00 PM",
+          "venue": "",
+          "description": "Round 2 Knockout",
+          "status": "scheduled"
+        }
       ],
       "categories": "Men's Singles, Women's Singles, 2 Open Singles, Open Doubles",
       "teamSize": "5 players (4 compulsory + 1 optional); at least 1 female in playing 4",
@@ -440,7 +1158,570 @@
       "registrationDeadline": "",
       "whatsappLink": "https://chat.whatsapp.com/ImpMBWA3vKBBiNrmzEgrtV?mode=gi_t",
       "contacts": [],
-      "hasRules": true
+      "hasRules": true,
+      "bracket": {
+        "generated": true,
+        "matches": [
+          {
+            "id": "bm-tt-1",
+            "round": 0,
+            "position": 0,
+            "slots": [
+              {
+                "seedId": "seed-1",
+                "name": "Mathematics-A",
+                "score": null
+              },
+              {
+                "seedId": null,
+                "name": "BYE",
+                "score": null
+              }
+            ],
+            "winnerId": "seed-1"
+          },
+          {
+            "id": "bm-tt-2",
+            "round": 0,
+            "position": 1,
+            "slots": [
+              {
+                "seedId": "seed-3",
+                "name": "CDS-A",
+                "score": null
+              },
+              {
+                "seedId": "seed-4",
+                "name": "CPS-B",
+                "score": null
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bm-tt-3",
+            "round": 0,
+            "position": 2,
+            "slots": [
+              {
+                "seedId": "seed-5",
+                "name": "ECE-A",
+                "score": null
+              },
+              {
+                "seedId": "seed-6",
+                "name": "ManagementStudies",
+                "score": null
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bm-tt-4",
+            "round": 0,
+            "position": 3,
+            "slots": [
+              {
+                "seedId": "seed-7",
+                "name": "ICWaR",
+                "score": null
+              },
+              {
+                "seedId": "seed-8",
+                "name": "Mathematics-B",
+                "score": null
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bm-tt-5",
+            "round": 0,
+            "position": 4,
+            "slots": [
+              {
+                "seedId": "seed-9",
+                "name": "CSA",
+                "score": null
+              },
+              {
+                "seedId": "seed-10",
+                "name": "AI",
+                "score": null
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bm-tt-6",
+            "round": 0,
+            "position": 5,
+            "slots": [
+              {
+                "seedId": "seed-11",
+                "name": "DESE",
+                "score": null
+              },
+              {
+                "seedId": "seed-12",
+                "name": "CeNSE-B",
+                "score": null
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bm-tt-7",
+            "round": 0,
+            "position": 6,
+            "slots": [
+              {
+                "seedId": "seed-13",
+                "name": "UG-B",
+                "score": null
+              },
+              {
+                "seedId": "seed-14",
+                "name": "CDS-B",
+                "score": null
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bm-tt-8",
+            "round": 0,
+            "position": 7,
+            "slots": [
+              {
+                "seedId": "seed-15",
+                "name": "CSA-2",
+                "score": null
+              },
+              {
+                "seedId": "seed-16",
+                "name": "UG-A",
+                "score": null
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bm-tt-9",
+            "round": 0,
+            "position": 8,
+            "slots": [
+              {
+                "seedId": "seed-17",
+                "name": "Civil-A",
+                "score": null
+              },
+              {
+                "seedId": "seed-18",
+                "name": "CNS",
+                "score": null
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bm-tt-10",
+            "round": 0,
+            "position": 9,
+            "slots": [
+              {
+                "seedId": "seed-19",
+                "name": "CPS-C",
+                "score": null
+              },
+              {
+                "seedId": "seed-20",
+                "name": "UG-C",
+                "score": null
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bm-tt-11",
+            "round": 0,
+            "position": 10,
+            "slots": [
+              {
+                "seedId": "seed-21",
+                "name": "ECE-C",
+                "score": null
+              },
+              {
+                "seedId": "seed-22",
+                "name": "ICER",
+                "score": null
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bm-tt-12",
+            "round": 0,
+            "position": 11,
+            "slots": [
+              {
+                "seedId": "seed-23",
+                "name": "Admin",
+                "score": null
+              },
+              {
+                "seedId": "seed-24",
+                "name": "Electrical",
+                "score": null
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bm-tt-13",
+            "round": 0,
+            "position": 12,
+            "slots": [
+              {
+                "seedId": "seed-25",
+                "name": "Mechanical",
+                "score": null
+              },
+              {
+                "seedId": "seed-26",
+                "name": "Genetics",
+                "score": null
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bm-tt-14",
+            "round": 0,
+            "position": 13,
+            "slots": [
+              {
+                "seedId": "seed-27",
+                "name": "MRC",
+                "score": null
+              },
+              {
+                "seedId": "seed-28",
+                "name": "ECE-B",
+                "score": null
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bm-tt-15",
+            "round": 0,
+            "position": 14,
+            "slots": [
+              {
+                "seedId": "seed-29",
+                "name": "Civil-B",
+                "score": null
+              },
+              {
+                "seedId": "seed-30",
+                "name": "CPS-A",
+                "score": null
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bm-tt-16",
+            "round": 0,
+            "position": 15,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "BYE",
+                "score": null
+              },
+              {
+                "seedId": "seed-32",
+                "name": "CeNSE-A",
+                "score": null
+              }
+            ],
+            "winnerId": "seed-32"
+          },
+          {
+            "id": "bm-tt-17",
+            "round": 1,
+            "position": 0,
+            "slots": [
+              {
+                "seedId": "seed-1",
+                "name": "Mathematics-A",
+                "score": null
+              },
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": null
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bm-tt-18",
+            "round": 1,
+            "position": 1,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": null
+              },
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": null
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bm-tt-19",
+            "round": 1,
+            "position": 2,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": null
+              },
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": null
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bm-tt-20",
+            "round": 1,
+            "position": 3,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": null
+              },
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": null
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bm-tt-21",
+            "round": 1,
+            "position": 4,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": null
+              },
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": null
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bm-tt-22",
+            "round": 1,
+            "position": 5,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": null
+              },
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": null
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bm-tt-23",
+            "round": 1,
+            "position": 6,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": null
+              },
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": null
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bm-tt-24",
+            "round": 1,
+            "position": 7,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": null
+              },
+              {
+                "seedId": "seed-32",
+                "name": "CeNSE-A",
+                "score": null
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bm-tt-25",
+            "round": 2,
+            "position": 0,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": null
+              },
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": null
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bm-tt-26",
+            "round": 2,
+            "position": 1,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": null
+              },
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": null
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bm-tt-27",
+            "round": 2,
+            "position": 2,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": null
+              },
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": null
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bm-tt-28",
+            "round": 2,
+            "position": 3,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": null
+              },
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": null
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bm-tt-29",
+            "round": 3,
+            "position": 0,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": null
+              },
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": null
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bm-tt-30",
+            "round": 3,
+            "position": 1,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": null
+              },
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": null
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bm-tt-31",
+            "round": 4,
+            "position": 0,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": null
+              },
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": null
+              }
+            ],
+            "winnerId": null
+          }
+        ]
+      }
     },
     {
       "id": "evt-throwball",
@@ -457,8 +1738,14 @@
       "registrationDeadline": "",
       "whatsappLink": "",
       "contacts": [
-        { "name": "Srinithya", "phone": "82771 82290" },
-        { "name": "Baradh", "phone": "89257 71396" }
+        {
+          "name": "Srinithya",
+          "phone": "82771 82290"
+        },
+        {
+          "name": "Baradh",
+          "phone": "89257 71396"
+        }
       ],
       "hasRules": true
     },
@@ -470,11 +1757,51 @@
       "status": "in-progress",
       "venue": "TBA",
       "schedule": [
-        { "id": "sch-volleyball-1", "title": "Knockout 1: CPS vs Biochemistry", "date": "2026-04-01", "time": "5:30 PM - 6:15 PM", "venue": "", "description": "Day 1", "status": "scheduled" },
-        { "id": "sch-volleyball-2", "title": "Knockout 2: ECE-1 vs Management", "date": "2026-04-01", "time": "6:15 PM - 7:00 PM", "venue": "", "description": "Day 1", "status": "scheduled" },
-        { "id": "sch-volleyball-3", "title": "Knockout 3: UG-2 vs Materials Engineering", "date": "2026-04-01", "time": "7:00 PM - 7:45 PM", "venue": "", "description": "Day 1", "status": "scheduled" },
-        { "id": "sch-volleyball-4", "title": "Knockout 4: ECE-2 vs CNS", "date": "2026-04-01", "time": "8:00 PM - 8:45 PM", "venue": "", "description": "Day 1", "status": "scheduled" },
-        { "id": "sch-volleyball-5", "title": "Knockout 5: UG vs ESE", "date": "2026-04-01", "time": "9:00 PM - 9:45 PM", "venue": "", "description": "Day 1", "status": "scheduled" }
+        {
+          "id": "sch-volleyball-1",
+          "title": "Knockout 1: CPS vs Biochemistry",
+          "date": "2026-04-01",
+          "time": "5:30 PM - 6:15 PM",
+          "venue": "",
+          "description": "Day 1",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-volleyball-2",
+          "title": "Knockout 2: ECE-1 vs Management",
+          "date": "2026-04-01",
+          "time": "6:15 PM - 7:00 PM",
+          "venue": "",
+          "description": "Day 1",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-volleyball-3",
+          "title": "Knockout 3: UG-2 vs Materials Engineering",
+          "date": "2026-04-01",
+          "time": "7:00 PM - 7:45 PM",
+          "venue": "",
+          "description": "Day 1",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-volleyball-4",
+          "title": "Knockout 4: ECE-2 vs CNS",
+          "date": "2026-04-01",
+          "time": "8:00 PM - 8:45 PM",
+          "venue": "",
+          "description": "Day 1",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-volleyball-5",
+          "title": "Knockout 5: UG vs ESE",
+          "date": "2026-04-01",
+          "time": "9:00 PM - 9:45 PM",
+          "venue": "",
+          "description": "Day 1",
+          "status": "scheduled"
+        }
       ],
       "categories": "Men's, Women's",
       "teamSize": "6–12 players per team",
@@ -484,8 +1811,12 @@
       "registrationDeadline": "March 31, 2026",
       "whatsappLink": "https://chat.whatsapp.com/EeZfo80XwXvGsd9Z6hkolq",
       "contacts": [
-        { "phone": "7842815191" },
-        { "phone": "7466993970" }
+        {
+          "phone": "7842815191"
+        },
+        {
+          "phone": "7466993970"
+        }
       ],
       "hasRules": true
     }
