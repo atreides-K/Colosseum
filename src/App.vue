@@ -9,6 +9,7 @@
         <span class="brand-short">S</span>
       </div>
       <router-link to="/"><span class="nav-icon">&#127941;</span> <span class="nav-label">Events</span></router-link>
+      <router-link to="/home"><span class="nav-icon">&#127968;</span> <span class="nav-label">Home</span></router-link>
       <router-link to="/schedule"><span class="nav-icon">&#128197;</span> <span class="nav-label">Schedule</span></router-link>
     </div>
     <div class="sidebar-events">
