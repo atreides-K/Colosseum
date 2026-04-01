@@ -1721,7 +1721,159 @@
             "winnerId": null
           }
         ]
-      }
+      },
+      "teams": [
+        {
+          "id": "team-tt-1",
+          "name": "Mathematics-A",
+          "members": []
+        },
+        {
+          "id": "team-tt-2",
+          "name": "CDS-A",
+          "members": []
+        },
+        {
+          "id": "team-tt-3",
+          "name": "CPS-B",
+          "members": []
+        },
+        {
+          "id": "team-tt-4",
+          "name": "ECE-A",
+          "members": []
+        },
+        {
+          "id": "team-tt-5",
+          "name": "ManagementStudies",
+          "members": []
+        },
+        {
+          "id": "team-tt-6",
+          "name": "ICWaR",
+          "members": []
+        },
+        {
+          "id": "team-tt-7",
+          "name": "Mathematics-B",
+          "members": []
+        },
+        {
+          "id": "team-tt-8",
+          "name": "CSA",
+          "members": []
+        },
+        {
+          "id": "team-tt-9",
+          "name": "AI",
+          "members": []
+        },
+        {
+          "id": "team-tt-10",
+          "name": "DESE",
+          "members": []
+        },
+        {
+          "id": "team-tt-11",
+          "name": "CeNSE-B",
+          "members": []
+        },
+        {
+          "id": "team-tt-12",
+          "name": "UG-B",
+          "members": []
+        },
+        {
+          "id": "team-tt-13",
+          "name": "CDS-B",
+          "members": []
+        },
+        {
+          "id": "team-tt-14",
+          "name": "CSA-2",
+          "members": []
+        },
+        {
+          "id": "team-tt-15",
+          "name": "UG-A",
+          "members": []
+        },
+        {
+          "id": "team-tt-16",
+          "name": "Civil-A",
+          "members": []
+        },
+        {
+          "id": "team-tt-17",
+          "name": "CNS",
+          "members": []
+        },
+        {
+          "id": "team-tt-18",
+          "name": "CPS-C",
+          "members": []
+        },
+        {
+          "id": "team-tt-19",
+          "name": "UG-C",
+          "members": []
+        },
+        {
+          "id": "team-tt-20",
+          "name": "ECE-C",
+          "members": []
+        },
+        {
+          "id": "team-tt-21",
+          "name": "ICER",
+          "members": []
+        },
+        {
+          "id": "team-tt-22",
+          "name": "Admin",
+          "members": []
+        },
+        {
+          "id": "team-tt-23",
+          "name": "Electrical",
+          "members": []
+        },
+        {
+          "id": "team-tt-24",
+          "name": "Mechanical",
+          "members": []
+        },
+        {
+          "id": "team-tt-25",
+          "name": "Genetics",
+          "members": []
+        },
+        {
+          "id": "team-tt-26",
+          "name": "MRC",
+          "members": []
+        },
+        {
+          "id": "team-tt-27",
+          "name": "ECE-B",
+          "members": []
+        },
+        {
+          "id": "team-tt-28",
+          "name": "Civil-B",
+          "members": []
+        },
+        {
+          "id": "team-tt-29",
+          "name": "CPS-A",
+          "members": []
+        },
+        {
+          "id": "team-tt-30",
+          "name": "CeNSE-A",
+          "members": []
+        }
+      ]
     },
     {
       "id": "evt-throwball",
