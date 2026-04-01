@@ -649,8 +649,8 @@
           "date": "2026-04-01",
           "time": "8:00 PM - 9:00 PM",
           "venue": "KV Court",
-          "description": "Match 3",
-          "status": "scheduled"
+          "description": "Winner: CeNSE",
+          "status": "completed"
         },
         {
           "id": "sch-bball-8",
@@ -658,8 +658,8 @@
           "date": "2026-04-01",
           "time": "9:00 PM - 10:00 PM",
           "venue": "KV Court",
-          "description": "Match 4",
-          "status": "scheduled"
+          "description": "Winner: CPS",
+          "status": "completed"
         },
         {
           "id": "sch-bball-9",
