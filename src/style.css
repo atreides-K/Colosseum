@@ -771,9 +771,6 @@ label {
 .standings-table td:first-child {
   width: 30px;
 }
-.standings-qualified td {
-  border-left: 2px solid var(--accent);
-}
 
 /* ---- SHAREABLE CARD ---- */
 .share-card {

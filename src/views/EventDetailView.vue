@@ -328,7 +328,7 @@
               </tr>
             </thead>
             <tbody>
-              <tr v-for="(row, i) in pool.table" :key="row.team" :class="{ 'standings-qualified': i < pool.qualify }">
+              <tr v-for="(row, i) in pool.table" :key="row.team">
                 <td class="num">{{ i + 1 }}</td>
                 <td class="team-name">{{ row.team }}</td>
                 <td class="num">{{ row.p }}</td>
