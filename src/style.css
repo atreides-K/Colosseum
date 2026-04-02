@@ -1456,54 +1456,67 @@ label {
 .save-fade-enter-from { opacity: 0; transform: translateY(-4px); }
 .save-fade-leave-to { opacity: 0; transform: translateY(-4px); }
 
+/* ---- BOTTOM TAB BAR ---- */
+.bottom-tabs {
+  display: none; /* hidden on desktop */
+}
+
 /* ---- RESPONSIVE ---- */
 @media (max-width: 768px) {
   #app { flex-direction: column; }
-  .sidebar {
-    width: 100% !important;
-    height: auto;
-    position: relative;
-    flex-direction: row;
-    overflow-x: auto;
-    border-right: none;
-    border-bottom: 1px solid var(--border);
-  }
-  .sidebar-top {
+  .sidebar { display: none !important; }
+
+  .bottom-tabs {
     display: flex;
-    align-items: center;
-    padding: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--card);
+    border-top: 1px solid var(--border);
+    z-index: 200;
+    padding: 4px 0;
+    padding-bottom: calc(4px + env(safe-area-inset-bottom, 0px));
   }
-  .sidebar-events, .sidebar-divider, .sidebar-section-label,
-  .sidebar-event, .sidebar-event-row,
-  .sidebar-collapse-btn, .tour-trigger { display: none !important; }
-  .sidebar-bottom {
+  .bottom-tab {
+    flex: 1;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    border-top: none;
-    padding: 0;
+    gap: 2px;
+    padding: 6px 0;
+    text-decoration: none;
+    color: var(--text-dim);
+    font-size: 11px;
+    transition: color 0.15s;
+    -webkit-tap-highlight-color: transparent;
   }
-  .sidebar .brand {
-    padding: 10px 16px;
-    white-space: nowrap;
+  .bottom-tab.active {
+    color: var(--accent);
   }
-  .brand-full { display: inline !important; }
-  .brand-short { display: none !important; }
-  .sidebar a, .sidebar .nav-label { display: inline; }
-  .sidebar a {
-    padding: 10px 14px;
-    white-space: nowrap;
-    border-left: none;
-    border-bottom: 3px solid transparent;
+  .bottom-tab-icon {
+    font-size: 20px;
+    line-height: 1;
   }
-  .sidebar a.router-link-active { border-left-color: transparent; border-bottom-color: var(--accent); }
-  .admin-toggle {
-    margin: 0 4px;
-    padding: 8px 12px;
-    white-space: nowrap;
-    font-size: 12px;
+  .bottom-tab-label {
+    font-weight: 500;
   }
-  .main { padding: 20px 16px; }
+
+  .main {
+    padding: 20px 16px;
+    padding-bottom: 80px; /* space for bottom tabs */
+  }
+
+  /* Move schedule float bar above bottom tabs */
+  .schedule-float-bar {
+    bottom: 72px;
+  }
+
+  /* Move PWA install banner above bottom tabs */
+  .pwa-install-banner {
+    bottom: 56px;
+  }
+
   .form-row input, .form-row select { width: 120px; }
   .events-grid { grid-template-columns: 1fr; }
   .big-tiles-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }

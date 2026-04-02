@@ -38,6 +38,22 @@
     <router-view />
   </div>
 
+  <!-- Mobile Bottom Tab Bar -->
+  <nav class="bottom-tabs">
+    <router-link to="/" class="bottom-tab" exact-active-class="active">
+      <span class="bottom-tab-icon">&#127941;</span>
+      <span class="bottom-tab-label">Events</span>
+    </router-link>
+    <router-link to="/schedule" class="bottom-tab" active-class="active">
+      <span class="bottom-tab-icon">&#128197;</span>
+      <span class="bottom-tab-label">Schedule</span>
+    </router-link>
+    <router-link to="/home" class="bottom-tab" active-class="active">
+      <span class="bottom-tab-icon">&#127968;</span>
+      <span class="bottom-tab-label">Home</span>
+    </router-link>
+  </nav>
+
   <!-- PWA Install Banner -->
   <transition name="slide-up">
     <div v-if="showInstallBanner" class="pwa-install-banner" @click="doInstall">
