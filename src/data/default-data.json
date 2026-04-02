@@ -773,18 +773,18 @@
             },
             {
               "team": "CeNSE",
+              "p": 2,
+              "w": 1,
+              "d": 0,
+              "l": 1,
+              "pts": 1
+            },
+            {
+              "team": "CES",
               "p": 1,
               "w": 0,
               "d": 0,
               "l": 1,
-              "pts": 0
-            },
-            {
-              "team": "CES",
-              "p": 0,
-              "w": 0,
-              "d": 0,
-              "l": 0,
               "pts": 0
             }
           ]
@@ -795,11 +795,11 @@
           "table": [
             {
               "team": "CPS",
-              "p": 1,
-              "w": 1,
+              "p": 2,
+              "w": 2,
               "d": 0,
               "l": 0,
-              "pts": 1
+              "pts": 2
             },
             {
               "team": "Electrical",
@@ -811,10 +811,10 @@
             },
             {
               "team": "UG Juniors",
-              "p": 0,
+              "p": 1,
               "w": 0,
               "d": 0,
-              "l": 0,
+              "l": 1,
               "pts": 0
             }
           ]
@@ -2592,6 +2592,16 @@
           "id": "team-frisbee-5",
           "name": "UG Seniors",
           "members": []
+        },
+        {
+          "id": "team-frisbee-6",
+          "name": "CeNSE",
+          "members": []
+        },
+        {
+          "id": "team-frisbee-7",
+          "name": "CSA",
+          "members": []
         }
       ]
     },
@@ -2787,8 +2797,8 @@
         {
           "id": "sch-swimming-1",
           "title": "50m Freestyle (Men & Women)",
-          "date": "2026-04-01",
-          "time": "8:00 AM - 10:00 AM",
+          "date": "2026-04-04",
+          "time": "5:30 PM",
           "venue": "",
           "description": "Morning session",
           "status": "scheduled"
@@ -2796,8 +2806,8 @@
         {
           "id": "sch-swimming-2",
           "title": "50m Backstroke (Men & Women)",
-          "date": "2026-04-01",
-          "time": "8:00 AM - 10:00 AM",
+          "date": "2026-04-04",
+          "time": "5:30 PM",
           "venue": "",
           "description": "Morning session",
           "status": "scheduled"
@@ -2805,8 +2815,8 @@
         {
           "id": "sch-swimming-3",
           "title": "50m Butterfly (Men & Women)",
-          "date": "2026-04-01",
-          "time": "4:00 PM - 6:30 PM",
+          "date": "2026-04-04",
+          "time": "5:30 PM",
           "venue": "",
           "description": "Evening session",
           "status": "scheduled"
@@ -2814,8 +2824,8 @@
         {
           "id": "sch-swimming-4",
           "title": "50m Breaststroke (Men & Women)",
-          "date": "2026-04-01",
-          "time": "4:00 PM - 6:30 PM",
+          "date": "2026-04-04",
+          "time": "5:30 PM",
           "venue": "",
           "description": "Evening session",
           "status": "scheduled"
@@ -2823,8 +2833,8 @@
         {
           "id": "sch-swimming-5",
           "title": "500m Freestyle (Men & Women)",
-          "date": "2026-04-01",
-          "time": "4:00 PM - 6:30 PM",
+          "date": "2026-04-04",
+          "time": "5:30 PM",
           "venue": "",
           "description": "Evening session",
           "status": "scheduled"
@@ -2832,8 +2842,8 @@
         {
           "id": "sch-swimming-6",
           "title": "4x50m Relay Freestyle (Men & Women)",
-          "date": "2026-04-01",
-          "time": "4:00 PM - 6:30 PM",
+          "date": "2026-04-04",
+          "time": "5:30 PM",
           "venue": "",
           "description": "Evening session",
           "status": "scheduled"
@@ -3863,8 +3873,8 @@
           "date": "2026-04-02",
           "time": "5:15 PM - 6:00 PM",
           "venue": "",
-          "description": "Day 2",
-          "status": "scheduled"
+          "description": "Winner: CPS",
+          "status": "completed"
         },
         {
           "id": "sch-vb-6",
@@ -3872,8 +3882,8 @@
           "date": "2026-04-02",
           "time": "6:15 PM - 7:00 PM",
           "venue": "",
-          "description": "Day 2",
-          "status": "scheduled"
+          "description": "Winner: Samadhan",
+          "status": "completed"
         },
         {
           "id": "sch-vb-7",
@@ -3881,8 +3891,8 @@
           "date": "2026-04-02",
           "time": "7:00 PM - 7:45 PM",
           "venue": "",
-          "description": "Day 2",
-          "status": "scheduled"
+          "description": "Winner: Admin",
+          "status": "completed"
         },
         {
           "id": "sch-vb-8",
@@ -3890,8 +3900,8 @@
           "date": "2026-04-02",
           "time": "7:45 PM - 8:30 PM",
           "venue": "",
-          "description": "Day 2",
-          "status": "scheduled"
+          "description": "Winner: ICWaR",
+          "status": "completed"
         },
         {
           "id": "sch-vb-9",
@@ -3899,7 +3909,43 @@
           "date": "2026-04-02",
           "time": "8:30 PM - 9:15 PM",
           "venue": "",
-          "description": "Day 2",
+          "description": "Winner: CSA",
+          "status": "completed"
+        },
+        {
+          "id": "sch-vb-10",
+          "title": "Pool: CPS vs CNS",
+          "date": "2026-04-03",
+          "time": "5:30 PM - 6:15 PM",
+          "venue": "",
+          "description": "Pool A",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-vb-11",
+          "title": "Pool: Samadhan vs ICWaR",
+          "date": "2026-04-03",
+          "time": "6:15 PM - 7:00 PM",
+          "venue": "",
+          "description": "Pool B",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-vb-12",
+          "title": "Pool: CSA vs ECE-1",
+          "date": "2026-04-03",
+          "time": "7:00 PM - 7:45 PM",
+          "venue": "",
+          "description": "Pool A",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-vb-13",
+          "title": "Pool: CeNSE vs UG-2",
+          "date": "2026-04-03",
+          "time": "7:45 PM - 8:30 PM",
+          "venue": "",
+          "description": "Pool B",
           "status": "scheduled"
         }
       ],
@@ -4009,6 +4055,100 @@
           "id": "team-vb-18",
           "name": "DM",
           "members": []
+        }
+      ],
+      "standings": [
+        {
+          "pool": "Pool A",
+          "qualify": 2,
+          "table": [
+            {
+              "team": "ECE-1",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            },
+            {
+              "team": "CPS",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            },
+            {
+              "team": "Admin",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            },
+            {
+              "team": "CNS",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            },
+            {
+              "team": "CSA",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            }
+          ]
+        },
+        {
+          "pool": "Pool B",
+          "qualify": 2,
+          "table": [
+            {
+              "team": "CeNSE",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            },
+            {
+              "team": "UG-1",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            },
+            {
+              "team": "Samadhan",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            },
+            {
+              "team": "UG-2",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            },
+            {
+              "team": "ICWaR",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            }
+          ]
         }
       ]
     }
