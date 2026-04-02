@@ -193,6 +193,15 @@
 <script setup>
 import { ref, reactive, computed, onMounted, nextTick, watch } from 'vue'
 import { store, addScheduleItem, removeScheduleItem, getEvent } from '../stores/tournament.js'
+import deptMapping from '../data/dept-mapping.json'
+
+// Build alias → department lookup
+const aliasToDept = {}
+deptMapping.departments.forEach(dept => {
+  dept.aliases.forEach(a => {
+    aliasToDept[a.name.toLowerCase()] = dept.name
+  })
+})
 
 const filter = ref('all')
 const viewMode = ref('chrono')
@@ -271,28 +280,52 @@ function extractTeams(title) {
   return parts.map(p => p.trim()).filter(Boolean)
 }
 
+// Resolve a team name to a department name via the mapping
+function resolveDept(teamName) {
+  const key = teamName.toLowerCase()
+  return aliasToDept[key] || null
+}
+
 const groupedByDept = computed(() => {
   const groups = {}
   allItems.value.forEach(item => {
     const teams = extractTeams(item.title)
     teams.forEach(team => {
       if (!team || team.startsWith('Winner') || team.startsWith('TBD')) return
-      if (!groups[team]) groups[team] = []
-      groups[team].push(item)
+      const dept = resolveDept(team) || team // fallback to raw name if no mapping
+      if (!groups[dept]) groups[dept] = []
+      // Avoid duplicates (same match added via two aliases of same dept)
+      if (!groups[dept].some(m => m.id === item.id && m.eventId === item.eventId)) {
+        groups[dept].push(item)
+      }
     })
   })
-  // Sort by department name
   const sorted = {}
   Object.keys(groups).sort().forEach(k => { sorted[k] = groups[k] })
   return sorted
 })
 
+// All department names for the picker
+const allDeptNames = computed(() => Object.keys(groupedByDept.value))
+
 const filteredGroupedByDept = computed(() => {
   if (!deptSearch.value) return {}
   const q = deptSearch.value.toLowerCase()
   const filtered = {}
+  // Also match against dept codes and aliases
+  const matchingDepts = new Set()
+  deptMapping.departments.forEach(dept => {
+    if (dept.name.toLowerCase().includes(q) || dept.code.toLowerCase().includes(q)) {
+      matchingDepts.add(dept.name)
+    }
+    dept.aliases.forEach(a => {
+      if (a.name.toLowerCase().includes(q)) matchingDepts.add(dept.name)
+    })
+  })
   Object.entries(groupedByDept.value).forEach(([dept, matches]) => {
-    if (dept.toLowerCase().includes(q)) filtered[dept] = matches
+    if (matchingDepts.has(dept) || dept.toLowerCase().includes(q)) {
+      filtered[dept] = matches
+    }
   })
   return filtered
 })
