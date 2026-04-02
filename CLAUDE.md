@@ -65,10 +65,10 @@ All three steps must happen together for every update. Do not update the site wi
 
 Sport-specific posters go in `public/posters/` (named by sport, e.g. `football.jpeg`). They auto-appear on the event detail Info tab as a sidebar. The main `poster.png` shows in the Home page carousel. Run `npm run build:posters` after adding new posters.
 
-### Google Sheets Integration (TODO)
+### Google Sheets Integration
 
-A Google Sheets MCP server can be set up for direct sheet editing from Claude Code:
-- Package: `mcp-google-sheets` (`uvx mcp-google-sheets@latest`)
-- Requires: GCP Service Account with Sheets API access
-- Config: Add to `.mcp.json` or `~/.claude.json` under `mcpServers`
-- This would allow direct updates to the shared Google Sheet without maintaining a local Excel file.
+Google Sheets MCP is configured in `.mcp.json` for direct sheet read/write from Claude Code.
+- **Sheet ID:** `1nLgf2B6cEAmkK6M2r-YBZJgLv7nxsNBdmMj-XluqDJ4`
+- **MCP tools:** `mcp__google-sheets__get_sheet_data`, `mcp__google-sheets__update_cells`, `mcp__google-sheets__batch_update_cells`, etc.
+- **Automated sync:** `scripts/sync-sheet.sh` runs via cron every 4 hours, invoking Claude Code CLI to read the sheet, diff with default-data.json, apply updates, commit and push.
+- When updating event data, update BOTH `default-data.json` and the Google Sheet together.
