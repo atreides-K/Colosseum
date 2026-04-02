@@ -93,6 +93,10 @@
         {
           "name": "Bioengineering (BE)",
           "sport": "Badminton"
+        },
+        {
+          "name": "Bioblasters",
+          "sport": "Football"
         }
       ]
     },
@@ -739,10 +743,6 @@
         {
           "name": "Admin Strikers",
           "sport": "Carrom"
-        },
-        {
-          "name": "Bioblasters",
-          "sport": "Football"
         },
         {
           "name": "CeNSers",
