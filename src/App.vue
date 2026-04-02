@@ -38,21 +38,37 @@
     <router-view />
   </div>
 
-  <!-- Mobile Bottom Tab Bar -->
-  <nav class="bottom-tabs">
-    <router-link to="/" class="bottom-tab" exact-active-class="active">
-      <span class="bottom-tab-icon">&#127941;</span>
-      <span class="bottom-tab-label">Events</span>
-    </router-link>
-    <router-link to="/schedule" class="bottom-tab" active-class="active">
-      <span class="bottom-tab-icon">&#128197;</span>
-      <span class="bottom-tab-label">Schedule</span>
-    </router-link>
-    <router-link to="/home" class="bottom-tab" active-class="active">
-      <span class="bottom-tab-icon">&#127968;</span>
-      <span class="bottom-tab-label">Home</span>
-    </router-link>
-  </nav>
+  <!-- Mobile Side Nav -->
+  <div class="mobile-nav-edge" :class="{ hidden: scrollingDown }" @click="mobileNavOpen = true">
+    <div class="mobile-nav-edge-dot"></div>
+    <div class="mobile-nav-edge-dot"></div>
+    <div class="mobile-nav-edge-dot"></div>
+  </div>
+  <transition name="sidenav">
+    <div v-if="mobileNavOpen" class="mobile-nav-overlay" @click="mobileNavOpen = false">
+      <nav class="mobile-nav-panel" @click.stop>
+        <router-link to="/" exact-active-class="active" @click="mobileNavOpen = false">
+          <span>&#127941;</span><span>Events</span>
+        </router-link>
+        <router-link to="/schedule" active-class="active" @click="mobileNavOpen = false">
+          <span>&#128197;</span><span>Schedule</span>
+        </router-link>
+        <router-link to="/home" active-class="active" @click="mobileNavOpen = false">
+          <span>&#127968;</span><span>Home</span>
+        </router-link>
+        <div class="mobile-nav-divider"></div>
+        <template v-if="pinnedEvents.length">
+          <router-link v-for="evt in pinnedEvents" :key="evt.id" :to="`/events/${evt.id}`" active-class="active" @click="mobileNavOpen = false">
+            <span>{{ evt.icon }}</span><span>{{ evt.sport }}</span>
+          </router-link>
+          <div class="mobile-nav-divider"></div>
+        </template>
+        <router-link v-for="evt in unpinnedEvents" :key="evt.id" :to="`/events/${evt.id}`" active-class="active" @click="mobileNavOpen = false">
+          <span>{{ evt.icon }}</span><span>{{ evt.sport }}</span>
+        </router-link>
+      </nav>
+    </div>
+  </transition>
 
   <!-- PWA Install Banner -->
   <transition name="slide-up">
@@ -73,6 +89,32 @@ import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { store, isEventPinned, togglePinEvent } from './stores/tournament.js'
 
 const sidebarCollapsed = ref(false)
+const mobileNavOpen = ref(false)
+const scrollingDown = ref(false)
+
+// Hide edge indicator on scroll down, show on scroll up
+let lastScrollY = 0
+function onScroll() {
+  const y = window.scrollY
+  scrollingDown.value = y > lastScrollY && y > 50
+  lastScrollY = y
+}
+
+// Swipe from left edge to open
+let touchStartX = 0
+function onTouchStart(e) {
+  touchStartX = e.touches[0].clientX
+}
+function onTouchEnd(e) {
+  const dx = e.changedTouches[0].clientX - touchStartX
+  if (touchStartX < 30 && dx > 60) {
+    mobileNavOpen.value = true
+  }
+  // Swipe left to close
+  if (mobileNavOpen.value && dx < -60) {
+    mobileNavOpen.value = false
+  }
+}
 
 // PWA Install prompt
 const deferredPrompt = ref(null)
@@ -105,9 +147,15 @@ function dismissInstall() {
 onMounted(() => {
   window.addEventListener('beforeinstallprompt', onBeforeInstallPrompt)
   window.addEventListener('appinstalled', () => { showInstallBanner.value = false })
+  window.addEventListener('scroll', onScroll, { passive: true })
+  document.addEventListener('touchstart', onTouchStart, { passive: true })
+  document.addEventListener('touchend', onTouchEnd, { passive: true })
 })
 onUnmounted(() => {
   window.removeEventListener('beforeinstallprompt', onBeforeInstallPrompt)
+  window.removeEventListener('scroll', onScroll)
+  document.removeEventListener('touchstart', onTouchStart)
+  document.removeEventListener('touchend', onTouchEnd)
 })
 
 const pinnedEvents = computed(() =>

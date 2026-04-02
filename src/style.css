@@ -1456,8 +1456,10 @@ label {
 .save-fade-enter-from { opacity: 0; transform: translateY(-4px); }
 .save-fade-leave-to { opacity: 0; transform: translateY(-4px); }
 
-/* ---- BOTTOM TAB BAR ---- */
-.bottom-tabs {
+/* ---- MOBILE SIDE NAV ---- */
+.mobile-nav-edge,
+.mobile-nav-overlay,
+.mobile-nav-panel {
   display: none; /* hidden on desktop */
 }
 
@@ -1466,57 +1468,108 @@ label {
   #app { flex-direction: column; }
   .sidebar { display: none !important; }
 
-  .bottom-tabs {
-    display: flex;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(26, 39, 51, 0.75);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    border-top: 1px solid rgba(255,255,255,0.06);
-    z-index: 200;
-    padding: 4px 0;
-    padding-bottom: calc(4px + env(safe-area-inset-bottom, 0px));
-  }
-  .bottom-tab {
-    flex: 1;
+  /* Edge indicator — thin pill on left side */
+  .mobile-nav-edge {
     display: flex;
     flex-direction: column;
+    gap: 3px;
     align-items: center;
-    gap: 2px;
-    padding: 6px 0;
-    text-decoration: none;
-    color: var(--text-dim);
-    font-size: 11px;
-    transition: color 0.15s;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 14px;
+    height: 48px;
+    background: rgba(26, 39, 51, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 0 8px 8px 0;
+    border: 1px solid rgba(255,255,255,0.08);
+    border-left: none;
+    z-index: 150;
+    cursor: pointer;
+    transition: opacity 0.3s, transform 0.3s;
     -webkit-tap-highlight-color: transparent;
   }
-  .bottom-tab.active {
+  .mobile-nav-edge.hidden {
+    opacity: 0;
+    transform: translateY(-50%) translateX(-100%);
+    pointer-events: none;
+  }
+  .mobile-nav-edge-dot {
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: var(--text-dim);
+  }
+
+  /* Overlay + panel */
+  .mobile-nav-overlay {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 300;
+  }
+  .mobile-nav-panel {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 220px;
+    background: rgba(26, 39, 51, 0.92);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border-right: 1px solid rgba(255,255,255,0.08);
+    z-index: 301;
+    padding: 20px 0;
+    overflow-y: auto;
+  }
+  .mobile-nav-panel a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: var(--text-dim);
+    font-size: 14px;
+    transition: all 0.15s;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .mobile-nav-panel a.active {
     color: var(--accent);
+    background: rgba(255,255,255,0.04);
   }
-  .bottom-tab-icon {
-    font-size: 16px;
-    line-height: 1;
+  .mobile-nav-panel a span:first-child {
+    font-size: 18px;
+    width: 24px;
+    text-align: center;
   }
-  .bottom-tab-label {
-    font-weight: 500;
+  .mobile-nav-divider {
+    height: 1px;
+    background: rgba(255,255,255,0.06);
+    margin: 8px 16px;
+  }
+
+  /* Slide transition */
+  .sidenav-enter-active, .sidenav-leave-active {
+    transition: opacity 0.25s;
+  }
+  .sidenav-enter-active .mobile-nav-panel, .sidenav-leave-active .mobile-nav-panel {
+    transition: transform 0.25s ease;
+  }
+  .sidenav-enter-from, .sidenav-leave-to {
+    opacity: 0;
+  }
+  .sidenav-enter-from .mobile-nav-panel, .sidenav-leave-to .mobile-nav-panel {
+    transform: translateX(-100%);
   }
 
   .main {
     padding: 20px 16px;
-    padding-bottom: 80px; /* space for bottom tabs */
-  }
-
-  /* Move schedule float bar above bottom tabs */
-  .schedule-float-bar {
-    bottom: 72px;
-  }
-
-  /* Move PWA install banner above bottom tabs */
-  .pwa-install-banner {
-    bottom: 56px;
   }
 
   .form-row input, .form-row select { width: 120px; }
