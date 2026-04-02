@@ -43,3 +43,32 @@ Five routes in `src/router.js`: home (`/`), dashboard (`/dashboard`), events lis
 ### Build Pipeline
 
 `npm run build` chains: `build:rules` (reads `events/*/rules.md` → JSON) → `build:posters` (reads `public/posters/` → JSON) → `vite build`. Rules PDFs are served from `public/rules/`. The cycling route map image is at `public/rules/cycling-route.png`.
+
+## Data Update Workflow
+
+When updating event data (schedule, results, teams, standings, etc.):
+
+1. **Update `src/data/default-data.json`** — this is the single source of truth for all event data.
+2. **Update `data/Spectrum2026_Updates.xlsx`** — the Excel tracking sheet (one tab per sport). Keep it in sync with default-data.json. This file is shared with event incharges via Google Sheets.
+3. **Commit and push to GitHub** — every data update should be committed and pushed immediately.
+
+All three steps must happen together for every update. Do not update the site without also updating the Excel and pushing.
+
+### Data Structures
+
+- **Schedule entries:** `{ id, title, date (YYYY-MM-DD), time, venue, description, status (scheduled/completed/cancelled) }`. For completed matches, put the winner and score in `description` (e.g. "Winner: ECE-1 (25-6, 25-8)").
+- **Teams:** `{ id, name, members[] }` — note the field is `members` not `players`.
+- **Standings:** `{ pool, qualify, table: [{ team, p, w, d, l, pts }] }` — used for group/pool stages.
+- **Bracket:** `{ generated: true, matches: [{ id, round, position, slots: [{seedId, name, score}], winnerId }] }`
+
+### Event Posters
+
+Sport-specific posters go in `public/posters/` (named by sport, e.g. `football.jpeg`). They auto-appear on the event detail Info tab as a sidebar. The main `poster.png` shows in the Home page carousel. Run `npm run build:posters` after adding new posters.
+
+### Google Sheets Integration (TODO)
+
+A Google Sheets MCP server can be set up for direct sheet editing from Claude Code:
+- Package: `mcp-google-sheets` (`uvx mcp-google-sheets@latest`)
+- Requires: GCP Service Account with Sheets API access
+- Config: Add to `.mcp.json` or `~/.claude.json` under `mcpServers`
+- This would allow direct updates to the shared Google Sheet without maintaining a local Excel file.
