@@ -3,157 +3,352 @@
     {
       "name": "Aerospace Engineering",
       "code": "AE",
-      "aliases": ["AE1", "AE 1", "AE2", "AE 2", "Aerospace-1", "Aerospace-2", "Aerospace Engineering 1 (AE1)", "Aerospace Engineering 2 (AE2)", "Supersonic Strikers", "Supersonic Strikers (W)", "Supersonic Strikers (Women's)", "Mission Pocket"]
+      "aliases": [
+        {"name": "AE1", "sport": "Badminton"},
+        {"name": "AE 1", "sport": "Badminton"},
+        {"name": "AE2", "sport": "Badminton"},
+        {"name": "AE 2", "sport": "Badminton"},
+        {"name": "Aerospace-1", "sport": "Foosball"},
+        {"name": "Aerospace-2", "sport": "Foosball"},
+        {"name": "Aerospace Engineering 1 (AE1)", "sport": "Badminton"},
+        {"name": "Aerospace Engineering 2 (AE2)", "sport": "Badminton"},
+        {"name": "Supersonic Strikers", "sport": "Football"},
+        {"name": "Supersonic Strikers (W)", "sport": "Football"},
+        {"name": "Supersonic Strikers (Women's)", "sport": "Football"},
+        {"name": "Mission Pocket", "sport": "Carrom"},
+        {"name": "Red Queen", "sport": "Carrom"}
+      ]
     },
     {
       "name": "Administration",
       "code": "ADMIN",
-      "aliases": ["Admin", "Administration", "Administration (ADMIN)", "Admin Strikers"]
+      "aliases": [
+        {"name": "Admin", "sport": "Table Tennis, Volleyball"},
+        {"name": "Administration", "sport": "Badminton"},
+        {"name": "Administration (ADMIN)", "sport": "Badminton"},
+        {"name": "Admin Strikers", "sport": "Carrom"}
+      ]
     },
     {
       "name": "Artificial Intelligence",
       "code": "AI",
-      "aliases": ["AI", "Artificial Intelligence (AI)"]
+      "aliases": [
+        {"name": "AI", "sport": "Badminton, Table Tennis"}
+      ]
     },
     {
       "name": "Bioengineering",
       "code": "BE",
-      "aliases": ["BE", "Bio", "BioEng", "Bioblasters", "Bioengineering (BE)"]
+      "aliases": [
+        {"name": "BE", "sport": "Badminton, Ultimate Frisbee"},
+        {"name": "Bio", "sport": "Volleyball"},
+        {"name": "BioEng", "sport": "Basketball"},
+        {"name": "Bioblasters", "sport": "Football"},
+        {"name": "Bioengineering (BE)", "sport": "Badminton"}
+      ]
+    },
+    {
+      "name": "Centre for Ecological Sciences",
+      "code": "CES",
+      "aliases": [
+        {"name": "CES", "sport": "Basketball, Volleyball"},
+        {"name": "CES (Men's KO)", "sport": "Football"}
+      ]
     },
     {
       "name": "Centre for Nano Science and Engineering",
       "code": "CeNSE",
-      "aliases": ["CeNSE", "CeNSE-1", "CeNSE-2", "CeNSE-A", "CeNSE-B", "CeNSE (W)", "CeNSE (Women's)", "CeNSers", "Centre for Nano Science and Engineering (CeNSE)"]
+      "aliases": [
+        {"name": "CeNSE", "sport": "Badminton, Basketball, Football"},
+        {"name": "CeNSE-1", "sport": "Foosball"},
+        {"name": "CeNSE-2", "sport": "Foosball"},
+        {"name": "CeNSE-A", "sport": "Table Tennis"},
+        {"name": "CeNSE-B", "sport": "Table Tennis"},
+        {"name": "CeNSE (W)", "sport": "Football"},
+        {"name": "CeNSE (Women's)", "sport": "Football"},
+        {"name": "CeNSers", "sport": "Carrom"},
+        {"name": "Centre for Nano Science and Engineering (CeNSE)", "sport": "Badminton"}
+      ]
     },
     {
       "name": "Centre for Neuroscience",
       "code": "CNS",
-      "aliases": ["CNS", "CNS-1", "CNS (W)", "Centre for Neuroscience (CNS)"]
+      "aliases": [
+        {"name": "CNS", "sport": "Basketball, Volleyball, Table Tennis, Football"},
+        {"name": "CNS-1", "sport": "Foosball"},
+        {"name": "CNS (W)", "sport": "Football"},
+        {"name": "Centre for Neuroscience (CNS)", "sport": "Badminton"}
+      ]
     },
     {
       "name": "Chemical Sciences",
       "code": "CHEM",
-      "aliases": ["Chemical Sciences", "Chemistry-1", "Cummingtonite", "Cummingtonite (Men's KO)"]
+      "aliases": [
+        {"name": "Chemical Sciences", "sport": "Foosball"},
+        {"name": "Chemistry-1", "sport": "Foosball"},
+        {"name": "Cummingtonite", "sport": "Football"},
+        {"name": "Cummingtonite (Men's KO)", "sport": "Football"}
+      ]
     },
     {
       "name": "CiSTUP",
       "code": "CiSTUP",
-      "aliases": ["CiSTUP", "Cistup", "Centre for Infrastructure, Sustainable Transportation & Urban Planning (CiSTUP)"]
+      "aliases": [
+        {"name": "CiSTUP", "sport": "Badminton"},
+        {"name": "Cistup", "sport": "Volleyball"},
+        {"name": "Centre for Infrastructure, Sustainable Transportation & Urban Planning (CiSTUP)", "sport": "Badminton"}
+      ]
     },
     {
       "name": "Civil Engineering",
       "code": "CE",
-      "aliases": ["CE", "CES", "Civil-1", "Civil-2", "Civil-A", "Civil-B", "Civil Engineering (CE)", "Civil Syndicate", "Civil keRum", "Civilians (W)", "Civilians (Women's)", "CES (Men's KO)"]
+      "aliases": [
+        {"name": "CE", "sport": "Badminton"},
+        {"name": "Civil-1", "sport": "Foosball"},
+        {"name": "Civil-2", "sport": "Foosball"},
+        {"name": "Civil-A", "sport": "Table Tennis"},
+        {"name": "Civil-B", "sport": "Table Tennis"},
+        {"name": "Civil Engineering (CE)", "sport": "Badminton"},
+        {"name": "Civil Syndicate", "sport": "Carrom"},
+        {"name": "Civil keRum", "sport": "Carrom"},
+        {"name": "Civilians (W)", "sport": "Football"},
+        {"name": "Civilians (Women's)", "sport": "Football"}
+      ]
     },
     {
       "name": "Computational and Data Sciences",
       "code": "CDS",
-      "aliases": ["CDS-1", "CDS-A", "CDS-B"]
+      "aliases": [
+        {"name": "CDS-1", "sport": "Foosball"},
+        {"name": "CDS-A", "sport": "Table Tennis"},
+        {"name": "CDS-B", "sport": "Table Tennis"}
+      ]
     },
     {
       "name": "Computer Science & Automation",
       "code": "CSA",
-      "aliases": ["CSA", "CSA 1", "CSA 2", "CSA-2", "CSA-B", "CSA FC", "CSA (W)", "CSA (Women's)", "Computer Science & Automation 1 (CSA1)", "Computer Science & Automation 2 (CSA2)"]
+      "aliases": [
+        {"name": "CSA", "sport": "Foosball, Basketball, Volleyball, Table Tennis, Ultimate Frisbee"},
+        {"name": "CSA 1", "sport": "Badminton"},
+        {"name": "CSA 2", "sport": "Badminton"},
+        {"name": "CSA-2", "sport": "Table Tennis"},
+        {"name": "CSA-B", "sport": "Table Tennis"},
+        {"name": "CSA FC", "sport": "Football"},
+        {"name": "CSA (W)", "sport": "Football"},
+        {"name": "CSA (Women's)", "sport": "Football"},
+        {"name": "Computer Science & Automation 1 (CSA1)", "sport": "Badminton"},
+        {"name": "Computer Science & Automation 2 (CSA2)", "sport": "Badminton"}
+      ]
     },
     {
       "name": "CPDM",
       "code": "CPDM",
-      "aliases": ["CPDM"]
+      "aliases": [
+        {"name": "CPDM", "sport": "Foosball"}
+      ]
     },
     {
       "name": "CPS",
       "code": "CPS",
-      "aliases": ["CPS", "CPS 1", "CPS 2", "CPS-A", "CPS-B", "CPS-C"]
+      "aliases": [
+        {"name": "CPS", "sport": "Basketball, Volleyball"},
+        {"name": "CPS 1", "sport": "Ultimate Frisbee"},
+        {"name": "CPS 2", "sport": "Ultimate Frisbee"},
+        {"name": "CPS-A", "sport": "Table Tennis"},
+        {"name": "CPS-B", "sport": "Table Tennis"},
+        {"name": "CPS-C", "sport": "Table Tennis"}
+      ]
     },
     {
       "name": "DESE",
       "code": "DESE",
-      "aliases": ["DESE", "DESE-1", "DESE-2", "DESE (Men's KO)"]
+      "aliases": [
+        {"name": "DESE", "sport": "Table Tennis, Football"},
+        {"name": "DESE-1", "sport": "Foosball"},
+        {"name": "DESE-2", "sport": "Foosball"},
+        {"name": "DESE (Men's KO)", "sport": "Football"}
+      ]
     },
     {
       "name": "Division of Biological Sciences",
       "code": "DBS",
-      "aliases": ["DBS", "Genetics"]
+      "aliases": [
+        {"name": "DBS", "sport": "Volleyball"},
+        {"name": "Genetics", "sport": "Table Tennis"}
+      ]
     },
     {
       "name": "DOMS (Management Studies)",
       "code": "DOMS",
-      "aliases": ["DOMS", "DOMS-1", "DOMS-2", "DM", "Management", "ManagementStudies", "Management Studies (MGT)", "MGT", "DoMinatorS", "DoMinatorS (Men's KO)", "Underrated DOMS"]
+      "aliases": [
+        {"name": "DOMS", "sport": "Basketball"},
+        {"name": "DOMS-1", "sport": "Foosball"},
+        {"name": "DOMS-2", "sport": "Foosball"},
+        {"name": "DM", "sport": "Volleyball"},
+        {"name": "Management", "sport": "Volleyball"},
+        {"name": "ManagementStudies", "sport": "Table Tennis"},
+        {"name": "Management Studies (MGT)", "sport": "Badminton"},
+        {"name": "MGT", "sport": "Badminton"},
+        {"name": "DoMinatorS", "sport": "Football"},
+        {"name": "DoMinatorS (Men's KO)", "sport": "Football"},
+        {"name": "Underrated DOMS", "sport": "Carrom"}
+      ]
     },
     {
       "name": "Electrical Communication Engineering",
       "code": "ECE",
-      "aliases": ["ECE", "ECE-1", "ECE-2", "ECE-A", "ECE-B", "ECE-C", "ECE (Men's KO)", "Electrical Communication Engineering (ECE)", "Circuit Breakers"]
+      "aliases": [
+        {"name": "ECE", "sport": "Badminton, Basketball, Football"},
+        {"name": "ECE-1", "sport": "Foosball, Volleyball"},
+        {"name": "ECE-2", "sport": "Foosball, Volleyball"},
+        {"name": "ECE-A", "sport": "Table Tennis"},
+        {"name": "ECE-B", "sport": "Table Tennis"},
+        {"name": "ECE-C", "sport": "Table Tennis"},
+        {"name": "ECE (Men's KO)", "sport": "Football"},
+        {"name": "Electrical Communication Engineering (ECE)", "sport": "Badminton"},
+        {"name": "Circuit Breakers", "sport": "Carrom"}
+      ]
     },
     {
       "name": "Electrical Engineering",
       "code": "EE",
-      "aliases": ["Electrical", "EE Shockers"]
+      "aliases": [
+        {"name": "Electrical", "sport": "Basketball, Table Tennis"},
+        {"name": "EE Shockers", "sport": "Carrom"}
+      ]
     },
     {
       "name": "Electronics Systems Engineering",
       "code": "ESE",
-      "aliases": ["ESE", "ESE Strikers", "Electronics Systems Engineering (ESE)"]
+      "aliases": [
+        {"name": "ESE", "sport": "Badminton, Volleyball"},
+        {"name": "ESE Strikers", "sport": "Carrom"},
+        {"name": "Electronics Systems Engineering (ESE)", "sport": "Badminton"}
+      ]
     },
     {
       "name": "ICER",
       "code": "ICER",
-      "aliases": ["ICER", "ICER-1", "ICER-2", "Low Energy Department", "Interdisciplinary Centre for Energy Research (ICER)"]
+      "aliases": [
+        {"name": "ICER", "sport": "Badminton, Table Tennis"},
+        {"name": "ICER-1", "sport": "Foosball"},
+        {"name": "ICER-2", "sport": "Foosball"},
+        {"name": "Low Energy Department", "sport": "Carrom"},
+        {"name": "Interdisciplinary Centre for Energy Research (ICER)", "sport": "Badminton"}
+      ]
     },
     {
       "name": "ICWaR",
       "code": "ICWaR",
-      "aliases": ["ICWaR", "Interdisciplinary Centre for Water Research (ICWaR)"]
+      "aliases": [
+        {"name": "ICWaR", "sport": "Badminton, Volleyball, Table Tennis"},
+        {"name": "Interdisciplinary Centre for Water Research (ICWaR)", "sport": "Badminton"}
+      ]
     },
     {
       "name": "Instrumentation & Applied Physics",
       "code": "IAP",
-      "aliases": ["IAP", "IAP Flickers", "Instrumentation & Applied Physics (IAP)"]
+      "aliases": [
+        {"name": "IAP", "sport": "Badminton, Foosball, Football"},
+        {"name": "IAP Flickers", "sport": "Carrom"},
+        {"name": "Instrumentation & Applied Physics (IAP)", "sport": "Badminton"}
+      ]
     },
     {
       "name": "IPC",
       "code": "IPC",
-      "aliases": ["IPC"]
+      "aliases": [
+        {"name": "IPC", "sport": "Foosball"}
+      ]
     },
     {
       "name": "Materials Engineering",
       "code": "MAT",
-      "aliases": ["Materials Engineering", "Samadhan"]
+      "aliases": [
+        {"name": "Materials Engineering", "sport": "Volleyball"},
+        {"name": "MTE", "sport": "Football"},
+        {"name": "MTE (Men's KO)", "sport": "Football"}
+      ]
     },
     {
       "name": "Mathematics",
       "code": "MATH",
-      "aliases": ["Maths-A", "Maths-B", "Mathematics-A", "Mathematics-B"]
+      "aliases": [
+        {"name": "Maths-A", "sport": "Table Tennis"},
+        {"name": "Maths-B", "sport": "Table Tennis"},
+        {"name": "Mathematics-A", "sport": "Table Tennis"},
+        {"name": "Mathematics-B", "sport": "Table Tennis"}
+      ]
     },
     {
       "name": "Mechanical Engineering",
       "code": "ME",
-      "aliases": ["ME1", "ME 1", "ME2", "ME 2", "Mech", "Mechanical", "Mech Spartans", "MTE", "MTE (Men's KO)", "Mechanical Engineering 1 (ME1)", "Mechanical Engineering 2 (ME2)", "Red Queen"]
+      "aliases": [
+        {"name": "ME1", "sport": "Badminton"},
+        {"name": "ME 1", "sport": "Badminton"},
+        {"name": "ME2", "sport": "Badminton"},
+        {"name": "ME 2", "sport": "Badminton"},
+        {"name": "Mech", "sport": "Basketball"},
+        {"name": "Mechanical", "sport": "Table Tennis"},
+        {"name": "Mech Spartans", "sport": "Football"},
+        {"name": "Mechanical Engineering 1 (ME1)", "sport": "Badminton"},
+        {"name": "Mechanical Engineering 2 (ME2)", "sport": "Badminton"}
+      ]
     },
     {
       "name": "MRC",
       "code": "MRC",
-      "aliases": ["MRC"]
+      "aliases": [
+        {"name": "MRC", "sport": "Table Tennis"}
+      ]
     },
     {
       "name": "Physics",
       "code": "PH",
-      "aliases": ["Physics", "Physics-1", "Physics (PH)", "Physics Bombers"]
+      "aliases": [
+        {"name": "Physics", "sport": "Badminton, Football"},
+        {"name": "Physics-1", "sport": "Foosball"},
+        {"name": "Physics (PH)", "sport": "Badminton"},
+        {"name": "Physics Bombers", "sport": "Carrom"}
+      ]
     },
     {
       "name": "RBCCPS",
       "code": "RBCCPS",
-      "aliases": ["RBCCPS"]
+      "aliases": [
+        {"name": "RBCCPS", "sport": "Foosball"}
+      ]
     },
     {
-      "name": "UG Juniors",
-      "code": "UG-JR",
-      "aliases": ["UG Juniors", "UG Juniors 1", "UG Juniors 2", "UG Junior", "UG-2", "UG2", "UG Juniors (UG2)", "Supa Strikas"]
+      "name": "Samadhan",
+      "code": "SAMADHAN",
+      "aliases": [
+        {"name": "Samadhan", "sport": "Volleyball"}
+      ]
     },
     {
-      "name": "UG Seniors",
-      "code": "UG-SR",
-      "aliases": ["UG Seniors", "UG Seniors 1", "UG Seniors 2", "UG", "UG1", "UG-A", "UG-B", "UG-C", "UG Seniors (UG1)", "Underdawgs"]
+      "name": "UG",
+      "code": "UG",
+      "aliases": [
+        {"name": "UG Juniors", "sport": "Basketball, Ultimate Frisbee"},
+        {"name": "UG Juniors 1", "sport": "Foosball"},
+        {"name": "UG Juniors 2", "sport": "Foosball"},
+        {"name": "UG Junior", "sport": "Carrom"},
+        {"name": "UG Juniors (UG2)", "sport": "Badminton"},
+        {"name": "UG2", "sport": "Badminton"},
+        {"name": "UG Seniors", "sport": "Basketball, Ultimate Frisbee"},
+        {"name": "UG Seniors 1", "sport": "Foosball"},
+        {"name": "UG Seniors 2", "sport": "Foosball"},
+        {"name": "UG Seniors (UG1)", "sport": "Badminton"},
+        {"name": "UG1", "sport": "Badminton"},
+        {"name": "UG", "sport": "Volleyball"},
+        {"name": "UG-2", "sport": "Volleyball"},
+        {"name": "UG-A", "sport": "Table Tennis"},
+        {"name": "UG-B", "sport": "Table Tennis"},
+        {"name": "UG-C", "sport": "Table Tennis"},
+        {"name": "Underdawgs", "sport": "Football"},
+        {"name": "Supa Strikas", "sport": "Carrom"}
+      ]
     }
   ]
 }
