@@ -1,0 +1,159 @@
+{
+  "departments": [
+    {
+      "name": "Aerospace Engineering",
+      "code": "AE",
+      "aliases": ["AE1", "AE 1", "AE2", "AE 2", "Aerospace-1", "Aerospace-2", "Aerospace Engineering 1 (AE1)", "Aerospace Engineering 2 (AE2)", "Supersonic Strikers", "Supersonic Strikers (W)", "Supersonic Strikers (Women's)", "Mission Pocket"]
+    },
+    {
+      "name": "Administration",
+      "code": "ADMIN",
+      "aliases": ["Admin", "Administration", "Administration (ADMIN)", "Admin Strikers"]
+    },
+    {
+      "name": "Artificial Intelligence",
+      "code": "AI",
+      "aliases": ["AI", "Artificial Intelligence (AI)"]
+    },
+    {
+      "name": "Bioengineering",
+      "code": "BE",
+      "aliases": ["BE", "Bio", "BioEng", "Bioblasters", "Bioengineering (BE)"]
+    },
+    {
+      "name": "Centre for Nano Science and Engineering",
+      "code": "CeNSE",
+      "aliases": ["CeNSE", "CeNSE-1", "CeNSE-2", "CeNSE-A", "CeNSE-B", "CeNSE (W)", "CeNSE (Women's)", "CeNSers", "Centre for Nano Science and Engineering (CeNSE)"]
+    },
+    {
+      "name": "Centre for Neuroscience",
+      "code": "CNS",
+      "aliases": ["CNS", "CNS-1", "CNS (W)", "Centre for Neuroscience (CNS)"]
+    },
+    {
+      "name": "Chemical Sciences",
+      "code": "CHEM",
+      "aliases": ["Chemical Sciences", "Chemistry-1", "Cummingtonite", "Cummingtonite (Men's KO)"]
+    },
+    {
+      "name": "CiSTUP",
+      "code": "CiSTUP",
+      "aliases": ["CiSTUP", "Cistup", "Centre for Infrastructure, Sustainable Transportation & Urban Planning (CiSTUP)"]
+    },
+    {
+      "name": "Civil Engineering",
+      "code": "CE",
+      "aliases": ["CE", "CES", "Civil-1", "Civil-2", "Civil-A", "Civil-B", "Civil Engineering (CE)", "Civil Syndicate", "Civil keRum", "Civilians (W)", "Civilians (Women's)", "CES (Men's KO)"]
+    },
+    {
+      "name": "Computational and Data Sciences",
+      "code": "CDS",
+      "aliases": ["CDS-1", "CDS-A", "CDS-B"]
+    },
+    {
+      "name": "Computer Science & Automation",
+      "code": "CSA",
+      "aliases": ["CSA", "CSA 1", "CSA 2", "CSA-2", "CSA-B", "CSA FC", "CSA (W)", "CSA (Women's)", "Computer Science & Automation 1 (CSA1)", "Computer Science & Automation 2 (CSA2)"]
+    },
+    {
+      "name": "CPDM",
+      "code": "CPDM",
+      "aliases": ["CPDM"]
+    },
+    {
+      "name": "CPS",
+      "code": "CPS",
+      "aliases": ["CPS", "CPS 1", "CPS 2", "CPS-A", "CPS-B", "CPS-C"]
+    },
+    {
+      "name": "DESE",
+      "code": "DESE",
+      "aliases": ["DESE", "DESE-1", "DESE-2", "DESE (Men's KO)"]
+    },
+    {
+      "name": "Division of Biological Sciences",
+      "code": "DBS",
+      "aliases": ["DBS", "Genetics"]
+    },
+    {
+      "name": "DOMS (Management Studies)",
+      "code": "DOMS",
+      "aliases": ["DOMS", "DOMS-1", "DOMS-2", "DM", "Management", "ManagementStudies", "Management Studies (MGT)", "MGT", "DoMinatorS", "DoMinatorS (Men's KO)", "Underrated DOMS"]
+    },
+    {
+      "name": "Electrical Communication Engineering",
+      "code": "ECE",
+      "aliases": ["ECE", "ECE-1", "ECE-2", "ECE-A", "ECE-B", "ECE-C", "ECE (Men's KO)", "Electrical Communication Engineering (ECE)", "Circuit Breakers"]
+    },
+    {
+      "name": "Electrical Engineering",
+      "code": "EE",
+      "aliases": ["Electrical", "EE Shockers"]
+    },
+    {
+      "name": "Electronics Systems Engineering",
+      "code": "ESE",
+      "aliases": ["ESE", "ESE Strikers", "Electronics Systems Engineering (ESE)"]
+    },
+    {
+      "name": "ICER",
+      "code": "ICER",
+      "aliases": ["ICER", "ICER-1", "ICER-2", "Low Energy Department", "Interdisciplinary Centre for Energy Research (ICER)"]
+    },
+    {
+      "name": "ICWaR",
+      "code": "ICWaR",
+      "aliases": ["ICWaR", "Interdisciplinary Centre for Water Research (ICWaR)"]
+    },
+    {
+      "name": "Instrumentation & Applied Physics",
+      "code": "IAP",
+      "aliases": ["IAP", "IAP Flickers", "Instrumentation & Applied Physics (IAP)"]
+    },
+    {
+      "name": "IPC",
+      "code": "IPC",
+      "aliases": ["IPC"]
+    },
+    {
+      "name": "Materials Engineering",
+      "code": "MAT",
+      "aliases": ["Materials Engineering", "Samadhan"]
+    },
+    {
+      "name": "Mathematics",
+      "code": "MATH",
+      "aliases": ["Maths-A", "Maths-B", "Mathematics-A", "Mathematics-B"]
+    },
+    {
+      "name": "Mechanical Engineering",
+      "code": "ME",
+      "aliases": ["ME1", "ME 1", "ME2", "ME 2", "Mech", "Mechanical", "Mech Spartans", "MTE", "MTE (Men's KO)", "Mechanical Engineering 1 (ME1)", "Mechanical Engineering 2 (ME2)", "Red Queen"]
+    },
+    {
+      "name": "MRC",
+      "code": "MRC",
+      "aliases": ["MRC"]
+    },
+    {
+      "name": "Physics",
+      "code": "PH",
+      "aliases": ["Physics", "Physics-1", "Physics (PH)", "Physics Bombers"]
+    },
+    {
+      "name": "RBCCPS",
+      "code": "RBCCPS",
+      "aliases": ["RBCCPS"]
+    },
+    {
+      "name": "UG Juniors",
+      "code": "UG-JR",
+      "aliases": ["UG Juniors", "UG Juniors 1", "UG Juniors 2", "UG Junior", "UG-2", "UG2", "UG Juniors (UG2)", "Supa Strikas"]
+    },
+    {
+      "name": "UG Seniors",
+      "code": "UG-SR",
+      "aliases": ["UG Seniors", "UG Seniors 1", "UG Seniors 2", "UG", "UG1", "UG-A", "UG-B", "UG-C", "UG Seniors (UG1)", "Underdawgs"]
+    }
+  ]
+}
