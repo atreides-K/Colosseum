@@ -192,7 +192,7 @@
 
 <script setup>
 import { ref, reactive, computed, onMounted, nextTick, watch } from 'vue'
-import { store, addScheduleItem, removeScheduleItem, getEvent } from '../stores/tournament.js'
+import { store, addScheduleItem, removeScheduleItem, getEvent, isEventPinned } from '../stores/tournament.js'
 import deptMapping from '../data/dept-mapping.json'
 
 // Build alias → department lookup
@@ -268,7 +268,19 @@ const groupedByEvent = computed(() => {
     if (!groups[item.sport]) groups[item.sport] = []
     groups[item.sport].push(item)
   })
-  return groups
+  // Sort pinned events first
+  const sorted = {}
+  const pinned = {}
+  const rest = {}
+  Object.entries(groups).forEach(([sport, items]) => {
+    if (items.length && isEventPinned(items[0].eventId)) {
+      pinned[sport] = items
+    } else {
+      rest[sport] = items
+    }
+  })
+  Object.assign(sorted, pinned, rest)
+  return sorted
 })
 
 // Extract team/dept names from match titles
