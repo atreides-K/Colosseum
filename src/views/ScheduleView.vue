@@ -11,6 +11,7 @@
     <div class="tabs" style="margin-bottom:0">
       <button class="tab" :class="{ active: viewMode === 'chrono' }" @click="viewMode = 'chrono'">By Date</button>
       <button class="tab" :class="{ active: viewMode === 'event' }" @click="viewMode = 'event'">By Event</button>
+      <button class="tab" :class="{ active: viewMode === 'dept' }" @click="viewMode = 'dept'">By Dept</button>
     </div>
   </div>
 
@@ -138,7 +139,37 @@
     </div>
   </template>
 
-  <div class="empty-state" v-if="!allItems.length">
+  <!-- DEPT VIEW (grouped by department/team) -->
+  <template v-if="viewMode === 'dept'">
+    <div style="margin-bottom:16px">
+      <input v-model="deptSearch" placeholder="Search department or team..." class="info-input-inline" style="width:100%;max-width:400px;padding:8px 12px;background:var(--card);border:1px solid var(--border);border-radius:8px;color:var(--text)" />
+    </div>
+    <div v-for="(matches, dept) in filteredGroupedByDept" :key="dept" class="mb-24">
+      <h2 style="position:sticky;top:0;background:var(--bg);padding:8px 0;z-index:1">{{ dept }}</h2>
+      <div class="card" v-for="item in matches" :key="item.id + item.eventId" style="margin-bottom:12px">
+        <div class="flex justify-between items-center">
+          <div>
+            <div class="flex items-center gap-8" style="margin-bottom:2px">
+              <span>{{ item.icon }}</span>
+              <router-link :to="`/events/${item.eventId}`" style="text-decoration:none;font-weight:600;color:var(--text)">{{ item.sport }}</router-link>
+            </div>
+            <h3 style="margin-bottom:2px">{{ item.title }}</h3>
+            <div class="text-sm text-dim">
+              {{ formatDateHeader(item.date) }} <span v-if="item.time">at {{ item.time }}</span>
+              <span v-if="item.venue"> &mdash; {{ item.venue }}</span>
+            </div>
+            <div class="text-sm" v-if="item.description" style="margin-top:4px;color:var(--text)">{{ item.description }}</div>
+          </div>
+          <span class="badge" :class="statusBadge(item.status)">{{ item.status }}</span>
+        </div>
+      </div>
+    </div>
+    <div class="empty-state" v-if="!Object.keys(filteredGroupedByDept).length">
+      <p>No matches found{{ deptSearch ? ' for "' + deptSearch + '"' : '' }}.</p>
+    </div>
+  </template>
+
+  <div class="empty-state" v-if="!allItems.length && viewMode !== 'dept'">
     <div class="icon">&#128197;</div>
     <p>No schedule entries yet.</p>
   </div>
@@ -150,6 +181,7 @@ import { store, addScheduleItem, removeScheduleItem, getEvent } from '../stores/
 
 const filter = ref('all')
 const viewMode = ref('chrono')
+const deptSearch = ref('')
 const editing = ref(null)
 const editData = reactive({ title: '', date: '', time: '', venue: '', description: '' })
 
@@ -206,6 +238,41 @@ const groupedByEvent = computed(() => {
     groups[item.sport].push(item)
   })
   return groups
+})
+
+// Extract team/dept names from match titles
+function extractTeams(title) {
+  // Remove common prefixes like "Pool 2:", "K1:", "Knockout 5:", "Stage 2:", "Final RR:", "M6:", "Round 1:"
+  const cleaned = title.replace(/^(Pool\s*\d+|Knockout\s*\d+|Stage\s*\d+|Final\s*RR|Round\s*\d+|[KM]\d+)\s*:\s*/i, '').trim()
+  // Split by " vs " or " v "
+  const parts = cleaned.split(/\s+(?:vs?|VS?)\s+/)
+  return parts.map(p => p.trim()).filter(Boolean)
+}
+
+const groupedByDept = computed(() => {
+  const groups = {}
+  allItems.value.forEach(item => {
+    const teams = extractTeams(item.title)
+    teams.forEach(team => {
+      if (!team || team.startsWith('Winner') || team.startsWith('TBD')) return
+      if (!groups[team]) groups[team] = []
+      groups[team].push(item)
+    })
+  })
+  // Sort by department name
+  const sorted = {}
+  Object.keys(groups).sort().forEach(k => { sorted[k] = groups[k] })
+  return sorted
+})
+
+const filteredGroupedByDept = computed(() => {
+  if (!deptSearch.value) return groupedByDept.value
+  const q = deptSearch.value.toLowerCase()
+  const filtered = {}
+  Object.entries(groupedByDept.value).forEach(([dept, matches]) => {
+    if (dept.toLowerCase().includes(q)) filtered[dept] = matches
+  })
+  return filtered
 })
 
 // Group items within a date by sport + time
