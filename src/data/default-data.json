@@ -3827,8 +3827,8 @@
           "date": "2026-04-01",
           "time": "6:15 PM - 7:00 PM",
           "venue": "",
-          "description": "Day 1",
-          "status": "scheduled"
+          "description": "Winner: ECE-1 (2-0)",
+          "status": "completed"
         },
         {
           "id": "sch-vb-2",
@@ -3836,8 +3836,8 @@
           "date": "2026-04-01",
           "time": "7:00 PM - 7:45 PM",
           "venue": "",
-          "description": "Day 1",
-          "status": "scheduled"
+          "description": "Winner: UG-2 (2-0)",
+          "status": "completed"
         },
         {
           "id": "sch-vb-3",
@@ -3845,8 +3845,8 @@
           "date": "2026-04-01",
           "time": "8:30 PM - 9:15 PM",
           "venue": "",
-          "description": "Day 1",
-          "status": "scheduled"
+          "description": "Winner: UG (2-0)",
+          "status": "completed"
         },
         {
           "id": "sch-vb-4",
@@ -3854,8 +3854,8 @@
           "date": "2026-04-01",
           "time": "7:00 PM - 7:45 PM",
           "venue": "",
-          "description": "Day 1",
-          "status": "scheduled"
+          "description": "Winner: CNS (2-0)",
+          "status": "completed"
         },
         {
           "id": "sch-vb-5",
