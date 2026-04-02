@@ -1,18 +1,26 @@
 <template>
+  <div style="padding-bottom:72px">
   <h1>Schedule</h1>
 
-  <div class="flex justify-between items-center" style="flex-wrap:wrap;gap:8px;margin-bottom:16px">
-    <div class="tabs" style="margin-bottom:0">
-      <button class="tab" :class="{ active: filter === 'all' }" @click="filter = 'all'">All</button>
-      <button class="tab" :class="{ active: filter === 'scheduled' }" @click="filter = 'scheduled'">Scheduled</button>
-      <button class="tab" :class="{ active: filter === 'completed' }" @click="filter = 'completed'">Completed</button>
-      <button class="tab" :class="{ active: filter === 'cancelled' }" @click="filter = 'cancelled'">Cancelled</button>
-    </div>
-    <div class="tabs" style="margin-bottom:0">
-      <button class="tab" :class="{ active: viewMode === 'chrono' }" @click="viewMode = 'chrono'">By Date</button>
-      <button class="tab" :class="{ active: viewMode === 'event' }" @click="viewMode = 'event'">By Event</button>
-      <button class="tab" :class="{ active: viewMode === 'dept' }" @click="viewMode = 'dept'">By Dept</button>
-    </div>
+  <!-- Filter tabs (inline, compact) -->
+  <div class="schedule-filter-row">
+    <button v-for="f in ['all','scheduled','completed','cancelled']" :key="f"
+      class="schedule-filter-chip" :class="{ active: filter === f }" @click="filter = f">
+      {{ f === 'all' ? 'All' : f.charAt(0).toUpperCase() + f.slice(1) }}
+    </button>
+  </div>
+
+  <!-- Floating bottom bar for view mode -->
+  <div class="schedule-float-bar">
+    <button :class="{ active: viewMode === 'chrono' }" @click="viewMode = 'chrono'">
+      <span class="float-icon">&#128197;</span><span class="float-label">By Date</span>
+    </button>
+    <button :class="{ active: viewMode === 'event' }" @click="viewMode = 'event'">
+      <span class="float-icon">&#127941;</span><span class="float-label">By Event</span>
+    </button>
+    <button :class="{ active: viewMode === 'dept' }" @click="viewMode = 'dept'">
+      <span class="float-icon">&#127963;</span><span class="float-label">By Dept</span>
+    </button>
   </div>
 
   <!-- ADD FORM (admin only) -->
@@ -173,6 +181,7 @@
     <div class="icon">&#128197;</div>
     <p>No schedule entries yet.</p>
   </div>
+  </div>
 </template>
 
 <script setup>
@@ -192,10 +201,11 @@ onMounted(() => {
   nextTick(() => {
     const today = new Date().toISOString().slice(0, 10)
     const dates = Object.keys(groupedByDate.value).sort()
-    // Find today or the nearest future date
     const target = dates.find(d => d >= today) || dates[dates.length - 1]
     if (target && dateRefs[target]) {
-      dateRefs[target].scrollIntoView({ behavior: 'instant', block: 'start' })
+      const el = dateRefs[target]
+      const y = el.getBoundingClientRect().top + window.scrollY - 80
+      window.scrollTo({ top: Math.max(0, y), behavior: 'instant' })
     }
   })
 })
