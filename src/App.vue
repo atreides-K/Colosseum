@@ -37,13 +37,62 @@
   <div class="main">
     <router-view />
   </div>
+
+  <!-- PWA Install Banner -->
+  <transition name="slide-up">
+    <div v-if="showInstallBanner" class="pwa-install-banner" @click="doInstall">
+      <img src="/icons/logo-original.jpg" alt="" class="pwa-install-icon" />
+      <div class="pwa-install-text">
+        <strong>Install Spectrum 2026</strong>
+        <span>Add to home screen for quick access</span>
+      </div>
+      <button class="btn btn-primary btn-sm" @click.stop="doInstall">Install</button>
+      <button class="pwa-install-close" @click.stop="dismissInstall">&times;</button>
+    </div>
+  </transition>
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { store, isEventPinned, togglePinEvent } from './stores/tournament.js'
 
 const sidebarCollapsed = ref(false)
+
+// PWA Install prompt
+const deferredPrompt = ref(null)
+const showInstallBanner = ref(false)
+
+function onBeforeInstallPrompt(e) {
+  e.preventDefault()
+  deferredPrompt.value = e
+  // Show banner unless user dismissed in the last session (not permanently — show each visit)
+  const dismissed = sessionStorage.getItem('pwa-install-dismissed')
+  if (!dismissed) {
+    showInstallBanner.value = true
+  }
+}
+
+function doInstall() {
+  if (!deferredPrompt.value) return
+  deferredPrompt.value.prompt()
+  deferredPrompt.value.userChoice.then(result => {
+    deferredPrompt.value = null
+    showInstallBanner.value = false
+  })
+}
+
+function dismissInstall() {
+  showInstallBanner.value = false
+  sessionStorage.setItem('pwa-install-dismissed', '1')
+}
+
+onMounted(() => {
+  window.addEventListener('beforeinstallprompt', onBeforeInstallPrompt)
+  window.addEventListener('appinstalled', () => { showInstallBanner.value = false })
+})
+onUnmounted(() => {
+  window.removeEventListener('beforeinstallprompt', onBeforeInstallPrompt)
+})
 
 const pinnedEvents = computed(() =>
   store.events.filter(e => isEventPinned(e.id))
