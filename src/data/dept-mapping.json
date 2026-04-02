@@ -43,6 +43,18 @@
         {
           "name": "Red Queen",
           "sport": "Carrom"
+        },
+        {
+          "name": "Supersonic Strikers",
+          "sport": "Football"
+        },
+        {
+          "name": "Supersonic Strikers (W)",
+          "sport": "Football"
+        },
+        {
+          "name": "Supersonic Strikers (Women's)",
+          "sport": "Football"
         }
       ]
     },
@@ -61,6 +73,10 @@
         {
           "name": "Administration (ADMIN)",
           "sport": "Badminton"
+        },
+        {
+          "name": "Admin Strikers",
+          "sport": "Carrom"
         }
       ]
     },
@@ -149,6 +165,10 @@
         {
           "name": "Centre for Nano Science and Engineering (CeNSE)",
           "sport": "Badminton"
+        },
+        {
+          "name": "CeNSers",
+          "sport": "Carrom"
         }
       ]
     },
@@ -185,6 +205,14 @@
         {
           "name": "Chemistry-1",
           "sport": "Foosball"
+        },
+        {
+          "name": "Cummingtonite",
+          "sport": "Football"
+        },
+        {
+          "name": "Cummingtonite (Men's KO)",
+          "sport": "Football"
         }
       ]
     },
@@ -233,6 +261,22 @@
         {
           "name": "Civil Engineering (CE)",
           "sport": "Badminton"
+        },
+        {
+          "name": "Civil Syndicate",
+          "sport": "Carrom"
+        },
+        {
+          "name": "Civil keRum",
+          "sport": "Carrom"
+        },
+        {
+          "name": "Civilians (W)",
+          "sport": "Football"
+        },
+        {
+          "name": "Civilians (Women's)",
+          "sport": "Football"
         }
       ]
     },
@@ -293,6 +337,10 @@
         {
           "name": "Computer Science & Automation 2 (CSA2)",
           "sport": "Badminton"
+        },
+        {
+          "name": "CSA FC",
+          "sport": "Football"
         }
       ]
     },
@@ -365,6 +413,10 @@
         {
           "name": "DBS",
           "sport": "Volleyball"
+        },
+        {
+          "name": "Genetics",
+          "sport": "Table Tennis"
         }
       ]
     },
@@ -403,6 +455,18 @@
         {
           "name": "MGT",
           "sport": "Badminton"
+        },
+        {
+          "name": "DoMinatorS",
+          "sport": "Football"
+        },
+        {
+          "name": "DoMinatorS (Men's KO)",
+          "sport": "Football"
+        },
+        {
+          "name": "Underrated DOMS",
+          "sport": "Carrom"
         }
       ]
     },
@@ -441,6 +505,10 @@
         {
           "name": "Electrical Communication Engineering (ECE)",
           "sport": "Badminton"
+        },
+        {
+          "name": "Circuit Breakers",
+          "sport": "Carrom"
         }
       ]
     },
@@ -451,6 +519,10 @@
         {
           "name": "Electrical",
           "sport": "Basketball, Table Tennis"
+        },
+        {
+          "name": "EE Shockers",
+          "sport": "Carrom"
         }
       ]
     },
@@ -465,6 +537,10 @@
         {
           "name": "Electronics Systems Engineering (ESE)",
           "sport": "Badminton"
+        },
+        {
+          "name": "ESE Strikers",
+          "sport": "Carrom"
         }
       ]
     },
@@ -487,6 +563,10 @@
         {
           "name": "Interdisciplinary Centre for Energy Research (ICER)",
           "sport": "Badminton"
+        },
+        {
+          "name": "Low Energy Department",
+          "sport": "Carrom"
         }
       ]
     },
@@ -515,6 +595,10 @@
         {
           "name": "Instrumentation & Applied Physics (IAP)",
           "sport": "Badminton"
+        },
+        {
+          "name": "IAP Flickers",
+          "sport": "Carrom"
         }
       ]
     },
@@ -603,6 +687,10 @@
         {
           "name": "Mechanical Engineering 2 (ME2)",
           "sport": "Badminton"
+        },
+        {
+          "name": "Mech Spartans",
+          "sport": "Football"
         }
       ]
     },
@@ -631,6 +719,10 @@
         {
           "name": "Physics (PH)",
           "sport": "Badminton"
+        },
+        {
+          "name": "Physics Bombers",
+          "sport": "Carrom"
         }
       ]
     },
@@ -721,104 +813,6 @@
         {
           "name": "UG-C",
           "sport": "Table Tennis"
-        }
-      ]
-    },
-    {
-      "name": "Unknown (custom team names)",
-      "code": "UNKNOWN",
-      "aliases": [
-        {
-          "name": "Supersonic Strikers",
-          "sport": "Football"
-        },
-        {
-          "name": "Supersonic Strikers (W)",
-          "sport": "Football"
-        },
-        {
-          "name": "Supersonic Strikers (Women's)",
-          "sport": "Football"
-        },
-        {
-          "name": "Admin Strikers",
-          "sport": "Carrom"
-        },
-        {
-          "name": "CeNSers",
-          "sport": "Carrom"
-        },
-        {
-          "name": "Cummingtonite",
-          "sport": "Football"
-        },
-        {
-          "name": "Cummingtonite (Men's KO)",
-          "sport": "Football"
-        },
-        {
-          "name": "Civil Syndicate",
-          "sport": "Carrom"
-        },
-        {
-          "name": "Civil keRum",
-          "sport": "Carrom"
-        },
-        {
-          "name": "Civilians (W)",
-          "sport": "Football"
-        },
-        {
-          "name": "Civilians (Women's)",
-          "sport": "Football"
-        },
-        {
-          "name": "CSA FC",
-          "sport": "Football"
-        },
-        {
-          "name": "Genetics",
-          "sport": "Table Tennis"
-        },
-        {
-          "name": "DoMinatorS",
-          "sport": "Football"
-        },
-        {
-          "name": "DoMinatorS (Men's KO)",
-          "sport": "Football"
-        },
-        {
-          "name": "Underrated DOMS",
-          "sport": "Carrom"
-        },
-        {
-          "name": "Circuit Breakers",
-          "sport": "Carrom"
-        },
-        {
-          "name": "EE Shockers",
-          "sport": "Carrom"
-        },
-        {
-          "name": "ESE Strikers",
-          "sport": "Carrom"
-        },
-        {
-          "name": "Low Energy Department",
-          "sport": "Carrom"
-        },
-        {
-          "name": "IAP Flickers",
-          "sport": "Carrom"
-        },
-        {
-          "name": "Mech Spartans",
-          "sport": "Football"
-        },
-        {
-          "name": "Physics Bombers",
-          "sport": "Carrom"
         },
         {
           "name": "Underdawgs",
