@@ -831,7 +831,7 @@
       "categories": "Singles, Doubles-1, Doubles-2",
       "teamSize": "Max 7 players (min 1 woman), max 1 guest",
       "guestPlayers": "Max 1 per team",
-      "format": "Each team plays 3 games: 1 Singles + 2 Doubles. Only 3 player combinations allowed per team. Best 2 of 3 games wins the match.\n\nEach game: 25 points or 45 minutes (whichever is earlier).\n\nIndian Carrom rules apply. Queen = 3 points, other tokens = 1 point. 15 seconds per shot.",
+      "format": "**Stage 1 (Round Robin):** 4 groups. Each team plays all others in their group.\n\n**Group A:** Physics Bombers, Red Queen, Civil Syndicate, Supa Strikas\n**Group B:** Mission Pocket, Circuit Breakers, Low Energy Department, UG Junior\n**Group C:** Admin Strikers, ESE Strikers, Civil keRum, EE Shockers\n**Group D:** IAP Flickers, CeNSers, Underrated DOMS\n\n**Stage 2 (Knockout):** Top 2 from each group. A1 vs B2, A2 vs B1, C1 vs D2, C2 vs D1.\n\n**Stage 3 (Final Round Robin):** 4 knockout winners play a final round robin to decide the champion.",
       "registrationLink": "https://forms.office.com/pages/responsepage.aspx?id=l80Vb6f240Gyxa1Bk5dkdnvvHRd9lvRImqLscehwM95UNzEzOFFJVjc1SzRVNFlXNzJVREFF",
       "registrationDeadline": "",
       "whatsappLink": "",
@@ -849,30 +849,613 @@
       "schedule": [
         {
           "id": "sch-car-1",
-          "title": "Mission Pocket vs UG Jr",
-          "date": "2026-04-02",
+          "title": "IAP Flickers vs CeNSers",
+          "date": "2026-04-01",
           "time": "6:00 PM",
           "venue": "",
-          "description": "Referee: IAP Flickers & EES",
-          "status": "scheduled"
+          "description": "Group D | Winner: CeNSers",
+          "status": "completed"
         },
         {
           "id": "sch-car-2",
-          "title": "Admin Strikers vs EE",
-          "date": "2026-04-02",
-          "time": "6:45 PM",
+          "title": "Physics Bombers vs Civil Syndicate",
+          "date": "2026-04-01",
+          "time": "7:00 PM",
           "venue": "",
-          "description": "Referee: Supa Strikers & Physics Bombers",
-          "status": "scheduled"
+          "description": "Group A | Winner: Physics Bombers",
+          "status": "completed"
         },
         {
           "id": "sch-car-3",
+          "title": "Mission Pocket vs UG Junior",
+          "date": "2026-04-02",
+          "time": "6:00 PM",
+          "venue": "",
+          "description": "Group B",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-car-4",
+          "title": "Admin Strikers vs EE Shockers",
+          "date": "2026-04-02",
+          "time": "6:45 PM",
+          "venue": "",
+          "description": "Group C",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-car-5",
           "title": "Circuit Breakers vs Low Energy Department",
           "date": "2026-04-02",
           "time": "9:15 PM",
           "venue": "",
-          "description": "Referee: CeNSEre & CIVIL K",
+          "description": "Group B",
           "status": "scheduled"
+        },
+        {
+          "id": "sch-car-6",
+          "title": "Admin Strikers vs ESE Strikers",
+          "date": "2026-04-03",
+          "time": "2:15 PM",
+          "venue": "",
+          "description": "Group C",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-car-7",
+          "title": "Physics Bombers vs Red Queen",
+          "date": "2026-04-03",
+          "time": "3:00 PM",
+          "venue": "",
+          "description": "Group A",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-car-8",
+          "title": "Civil Syndicate vs Supa Strikas",
+          "date": "2026-04-03",
+          "time": "9:15 PM",
+          "venue": "",
+          "description": "Group A",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-car-9",
+          "title": "IAP Flickers vs Underrated DOMS",
+          "date": "2026-04-04",
+          "time": "2:15 PM",
+          "venue": "",
+          "description": "Group D",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-car-10",
+          "title": "Red Queen vs Civil Syndicate",
+          "date": "2026-04-04",
+          "time": "3:00 PM",
+          "venue": "",
+          "description": "Group A",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-car-11",
+          "title": "Mission Pocket vs Low Energy Department",
+          "date": "2026-04-04",
+          "time": "9:15 PM",
+          "venue": "",
+          "description": "Group B",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-car-12",
+          "title": "UG Junior vs Circuit Breakers",
+          "date": "2026-04-04",
+          "time": "10:00 PM",
+          "venue": "",
+          "description": "Group B",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-car-13",
+          "title": "Physics Bombers vs Supa Strikas",
+          "date": "2026-04-05",
+          "time": "6:00 PM",
+          "venue": "",
+          "description": "Group A",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-car-14",
+          "title": "ESE Strikers vs Civil keRum",
+          "date": "2026-04-05",
+          "time": "6:45 PM",
+          "venue": "",
+          "description": "Group C",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-car-15",
+          "title": "Red Queen vs Supa Strikas",
+          "date": "2026-04-05",
+          "time": "7:30 PM",
+          "venue": "",
+          "description": "Group A",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-car-16",
+          "title": "CeNSers vs Underrated DOMS",
+          "date": "2026-04-06",
+          "time": "9:15 PM",
+          "venue": "",
+          "description": "Group D",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-car-17",
+          "title": "Mission Pocket vs Circuit Breakers",
+          "date": "2026-04-06",
+          "time": "10:00 PM",
+          "venue": "",
+          "description": "Group B",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-car-18",
+          "title": "Admin Strikers vs Civil keRum",
+          "date": "2026-04-07",
+          "time": "9:15 PM",
+          "venue": "",
+          "description": "Group C",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-car-19",
+          "title": "ESE Strikers vs Civil keRum",
+          "date": "2026-04-07",
+          "time": "10:00 PM",
+          "venue": "",
+          "description": "Group C",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-car-20",
+          "title": "ESE Strikers vs EE Shockers",
+          "date": "2026-04-08",
+          "time": "9:15 PM",
+          "venue": "",
+          "description": "Group C",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-car-21",
+          "title": "Civil keRum vs EE Shockers",
+          "date": "2026-04-08",
+          "time": "10:00 PM",
+          "venue": "",
+          "description": "Group C",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-car-22",
+          "title": "Stage 2: KO Match 1",
+          "date": "2026-04-09",
+          "time": "9:15 PM",
+          "venue": "",
+          "description": "A1 vs B2",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-car-23",
+          "title": "Stage 2: KO Match 2",
+          "date": "2026-04-09",
+          "time": "10:15 PM",
+          "venue": "",
+          "description": "A2 vs B1",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-car-24",
+          "title": "Stage 2: KO Match 3",
+          "date": "2026-04-10",
+          "time": "9:15 PM",
+          "venue": "",
+          "description": "C1 vs D2",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-car-25",
+          "title": "Stage 2: KO Match 4",
+          "date": "2026-04-10",
+          "time": "10:15 PM",
+          "venue": "",
+          "description": "C2 vs D1",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-car-26",
+          "title": "Final RR: Match 1",
+          "date": "2026-04-11",
+          "time": "2:30 PM",
+          "venue": "",
+          "description": "Stage 3 Round Robin",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-car-27",
+          "title": "Final RR: Match 2",
+          "date": "2026-04-11",
+          "time": "3:30 PM",
+          "venue": "",
+          "description": "Stage 3 Round Robin",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-car-28",
+          "title": "Final RR: Match 3",
+          "date": "2026-04-11",
+          "time": "9:00 PM",
+          "venue": "",
+          "description": "Stage 3 Round Robin",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-car-29",
+          "title": "Final RR: Match 4",
+          "date": "2026-04-11",
+          "time": "10:00 PM",
+          "venue": "",
+          "description": "Stage 3 Round Robin",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-car-30",
+          "title": "Final RR: Match 5",
+          "date": "2026-04-12",
+          "time": "5:00 PM",
+          "venue": "",
+          "description": "Stage 3 Round Robin",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-car-31",
+          "title": "Final RR: Match 6",
+          "date": "2026-04-12",
+          "time": "6:00 PM",
+          "venue": "",
+          "description": "Stage 3 Round Robin",
+          "status": "scheduled"
+        }
+      ],
+      "teams": [
+        {
+          "id": "team-car-physics-bombers",
+          "name": "Physics Bombers",
+          "members": [
+            "Akash Bhoir (C)",
+            "Vimal Ruhela (G)",
+            "Subha Dey",
+            "Srashti Vishwakarma",
+            "Abhishek Jangid"
+          ]
+        },
+        {
+          "id": "team-car-red-queen",
+          "name": "Red Queen",
+          "members": [
+            "Bhagyashree Mahali (C)",
+            "Gautam Arora",
+            "Ajeet Yadav",
+            "Sumit Lonkar",
+            "Manik Bhowmik (G)"
+          ]
+        },
+        {
+          "id": "team-car-civil-syndicate",
+          "name": "Civil Syndicate",
+          "members": [
+            "Keshav Kumar (C)",
+            "Anuj Meena",
+            "Sanjay Adhikari",
+            "Katroth Prem Singh",
+            "Srinithya A"
+          ]
+        },
+        {
+          "id": "team-car-supa-strikas",
+          "name": "Supa Strikas",
+          "members": [
+            "S Aayur Ganesh (C)",
+            "Rakshan N",
+            "Dhrithi Saikia",
+            "Sanvi Deeptha Majhi",
+            "Gowtham Vasanth",
+            "Karthikeya K"
+          ]
+        },
+        {
+          "id": "team-car-mission-pocket",
+          "name": "Mission Pocket",
+          "members": [
+            "Pramay (C)",
+            "Vishali S (G)",
+            "Mohd Tahseen",
+            "Chandra Prakash Sharma",
+            "Subhasish Sarkar",
+            "Bal Krishna Raj Vijeta",
+            "Gautam"
+          ]
+        },
+        {
+          "id": "team-car-circuit-breakers",
+          "name": "Circuit Breakers",
+          "members": [
+            "Srinath (C)",
+            "Sudheer",
+            "Somendra",
+            "Ayushi",
+            "Chaitanya",
+            "Prakash",
+            "Varma"
+          ]
+        },
+        {
+          "id": "team-car-low-energy-departmen",
+          "name": "Low Energy Department",
+          "members": [
+            "Deepanshu Singh (C)",
+            "Gracy Bhatt",
+            "Shikhar Verma",
+            "Saunam Halder",
+            "Badekar Vineet Anil Jyoti",
+            "Meer Thahir AA"
+          ]
+        },
+        {
+          "id": "team-car-ug-junior",
+          "name": "UG Junior",
+          "members": [
+            "Piyush Kumar (C)",
+            "Aryan Somkuwar",
+            "Jahin Sadat Mollah",
+            "Anantapura Anugya",
+            "Pawaki Verma",
+            "Yadhukrishnan K S"
+          ]
+        },
+        {
+          "id": "team-car-admin-strikers",
+          "name": "Admin Strikers",
+          "members": [
+            "Sambhu (C)",
+            "Ravi Teja",
+            "Sampath (G)",
+            "Pratima",
+            "Pankaj",
+            "Abhishek",
+            "Naveen"
+          ]
+        },
+        {
+          "id": "team-car-ese-strikers",
+          "name": "ESE Strikers",
+          "members": [
+            "Shubham Shende (C)",
+            "Shreyas",
+            "Prayanshu Sharma",
+            "Prakash Baramani",
+            "Soumya",
+            "Ramnath",
+            "Sai Manjusha"
+          ]
+        },
+        {
+          "id": "team-car-civil-kerum",
+          "name": "Civil keRum",
+          "members": [
+            "Krish (C)",
+            "Rishabh",
+            "Priya",
+            "Prankaj",
+            "Yogesh"
+          ]
+        },
+        {
+          "id": "team-car-ee-shockers",
+          "name": "EE Shockers",
+          "members": [
+            "Samrat Das (C)",
+            "Devaragottu Rahaman",
+            "Pallapu Srinivas Kumar",
+            "Ananya Yadav",
+            "Venkata Sai",
+            "Snehlata"
+          ]
+        },
+        {
+          "id": "team-car-iap-flickers",
+          "name": "IAP Flickers",
+          "members": [
+            "Mrityunjay (C)",
+            "Ashok",
+            "Neptune",
+            "Sushil",
+            "Nikhlesh",
+            "Shivani",
+            "Debarthi"
+          ]
+        },
+        {
+          "id": "team-car-censers",
+          "name": "CeNSers",
+          "members": [
+            "Mayank (C)",
+            "Dhrutikam (G)",
+            "Bipul",
+            "Sharmishtha",
+            "Korobi",
+            "Pratip",
+            "Nikhil"
+          ]
+        },
+        {
+          "id": "team-car-underrated-doms",
+          "name": "Underrated DOMS",
+          "members": [
+            "Awart Katiyar (C)",
+            "Navneet Chandak",
+            "Nayan Dhar",
+            "Kulsoom Naqvi",
+            "Aryan Maurya",
+            "Vaishnav Gautham",
+            "Neerav Chilkoti"
+          ]
+        }
+      ],
+      "standings": [
+        {
+          "pool": "Group A",
+          "qualify": 2,
+          "table": [
+            {
+              "team": "Physics Bombers",
+              "p": 1,
+              "w": 1,
+              "d": 0,
+              "l": 0,
+              "pts": 3
+            },
+            {
+              "team": "Red Queen",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            },
+            {
+              "team": "Civil Syndicate",
+              "p": 1,
+              "w": 0,
+              "d": 0,
+              "l": 1,
+              "pts": 0
+            },
+            {
+              "team": "Supa Strikas",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            }
+          ]
+        },
+        {
+          "pool": "Group B",
+          "qualify": 2,
+          "table": [
+            {
+              "team": "Mission Pocket",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            },
+            {
+              "team": "Circuit Breakers",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            },
+            {
+              "team": "Low Energy Department",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            },
+            {
+              "team": "UG Junior",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            }
+          ]
+        },
+        {
+          "pool": "Group C",
+          "qualify": 2,
+          "table": [
+            {
+              "team": "Admin Strikers",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            },
+            {
+              "team": "ESE Strikers",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            },
+            {
+              "team": "Civil keRum",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            },
+            {
+              "team": "EE Shockers",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            }
+          ]
+        },
+        {
+          "pool": "Group D",
+          "qualify": 2,
+          "table": [
+            {
+              "team": "CeNSers",
+              "p": 1,
+              "w": 1,
+              "d": 0,
+              "l": 0,
+              "pts": 3
+            },
+            {
+              "team": "IAP Flickers",
+              "p": 1,
+              "w": 0,
+              "d": 0,
+              "l": 1,
+              "pts": 0
+            },
+            {
+              "team": "Underrated DOMS",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            }
+          ]
         }
       ]
     },
