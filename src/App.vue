@@ -64,15 +64,26 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted, onUnmounted } from 'vue'
+import { ref, computed, onMounted, onUnmounted, watch } from 'vue'
+import { useRoute } from 'vue-router'
 import { store, isEventPinned, togglePinEvent } from './stores/tournament.js'
+
+const route = useRoute()
 
 const sidebarCollapsed = ref(false)
 const scrollingDown = ref(false)
 
-// Hide rail on scroll down, show on scroll up
+// Hide rail on scroll down, show on scroll up (ignore first 500ms after mount/nav)
 let lastScrollY = 0
+let scrollEnabled = false
+let scrollTimer = null
+function enableScrollAfterDelay() {
+  scrollEnabled = false
+  clearTimeout(scrollTimer)
+  scrollTimer = setTimeout(() => { scrollEnabled = true }, 500)
+}
 function onScroll() {
+  if (!scrollEnabled) { lastScrollY = window.scrollY; return }
   const y = window.scrollY
   scrollingDown.value = y > lastScrollY && y > 50
   lastScrollY = y
@@ -110,6 +121,12 @@ onMounted(() => {
   window.addEventListener('beforeinstallprompt', onBeforeInstallPrompt)
   window.addEventListener('appinstalled', () => { showInstallBanner.value = false })
   window.addEventListener('scroll', onScroll, { passive: true })
+  enableScrollAfterDelay()
+})
+
+watch(() => route.path, () => {
+  scrollingDown.value = false
+  enableScrollAfterDelay()
 })
 onUnmounted(() => {
   window.removeEventListener('beforeinstallprompt', onBeforeInstallPrompt)

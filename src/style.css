@@ -810,6 +810,50 @@ label {
 /* Add bottom padding so content isn't hidden behind float bar */
 .schedule-float-bar ~ * { padding-bottom: 60px; }
 
+/* ---- DEPT PICKER ---- */
+.dept-picker {
+  text-align: center;
+  padding: 20px 0;
+}
+.dept-picker-input {
+  width: 100%;
+  max-width: 360px;
+  padding: 10px 16px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  color: var(--text);
+  font-size: 15px;
+  margin-bottom: 16px;
+  outline: none;
+}
+.dept-picker-input:focus {
+  border-color: var(--accent);
+}
+.dept-picker-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.dept-picker-chip {
+  padding: 8px 16px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text);
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.dept-picker-chip:hover {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+
 /* ---- STANDINGS TABLES ---- */
 .standings-pools {
   display: grid;

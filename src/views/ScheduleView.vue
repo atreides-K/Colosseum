@@ -149,32 +149,47 @@
 
   <!-- DEPT VIEW (grouped by department/team) -->
   <template v-if="viewMode === 'dept'">
-    <div style="margin-bottom:16px">
-      <input v-model="deptSearch" placeholder="Search department or team..." class="info-input-inline" style="width:100%;max-width:400px;padding:8px 12px;background:var(--card);border:1px solid var(--border);border-radius:8px;color:var(--text)" />
-    </div>
-    <div v-for="(matches, dept) in filteredGroupedByDept" :key="dept" class="mb-24">
-      <h2 style="position:sticky;top:0;background:var(--bg);padding:8px 0;z-index:1">{{ dept }}</h2>
-      <div class="card" v-for="item in matches" :key="item.id + item.eventId" style="margin-bottom:12px">
-        <div class="flex justify-between items-center">
-          <div>
-            <div class="flex items-center gap-8" style="margin-bottom:2px">
-              <span>{{ item.icon }}</span>
-              <router-link :to="`/events/${item.eventId}`" style="text-decoration:none;font-weight:600;color:var(--text)">{{ item.sport }}</router-link>
-            </div>
-            <h3 style="margin-bottom:2px">{{ item.title }}</h3>
-            <div class="text-sm text-dim">
-              {{ formatDateHeader(item.date) }} <span v-if="item.time">at {{ item.time }}</span>
-              <span v-if="item.venue"> &mdash; {{ item.venue }}</span>
-            </div>
-            <div class="text-sm" v-if="item.description" style="margin-top:4px;color:var(--text)">{{ item.description }}</div>
-          </div>
-          <span class="badge" :class="statusBadge(item.status)">{{ item.status }}</span>
-        </div>
+    <!-- Dept picker shown when no dept selected -->
+    <div v-if="!deptSearch" class="dept-picker">
+      <h2 style="margin-bottom:12px">Select your department</h2>
+      <input ref="deptInput" v-model="deptFilter" placeholder="Type to filter..." class="dept-picker-input" />
+      <div class="dept-picker-grid">
+        <button v-for="dept in filteredDeptList" :key="dept" class="dept-picker-chip" @click="deptSearch = dept; deptFilter = ''">
+          {{ dept }}
+        </button>
       </div>
     </div>
-    <div class="empty-state" v-if="!Object.keys(filteredGroupedByDept).length">
-      <p>No matches found{{ deptSearch ? ' for "' + deptSearch + '"' : '' }}.</p>
-    </div>
+
+    <!-- Dept schedule shown after selection -->
+    <template v-if="deptSearch">
+      <div class="flex items-center gap-12" style="margin-bottom:16px">
+        <button class="btn btn-sm" @click="deptSearch = ''">&larr; All Depts</button>
+        <h2 style="margin:0">{{ deptSearch }}</h2>
+        <span class="text-dim text-sm">{{ filteredGroupedByDept[deptSearch]?.length || 0 }} matches</span>
+      </div>
+      <div v-for="(matches, dept) in filteredGroupedByDept" :key="dept" class="mb-24">
+        <div class="card" v-for="item in matches" :key="item.id + item.eventId" style="margin-bottom:12px">
+          <div class="flex justify-between items-center">
+            <div>
+              <div class="flex items-center gap-8" style="margin-bottom:2px">
+                <span>{{ item.icon }}</span>
+                <router-link :to="`/events/${item.eventId}`" style="text-decoration:none;font-weight:600;color:var(--text)">{{ item.sport }}</router-link>
+              </div>
+              <h3 style="margin-bottom:2px">{{ item.title }}</h3>
+              <div class="text-sm text-dim">
+                {{ formatDateHeader(item.date) }} <span v-if="item.time">at {{ item.time }}</span>
+                <span v-if="item.venue"> &mdash; {{ item.venue }}</span>
+              </div>
+              <div class="text-sm" v-if="item.description" style="margin-top:4px;color:var(--text)">{{ item.description }}</div>
+            </div>
+            <span class="badge" :class="statusBadge(item.status)">{{ item.status }}</span>
+          </div>
+        </div>
+      </div>
+      <div class="empty-state" v-if="!Object.keys(filteredGroupedByDept).length">
+        <p>No matches found for "{{ deptSearch }}".</p>
+      </div>
+    </template>
   </template>
 
   <div class="empty-state" v-if="!allItems.length && viewMode !== 'dept'">
@@ -191,6 +206,8 @@ import { store, addScheduleItem, removeScheduleItem, getEvent } from '../stores/
 const filter = ref('all')
 const viewMode = ref('chrono')
 const deptSearch = ref('')
+const deptFilter = ref('')
+const deptInput = ref(null)
 const editing = ref(null)
 const editData = reactive({ title: '', date: '', time: '', venue: '', description: '' })
 
@@ -198,7 +215,8 @@ const dateRefs = {}
 function setDateRef(date, el) { if (el) dateRefs[date] = el }
 
 onMounted(() => {
-  nextTick(() => {
+  // Delay auto-scroll slightly so the mobile rail doesn't hide from the scroll event
+  setTimeout(() => {
     const today = new Date().toISOString().slice(0, 10)
     const dates = Object.keys(groupedByDate.value).sort()
     const target = dates.find(d => d >= today) || dates[dates.length - 1]
@@ -207,7 +225,7 @@ onMounted(() => {
       const y = el.getBoundingClientRect().top + window.scrollY - 80
       window.scrollTo({ top: Math.max(0, y), behavior: 'instant' })
     }
-  })
+  }, 100)
 })
 
 const newEntry = reactive({
@@ -280,9 +298,16 @@ const filteredGroupedByDept = computed(() => {
   const q = deptSearch.value.toLowerCase()
   const filtered = {}
   Object.entries(groupedByDept.value).forEach(([dept, matches]) => {
-    if (dept.toLowerCase().includes(q)) filtered[dept] = matches
+    if (dept.toLowerCase() === q) filtered[dept] = matches
   })
   return filtered
+})
+
+const filteredDeptList = computed(() => {
+  const all = Object.keys(groupedByDept.value)
+  if (!deptFilter.value) return all
+  const q = deptFilter.value.toLowerCase()
+  return all.filter(d => d.toLowerCase().includes(q))
 })
 
 // Group items within a date by sport + time
