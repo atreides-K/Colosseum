@@ -149,25 +149,13 @@
 
   <!-- DEPT VIEW (grouped by department/team) -->
   <template v-if="viewMode === 'dept'">
-    <!-- Dept picker shown when no dept selected -->
-    <div v-if="!deptSearch" class="dept-picker">
-      <h2 style="margin-bottom:12px">Select your department</h2>
-      <input ref="deptInput" v-model="deptFilter" placeholder="Type to filter..." class="dept-picker-input" />
-      <div class="dept-picker-grid">
-        <button v-for="dept in filteredDeptList" :key="dept" class="dept-picker-chip" @click="deptSearch = dept; deptFilter = ''">
-          {{ dept }}
-        </button>
-      </div>
+    <div ref="deptTop"></div>
+    <div style="margin-bottom:16px">
+      <input v-model="deptSearch" placeholder="Search department or team name..." class="dept-picker-input" style="width:100%" />
     </div>
-
-    <!-- Dept schedule shown after selection -->
     <template v-if="deptSearch">
-      <div class="flex items-center gap-12" style="margin-bottom:16px">
-        <button class="btn btn-sm" @click="deptSearch = ''">&larr; All Depts</button>
-        <h2 style="margin:0">{{ deptSearch }}</h2>
-        <span class="text-dim text-sm">{{ filteredGroupedByDept[deptSearch]?.length || 0 }} matches</span>
-      </div>
       <div v-for="(matches, dept) in filteredGroupedByDept" :key="dept" class="mb-24">
+        <h2 style="position:sticky;top:0;background:var(--bg);padding:8px 0;z-index:1">{{ dept }} <span class="text-dim text-sm" style="font-weight:400">{{ matches.length }} matches</span></h2>
         <div class="card" v-for="item in matches" :key="item.id + item.eventId" style="margin-bottom:12px">
           <div class="flex justify-between items-center">
             <div>
@@ -190,6 +178,9 @@
         <p>No matches found for "{{ deptSearch }}".</p>
       </div>
     </template>
+    <div v-else class="empty-state">
+      <p>Type a department or team name to see their schedule across all sports.</p>
+    </div>
   </template>
 
   <div class="empty-state" v-if="!allItems.length && viewMode !== 'dept'">
@@ -200,14 +191,13 @@
 </template>
 
 <script setup>
-import { ref, reactive, computed, onMounted, nextTick } from 'vue'
+import { ref, reactive, computed, onMounted, nextTick, watch } from 'vue'
 import { store, addScheduleItem, removeScheduleItem, getEvent } from '../stores/tournament.js'
 
 const filter = ref('all')
 const viewMode = ref('chrono')
 const deptSearch = ref('')
-const deptFilter = ref('')
-const deptInput = ref(null)
+const deptTop = ref(null)
 const editing = ref(null)
 const editData = reactive({ title: '', date: '', time: '', venue: '', description: '' })
 
@@ -226,6 +216,10 @@ onMounted(() => {
       window.scrollTo({ top: Math.max(0, y), behavior: 'instant' })
     }
   }, 100)
+})
+
+watch(viewMode, () => {
+  window.scrollTo({ top: 0, behavior: 'instant' })
 })
 
 const newEntry = reactive({
@@ -294,20 +288,13 @@ const groupedByDept = computed(() => {
 })
 
 const filteredGroupedByDept = computed(() => {
-  if (!deptSearch.value) return groupedByDept.value
+  if (!deptSearch.value) return {}
   const q = deptSearch.value.toLowerCase()
   const filtered = {}
   Object.entries(groupedByDept.value).forEach(([dept, matches]) => {
-    if (dept.toLowerCase() === q) filtered[dept] = matches
+    if (dept.toLowerCase().includes(q)) filtered[dept] = matches
   })
   return filtered
-})
-
-const filteredDeptList = computed(() => {
-  const all = Object.keys(groupedByDept.value)
-  if (!deptFilter.value) return all
-  const q = deptFilter.value.toLowerCase()
-  return all.filter(d => d.toLowerCase().includes(q))
 })
 
 // Group items within a date by sport + time
