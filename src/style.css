@@ -1472,8 +1472,10 @@ label {
     bottom: 0;
     left: 0;
     right: 0;
-    background: var(--card);
-    border-top: 1px solid var(--border);
+    background: rgba(26, 39, 51, 0.85);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-top: 1px solid rgba(255,255,255,0.08);
     z-index: 200;
     padding: 4px 0;
     padding-bottom: calc(4px + env(safe-area-inset-bottom, 0px));
