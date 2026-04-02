@@ -1469,35 +1469,42 @@ label {
   .bottom-tabs {
     display: flex;
     position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(26, 39, 51, 0.85);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
-    border-top: 1px solid rgba(255,255,255,0.08);
+    bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 4px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 4px;
     z-index: 200;
-    padding: 4px 0;
-    padding-bottom: calc(4px + env(safe-area-inset-bottom, 0px));
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
   }
   .bottom-tab {
-    flex: 1;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    gap: 2px;
-    padding: 6px 0;
+    gap: 6px;
+    padding: 8px 18px;
+    border-radius: 12px;
     text-decoration: none;
+    background: transparent;
     color: var(--text-dim);
-    font-size: 11px;
-    transition: color 0.15s;
+    font-size: 13px;
+    transition: all 0.15s;
     -webkit-tap-highlight-color: transparent;
+    white-space: nowrap;
   }
   .bottom-tab.active {
-    color: var(--accent);
+    background: var(--accent);
+    color: #fff;
+  }
+  .bottom-tab:not(.active):hover {
+    background: rgba(255,255,255,0.06);
   }
   .bottom-tab-icon {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1;
   }
   .bottom-tab-label {
