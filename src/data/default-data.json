@@ -1515,7 +1515,7 @@
       "sport": "Football",
       "icon": "⚽",
       "type": "team",
-      "status": "upcoming",
+      "status": "in-progress",
       "venue": "TBA",
       "categories": "Men's (13 teams), Women's (5 teams)",
       "teamSize": "Men's: 10+1 (GK), min 8 to play, rolling subs; Women's: 15-min halves",
@@ -1919,6 +1919,130 @@
           "id": "team-football-18",
           "name": "MTE",
           "members": []
+        }
+      ],
+      "standings": [
+        {
+          "pool": "Women's League",
+          "qualify": 2,
+          "table": [
+            {
+              "team": "CNS",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            },
+            {
+              "team": "CSA",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            },
+            {
+              "team": "Civilians",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            },
+            {
+              "team": "Supersonic Strikers",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            },
+            {
+              "team": "CeNSE",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            }
+          ]
+        },
+        {
+          "pool": "Men's Group A",
+          "qualify": 2,
+          "table": [
+            {
+              "team": "Physics",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            },
+            {
+              "team": "Winner K2",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            },
+            {
+              "team": "Winner K6",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            },
+            {
+              "team": "Best Loser",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            }
+          ]
+        },
+        {
+          "pool": "Men's Group B",
+          "qualify": 2,
+          "table": [
+            {
+              "team": "Winner K1",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            },
+            {
+              "team": "Winner K3",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            },
+            {
+              "team": "Winner K4",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            },
+            {
+              "team": "Winner K5",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            }
+          ]
         }
       ]
     },
