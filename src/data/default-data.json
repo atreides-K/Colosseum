@@ -3043,14 +3043,14 @@
       "icon": "🏊",
       "type": "both",
       "status": "in-progress",
-      "venue": "TBA",
+      "venue": "IISc Swimming Pool",
       "schedule": [
         {
           "id": "sch-swimming-1",
           "title": "50m Freestyle (Men & Women)",
           "date": "2026-04-04",
           "time": "5:30 PM",
-          "venue": "",
+          "venue": "IISc Swimming Pool",
           "description": "Morning session",
           "status": "scheduled"
         },
@@ -3059,7 +3059,7 @@
           "title": "50m Backstroke (Men & Women)",
           "date": "2026-04-04",
           "time": "5:30 PM",
-          "venue": "",
+          "venue": "IISc Swimming Pool",
           "description": "Morning session",
           "status": "scheduled"
         },
@@ -3068,7 +3068,7 @@
           "title": "50m Butterfly (Men & Women)",
           "date": "2026-04-04",
           "time": "5:30 PM",
-          "venue": "",
+          "venue": "IISc Swimming Pool",
           "description": "Evening session",
           "status": "scheduled"
         },
@@ -3077,7 +3077,7 @@
           "title": "50m Breaststroke (Men & Women)",
           "date": "2026-04-04",
           "time": "5:30 PM",
-          "venue": "",
+          "venue": "IISc Swimming Pool",
           "description": "Evening session",
           "status": "scheduled"
         },
@@ -3086,7 +3086,7 @@
           "title": "500m Freestyle (Men & Women)",
           "date": "2026-04-04",
           "time": "5:30 PM",
-          "venue": "",
+          "venue": "IISc Swimming Pool",
           "description": "Evening session",
           "status": "scheduled"
         },
@@ -3095,7 +3095,7 @@
           "title": "4x50m Relay Freestyle (Men & Women)",
           "date": "2026-04-04",
           "time": "5:30 PM",
-          "venue": "",
+          "venue": "IISc Swimming Pool",
           "description": "Evening session",
           "status": "scheduled"
         }
