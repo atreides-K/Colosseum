@@ -1931,12 +1931,66 @@
       "venue": "Aryabhatta, A Block, NBH",
       "schedule": [
         {
+          "id": "sch-foos-a4",
+          "title": "Pool A R1: IAP (bye)",
+          "date": "2026-04-01",
+          "time": "",
+          "venue": "A Block",
+          "description": "Round 1 Pool A — Bye",
+          "status": "completed"
+        },
+        {
+          "id": "sch-foos-b4",
+          "title": "Pool B R1: ICER-2 (bye)",
+          "date": "2026-04-01",
+          "time": "",
+          "venue": "A Block",
+          "description": "Round 1 Pool B — Bye",
+          "status": "completed"
+        },
+        {
+          "id": "sch-foos-c4",
+          "title": "Pool C R1: Aerospace-2 (bye)",
+          "date": "2026-04-01",
+          "time": "",
+          "venue": "NBH",
+          "description": "Round 1 Pool C — Bye",
+          "status": "completed"
+        },
+        {
+          "id": "sch-foos-d4",
+          "title": "Pool D R1: ECE-2 (bye)",
+          "date": "2026-04-01",
+          "time": "",
+          "venue": "Aryabhatta",
+          "description": "Round 1 Pool D — Bye",
+          "status": "completed"
+        },
+        {
           "id": "sch-foos-a1",
           "title": "Pool A R1: CNS-1 vs CeNSE-2",
           "date": "2026-04-01",
           "time": "6:00 PM",
           "venue": "A Block",
           "description": "Winner: CNS-1 (5-10, 10-6, 10-2)",
+          "status": "completed"
+        },
+        {
+          "id": "sch-foos-b3",
+          "title": "Pool B R1: Physics-1 vs ECE-1",
+          "date": "2026-04-01",
+          "time": "6:00 PM",
+          "venue": "A Block",
+          "description": "Winner: Physics-1 (10-1, 10-4, 10-1)",
+          "status": "completed"
+        },
+        {
+          "id": "sch-foos-d2",
+          "title": "Pool D R1: Civil-2 vs IPC",
+          "date": "2026-04-01",
+          "time": "6:00 PM",
+          "venue": "Aryabhatta",
+          "description": "Winner: Civil-2 (10-3, 10-3, 10-9)",
           "status": "completed"
         },
         {
@@ -1949,6 +2003,60 @@
           "status": "completed"
         },
         {
+          "id": "sch-foos-b2",
+          "title": "Pool B R1: Civil-1 vs CDS-1",
+          "date": "2026-04-01",
+          "time": "6:30 PM",
+          "venue": "A Block",
+          "description": "Winner: Civil-1 (10-5, 10-8, 10-6)",
+          "status": "completed"
+        },
+        {
+          "id": "sch-foos-c2",
+          "title": "Pool C R1: DESE-2 vs CPDM",
+          "date": "2026-04-01",
+          "time": "6:30 PM",
+          "venue": "NBH",
+          "description": "Winner: DESE-2 (10-5, 10-6, 10-8)",
+          "status": "completed"
+        },
+        {
+          "id": "sch-foos-c1",
+          "title": "Pool C R1: UG Seniors 2 vs CeNSE-1",
+          "date": "2026-04-01",
+          "time": "6:50 PM",
+          "venue": "NBH",
+          "description": "Winner: UG Seniors 2 (10-5, 10-2)",
+          "status": "completed"
+        },
+        {
+          "id": "sch-foos-d3",
+          "title": "Pool D R1: RBCCPS vs Aerospace-1",
+          "date": "2026-04-01",
+          "time": "6:50 PM",
+          "venue": "Aryabhatta",
+          "description": "Winner: Aerospace-1 (3-10, 4-10, 5-10)",
+          "status": "completed"
+        },
+        {
+          "id": "sch-foos-b1",
+          "title": "Pool B R1: UG Juniors 1 vs DESE-1",
+          "date": "2026-04-01",
+          "time": "7:00 PM",
+          "venue": "A Block",
+          "description": "Winner: UG Juniors 1 (10-6, 10-7, 10-8)",
+          "status": "completed"
+        },
+        {
+          "id": "sch-foos-c3",
+          "title": "Pool C R1: Chemistry-1 vs DOMS-2",
+          "date": "2026-04-01",
+          "time": "7:15 PM",
+          "venue": "NBH",
+          "description": "Winner: Chemistry-1 (10-2, 10-3, 10-0)",
+          "status": "completed"
+        },
+        {
           "id": "sch-foos-a3",
           "title": "Pool A R1: DOMS-1 vs CSA",
           "date": "2026-04-01",
@@ -1958,12 +2066,21 @@
           "status": "completed"
         },
         {
-          "id": "sch-foos-a4",
-          "title": "Pool A R1: IAP (bye)",
+          "id": "sch-foos-d1",
+          "title": "Pool D R1: UG Seniors 1 vs ICER-1",
           "date": "2026-04-01",
-          "time": "",
+          "time": "9:00 PM",
           "venue": "A Block",
-          "description": "Round 1 Pool A — Bye",
+          "description": "Winner: UG Seniors 1 (10-1, 10-3, 10-1)",
+          "status": "completed"
+        },
+        {
+          "id": "sch-foos-d5",
+          "title": "Pool D R2: UG Seniors 1 vs Civil-2",
+          "date": "2026-04-02",
+          "time": "2:00 PM",
+          "venue": "A Block",
+          "description": "Winner: UG Seniors 1 (10-1, 10-5, 7-10)",
           "status": "completed"
         },
         {
@@ -1973,6 +2090,24 @@
           "time": "6:30 PM",
           "venue": "A Block",
           "description": "Winner: CNS-1 (10-2, 10-6, 10-5)",
+          "status": "completed"
+        },
+        {
+          "id": "sch-foos-c6",
+          "title": "Pool C R2: Chemistry-1 vs Aerospace-2",
+          "date": "2026-04-02",
+          "time": "6:30 PM",
+          "venue": "NBH",
+          "description": "Winner: Chemistry-1 (10-4, 10-6, 10-3)",
+          "status": "completed"
+        },
+        {
+          "id": "sch-foos-d6",
+          "title": "Pool D R2: Aerospace-1 vs ECE-2",
+          "date": "2026-04-02",
+          "time": "7:00 PM",
+          "venue": "A Block",
+          "description": "Winner: Aerospace-1 (10-4, 10-3, 10-2)",
           "status": "completed"
         },
         {
@@ -1994,39 +2129,21 @@
           "status": "completed"
         },
         {
-          "id": "sch-foos-b1",
-          "title": "Pool B R1: UG Juniors 1 vs DESE-1",
-          "date": "2026-04-01",
-          "time": "7:00 PM",
-          "venue": "A Block",
-          "description": "Winner: UG Juniors 1 (10-6, 10-7, 10-8)",
+          "id": "sch-foos-c5",
+          "title": "Pool C R2: UG Seniors 2 vs DESE-2",
+          "date": "2026-04-02",
+          "time": "9:30 PM",
+          "venue": "NBH",
+          "description": "Winner: UG Seniors 2 (10-9, 10-5, 10-6)",
           "status": "completed"
         },
         {
-          "id": "sch-foos-b2",
-          "title": "Pool B R1: Civil-1 vs CDS-1",
-          "date": "2026-04-01",
-          "time": "6:30 PM",
-          "venue": "A Block",
-          "description": "Winner: Civil-1 (10-5, 10-8, 10-6)",
-          "status": "completed"
-        },
-        {
-          "id": "sch-foos-b3",
-          "title": "Pool B R1: Physics-1 vs ECE-1",
-          "date": "2026-04-01",
+          "id": "sch-foos-b6",
+          "title": "Pool B R2: Physics-1 vs ICER-2",
+          "date": "2026-04-03",
           "time": "6:00 PM",
           "venue": "A Block",
-          "description": "Winner: Physics-1 (10-1, 10-4, 10-1)",
-          "status": "completed"
-        },
-        {
-          "id": "sch-foos-b4",
-          "title": "Pool B R1: ICER-2 (bye)",
-          "date": "2026-04-01",
-          "time": "",
-          "venue": "A Block",
-          "description": "Round 1 Pool B — Bye",
+          "description": "Winner: Physics-1 (10-3, 10-0, 10-3)",
           "status": "completed"
         },
         {
@@ -2039,78 +2156,6 @@
           "status": "scheduled"
         },
         {
-          "id": "sch-foos-b6",
-          "title": "Pool B R2: Physics-1 vs ICER-2",
-          "date": "2026-04-03",
-          "time": "6:00 PM",
-          "venue": "A Block",
-          "description": "Winner: Physics-1 (10-3, 10-0, 10-3)",
-          "status": "completed"
-        },
-        {
-          "id": "sch-foos-b7",
-          "title": "Pool B Final: TBD vs Physics-1",
-          "date": "2026-04-03",
-          "time": "7:30 PM",
-          "venue": "A Block",
-          "description": "Round 3 Pool B — Ref: Faisal",
-          "status": "scheduled"
-        },
-        {
-          "id": "sch-foos-c1",
-          "title": "Pool C R1: UG Seniors 2 vs CeNSE-1",
-          "date": "2026-04-01",
-          "time": "6:50 PM",
-          "venue": "NBH",
-          "description": "Winner: UG Seniors 2 (10-5, 10-2)",
-          "status": "completed"
-        },
-        {
-          "id": "sch-foos-c2",
-          "title": "Pool C R1: DESE-2 vs CPDM",
-          "date": "2026-04-01",
-          "time": "6:30 PM",
-          "venue": "NBH",
-          "description": "Winner: DESE-2 (10-5, 10-6, 10-8)",
-          "status": "completed"
-        },
-        {
-          "id": "sch-foos-c3",
-          "title": "Pool C R1: Chemistry-1 vs DOMS-2",
-          "date": "2026-04-01",
-          "time": "7:15 PM",
-          "venue": "NBH",
-          "description": "Winner: Chemistry-1 (10-2, 10-3, 10-0)",
-          "status": "completed"
-        },
-        {
-          "id": "sch-foos-c4",
-          "title": "Pool C R1: Aerospace-2 (bye)",
-          "date": "2026-04-01",
-          "time": "",
-          "venue": "NBH",
-          "description": "Round 1 Pool C — Bye",
-          "status": "completed"
-        },
-        {
-          "id": "sch-foos-c5",
-          "title": "Pool C R2: UG Seniors 2 vs DESE-2",
-          "date": "2026-04-02",
-          "time": "9:30 PM",
-          "venue": "NBH",
-          "description": "Winner: UG Seniors 2 (10-9, 10-5, 10-6)",
-          "status": "completed"
-        },
-        {
-          "id": "sch-foos-c6",
-          "title": "Pool C R2: Chemistry-1 vs Aerospace-2",
-          "date": "2026-04-02",
-          "time": "6:30 PM",
-          "venue": "NBH",
-          "description": "Winner: Chemistry-1 (10-4, 10-6, 10-3)",
-          "status": "completed"
-        },
-        {
           "id": "sch-foos-c7",
           "title": "Pool C Final: UG Seniors 2 vs Chemistry-1",
           "date": "2026-04-03",
@@ -2120,58 +2165,13 @@
           "status": "scheduled"
         },
         {
-          "id": "sch-foos-d1",
-          "title": "Pool D R1: UG Seniors 1 vs ICER-1",
-          "date": "2026-04-01",
-          "time": "9:00 PM",
+          "id": "sch-foos-b7",
+          "title": "Pool B Final: TBD vs Physics-1",
+          "date": "2026-04-03",
+          "time": "7:30 PM",
           "venue": "A Block",
-          "description": "Winner: UG Seniors 1 (10-1, 10-3, 10-1)",
-          "status": "completed"
-        },
-        {
-          "id": "sch-foos-d2",
-          "title": "Pool D R1: Civil-2 vs IPC",
-          "date": "2026-04-01",
-          "time": "6:00 PM",
-          "venue": "Aryabhatta",
-          "description": "Winner: Civil-2 (10-3, 10-3, 10-9)",
-          "status": "completed"
-        },
-        {
-          "id": "sch-foos-d3",
-          "title": "Pool D R1: RBCCPS vs Aerospace-1",
-          "date": "2026-04-01",
-          "time": "6:50 PM",
-          "venue": "Aryabhatta",
-          "description": "Winner: Aerospace-1 (3-10, 4-10, 5-10)",
-          "status": "completed"
-        },
-        {
-          "id": "sch-foos-d4",
-          "title": "Pool D R1: ECE-2 (bye)",
-          "date": "2026-04-01",
-          "time": "",
-          "venue": "Aryabhatta",
-          "description": "Round 1 Pool D — Bye",
-          "status": "completed"
-        },
-        {
-          "id": "sch-foos-d5",
-          "title": "Pool D R2: UG Seniors 1 vs Civil-2",
-          "date": "2026-04-02",
-          "time": "2:00 PM",
-          "venue": "A Block",
-          "description": "Winner: UG Seniors 1 (10-1, 10-5, 7-10)",
-          "status": "completed"
-        },
-        {
-          "id": "sch-foos-d6",
-          "title": "Pool D R2: Aerospace-1 vs ECE-2",
-          "date": "2026-04-02",
-          "time": "7:00 PM",
-          "venue": "A Block",
-          "description": "Winner: Aerospace-1 (10-4, 10-3, 10-2)",
-          "status": "completed"
+          "description": "Round 3 Pool B — Ref: Faisal",
+          "status": "scheduled"
         },
         {
           "id": "sch-foos-d7",
@@ -2738,7 +2738,150 @@
           "email": "neivisitah@iisc.ac.in"
         }
       ],
-      "hasRules": true
+      "hasRules": true,
+      "schedule": [
+        {
+          "id": "sch-hb-m1",
+          "title": "Men's QF1: Management vs ECE",
+          "date": "2026-04-06",
+          "time": "",
+          "venue": "TBA",
+          "description": "Men's Quarter-Final 1",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-hb-m2",
+          "title": "Men's QF2: CSA vs Civil",
+          "date": "2026-04-06",
+          "time": "",
+          "venue": "TBA",
+          "description": "Men's Quarter-Final 2",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-hb-m3",
+          "title": "Men's QF3: UG vs CeNSE",
+          "date": "2026-04-06",
+          "time": "",
+          "venue": "TBA",
+          "description": "Men's Quarter-Final 3",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-hb-m4",
+          "title": "Men's QF4: BioEngin vs TBD (best loser from QF1-3)",
+          "date": "2026-04-07",
+          "time": "",
+          "venue": "TBA",
+          "description": "Men's Quarter-Final 4",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-hb-w1",
+          "title": "Women's RR1: Civil vs CeNSE",
+          "date": "2026-04-06",
+          "time": "",
+          "venue": "TBA",
+          "description": "Women's Round Robin",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-hb-w2",
+          "title": "Women's RR2: Civil vs BE",
+          "date": "2026-04-06",
+          "time": "",
+          "venue": "TBA",
+          "description": "Women's Round Robin",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-hb-w3",
+          "title": "Women's RR3: CeNSE vs BE",
+          "date": "2026-04-07",
+          "time": "",
+          "venue": "TBA",
+          "description": "Women's Round Robin",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-hb-m5",
+          "title": "Men's SF1: Winner QF1 vs Winner QF2",
+          "date": "2026-04-07",
+          "time": "",
+          "venue": "TBA",
+          "description": "Men's Semi-Final 1",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-hb-m6",
+          "title": "Men's SF2: Winner QF3 vs Winner QF4",
+          "date": "2026-04-07",
+          "time": "",
+          "venue": "TBA",
+          "description": "Men's Semi-Final 2",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-hb-w4",
+          "title": "Women's Final: TBD vs TBD",
+          "date": "2026-04-08",
+          "time": "",
+          "venue": "TBA",
+          "description": "Women's Final",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-hb-m7",
+          "title": "Men's Final: Winner SF1 vs Winner SF2",
+          "date": "2026-04-08",
+          "time": "",
+          "venue": "TBA",
+          "description": "Men's Final",
+          "status": "scheduled"
+        }
+      ],
+      "teams": [
+        {
+          "id": "team-hb-1",
+          "name": "Management",
+          "members": []
+        },
+        {
+          "id": "team-hb-2",
+          "name": "ECE",
+          "members": []
+        },
+        {
+          "id": "team-hb-3",
+          "name": "CSA",
+          "members": []
+        },
+        {
+          "id": "team-hb-4",
+          "name": "Civil",
+          "members": []
+        },
+        {
+          "id": "team-hb-5",
+          "name": "UG",
+          "members": []
+        },
+        {
+          "id": "team-hb-6",
+          "name": "CeNSE",
+          "members": []
+        },
+        {
+          "id": "team-hb-7",
+          "name": "BioEngin",
+          "members": []
+        },
+        {
+          "id": "team-hb-8",
+          "name": "BE",
+          "members": []
+        }
+      ]
     },
     {
       "id": "evt-hockey",
@@ -3954,7 +4097,7 @@
           "date": "2026-04-01",
           "time": "7:00 PM - 7:45 PM",
           "venue": "",
-          "description": "Winner: UG-2 (25-9, 25-4)",
+          "description": "Winner: UG-2 (25-19, 25-22)",
           "status": "completed"
         },
         {

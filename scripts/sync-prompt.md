@@ -43,3 +43,11 @@ You are syncing the Spectrum 2026 tournament website with the shared Google Shee
 - Event IDs are like evt-basketball, evt-volleyball, etc. Map sport tab names to these IDs.
 - The incharges may write results in any format (e.g. "CSA won", "3-1 CSA", "Winner: CSA (25-6)"). Extract the winner and score from whatever format they use.
 - When updating standings, check ALL completed matches for that pool — don't just increment from the latest result, recalculate from scratch to avoid drift.
+
+**Sync log:**
+After completing the sync, append a log entry to the README tab of the Google Sheet.
+- Find the first empty row after the "SYNC LOG" header (row 32 onwards).
+- Write one row: `[timestamp (YYYY-MM-DD HH:MM IST), status (success/no changes/error), summary of changes]`.
+- Example: `["2026-04-03 16:00 IST", "success", "Basketball: 2 results updated, standings recalculated. Football: 1 new schedule entry."]`
+- If no changes: `["2026-04-03 16:00 IST", "no changes", "Sheet and JSON already in sync"]`
+- Keep it concise — one line per sync run.
