@@ -595,7 +595,7 @@
           "date": "2026-03-31",
           "time": "",
           "venue": "KV Court",
-          "description": "Result: Mech won",
+          "description": "Winner: Mech",
           "status": "completed"
         },
         {
@@ -604,7 +604,7 @@
           "date": "2026-03-31",
           "time": "",
           "venue": "KV Court",
-          "description": "Result: CSA won",
+          "description": "Winner: CSA",
           "status": "completed"
         },
         {
@@ -613,7 +613,7 @@
           "date": "2026-03-31",
           "time": "",
           "venue": "KV Court",
-          "description": "Result: CPS won",
+          "description": "Winner: CPS",
           "status": "completed"
         },
         {
@@ -622,7 +622,7 @@
           "date": "2026-03-31",
           "time": "",
           "venue": "KV Court",
-          "description": "Result: ECE won",
+          "description": "Winner: ECE",
           "status": "completed"
         },
         {
@@ -631,7 +631,7 @@
           "date": "2026-03-31",
           "time": "",
           "venue": "KV Court",
-          "description": "Result: UG Seniors won",
+          "description": "Winner: UG Seniors",
           "status": "completed"
         },
         {
@@ -640,7 +640,7 @@
           "date": "2026-03-31",
           "time": "",
           "venue": "KV Court",
-          "description": "Result: CNS won",
+          "description": "Winner: CNS",
           "status": "completed"
         },
         {
@@ -709,7 +709,7 @@
               "w": 1,
               "d": 0,
               "l": 0,
-              "pts": 1
+              "pts": 3
             },
             {
               "team": "CSA",
@@ -717,7 +717,7 @@
               "w": 1,
               "d": 0,
               "l": 1,
-              "pts": 1
+              "pts": 3
             },
             {
               "team": "BioEng",
@@ -739,7 +739,7 @@
               "w": 1,
               "d": 0,
               "l": 0,
-              "pts": 1
+              "pts": 3
             },
             {
               "team": "Mech",
@@ -747,7 +747,7 @@
               "w": 1,
               "d": 0,
               "l": 1,
-              "pts": 1
+              "pts": 3
             },
             {
               "team": "DOMS",
@@ -769,7 +769,7 @@
               "w": 1,
               "d": 0,
               "l": 0,
-              "pts": 1
+              "pts": 3
             },
             {
               "team": "CeNSE",
@@ -777,7 +777,7 @@
               "w": 1,
               "d": 0,
               "l": 1,
-              "pts": 1
+              "pts": 3
             },
             {
               "team": "CES",
@@ -799,7 +799,7 @@
               "w": 2,
               "d": 0,
               "l": 0,
-              "pts": 2
+              "pts": 6
             },
             {
               "team": "Electrical",
@@ -4248,7 +4248,7 @@
           "date": "2026-04-02",
           "time": "5:15 PM - 6:00 PM",
           "venue": "",
-          "description": "Winner: CPS (25-11, 25-9)",
+          "description": "Winner: CPS (25-11,25-9)",
           "status": "completed"
         },
         {
