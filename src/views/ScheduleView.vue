@@ -105,40 +105,30 @@
           {{ group[0].icon }} {{ sport }}
         </router-link>
       </h2>
-      <div class="card" v-for="item in group" :key="item.id" style="margin-bottom:12px">
-        <div class="flex justify-between items-center">
-          <div>
-            <div v-if="editing === item.id" class="form-row">
-              <input v-model="editData.title" style="width:140px" />
-              <input v-model="editData.date" type="date" style="width:140px" />
-              <input v-model="editData.time" type="time" style="width:100px" />
-              <input v-model="editData.venue" placeholder="Venue" style="width:140px" />
-              <input v-model="editData.description" placeholder="Description" style="width:180px" />
-              <button class="btn btn-sm btn-primary" @click="doSaveEdit(item)">Save</button>
-              <button class="btn btn-sm" @click="editing = null">Cancel</button>
-            </div>
-            <template v-else>
-              <h3 style="margin-bottom:2px">{{ item.title }}</h3>
-              <div class="text-sm text-dim">
-                {{ item.date }} <span v-if="item.time">at {{ item.time }}</span>
-                <span v-if="item.venue"> &mdash; {{ item.venue }}</span>
-              </div>
-              <div class="text-sm" v-if="item.description" style="margin-top:4px;color:var(--text)">{{ item.description }}</div>
-            </template>
-          </div>
-          <div class="flex gap-8 items-center">
-            <span v-if="editing !== item.id" class="badge" :class="statusBadge(item.status)">{{ item.status }}</span>
-            <template v-if="store.isAdmin && editing !== item.id">
-              <select :value="item.status" @change="doChangeStatus(item, $event.target.value)" class="btn btn-sm" style="width:auto;cursor:pointer;padding:3px 6px;font-size:11px">
-                <option value="scheduled">Scheduled</option>
-                <option value="completed">Completed</option>
-                <option value="cancelled">Cancelled</option>
-              </select>
-              <button class="btn btn-sm" @click="startEdit(item)" title="Edit">&#9998;</button>
-              <button class="btn btn-sm btn-danger" @click="doRemove(item)">X</button>
-            </template>
-          </div>
-        </div>
+      <div class="schedule-table-block">
+        <table class="schedule-table">
+          <thead><tr><th>Date</th><th>Time</th><th>Match</th><th>Venue</th><th>Result</th><th>Status</th></tr></thead>
+          <tbody>
+            <tr v-for="item in group" :key="item.id">
+              <td class="text-dim" style="white-space:nowrap">{{ item.date }}</td>
+              <td class="text-dim" style="white-space:nowrap">{{ item.time || '—' }}</td>
+              <td><strong>{{ item.title }}</strong></td>
+              <td class="text-dim">{{ item.venue || '' }}</td>
+              <td class="text-sm">{{ item.description || '' }}</td>
+              <td>
+                <span class="badge" :class="statusBadge(item.status)">{{ item.status }}</span>
+                <template v-if="store.isAdmin">
+                  <select :value="item.status" @change="doChangeStatus(item, $event.target.value)" class="btn btn-sm" style="width:auto;cursor:pointer;padding:3px 6px;font-size:11px;margin-left:4px">
+                    <option value="scheduled">Scheduled</option>
+                    <option value="completed">Completed</option>
+                    <option value="cancelled">Cancelled</option>
+                  </select>
+                  <button class="btn btn-sm btn-danger" @click="doRemove(item)" style="margin-left:4px">X</button>
+                </template>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
   </template>
@@ -152,22 +142,20 @@
     <template v-if="deptSearch">
       <div v-for="(matches, dept) in filteredGroupedByDept" :key="dept" class="mb-24">
         <h2 style="position:sticky;top:0;background:var(--bg);padding:8px 0;z-index:1">{{ dept }} <span class="text-dim text-sm" style="font-weight:400">{{ matches.length }} matches</span></h2>
-        <div class="card" v-for="item in matches" :key="item.id + item.eventId" style="margin-bottom:12px">
-          <div class="flex justify-between items-center">
-            <div>
-              <div class="flex items-center gap-8" style="margin-bottom:2px">
-                <span>{{ item.icon }}</span>
-                <router-link :to="`/events/${item.eventId}`" style="text-decoration:none;font-weight:600;color:var(--text)">{{ item.sport }}</router-link>
-              </div>
-              <h3 style="margin-bottom:2px">{{ item.title }}</h3>
-              <div class="text-sm text-dim">
-                {{ formatDateHeader(item.date) }} <span v-if="item.time">at {{ item.time }}</span>
-                <span v-if="item.venue"> &mdash; {{ item.venue }}</span>
-              </div>
-              <div class="text-sm" v-if="item.description" style="margin-top:4px;color:var(--text)">{{ item.description }}</div>
-            </div>
-            <span class="badge" :class="statusBadge(item.status)">{{ item.status }}</span>
-          </div>
+        <div class="schedule-table-block">
+          <table class="schedule-table">
+            <thead><tr><th>Sport</th><th>Date</th><th>Time</th><th>Match</th><th>Result</th><th>Status</th></tr></thead>
+            <tbody>
+              <tr v-for="item in matches" :key="item.id + item.eventId">
+                <td><span>{{ item.icon }}</span> <router-link :to="`/events/${item.eventId}`" style="text-decoration:none;font-weight:600;color:var(--text)">{{ item.sport }}</router-link></td>
+                <td class="text-dim" style="white-space:nowrap">{{ item.date }}</td>
+                <td class="text-dim" style="white-space:nowrap">{{ item.time || '—' }}</td>
+                <td><strong>{{ item.title }}</strong></td>
+                <td class="text-sm">{{ item.description || '' }}</td>
+                <td><span class="badge" :class="statusBadge(item.status)">{{ item.status }}</span></td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
       <div class="empty-state" v-if="!Object.keys(filteredGroupedByDept).length">
