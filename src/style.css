@@ -762,6 +762,7 @@ label {
 .schedule-table {
   width: 100%;
   border-collapse: collapse;
+  table-layout: fixed;
 }
 .schedule-table th {
   text-align: left;
@@ -773,10 +774,17 @@ label {
   border-bottom: 1px solid var(--border);
   white-space: nowrap;
 }
+.schedule-table th:nth-child(1) { width: 70px; }
+.schedule-table th:nth-child(2) { width: auto; }
+.schedule-table th:nth-child(3) { width: 100px; }
+.schedule-table th:nth-child(4) { width: auto; }
+.schedule-table th:nth-child(5) { width: 90px; }
 .schedule-table td {
   padding: 7px 10px;
   border-bottom: 1px solid rgba(42, 58, 74, 0.5);
   font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .schedule-table tbody tr:last-child td {
   border-bottom: none;
