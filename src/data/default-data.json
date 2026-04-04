@@ -5,7 +5,7 @@
     {
       "id": "evt-athletics",
       "sport": "Athletics",
-      "icon": "\ud83c\udfc3",
+      "icon": "🏃",
       "type": "individual",
       "status": "upcoming",
       "venue": "TBA",
@@ -28,14 +28,14 @@
     {
       "id": "evt-badminton",
       "sport": "Badminton",
-      "icon": "\ud83c\udff8",
+      "icon": "🏸",
       "type": "team",
       "status": "ongoing",
       "venue": "Gymkhana Badminton Courts",
       "categories": "Men's Singles, Women's Singles, Men's Doubles, Women's Doubles, Mixed Doubles",
       "teamSize": "Min 4 male + 3 female, max 12 players (including guests)",
       "guestPlayers": "Max 1 male + 1 female",
-      "format": "Team match consists of 5 games: Men's Singles, Women's Singles, Men's Doubles, Women's Doubles, Mixed Doubles. Win by 3 out of 5 games.\n\nLeague stage: Best-of-3 sets to 21 points. Knockout format communicated after registration.\n\nTiebreak: matches won \u2192 game difference \u2192 point difference \u2192 head-to-head.\n\nOfficial shuttle: Yonex Mavis 350. Non-marking badminton shoes mandatory. BWF rules apply.",
+      "format": "Team match consists of 5 games: Men's Singles, Women's Singles, Men's Doubles, Women's Doubles, Mixed Doubles. Win by 3 out of 5 games.\n\nLeague stage: Best-of-3 sets to 21 points. Knockout format communicated after registration.\n\nTiebreak: matches won → game difference → point difference → head-to-head.\n\nOfficial shuttle: Yonex Mavis 350. Non-marking badminton shoes mandatory. BWF rules apply.",
       "registrationLink": "",
       "registrationDeadline": "",
       "whatsappLink": "",
@@ -504,14 +504,14 @@
     {
       "id": "evt-basketball",
       "sport": "Basketball",
-      "icon": "\ud83c\udfc0",
+      "icon": "🏀",
       "type": "team",
       "status": "in-progress",
       "venue": "KV Court",
       "categories": "Men's, Women's",
-      "teamSize": "Men's: 5\u201312 players; Women's: 5+3 players",
+      "teamSize": "Men's: 5–12 players; Women's: 5+3 players",
       "guestPlayers": "Max 2 per team, max 1 on court at a time",
-      "format": "Men's: 5v5 full court. Women's: 5v5 or 3v3 half court (depending on team sizes).\n\n**12 teams in 4 pools** \u2192 Round robin \u2192 Semifinals \u2192 Finals.\n\n**Pool 1:** CSA, CNS, BioEng\n**Pool 2:** DOMS, Mech, UG Seniors\n**Pool 3:** ECE, CeNSE, CES\n**Pool 4:** CPS, Electrical, UG Juniors\n\nFIBA rules apply. 4 quarters of 10 minutes each (running time except last minute of final quarter). 24-second shot clock.",
+      "format": "Men's: 5v5 full court. Women's: 5v5 or 3v3 half court (depending on team sizes).\n\n**12 teams in 4 pools** → Round robin → Semifinals → Finals.\n\n**Pool 1:** CSA, CNS, BioEng\n**Pool 2:** DOMS, Mech, UG Seniors\n**Pool 3:** ECE, CeNSE, CES\n**Pool 4:** CPS, Electrical, UG Juniors\n\nFIBA rules apply. 4 quarters of 10 minutes each (running time except last minute of final quarter). 24-second shot clock.",
       "registrationLink": "https://docs.google.com/forms/d/e/1FAIpQLScYvKuQ-ZlyKc3e4j95udHv2shBZ9yaRpwnU2mWXqmKIowGJw/viewform",
       "registrationDeadline": "",
       "whatsappLink": "",
@@ -824,7 +824,7 @@
     {
       "id": "evt-carrom",
       "sport": "Carrom",
-      "icon": "\ud83c\udfaf",
+      "icon": "🎯",
       "type": "team",
       "status": "ongoing",
       "venue": "B Block TV Room (Carrom Room)",
@@ -1462,14 +1462,14 @@
     {
       "id": "evt-chess",
       "sport": "Chess",
-      "icon": "\u265f\ufe0f",
+      "icon": "♟️",
       "type": "both",
       "status": "upcoming",
       "venue": "TBA",
       "categories": "Open (Individual + Team events)",
       "teamSize": "Team: 4 open + 1 female + 2 reserves (max 2 guests per roster, 1 per match)",
       "guestPlayers": "Max 2 per roster, max 1 per match",
-      "format": "**Individual:** Swiss System \u2014 Blitz (5 min + 3 sec increment). FIDE rules. Tiebreak: Armageddon for 1st place; Buchholz for others.\n\n**Team:** Group Stage (10 min + 5 sec) \u2192 Double Elimination (30 min + 30 sec). 5 boards per match (at least 1 female). Board 5 (Female Board) can only be substituted by a female player. Rolling substitution with 2 subs. Departments may register up to 2 teams.",
+      "format": "**Individual:** Swiss System — Blitz (5 min + 3 sec increment). FIDE rules. Tiebreak: Armageddon for 1st place; Buchholz for others.\n\n**Team:** Group Stage (10 min + 5 sec) → Double Elimination (30 min + 30 sec). 5 boards per match (at least 1 female). Board 5 (Female Board) can only be substituted by a female player. Rolling substitution with 2 subs. Departments may register up to 2 teams.",
       "registrationLink": "https://docs.google.com/forms/d/e/1FAIpQLSf_MYGcYTtvd4iY4o2iQTklBh-qPCh1PnBY4Q_Fj5d3NY3suw/viewform",
       "registrationDeadline": "",
       "whatsappLink": "",
@@ -1490,14 +1490,14 @@
     {
       "id": "evt-cycling",
       "sport": "Cycling",
-      "icon": "\ud83d\udeb4",
+      "icon": "🚴",
       "type": "individual",
       "status": "upcoming",
       "venue": "IISc Campus (Library entrance, Gulmohar Marg)",
       "categories": "Men's Road Bike, Women's Road Bike, Men's Hybrid/Mountain, Women's Hybrid/Mountain",
       "teamSize": "",
       "guestPlayers": "",
-      "format": "**Qualifiers:** Individual Time Trial (2 laps) \u2014 only if >20 registrations per category.\n\n**Finals:** Road racing with laps. Men Road: 7+1 laps, Women Road: 4+1 laps, Men Hybrid: 5+1 laps, Women Hybrid: 2+1 laps.\n\nRolling start with motorized vehicle pacing on first lap. Helmets mandatory. No e-bikes. GPS tracking required.",
+      "format": "**Qualifiers:** Individual Time Trial (2 laps) — only if >20 registrations per category.\n\n**Finals:** Road racing with laps. Men Road: 7+1 laps, Women Road: 4+1 laps, Men Hybrid: 5+1 laps, Women Hybrid: 2+1 laps.\n\nRolling start with motorized vehicle pacing on first lap. Helmets mandatory. No e-bikes. GPS tracking required.",
       "registrationLink": "https://docs.google.com/forms/d/e/1FAIpQLScVt58usJVYanDHROYRKTcga65ywi98BCWT9v96rBu2pqtPtg/viewform",
       "registrationDeadline": "",
       "whatsappLink": "",
@@ -1513,14 +1513,14 @@
     {
       "id": "evt-football",
       "sport": "Football",
-      "icon": "\u26bd",
+      "icon": "⚽",
       "type": "team",
       "status": "in-progress",
       "venue": "TBA",
       "categories": "Men's (13 teams), Women's (5 teams)",
       "teamSize": "Men's: 10+1 (GK), min 8 to play, rolling subs; Women's: 15-min halves",
       "guestPlayers": "Max 4 on pitch at a time; alumni count as guests",
-      "format": "**Men's:** Knockouts (6 matches, Physics bye) \u2192 Group Stage (2 groups of 4) \u2192 Semis \u2192 Final. KO & Group: 20-min halves. Semis & Final: 25-min halves.\n\n**Women's:** Round robin (all play all) \u2192 Top 2 play Final. 15-min halves.\n\nPoints: Win = 3 | Draw = 1 | Loss = 0. Best loser from KO advances as 8th team.",
+      "format": "**Men's:** Knockouts (6 matches, Physics bye) → Group Stage (2 groups of 4) → Semis → Final. KO & Group: 20-min halves. Semis & Final: 25-min halves.\n\n**Women's:** Round robin (all play all) → Top 2 play Final. 15-min halves.\n\nPoints: Win = 3 | Draw = 1 | Loss = 0. Best loser from KO advances as 8th team.",
       "registrationLink": "https://docs.google.com/forms/d/e/1FAIpQLSft_CHLHcUzO4A6IW0I-CMe9ZkrPdxUrfi_TCysCRbE3W0CiA/viewform",
       "registrationDeadline": "",
       "whatsappLink": "",
@@ -2049,7 +2049,7 @@
     {
       "id": "evt-foosball",
       "sport": "Foosball",
-      "icon": "\ud83c\udfae",
+      "icon": "🎮",
       "type": "team",
       "status": "in-progress",
       "venue": "Aryabhatta, A Block, NBH",
@@ -2060,7 +2060,7 @@
           "date": "2026-04-01",
           "time": "",
           "venue": "A Block",
-          "description": "Round 1 Pool A \u2014 Bye",
+          "description": "Round 1 Pool A — Bye",
           "status": "completed"
         },
         {
@@ -2069,7 +2069,7 @@
           "date": "2026-04-01",
           "time": "",
           "venue": "A Block",
-          "description": "Round 1 Pool B \u2014 Bye",
+          "description": "Round 1 Pool B — Bye",
           "status": "completed"
         },
         {
@@ -2078,7 +2078,7 @@
           "date": "2026-04-01",
           "time": "",
           "venue": "NBH",
-          "description": "Round 1 Pool C \u2014 Bye",
+          "description": "Round 1 Pool C — Bye",
           "status": "completed"
         },
         {
@@ -2087,7 +2087,7 @@
           "date": "2026-04-01",
           "time": "",
           "venue": "Aryabhatta",
-          "description": "Round 1 Pool D \u2014 Bye",
+          "description": "Round 1 Pool D — Bye",
           "status": "completed"
         },
         {
@@ -2249,7 +2249,7 @@
           "date": "2026-04-02",
           "time": "8:45 PM",
           "venue": "A Block",
-          "description": "Winner: CNS-1 (10-5, 10-7, 5-10) \u2014 Pool A Topper",
+          "description": "Winner: CNS-1 (10-5, 10-7, 5-10) — Pool A Topper",
           "status": "completed"
         },
         {
@@ -2285,7 +2285,7 @@
           "date": "2026-04-03",
           "time": "7:00 PM",
           "venue": "NBH",
-          "description": "Round 3 Pool C \u2014 Ref: Pratik",
+          "description": "Round 3 Pool C — Ref: Pratik",
           "status": "completed"
         },
         {
@@ -2303,14 +2303,14 @@
           "date": "2026-04-03",
           "time": "9:00 PM",
           "venue": "A Block",
-          "description": "Round 3 Pool D \u2014 Ref: Jitendra",
+          "description": "Round 3 Pool D — Ref: Jitendra",
           "status": "completed"
         }
       ],
       "categories": "2 Open Doubles + 1 Mixed Doubles per match",
       "teamSize": "5 players + 1 backup; at least 1 player of different gender",
       "guestPlayers": "",
-      "format": "**28 teams** in 4 pools of 7 (partial seeding). Pool stage: knockout within each pool \u2192 1 pool topper each. Round Robin: 4 pool toppers play all vs all. Top 2 \u2192 Final, 3rd & 4th \u2192 Bronze Match.\n\nEach match: 3 games (2 Open Doubles + 1 Mixed Doubles). Game to 10 points (switch sides at 5). MVP (Male & Female) awarded by goals scored in round robin stage.",
+      "format": "**28 teams** in 4 pools of 7 (partial seeding). Pool stage: knockout within each pool → 1 pool topper each. Round Robin: 4 pool toppers play all vs all. Top 2 → Final, 3rd & 4th → Bronze Match.\n\nEach match: 3 games (2 Open Doubles + 1 Mixed Doubles). Game to 10 points (switch sides at 5). MVP (Male & Female) awarded by goals scored in round robin stage.",
       "registrationLink": "https://forms.office.com/pages/responsepage.aspx?id=l80Vb6f240Gyxa1Bk5dkdpFpSaRepwFFp4bGgIPq9KVUNDRFTllBTzhJSTBDMldWWkJUMT",
       "registrationDeadline": "29 March 2026, 11:00 PM",
       "whatsappLink": "https://chat.whatsapp.com/JymLyR0SyhHGTzvI4JYY9I",
@@ -2712,7 +2712,7 @@
     {
       "id": "evt-frisbee",
       "sport": "Ultimate Frisbee",
-      "icon": "\ud83e\udd4f",
+      "icon": "🥏",
       "type": "team",
       "status": "in-progress",
       "venue": "IISc Gymkhana Turf",
@@ -2840,7 +2840,7 @@
     {
       "id": "evt-handball",
       "sport": "Handball",
-      "icon": "\ud83e\udd3e",
+      "icon": "🤾",
       "type": "team",
       "status": "upcoming",
       "venue": "TBA",
@@ -3005,19 +3005,150 @@
           "name": "BE",
           "members": []
         }
-      ]
+      ],
+      "bracket": {
+        "generated": true,
+        "matches": [
+          {
+            "id": "hb-qf1",
+            "round": 0,
+            "position": 0,
+            "slots": [
+              {
+                "seedId": "team-hb-1",
+                "name": "Management",
+                "score": ""
+              },
+              {
+                "seedId": "team-hb-2",
+                "name": "ECE",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "hb-qf2",
+            "round": 0,
+            "position": 1,
+            "slots": [
+              {
+                "seedId": "team-hb-3",
+                "name": "CSA",
+                "score": ""
+              },
+              {
+                "seedId": "team-hb-4",
+                "name": "Civil",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "hb-qf3",
+            "round": 0,
+            "position": 2,
+            "slots": [
+              {
+                "seedId": "team-hb-5",
+                "name": "UG",
+                "score": ""
+              },
+              {
+                "seedId": "team-hb-6",
+                "name": "CeNSE",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "hb-qf4",
+            "round": 0,
+            "position": 3,
+            "slots": [
+              {
+                "seedId": "team-hb-7",
+                "name": "BioEngin",
+                "score": ""
+              },
+              {
+                "seedId": "tbd",
+                "name": "TBD (best loser)",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "hb-sf1",
+            "round": 1,
+            "position": 0,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "Winner QF1",
+                "score": ""
+              },
+              {
+                "seedId": null,
+                "name": "Winner QF2",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "hb-sf2",
+            "round": 1,
+            "position": 1,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "Winner QF3",
+                "score": ""
+              },
+              {
+                "seedId": null,
+                "name": "Winner QF4",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "hb-final",
+            "round": 2,
+            "position": 0,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "Winner SF1",
+                "score": ""
+              },
+              {
+                "seedId": null,
+                "name": "Winner SF2",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          }
+        ]
+      }
     },
     {
       "id": "evt-hockey",
       "sport": "Hockey",
-      "icon": "\ud83c\udfd1",
+      "icon": "🏑",
       "type": "individual",
       "status": "upcoming",
       "venue": "TBA",
       "categories": "Open (mixed across departments)",
       "teamSize": "",
       "guestPlayers": "",
-      "format": "Individual registration \u2014 teams formed based on participants by organizers. Prior hockey experience required (school level or above).\n\nTrial session in the week before the game (mandatory attendance). Trial may be conducted to assess skill level.\n\nFIH rules apply. 11 players on field.",
+      "format": "Individual registration — teams formed based on participants by organizers. Prior hockey experience required (school level or above).\n\nTrial session in the week before the game (mandatory attendance). Trial may be conducted to assess skill level.\n\nFIH rules apply. 11 players on field.",
       "registrationLink": "https://docs.google.com/forms/d/e/1FAIpQLSeG4bB6ygec78Q_0qZvRraKzg1ARrM77zwXkS18E80bu92X8Q/viewform",
       "registrationDeadline": "",
       "whatsappLink": "",
@@ -3036,14 +3167,14 @@
     {
       "id": "evt-kabaddi",
       "sport": "Kabaddi",
-      "icon": "\ud83e\udd3c",
+      "icon": "🤼",
       "type": "team",
       "status": "upcoming",
       "venue": "TMC Ground",
       "categories": "Men's, Women's (separate registration)",
       "teamSize": "Max 12 members, 7 on court, min 7 players",
       "guestPlayers": "",
-      "format": "**Men's:** 30 min (two 15-min halves, 5-min break); Semis/Finals: 40 min.\n**Women's:** 20 min (two 10-min halves); Semis/Finals: 30 min.\n\n1 point per defender out. Bonus line: 1 point if 6+ defenders on ground. League: 3 points for win.\n\nTiebreak: 5 alternate raids \u2192 Golden Raid if still tied.\n\nAKFI rules. Weight restrictions: Men 85kg, Women 75kg max.",
+      "format": "**Men's:** 30 min (two 15-min halves, 5-min break); Semis/Finals: 40 min.\n**Women's:** 20 min (two 10-min halves); Semis/Finals: 30 min.\n\n1 point per defender out. Bonus line: 1 point if 6+ defenders on ground. League: 3 points for win.\n\nTiebreak: 5 alternate raids → Golden Raid if still tied.\n\nAKFI rules. Weight restrictions: Men 85kg, Women 75kg max.",
       "registrationLink": "https://docs.google.com/forms/d/e/1FAIpQLSd5ZKp8zsm7kXW8FeGQaYIDL6rz-DdBQ2JWi2z1cHbLJvDhlg/viewform",
       "registrationLinkWomens": "https://docs.google.com/forms/d/e/1FAIpQLSezCp01mhNzsaMs0e37ucSHS3j-_frRVBv0kKirtckclarkHg/viewform",
       "registrationDeadline": "",
@@ -3061,14 +3192,14 @@
     {
       "id": "evt-kho-kho",
       "sport": "Kho-Kho",
-      "icon": "\ud83e\udd38",
+      "icon": "🤸",
       "type": "team",
       "status": "in-progress",
       "venue": "KV Ground",
       "categories": "Men's, Women's (separate registration)",
-      "teamSize": "9\u201312 players, 9 on court",
+      "teamSize": "9–12 players, 9 on court",
       "guestPlayers": "Men's: max 2; Women's: max 3",
-      "format": "Two innings of 14 minutes each (7 min chase + 7 min defend, 5-min break). Finals: 9 minutes per inning.\n\n1 point per defender out (chasing team). League: 2 points for win.\n\nTiebreak: Sudden death \u2014 time to catch first opponent runner. KKFI rules apply.",
+      "format": "Two innings of 14 minutes each (7 min chase + 7 min defend, 5-min break). Finals: 9 minutes per inning.\n\n1 point per defender out (chasing team). League: 2 points for win.\n\nTiebreak: Sudden death — time to catch first opponent runner. KKFI rules apply.",
       "registrationLink": "https://forms.office.com/pages/responsepage.aspx?id=l80Vb6f240Gyxa1Bk5dkdmPKONoD6UtNuT4AHNkWLERUQks1NjFNSDVCVDVKNVVPS0",
       "registrationLinkWomens": "https://forms.office.com/pages/responsepage.aspx?id=l80Vb6f240Gyxa1Bk5dkdmPKONoD6UtNuT4AHNkWLERURDczTjNaTDYzNVJJRTlTOE1W",
       "registrationDeadline": "",
@@ -3310,7 +3441,7 @@
     {
       "id": "evt-lawn-tennis",
       "sport": "Lawn Tennis",
-      "icon": "\ud83c\udfbe",
+      "icon": "🎾",
       "type": "individual",
       "status": "upcoming",
       "venue": "TBA",
@@ -3336,7 +3467,7 @@
     {
       "id": "evt-powerlifting",
       "sport": "Powerlifting",
-      "icon": "\ud83d\udcaa",
+      "icon": "💪",
       "type": "individual",
       "status": "upcoming",
       "venue": "Janta Gym",
@@ -3354,7 +3485,7 @@
       "categories": "Men's, Women's (5 weight categories each)",
       "teamSize": "",
       "guestPlayers": "",
-      "format": "3 lifts: Squat, Bench Press, Deadlift. 3 attempts per lift, best counts. Total = Squat + Bench + Deadlift. Tiebreak: lighter lifter ranks higher.\n\n**Men's Weight Classes:** <60kg, 60\u201370kg, 70\u201380kg, 80\u201390kg, 90+kg\n**Women's Weight Classes:** <50kg, 50\u201360kg, 60\u201370kg, 70\u201380kg, 80+kg\n\nSmith Machine for squats. Straps allowed for deadlifts only.",
+      "format": "3 lifts: Squat, Bench Press, Deadlift. 3 attempts per lift, best counts. Total = Squat + Bench + Deadlift. Tiebreak: lighter lifter ranks higher.\n\n**Men's Weight Classes:** <60kg, 60–70kg, 70–80kg, 80–90kg, 90+kg\n**Women's Weight Classes:** <50kg, 50–60kg, 60–70kg, 70–80kg, 80+kg\n\nSmith Machine for squats. Straps allowed for deadlifts only.",
       "registrationLink": "https://forms.office.com/Pages/ResponsePage.aspx?id=l80Vb6f240Gyxa1Bk5dkdlTBkVTJoDJCs1-GYIm5gP9UM0hTWTIzN1lXSVFWTDJENUs4RU",
       "registrationDeadline": "",
       "whatsappLink": "",
@@ -3368,14 +3499,14 @@
     {
       "id": "evt-snooker",
       "sport": "Snooker",
-      "icon": "\ud83c\udfb1",
+      "icon": "🎱",
       "type": "both",
       "status": "upcoming",
       "venue": "TBA",
       "categories": "Open Singles, Men's Doubles, Mixed Doubles, Women's Doubles",
       "teamSize": "",
       "guestPlayers": "",
-      "format": "Knockout throughout.\n\n**Men's Doubles:** Rounds 1\u20132: 1 singles (30min) each table + 1 doubles tiebreaker (45min). QF/SF/Finals progressively longer.\n\n**Mixed Doubles:** Similar structure with longer time limits (45\u201360min).\n\n**Women's Doubles:** Format depends on number of registrations.\n\nWPBSA rulebook applies. Players pre-decide table allocation, cannot switch.",
+      "format": "Knockout throughout.\n\n**Men's Doubles:** Rounds 1–2: 1 singles (30min) each table + 1 doubles tiebreaker (45min). QF/SF/Finals progressively longer.\n\n**Mixed Doubles:** Similar structure with longer time limits (45–60min).\n\n**Women's Doubles:** Format depends on number of registrations.\n\nWPBSA rulebook applies. Players pre-decide table allocation, cannot switch.",
       "registrationLink": "https://docs.google.com/forms/d/e/1FAIpQLScU3oqD0FIiqeoVlTIJTplwTwzugqdai_QOPYwcOLoVP80Z4g/viewform",
       "registrationDeadline": "",
       "whatsappLink": "",
@@ -3390,7 +3521,7 @@
     {
       "id": "evt-swimming",
       "sport": "Swimming",
-      "icon": "\ud83c\udfca",
+      "icon": "🏊",
       "type": "both",
       "status": "in-progress",
       "venue": "IISc Swimming Pool",
@@ -3453,7 +3584,7 @@
       "categories": "Men's, Women's",
       "teamSize": "",
       "guestPlayers": "",
-      "format": "**Events:** 50m Freestyle, 50m Breast Stroke, 50m Back Stroke, 50m Butterfly, 500m Freestyle, 4x50m Freestyle Relay.\n\nNo cap on individual event participants per department. Relay teams: max 2 per department (4 participants per relay).\n\nDates: March 31 \u2013 April 1, 2026 (tentative).",
+      "format": "**Events:** 50m Freestyle, 50m Breast Stroke, 50m Back Stroke, 50m Butterfly, 500m Freestyle, 4x50m Freestyle Relay.\n\nNo cap on individual event participants per department. Relay teams: max 2 per department (4 participants per relay).\n\nDates: March 31 – April 1, 2026 (tentative).",
       "registrationLink": "https://docs.google.com/forms/d/e/1FAIpQLSeevxUS5O2pKCDNNdSim5_BXvxkylk680Co_kabRLQ2lt0xfw/viewform",
       "registrationDeadline": "March 29, 2026, 11:59 AM",
       "whatsappLink": "",
@@ -3469,7 +3600,7 @@
     {
       "id": "evt-table-tennis",
       "sport": "Table Tennis",
-      "icon": "\ud83c\udfd3",
+      "icon": "🏓",
       "type": "team",
       "status": "in-progress",
       "venue": "TT Hall (above A Mess)",
@@ -3676,7 +3807,7 @@
       "categories": "Men's Singles, Women's Singles, 2 Open Singles, Open Doubles",
       "teamSize": "5 players (4 compulsory + 1 optional); at least 1 female in playing 4",
       "guestPlayers": "Max 1 per team",
-      "format": "**32 teams** in seeded knockout bracket (Apr 1\u20135) \u2192 League stage (8 teams in 2 pools of 4, round-robin) \u2192 Semifinals \u2192 Finals.\n\nKnockout: best of 3 sets. League/Semis/Finals: best of 5 sets. Each match: Men's Singles, Women's Singles, 2 Open Singles, Open Doubles. First to 3 games wins.\n\nSeeding based on top 8 teams from Spectrum 2025. Mathematics-A (seed 1) and CeNSE-A (seed 2) receive byes.",
+      "format": "**32 teams** in seeded knockout bracket (Apr 1–5) → League stage (8 teams in 2 pools of 4, round-robin) → Semifinals → Finals.\n\nKnockout: best of 3 sets. League/Semis/Finals: best of 5 sets. Each match: Men's Singles, Women's Singles, 2 Open Singles, Open Doubles. First to 3 games wins.\n\nSeeding based on top 8 teams from Spectrum 2025. Mathematics-A (seed 1) and CeNSE-A (seed 2) receive byes.",
       "registrationLink": "https://forms.office.com/",
       "registrationDeadline": "",
       "whatsappLink": "https://chat.whatsapp.com/ImpMBWA3vKBBiNrmzEgrtV?mode=gi_t",
@@ -4401,7 +4532,7 @@
     {
       "id": "evt-throwball",
       "sport": "Throwball",
-      "icon": "\ud83c\udfd0",
+      "icon": "🏐",
       "type": "team",
       "status": "upcoming",
       "venue": "TBA",
@@ -4427,7 +4558,7 @@
     {
       "id": "evt-volleyball",
       "sport": "Volleyball",
-      "icon": "\ud83c\udfd0",
+      "icon": "🏐",
       "type": "team",
       "status": "in-progress",
       "venue": "TBA",
@@ -4605,9 +4736,9 @@
         }
       ],
       "categories": "Men's, Women's",
-      "teamSize": "6\u201312 players per team",
+      "teamSize": "6–12 players per team",
       "guestPlayers": "Max 2 on court at any time; alumni counted as guests",
-      "format": "Pools \u2192 League \u2192 Knockouts (if needed) \u2192 Quarterfinals \u2192 Semifinals \u2192 3rd-place match \u2192 Final.\n\nBest of 3 sets (25-25-15 points), except Semis/Finals. League scoring: 2 points for win, 1 for technical forfeit.\n\nFIVB rules with NO ROTATION (fixed player positions). 10-minute grace period before walkover.\n\nOpen to all IISc community (students, staff, professors, alumni, interns).\n\nMatch schedule: 5 PM \u2013 12 AM, including holiday mornings if needed.",
+      "format": "Pools → League → Knockouts (if needed) → Quarterfinals → Semifinals → 3rd-place match → Final.\n\nBest of 3 sets (25-25-15 points), except Semis/Finals. League scoring: 2 points for win, 1 for technical forfeit.\n\nFIVB rules with NO ROTATION (fixed player positions). 10-minute grace period before walkover.\n\nOpen to all IISc community (students, staff, professors, alumni, interns).\n\nMatch schedule: 5 PM – 12 AM, including holiday mornings if needed.",
       "registrationLink": "https://forms.office.com/",
       "registrationDeadline": "March 31, 2026",
       "whatsappLink": "https://chat.whatsapp.com/EeZfo80XwXvGsd9Z6hkolq",
