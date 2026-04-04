@@ -3063,7 +3063,7 @@
       "sport": "Kho-Kho",
       "icon": "🤸",
       "type": "team",
-      "status": "upcoming",
+      "status": "in-progress",
       "venue": "KV Ground",
       "categories": "Men's, Women's (separate registration)",
       "teamSize": "9–12 players, 9 on court",
@@ -3079,7 +3079,233 @@
           "phone": "6381911360"
         }
       ],
-      "hasRules": true
+      "hasRules": true,
+      "teams": [
+        {
+          "id": "team-kk-1",
+          "name": "UG Seniors",
+          "members": []
+        },
+        {
+          "id": "team-kk-2",
+          "name": "Civil",
+          "members": []
+        },
+        {
+          "id": "team-kk-3",
+          "name": "UG Juniors",
+          "members": []
+        },
+        {
+          "id": "team-kk-4",
+          "name": "DESE",
+          "members": []
+        },
+        {
+          "id": "team-kk-5",
+          "name": "ICER",
+          "members": []
+        },
+        {
+          "id": "team-kk-6",
+          "name": "Alumni",
+          "members": []
+        },
+        {
+          "id": "team-kk-7",
+          "name": "CeNSE",
+          "members": []
+        }
+      ],
+      "schedule": [
+        {
+          "id": "sch-kk-1",
+          "title": "Pool A: Alumni vs Civil",
+          "date": "2026-04-05",
+          "time": "8:00 AM",
+          "venue": "KV Ground",
+          "description": "Pool A",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-kk-2",
+          "title": "Pool B: UG Juniors vs CeNSE",
+          "date": "2026-04-06",
+          "time": "6:00 PM",
+          "venue": "KV Ground",
+          "description": "Pool B",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-kk-3",
+          "title": "Pool A: DESE vs Civil",
+          "date": "2026-04-06",
+          "time": "8:00 PM",
+          "venue": "KV Ground",
+          "description": "Pool A",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-kk-4",
+          "title": "Pool B: UG Seniors vs CeNSE",
+          "date": "2026-04-07",
+          "time": "6:00 PM",
+          "venue": "KV Ground",
+          "description": "Pool B",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-kk-5",
+          "title": "Pool B: UG Juniors vs ICER",
+          "date": "2026-04-07",
+          "time": "8:00 PM",
+          "venue": "KV Ground",
+          "description": "Pool B",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-kk-6",
+          "title": "Pool B: UG Seniors vs ICER",
+          "date": "2026-04-08",
+          "time": "6:00 PM",
+          "venue": "KV Ground",
+          "description": "Pool B",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-kk-7",
+          "title": "Pool B: ICER vs CeNSE",
+          "date": "2026-04-09",
+          "time": "6:00 PM",
+          "venue": "KV Ground",
+          "description": "Pool B",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-kk-8",
+          "title": "Pool B: UG Seniors vs UG Juniors",
+          "date": "2026-04-09",
+          "time": "8:00 PM",
+          "venue": "KV Ground",
+          "description": "Pool B",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-kk-9",
+          "title": "Pool A: Alumni vs DESE",
+          "date": "2026-04-11",
+          "time": "7:00 AM",
+          "venue": "KV Ground",
+          "description": "Pool A",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-kk-10",
+          "title": "Semi-Final 1: TBD vs TBD",
+          "date": "2026-04-11",
+          "time": "",
+          "venue": "KV Ground",
+          "description": "Semi-Final 1",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-kk-11",
+          "title": "Semi-Final 2: TBD vs TBD",
+          "date": "2026-04-11",
+          "time": "",
+          "venue": "KV Ground",
+          "description": "Semi-Final 2",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-kk-12",
+          "title": "3rd Place: Loser SF1 vs Loser SF2",
+          "date": "2026-04-12",
+          "time": "",
+          "venue": "KV Ground",
+          "description": "3rd Place Match",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-kk-13",
+          "title": "Final: Winner SF1 vs Winner SF2",
+          "date": "2026-04-12",
+          "time": "",
+          "venue": "KV Ground",
+          "description": "Final",
+          "status": "scheduled"
+        }
+      ],
+      "standings": [
+        {
+          "pool": "Pool A",
+          "qualify": 2,
+          "table": [
+            {
+              "team": "Civil",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            },
+            {
+              "team": "Alumni",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            },
+            {
+              "team": "DESE",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            }
+          ]
+        },
+        {
+          "pool": "Pool B",
+          "qualify": 2,
+          "table": [
+            {
+              "team": "UG Seniors",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            },
+            {
+              "team": "UG Juniors",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            },
+            {
+              "team": "ICER",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            },
+            {
+              "team": "CeNSE",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "evt-lawn-tennis",
