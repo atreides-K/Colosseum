@@ -1075,14 +1075,14 @@
       "standings": [
         {
           "pool": "Pool 1",
-          "qualify": 2,
+          "qualify": 1,
           "table": [
             {
               "team": "CNS",
-              "p": 1,
+              "p": 2,
               "w": 1,
               "d": 0,
-              "l": 0,
+              "l": 1,
               "pts": 3
             },
             {
@@ -1095,25 +1095,25 @@
             },
             {
               "team": "BioEng",
-              "p": 1,
-              "w": 0,
+              "p": 2,
+              "w": 1,
               "d": 0,
               "l": 1,
-              "pts": 0
+              "pts": 3
             }
           ]
         },
         {
           "pool": "Pool 2",
-          "qualify": 2,
+          "qualify": 1,
           "table": [
             {
               "team": "UG Seniors",
-              "p": 1,
-              "w": 1,
+              "p": 2,
+              "w": 2,
               "d": 0,
               "l": 0,
-              "pts": 3
+              "pts": 6
             },
             {
               "team": "Mech",
@@ -1125,25 +1125,25 @@
             },
             {
               "team": "DOMS",
-              "p": 1,
+              "p": 2,
               "w": 0,
               "d": 0,
-              "l": 1,
+              "l": 2,
               "pts": 0
             }
           ]
         },
         {
           "pool": "Pool 3",
-          "qualify": 2,
+          "qualify": 1,
           "table": [
             {
               "team": "ECE",
-              "p": 1,
-              "w": 1,
+              "p": 2,
+              "w": 2,
               "d": 0,
               "l": 0,
-              "pts": 3
+              "pts": 6
             },
             {
               "team": "CeNSE",
@@ -1155,17 +1155,17 @@
             },
             {
               "team": "CES",
-              "p": 1,
+              "p": 2,
               "w": 0,
               "d": 0,
-              "l": 1,
+              "l": 2,
               "pts": 0
             }
           ]
         },
         {
           "pool": "Pool 4",
-          "qualify": 2,
+          "qualify": 1,
           "table": [
             {
               "team": "CPS",
@@ -1177,18 +1177,18 @@
             },
             {
               "team": "Electrical",
-              "p": 1,
-              "w": 0,
+              "p": 2,
+              "w": 1,
               "d": 0,
               "l": 1,
-              "pts": 0
+              "pts": 3
             },
             {
               "team": "UG Juniors",
-              "p": 1,
+              "p": 2,
               "w": 0,
               "d": 0,
-              "l": 1,
+              "l": 2,
               "pts": 0
             }
           ]
