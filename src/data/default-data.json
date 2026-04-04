@@ -1043,6 +1043,33 @@
           "venue": "KV Court",
           "description": "",
           "status": "scheduled"
+        },
+        {
+          "id": "sch-bb-sf1",
+          "title": "SF1: ECE vs CNS",
+          "date": "2026-04-03",
+          "time": "",
+          "venue": "KV Court",
+          "description": "Winner: CNS",
+          "status": "completed"
+        },
+        {
+          "id": "sch-bb-sf2",
+          "title": "SF2: UG Seniors vs CPS",
+          "date": "2026-04-04",
+          "time": "9:00 PM",
+          "venue": "KV Court",
+          "description": "Semi-Final 2",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-bb-final",
+          "title": "Final: Winner SF1 vs Winner SF2",
+          "date": "2026-04-05",
+          "time": "",
+          "venue": "KV Court",
+          "description": "Final",
+          "status": "scheduled"
         }
       ],
       "standings": [
@@ -1171,108 +1198,36 @@
         "generated": true,
         "matches": [
           {
-            "id": "bb-qf1",
-            "round": 0,
-            "position": 0,
-            "slots": [
-              {
-                "seedId": null,
-                "name": "1st Pool 1",
-                "score": ""
-              },
-              {
-                "seedId": null,
-                "name": "2nd Pool 2",
-                "score": ""
-              }
-            ],
-            "winnerId": null
-          },
-          {
-            "id": "bb-qf2",
-            "round": 0,
-            "position": 1,
-            "slots": [
-              {
-                "seedId": null,
-                "name": "1st Pool 2",
-                "score": ""
-              },
-              {
-                "seedId": null,
-                "name": "2nd Pool 1",
-                "score": ""
-              }
-            ],
-            "winnerId": null
-          },
-          {
-            "id": "bb-qf3",
-            "round": 0,
-            "position": 2,
-            "slots": [
-              {
-                "seedId": null,
-                "name": "1st Pool 3",
-                "score": ""
-              },
-              {
-                "seedId": null,
-                "name": "2nd Pool 4",
-                "score": ""
-              }
-            ],
-            "winnerId": null
-          },
-          {
-            "id": "bb-qf4",
-            "round": 0,
-            "position": 3,
-            "slots": [
-              {
-                "seedId": null,
-                "name": "1st Pool 4",
-                "score": ""
-              },
-              {
-                "seedId": null,
-                "name": "2nd Pool 3",
-                "score": ""
-              }
-            ],
-            "winnerId": null
-          },
-          {
             "id": "bb-sf1",
-            "round": 1,
+            "round": 0,
             "position": 0,
             "slots": [
               {
-                "seedId": null,
-                "name": "Winner QF1",
+                "seedId": "team-bb-ece",
+                "name": "ECE (Pool 3)",
                 "score": ""
               },
               {
-                "seedId": null,
-                "name": "Winner QF2",
+                "seedId": "team-bb-cns",
+                "name": "CNS (Pool 1)",
                 "score": ""
               }
             ],
-            "winnerId": null
+            "winnerId": "team-bb-cns"
           },
           {
             "id": "bb-sf2",
-            "round": 1,
+            "round": 0,
             "position": 1,
             "slots": [
               {
-                "seedId": null,
-                "name": "Winner QF3",
+                "seedId": "team-bb-ugseniors",
+                "name": "UG Seniors (Pool 2)",
                 "score": ""
               },
               {
-                "seedId": null,
-                "name": "Winner QF4",
+                "seedId": "team-bb-cps",
+                "name": "CPS (Pool 4)",
                 "score": ""
               }
             ],
@@ -1280,12 +1235,12 @@
           },
           {
             "id": "bb-final",
-            "round": 2,
+            "round": 1,
             "position": 0,
             "slots": [
               {
-                "seedId": null,
-                "name": "Winner SF1",
+                "seedId": "team-bb-cns",
+                "name": "CNS",
                 "score": ""
               },
               {
