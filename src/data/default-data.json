@@ -940,7 +940,7 @@
           "id": "sch-bball-1",
           "title": "Pool 2: Mech vs DOMS",
           "date": "2026-03-31",
-          "time": "",
+          "time": "7:00 AM - 8:00 AM",
           "venue": "KV Court",
           "description": "Winner: Mech",
           "status": "completed"
@@ -949,7 +949,7 @@
           "id": "sch-bball-2",
           "title": "Pool 1: BioEng vs CSA",
           "date": "2026-03-31",
-          "time": "",
+          "time": "8:00 AM - 9:00 AM",
           "venue": "KV Court",
           "description": "Winner: CSA",
           "status": "completed"
@@ -1048,7 +1048,7 @@
           "id": "sch-bb-sf1",
           "title": "SF1: ECE vs CNS",
           "date": "2026-04-03",
-          "time": "",
+          "time": "9:00 PM - 10:00 PM",
           "venue": "KV Court",
           "description": "Winner: CNS",
           "status": "completed"
@@ -1057,7 +1057,7 @@
           "id": "sch-bb-sf2",
           "title": "SF2: UG Seniors vs CPS",
           "date": "2026-04-04",
-          "time": "9:00 PM",
+          "time": "9:00 PM - 10:00 PM",
           "venue": "KV Court",
           "description": "Winner: UG Seniors",
           "status": "completed"
