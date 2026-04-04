@@ -499,7 +499,354 @@
           "status": "scheduled",
           "description": "Round of 16"
         }
-      ]
+      ],
+      "bracket": {
+        "generated": true,
+        "matches": [
+          {
+            "id": "bad-r1-0",
+            "round": 0,
+            "position": 0,
+            "slots": [
+              {
+                "seedId": "team-bad-ug1",
+                "name": "UG Seniors (UG1)",
+                "score": ""
+              },
+              {
+                "seedId": "team-bad-cense",
+                "name": "Centre for Nano Science and Engineering (CeNSE)",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bad-r1-1",
+            "round": 0,
+            "position": 1,
+            "slots": [
+              {
+                "seedId": "team-bad-ece",
+                "name": "Electrical Communication Engineering (ECE)",
+                "score": ""
+              },
+              {
+                "seedId": "team-bad-ae1",
+                "name": "Aerospace Engineering 1 (AE1)",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bad-r1-2",
+            "round": 0,
+            "position": 2,
+            "slots": [
+              {
+                "seedId": "team-bad-ph",
+                "name": "Physics (PH)",
+                "score": ""
+              },
+              {
+                "seedId": "team-bad-iap",
+                "name": "Instrumentation & Applied Physics (IAP)",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bad-r1-3",
+            "round": 0,
+            "position": 3,
+            "slots": [
+              {
+                "seedId": "team-bad-icwar",
+                "name": "Interdisciplinary Centre for Water Research (ICWaR)",
+                "score": ""
+              },
+              {
+                "seedId": "team-bad-me1",
+                "name": "Mechanical Engineering 1 (ME1)",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bad-r1-4",
+            "round": 0,
+            "position": 4,
+            "slots": [
+              {
+                "seedId": "team-bad-admin",
+                "name": "Administration (ADMIN)",
+                "score": ""
+              },
+              {
+                "seedId": "team-bad-csa1",
+                "name": "Computer Science & Automation 1 (CSA1)",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bad-r1-5",
+            "round": 0,
+            "position": 5,
+            "slots": [
+              {
+                "seedId": "team-bad-ae2",
+                "name": "Aerospace Engineering 2 (AE2)",
+                "score": ""
+              },
+              {
+                "seedId": "team-bad-ce",
+                "name": "Civil Engineering (CE)",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bad-r1-6",
+            "round": 0,
+            "position": 6,
+            "slots": [
+              {
+                "seedId": "team-bad-me2",
+                "name": "Mechanical Engineering 2 (ME2)",
+                "score": ""
+              },
+              {
+                "seedId": "team-bad-icer",
+                "name": "Interdisciplinary Centre for Energy Research (ICER)",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bad-r1-7",
+            "round": 0,
+            "position": 7,
+            "slots": [
+              {
+                "seedId": "team-bad-be",
+                "name": "Bioengineering (BE)",
+                "score": ""
+              },
+              {
+                "seedId": "team-bad-mgt",
+                "name": "Management Studies (MGT)",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bad-r1-8",
+            "round": 0,
+            "position": 8,
+            "slots": [
+              {
+                "seedId": "team-bad-ug2",
+                "name": "UG Juniors (UG2)",
+                "score": ""
+              },
+              {
+                "seedId": "team-bad-ese",
+                "name": "Electronics Systems Engineering (ESE)",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bad-r1-9",
+            "round": 0,
+            "position": 9,
+            "slots": [
+              {
+                "seedId": "team-bad-cns",
+                "name": "Centre for Neuroscience (CNS)",
+                "score": ""
+              },
+              {
+                "seedId": "team-bad-ai",
+                "name": "Artificial Intelligence (AI)",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bad-r1-10",
+            "round": 0,
+            "position": 10,
+            "slots": [
+              {
+                "seedId": "team-bad-csa2",
+                "name": "Computer Science & Automation 2 (CSA2)",
+                "score": ""
+              },
+              {
+                "seedId": "team-bad-cistup",
+                "name": "Centre for Infrastructure, Sustainable Transportation & Urban Planning (CiSTUP)",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bad-r1-0",
+            "round": 1,
+            "position": 0,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": ""
+              },
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bad-r1-1",
+            "round": 1,
+            "position": 1,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": ""
+              },
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bad-r1-2",
+            "round": 1,
+            "position": 2,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": ""
+              },
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bad-r1-3",
+            "round": 1,
+            "position": 3,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": ""
+              },
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bad-r1-4",
+            "round": 1,
+            "position": 4,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": ""
+              },
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bad-r2-0",
+            "round": 2,
+            "position": 0,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": ""
+              },
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bad-r2-1",
+            "round": 2,
+            "position": 1,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": ""
+              },
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bad-r3-0",
+            "round": 3,
+            "position": 0,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": ""
+              },
+              {
+                "seedId": null,
+                "name": "TBD",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          }
+        ]
+      }
     },
     {
       "id": "evt-basketball",
@@ -819,7 +1166,138 @@
             }
           ]
         }
-      ]
+      ],
+      "bracket": {
+        "generated": true,
+        "matches": [
+          {
+            "id": "bb-qf1",
+            "round": 0,
+            "position": 0,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "1st Pool 1",
+                "score": ""
+              },
+              {
+                "seedId": null,
+                "name": "2nd Pool 2",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bb-qf2",
+            "round": 0,
+            "position": 1,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "1st Pool 2",
+                "score": ""
+              },
+              {
+                "seedId": null,
+                "name": "2nd Pool 1",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bb-qf3",
+            "round": 0,
+            "position": 2,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "1st Pool 3",
+                "score": ""
+              },
+              {
+                "seedId": null,
+                "name": "2nd Pool 4",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bb-qf4",
+            "round": 0,
+            "position": 3,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "1st Pool 4",
+                "score": ""
+              },
+              {
+                "seedId": null,
+                "name": "2nd Pool 3",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bb-sf1",
+            "round": 1,
+            "position": 0,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "Winner QF1",
+                "score": ""
+              },
+              {
+                "seedId": null,
+                "name": "Winner QF2",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bb-sf2",
+            "round": 1,
+            "position": 1,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "Winner QF3",
+                "score": ""
+              },
+              {
+                "seedId": null,
+                "name": "Winner QF4",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "bb-final",
+            "round": 2,
+            "position": 0,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "Winner SF1",
+                "score": ""
+              },
+              {
+                "seedId": null,
+                "name": "Winner SF2",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          }
+        ]
+      }
     },
     {
       "id": "evt-carrom",
@@ -2044,7 +2522,66 @@
             }
           ]
         }
-      ]
+      ],
+      "bracket": {
+        "generated": true,
+        "matches": [
+          {
+            "id": "fb-sf1",
+            "round": 0,
+            "position": 0,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "1st Group A",
+                "score": ""
+              },
+              {
+                "seedId": null,
+                "name": "2nd Group B",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "fb-sf2",
+            "round": 0,
+            "position": 1,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "1st Group B",
+                "score": ""
+              },
+              {
+                "seedId": null,
+                "name": "2nd Group A",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "fb-final",
+            "round": 1,
+            "position": 0,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "Winner SF1",
+                "score": ""
+              },
+              {
+                "seedId": null,
+                "name": "Winner SF2",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          }
+        ]
+      }
     },
     {
       "id": "evt-foosball",
@@ -2707,7 +3244,66 @@
             }
           ]
         }
-      ]
+      ],
+      "bracket": {
+        "generated": true,
+        "matches": [
+          {
+            "id": "foos-sf1",
+            "round": 0,
+            "position": 0,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "Pool A Winner (CNS-1)",
+                "score": ""
+              },
+              {
+                "seedId": null,
+                "name": "Pool B Winner (Civil-1)",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "foos-sf2",
+            "round": 0,
+            "position": 1,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "Pool C Winner",
+                "score": ""
+              },
+              {
+                "seedId": null,
+                "name": "Pool D Winner",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "foos-final",
+            "round": 1,
+            "position": 0,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "Winner SF1",
+                "score": ""
+              },
+              {
+                "seedId": null,
+                "name": "Winner SF2",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          }
+        ]
+      }
     },
     {
       "id": "evt-frisbee",
@@ -3436,7 +4032,66 @@
             }
           ]
         }
-      ]
+      ],
+      "bracket": {
+        "generated": true,
+        "matches": [
+          {
+            "id": "kk-sf1",
+            "round": 0,
+            "position": 0,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "1st Pool A",
+                "score": ""
+              },
+              {
+                "seedId": null,
+                "name": "2nd Pool B",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "kk-sf2",
+            "round": 0,
+            "position": 1,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "1st Pool B",
+                "score": ""
+              },
+              {
+                "seedId": null,
+                "name": "2nd Pool A",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "kk-final",
+            "round": 1,
+            "position": 0,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "Winner SF1",
+                "score": ""
+              },
+              {
+                "seedId": null,
+                "name": "Winner SF2",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          }
+        ]
+      }
     },
     {
       "id": "evt-lawn-tennis",
@@ -4979,7 +5634,66 @@
             }
           ]
         }
-      ]
+      ],
+      "bracket": {
+        "generated": true,
+        "matches": [
+          {
+            "id": "vb-sf1",
+            "round": 0,
+            "position": 0,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "1st Pool A",
+                "score": ""
+              },
+              {
+                "seedId": null,
+                "name": "2nd Pool B",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "vb-sf2",
+            "round": 0,
+            "position": 1,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "1st Pool B",
+                "score": ""
+              },
+              {
+                "seedId": null,
+                "name": "2nd Pool A",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "vb-final",
+            "round": 1,
+            "position": 0,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "Winner SF1",
+                "score": ""
+              },
+              {
+                "seedId": null,
+                "name": "Winner SF2",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          }
+        ]
+      }
     }
   ],
   "announcements": [],
