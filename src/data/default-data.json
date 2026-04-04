@@ -1059,12 +1059,12 @@
           "date": "2026-04-04",
           "time": "9:00 PM",
           "venue": "KV Court",
-          "description": "Semi-Final 2",
-          "status": "scheduled"
+          "description": "Winner: UG Seniors",
+          "status": "completed"
         },
         {
           "id": "sch-bb-final",
-          "title": "Final: CNS vs Winner SF2",
+          "title": "Final: CNS vs UG Seniors",
           "date": "2026-04-05",
           "time": "",
           "venue": "KV Court",
@@ -1231,7 +1231,7 @@
                 "score": ""
               }
             ],
-            "winnerId": null
+            "winnerId": "team-bb-ugseniors"
           },
           {
             "id": "bb-final",
@@ -1244,8 +1244,8 @@
                 "score": ""
               },
               {
-                "seedId": null,
-                "name": "Winner SF2",
+                "seedId": "team-bb-ugseniors",
+                "name": "UG Seniors",
                 "score": ""
               }
             ],
