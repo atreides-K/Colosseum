@@ -5216,14 +5216,14 @@
       "icon": "🏐",
       "type": "team",
       "status": "in-progress",
-      "venue": "TBA",
+      "venue": "KV Volleyball Court",
       "schedule": [
         {
           "id": "sch-vb-1",
           "title": "Knockout 1: ECE-1 vs Management",
           "date": "2026-04-01",
           "time": "6:15 PM - 7:00 PM",
-          "venue": "",
+          "venue": "KV VOLLEYBALL COURT",
           "description": "Winner: ECE-1 (25-6, 25-8)",
           "status": "completed"
         },
@@ -5232,7 +5232,7 @@
           "title": "Knockout 2: UG-2 vs Materials Engineering",
           "date": "2026-04-01",
           "time": "7:00 PM - 7:45 PM",
-          "venue": "",
+          "venue": "KV VOLLEYBALL COURT",
           "description": "Winner: UG-2 (25-19, 25-22)",
           "status": "completed"
         },
@@ -5241,7 +5241,7 @@
           "title": "Knockout 3: UG vs ESE",
           "date": "2026-04-01",
           "time": "8:30 PM - 9:15 PM",
-          "venue": "",
+          "venue": "KV VOLLEYBALL COURT",
           "description": "Winner: UG (25-10, 25-15)",
           "status": "completed"
         },
@@ -5250,7 +5250,7 @@
           "title": "Knockout 4: ECE-2 vs CNS",
           "date": "2026-04-01",
           "time": "7:00 PM - 7:45 PM",
-          "venue": "",
+          "venue": "KV VOLLEYBALL COURT",
           "description": "Winner: CNS (25-22, 25-18)",
           "status": "completed"
         },
@@ -5259,7 +5259,7 @@
           "title": "Knockout 5: CPS vs Bio",
           "date": "2026-04-02",
           "time": "5:15 PM - 6:00 PM",
-          "venue": "",
+          "venue": "KV VOLLEYBALL COURT",
           "description": "Winner: CPS (25-11,25-9)",
           "status": "completed"
         },
@@ -5268,7 +5268,7 @@
           "title": "Knockout 6: Samadhan vs Cistup",
           "date": "2026-04-02",
           "time": "6:15 PM - 7:00 PM",
-          "venue": "",
+          "venue": "KV VOLLEYBALL COURT",
           "description": "Winner: Samadhan",
           "status": "completed"
         },
@@ -5277,7 +5277,7 @@
           "title": "Knockout 7: CES vs Admin",
           "date": "2026-04-02",
           "time": "7:00 PM - 7:45 PM",
-          "venue": "",
+          "venue": "KV VOLLEYBALL COURT",
           "description": "Winner: Admin",
           "status": "completed"
         },
@@ -5286,7 +5286,7 @@
           "title": "Knockout 8: DBS vs ICWaR",
           "date": "2026-04-02",
           "time": "7:45 PM - 8:30 PM",
-          "venue": "",
+          "venue": "KV VOLLEYBALL COURT",
           "description": "Winner: ICWaR",
           "status": "completed"
         },
@@ -5295,7 +5295,7 @@
           "title": "Knockout 9: CSA vs DM",
           "date": "2026-04-02",
           "time": "8:30 PM - 9:15 PM",
-          "venue": "",
+          "venue": "KV VOLLEYBALL COURT",
           "description": "Winner: CSA",
           "status": "completed"
         },
@@ -5304,7 +5304,7 @@
           "title": "Pool A: CPS vs CNS",
           "date": "2026-04-03",
           "time": "5:30 PM - 6:15 PM",
-          "venue": "",
+          "venue": "KV VOLLEYBALL COURT",
           "description": "Winner: CPS (25-13, 27-25)",
           "status": "completed"
         },
@@ -5313,7 +5313,7 @@
           "title": "Pool B: Samadhan vs ICWaR",
           "date": "2026-04-03",
           "time": "6:15 PM - 7:00 PM",
-          "venue": "",
+          "venue": "KV VOLLEYBALL COURT",
           "description": "Winner: Samadhan (25-19, 25-23)",
           "status": "completed"
         },
@@ -5322,7 +5322,7 @@
           "title": "Pool A: CSA vs ECE-1",
           "date": "2026-04-03",
           "time": "7:00 PM - 7:45 PM",
-          "venue": "",
+          "venue": "KV VOLLEYBALL COURT",
           "description": "Winner: ECE-1 (25-8, 25-13)",
           "status": "completed"
         },
@@ -5331,7 +5331,7 @@
           "title": "Pool B: CeNSE vs UG-2",
           "date": "2026-04-03",
           "time": "7:45 PM - 8:30 PM",
-          "venue": "",
+          "venue": "KV VOLLEYBALL COURT",
           "description": "Winner: CeNSE (25-15, 25-20)",
           "status": "completed"
         },
@@ -5340,7 +5340,7 @@
           "title": "Pool B: CeNSE vs ICWaR",
           "date": "2026-04-04",
           "time": "5:15 PM - 6:00 PM",
-          "venue": "",
+          "venue": "KV VOLLEYBALL COURT",
           "description": "Pool B",
           "status": "scheduled"
         },
@@ -5349,7 +5349,7 @@
           "title": "Pool B: Samadhan vs UG-1",
           "date": "2026-04-04",
           "time": "6:00 PM - 6:45 PM",
-          "venue": "",
+          "venue": "KV VOLLEYBALL COURT",
           "description": "Pool B",
           "status": "scheduled"
         },
@@ -5358,7 +5358,7 @@
           "title": "Pool A: CSA vs CPS",
           "date": "2026-04-04",
           "time": "6:45 PM - 7:30 PM",
-          "venue": "",
+          "venue": "KV VOLLEYBALL COURT",
           "description": "Pool A",
           "status": "scheduled"
         },
@@ -5367,7 +5367,7 @@
           "title": "Women's: MCB vs UG",
           "date": "2026-04-04",
           "time": "7:30 PM - 8:30 PM",
-          "venue": "",
+          "venue": "KV VOLLEYBALL COURT",
           "description": "Women's",
           "status": "scheduled"
         },
@@ -5376,7 +5376,7 @@
           "title": "Women's: MCB vs CeNSE",
           "date": "2026-04-04",
           "time": "8:30 PM - 9:30 PM",
-          "venue": "",
+          "venue": "KV VOLLEYBALL COURT",
           "description": "Women's",
           "status": "scheduled"
         },
@@ -5385,7 +5385,7 @@
           "title": "Pool A: CNS vs ECE-1",
           "date": "2026-04-04",
           "time": "9:30 PM - 10:30 PM",
-          "venue": "",
+          "venue": "KV VOLLEYBALL COURT",
           "description": "Pool A",
           "status": "scheduled"
         }
