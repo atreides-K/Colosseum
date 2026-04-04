@@ -746,6 +746,45 @@ label {
   background: rgba(255,255,255,0.02);
 }
 
+/* ---- SCHEDULE TABLE ---- */
+.schedule-table-block {
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.schedule-table-header {
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-bottom: 1px solid var(--border);
+}
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.schedule-table th {
+  text-align: left;
+  padding: 6px 10px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-dim);
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+.schedule-table td {
+  padding: 7px 10px;
+  border-bottom: 1px solid rgba(42, 58, 74, 0.5);
+  font-size: 14px;
+}
+.schedule-table tbody tr:last-child td {
+  border-bottom: none;
+}
+.schedule-table tbody tr:hover {
+  background: rgba(255,255,255,0.02);
+}
+
 /* ---- SCHEDULE FLOATING BAR & FILTERS ---- */
 .schedule-filter-row {
   display: flex;

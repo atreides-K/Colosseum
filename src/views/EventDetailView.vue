@@ -254,31 +254,31 @@
         </div>
       </div>
 
-      <div class="card" v-for="sch in sortedSchedule" :key="sch.id">
-        <div class="flex justify-between items-center">
-          <div>
-            <h3 style="margin-bottom:2px">{{ sch.title }}</h3>
-            <div class="text-sm text-dim">
-              {{ sch.date }} <span v-if="sch.time">at {{ sch.time }}</span>
-              <span v-if="sch.venue"> &mdash; {{ sch.venue }}</span>
-            </div>
-            <div class="text-sm mt-16" v-if="sch.description" style="margin-top:6px">{{ sch.description }}</div>
-          </div>
-          <div class="flex gap-8 items-center">
-            <span class="badge" :class="sch.status === 'completed' ? 'badge-green' : sch.status === 'cancelled' ? 'badge-red' : 'badge-upcoming'">
-              {{ sch.status }}
-            </span>
-            <template v-if="store.isAdmin">
-              <select v-model="sch.status" class="btn btn-sm" style="width:auto;cursor:pointer;padding:3px 6px;font-size:11px" @change="flashSaved">
-                <option value="scheduled">Scheduled</option>
-                <option value="completed">Completed</option>
-                <option value="cancelled">Cancelled</option>
-              </select>
-              <button class="btn btn-sm btn-danger" @click="doRemoveSchedule(sch.id)">X</button>
-            </template>
-          </div>
-        </div>
-      </div>
+      <table class="schedule-table" v-if="sortedSchedule.length">
+        <thead><tr><th>Date</th><th>Time</th><th>Match</th><th>Venue</th><th>Result</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr v-for="sch in sortedSchedule" :key="sch.id">
+            <td class="text-dim" style="white-space:nowrap">{{ sch.date }}</td>
+            <td class="text-dim" style="white-space:nowrap">{{ sch.time || '—' }}</td>
+            <td><strong>{{ sch.title }}</strong></td>
+            <td class="text-dim">{{ sch.venue || '' }}</td>
+            <td class="text-sm">{{ sch.description || '' }}</td>
+            <td>
+              <span class="badge" :class="sch.status === 'completed' ? 'badge-green' : sch.status === 'cancelled' ? 'badge-red' : 'badge-upcoming'">
+                {{ sch.status }}
+              </span>
+              <template v-if="store.isAdmin">
+                <select v-model="sch.status" class="btn btn-sm" style="width:auto;cursor:pointer;padding:3px 6px;font-size:11px;margin-left:4px" @change="flashSaved">
+                  <option value="scheduled">Scheduled</option>
+                  <option value="completed">Completed</option>
+                  <option value="cancelled">Cancelled</option>
+                </select>
+                <button class="btn btn-sm btn-danger" @click="doRemoveSchedule(sch.id)" style="margin-left:4px">X</button>
+              </template>
+            </td>
+          </tr>
+        </tbody>
+      </table>
 
       <div class="empty-state" v-if="!evt.schedule.length">
         <p>No schedule entries yet.</p>
