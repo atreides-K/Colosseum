@@ -3797,6 +3797,26 @@
           "id": "team-kk-7",
           "name": "CeNSE",
           "members": []
+        },
+        {
+          "id": "team-kk-w1",
+          "name": "UG (W)",
+          "members": []
+        },
+        {
+          "id": "team-kk-w2",
+          "name": "CeNSE (W)",
+          "members": []
+        },
+        {
+          "id": "team-kk-w3",
+          "name": "Civil (W)",
+          "members": []
+        },
+        {
+          "id": "team-kk-w4",
+          "name": "DESE (W)",
+          "members": []
         }
       ],
       "schedule": [
@@ -3807,6 +3827,15 @@
           "time": "8:00 AM",
           "venue": "KV Ground",
           "description": "Pool A",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-kk-w1",
+          "title": "Women's: UG vs CeNSE",
+          "date": "2026-04-05",
+          "time": "4:00 PM",
+          "venue": "KV Ground",
+          "description": "Women's Round Robin",
           "status": "scheduled"
         },
         {
@@ -3837,6 +3866,15 @@
           "status": "scheduled"
         },
         {
+          "id": "sch-kk-w2",
+          "title": "Women's: Civil vs CeNSE",
+          "date": "2026-04-07",
+          "time": "7:00 PM",
+          "venue": "KV Ground",
+          "description": "Women's Round Robin",
+          "status": "scheduled"
+        },
+        {
           "id": "sch-kk-5",
           "title": "Pool B: UG Juniors vs ICER",
           "date": "2026-04-07",
@@ -3855,12 +3893,39 @@
           "status": "scheduled"
         },
         {
+          "id": "sch-kk-w3",
+          "title": "Women's: Civil vs UG",
+          "date": "2026-04-08",
+          "time": "8:00 PM",
+          "venue": "KV Ground",
+          "description": "Women's Round Robin",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-kk-w4",
+          "title": "Women's: CeNSE vs DESE",
+          "date": "2026-04-09",
+          "time": "5:00 PM",
+          "venue": "KV Ground",
+          "description": "Women's Round Robin",
+          "status": "scheduled"
+        },
+        {
           "id": "sch-kk-7",
           "title": "Pool B: ICER vs CeNSE",
           "date": "2026-04-09",
           "time": "6:00 PM",
           "venue": "KV Ground",
           "description": "Pool B",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-kk-w5",
+          "title": "Women's: Civil vs DESE",
+          "date": "2026-04-09",
+          "time": "7:00 PM",
+          "venue": "KV Ground",
+          "description": "Women's Round Robin",
           "status": "scheduled"
         },
         {
@@ -3873,12 +3938,12 @@
           "status": "scheduled"
         },
         {
-          "id": "sch-kk-9",
-          "title": "Pool A: Alumni vs DESE",
-          "date": "2026-04-11",
-          "time": "7:00 AM",
+          "id": "sch-kk-w6",
+          "title": "Women's: UG vs DESE",
+          "date": "2026-04-10",
+          "time": "8:00 PM",
           "venue": "KV Ground",
-          "description": "Pool A",
+          "description": "Women's Round Robin",
           "status": "scheduled"
         },
         {
@@ -3897,6 +3962,15 @@
           "time": "",
           "venue": "KV Ground",
           "description": "Semi-Final 2",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-kk-9",
+          "title": "Pool A: Alumni vs DESE",
+          "date": "2026-04-11",
+          "time": "7:00 AM",
+          "venue": "KV Ground",
+          "description": "Pool A",
           "status": "scheduled"
         },
         {
@@ -3979,6 +4053,44 @@
             },
             {
               "team": "CeNSE",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            }
+          ]
+        },
+        {
+          "pool": "Women's League",
+          "qualify": 2,
+          "table": [
+            {
+              "team": "UG",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            },
+            {
+              "team": "CeNSE",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            },
+            {
+              "team": "Civil",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
+              "pts": 0
+            },
+            {
+              "team": "DESE",
               "p": 0,
               "w": 0,
               "d": 0,
@@ -5296,8 +5408,8 @@
           "date": "2026-04-04",
           "time": "5:15 PM - 6:00 PM",
           "venue": "KV VOLLEYBALL COURT",
-          "description": "Pool B",
-          "status": "scheduled"
+          "description": "Winner: CeNSE",
+          "status": "completed"
         },
         {
           "id": "sch-vb-15",
@@ -5305,8 +5417,8 @@
           "date": "2026-04-04",
           "time": "6:00 PM - 6:45 PM",
           "venue": "KV VOLLEYBALL COURT",
-          "description": "Pool B",
-          "status": "scheduled"
+          "description": "Winner: UG-1",
+          "status": "completed"
         },
         {
           "id": "sch-vb-16",
@@ -5314,8 +5426,8 @@
           "date": "2026-04-04",
           "time": "6:45 PM - 7:30 PM",
           "venue": "KV VOLLEYBALL COURT",
-          "description": "Pool A",
-          "status": "scheduled"
+          "description": "Winner: CPS",
+          "status": "completed"
         },
         {
           "id": "sch-vb-17",
@@ -5323,8 +5435,8 @@
           "date": "2026-04-04",
           "time": "7:30 PM - 8:30 PM",
           "venue": "KV VOLLEYBALL COURT",
-          "description": "Women's",
-          "status": "scheduled"
+          "description": "Winner: MCB",
+          "status": "completed"
         },
         {
           "id": "sch-vb-18",
@@ -5332,8 +5444,8 @@
           "date": "2026-04-04",
           "time": "8:30 PM - 9:30 PM",
           "venue": "KV VOLLEYBALL COURT",
-          "description": "Women's",
-          "status": "scheduled"
+          "description": "Winner: CeNSE",
+          "status": "completed"
         },
         {
           "id": "sch-vb-19",
@@ -5341,7 +5453,61 @@
           "date": "2026-04-04",
           "time": "9:30 PM - 10:30 PM",
           "venue": "KV VOLLEYBALL COURT",
+          "description": "Winner: ECE-1",
+          "status": "completed"
+        },
+        {
+          "id": "sch-vb-20",
+          "title": "Pool A: CNS vs CSA",
+          "date": "2026-04-05",
+          "time": "5:15 PM - 6:00 PM",
+          "venue": "KV VOLLEYBALL COURT",
           "description": "Pool A",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-vb-21",
+          "title": "Pool B: ICWaR vs UG-2",
+          "date": "2026-04-05",
+          "time": "6:00 PM - 6:45 PM",
+          "venue": "KV VOLLEYBALL COURT",
+          "description": "Pool B",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-vb-22",
+          "title": "Pool A: ECE-1 vs CPS",
+          "date": "2026-04-05",
+          "time": "6:45 PM - 7:30 PM",
+          "venue": "KV VOLLEYBALL COURT",
+          "description": "Pool A",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-vb-23",
+          "title": "Women's: UG vs CeNSE",
+          "date": "2026-04-05",
+          "time": "7:30 PM - 8:30 PM",
+          "venue": "KV VOLLEYBALL COURT",
+          "description": "Women's",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-vb-24",
+          "title": "Women's: MCB vs CES",
+          "date": "2026-04-05",
+          "time": "8:30 PM - 9:30 PM",
+          "venue": "KV VOLLEYBALL COURT",
+          "description": "Women's",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-vb-25",
+          "title": "Pool B: CeNSE vs UG-1",
+          "date": "2026-04-05",
+          "time": "9:30 PM - 10:30 PM",
+          "venue": "KV VOLLEYBALL COURT",
+          "description": "Pool B",
           "status": "scheduled"
         }
       ],
@@ -5465,19 +5631,19 @@
           "table": [
             {
               "team": "ECE-1",
-              "p": 1,
-              "w": 1,
+              "p": 2,
+              "w": 2,
               "d": 0,
               "l": 0,
-              "pts": 3
+              "pts": 6
             },
             {
               "team": "CPS",
-              "p": 1,
-              "w": 1,
+              "p": 2,
+              "w": 2,
               "d": 0,
               "l": 0,
-              "pts": 3
+              "pts": 6
             },
             {
               "team": "Admin",
@@ -5489,18 +5655,18 @@
             },
             {
               "team": "CNS",
-              "p": 1,
+              "p": 2,
               "w": 0,
               "d": 0,
-              "l": 1,
+              "l": 2,
               "pts": 0
             },
             {
               "team": "CSA",
-              "p": 1,
+              "p": 2,
               "w": 0,
               "d": 0,
-              "l": 1,
+              "l": 2,
               "pts": 0
             }
           ]
@@ -5511,27 +5677,27 @@
           "table": [
             {
               "team": "CeNSE",
-              "p": 1,
-              "w": 1,
+              "p": 2,
+              "w": 2,
               "d": 0,
               "l": 0,
-              "pts": 3
+              "pts": 6
             },
             {
               "team": "Samadhan",
-              "p": 1,
+              "p": 2,
               "w": 1,
               "d": 0,
-              "l": 0,
+              "l": 1,
               "pts": 3
             },
             {
               "team": "UG-1",
-              "p": 0,
-              "w": 0,
+              "p": 1,
+              "w": 1,
               "d": 0,
               "l": 0,
-              "pts": 0
+              "pts": 3
             },
             {
               "team": "UG-2",
@@ -5543,10 +5709,10 @@
             },
             {
               "team": "ICWaR",
-              "p": 1,
+              "p": 2,
               "w": 0,
               "d": 0,
-              "l": 1,
+              "l": 2,
               "pts": 0
             }
           ]
@@ -5557,30 +5723,30 @@
           "table": [
             {
               "team": "CeNSE",
-              "p": 0,
-              "w": 0,
+              "p": 1,
+              "w": 1,
               "d": 0,
               "l": 0,
-              "pts": 0
+              "pts": 3
+            },
+            {
+              "team": "MCB",
+              "p": 2,
+              "w": 1,
+              "d": 0,
+              "l": 1,
+              "pts": 3
             },
             {
               "team": "UG",
-              "p": 0,
+              "p": 1,
               "w": 0,
               "d": 0,
-              "l": 0,
+              "l": 1,
               "pts": 0
             },
             {
               "team": "CES",
-              "p": 0,
-              "w": 0,
-              "d": 0,
-              "l": 0,
-              "pts": 0
-            },
-            {
-              "team": "MCB",
               "p": 0,
               "w": 0,
               "d": 0,
