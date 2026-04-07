@@ -1767,19 +1767,19 @@
               "pts": 0
             },
             {
-              "team": "Civil Syndicate",
-              "p": 1,
-              "w": 0,
-              "d": 0,
-              "l": 1,
-              "pts": 0
-            },
-            {
               "team": "Supa Strikas",
               "p": 0,
               "w": 0,
               "d": 0,
               "l": 0,
+              "pts": 0
+            },
+            {
+              "team": "Civil Syndicate",
+              "p": 1,
+              "w": 0,
+              "d": 0,
+              "l": 1,
               "pts": 0
             }
           ]
@@ -1873,19 +1873,19 @@
               "pts": 3
             },
             {
-              "team": "IAP Flickers",
-              "p": 1,
-              "w": 0,
-              "d": 0,
-              "l": 1,
-              "pts": 0
-            },
-            {
               "team": "Underrated DOMS",
               "p": 0,
               "w": 0,
               "d": 0,
               "l": 0,
+              "pts": 0
+            },
+            {
+              "team": "IAP Flickers",
+              "p": 1,
+              "w": 0,
+              "d": 0,
+              "l": 1,
               "pts": 0
             }
           ]
@@ -2351,6 +2351,11 @@
         {
           "id": "team-football-18",
           "name": "MTE",
+          "members": []
+        },
+        {
+          "id": "team-fb-suprsonicsrtikersw",
+          "name": "Suprsonic Srtikers(W)",
           "members": []
         }
       ],
@@ -3019,18 +3024,18 @@
           "table": [
             {
               "team": "Civil-1",
-              "p": 3,
-              "w": 3,
+              "p": 2,
+              "w": 2,
               "d": 0,
               "l": 0,
-              "pts": 9
+              "pts": 6
             },
             {
               "team": "Physics-1",
-              "p": 3,
+              "p": 2,
               "w": 2,
               "d": 0,
-              "l": 1,
+              "l": 0,
               "pts": 6
             },
             {
@@ -3081,7 +3086,7 @@
           "table": [
             {
               "team": "UG Seniors 2",
-              "p": 2,
+              "p": 3,
               "w": 2,
               "d": 0,
               "l": 0,
@@ -3089,7 +3094,7 @@
             },
             {
               "team": "Chemistry-1",
-              "p": 2,
+              "p": 3,
               "w": 2,
               "d": 0,
               "l": 0,
@@ -3143,7 +3148,7 @@
           "table": [
             {
               "team": "UG Seniors 1",
-              "p": 2,
+              "p": 3,
               "w": 2,
               "d": 0,
               "l": 0,
@@ -3151,7 +3156,7 @@
             },
             {
               "team": "Aerospace-1",
-              "p": 2,
+              "p": 3,
               "w": 2,
               "d": 0,
               "l": 0,
@@ -3384,6 +3389,11 @@
         {
           "id": "team-frisbee-7",
           "name": "CSA",
+          "members": []
+        },
+        {
+          "id": "team-uf-ugjunior",
+          "name": "UG Junior",
           "members": []
         }
       ]
@@ -5516,8 +5526,8 @@
           "date": "2026-04-06",
           "time": "5:15 PM - 6:00 PM",
           "venue": "KV VOLLEYBALL COURT",
-          "description": "Pool B",
-          "status": "scheduled"
+          "description": "Pool B | Winner: Samadhan",
+          "status": "completed"
         },
         {
           "id": "sch-vb-27",
@@ -5525,8 +5535,8 @@
           "date": "2026-04-06",
           "time": "6:00 PM - 6:45 PM",
           "venue": "KV VOLLEYBALL COURT",
-          "description": "Pool A",
-          "status": "scheduled"
+          "description": "Pool A | Winner: Admin",
+          "status": "completed"
         },
         {
           "id": "sch-vb-28",
@@ -5534,8 +5544,8 @@
           "date": "2026-04-06",
           "time": "6:45 PM - 7:30 PM",
           "venue": "KV VOLLEYBALL COURT",
-          "description": "Pool A",
-          "status": "scheduled"
+          "description": "Pool A | Winner: CPS",
+          "status": "completed"
         },
         {
           "id": "sch-vb-29",
@@ -5543,8 +5553,8 @@
           "date": "2026-04-06",
           "time": "7:30 PM - 8:30 PM",
           "venue": "KV VOLLEYBALL COURT",
-          "description": "Women's",
-          "status": "scheduled"
+          "description": "Women's | Winner: CeNSE",
+          "status": "completed"
         },
         {
           "id": "sch-vb-30",
@@ -5552,8 +5562,8 @@
           "date": "2026-04-06",
           "time": "8:30 PM - 9:30 PM",
           "venue": "KV VOLLEYBALL COURT",
-          "description": "Women's",
-          "status": "scheduled"
+          "description": "Women's | Winner: CES",
+          "status": "completed"
         },
         {
           "id": "sch-vb-31",
@@ -5561,8 +5571,8 @@
           "date": "2026-04-06",
           "time": "9:30 PM - 10:30 PM",
           "venue": "KV VOLLEYBALL COURT",
-          "description": "Pool B",
-          "status": "scheduled"
+          "description": "Pool B | Winner: UG-1",
+          "status": "completed"
         },
         {
           "id": "sch-vb-32",
@@ -5722,6 +5732,26 @@
           "id": "team-vb-22",
           "name": "MCB",
           "members": []
+        },
+        {
+          "id": "team-vb-mcbwomens",
+          "name": "MCB(Women's)",
+          "members": []
+        },
+        {
+          "id": "team-vb-ugwomens",
+          "name": "UG(Women's)",
+          "members": []
+        },
+        {
+          "id": "team-vb-ceswomens",
+          "name": "CES(Women's)",
+          "members": []
+        },
+        {
+          "id": "team-vb-censewomens",
+          "name": "CeNSE(Women's)",
+          "members": []
         }
       ],
       "standings": [
@@ -5739,27 +5769,27 @@
             },
             {
               "team": "CPS",
-              "p": 3,
-              "w": 2,
+              "p": 4,
+              "w": 3,
               "d": 0,
               "l": 1,
-              "pts": 6
-            },
-            {
-              "team": "CNS",
-              "p": 3,
-              "w": 1,
-              "d": 0,
-              "l": 2,
-              "pts": 3
+              "pts": 9
             },
             {
               "team": "Admin",
-              "p": 0,
-              "w": 0,
+              "p": 2,
+              "w": 1,
               "d": 0,
-              "l": 0,
-              "pts": 0
+              "l": 1,
+              "pts": 3
+            },
+            {
+              "team": "CNS",
+              "p": 4,
+              "w": 1,
+              "d": 0,
+              "l": 3,
+              "pts": 3
             },
             {
               "team": "CSA",
@@ -5785,34 +5815,34 @@
             },
             {
               "team": "Samadhan",
-              "p": 2,
-              "w": 1,
+              "p": 3,
+              "w": 2,
               "d": 0,
               "l": 1,
-              "pts": 3
+              "pts": 6
             },
             {
               "team": "UG-1",
-              "p": 2,
-              "w": 1,
+              "p": 3,
+              "w": 2,
               "d": 0,
               "l": 1,
-              "pts": 3
+              "pts": 6
             },
             {
               "team": "UG-2",
-              "p": 2,
+              "p": 3,
               "w": 1,
               "d": 0,
-              "l": 1,
+              "l": 2,
               "pts": 3
             },
             {
               "team": "ICWaR",
-              "p": 3,
+              "p": 4,
               "w": 0,
               "d": 0,
-              "l": 3,
+              "l": 4,
               "pts": 0
             }
           ]
@@ -5823,11 +5853,11 @@
           "table": [
             {
               "team": "CeNSE",
-              "p": 2,
-              "w": 2,
+              "p": 3,
+              "w": 3,
               "d": 0,
               "l": 0,
-              "pts": 6
+              "pts": 9
             },
             {
               "team": "MCB",
@@ -5838,19 +5868,19 @@
               "pts": 6
             },
             {
-              "team": "UG",
-              "p": 2,
-              "w": 0,
+              "team": "CES",
+              "p": 3,
+              "w": 1,
               "d": 0,
               "l": 2,
-              "pts": 0
+              "pts": 3
             },
             {
-              "team": "CES",
-              "p": 1,
+              "team": "UG",
+              "p": 3,
               "w": 0,
               "d": 0,
-              "l": 1,
+              "l": 3,
               "pts": 0
             }
           ]
