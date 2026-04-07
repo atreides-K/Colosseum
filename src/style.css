@@ -793,6 +793,57 @@ label {
   background: rgba(255,255,255,0.02);
 }
 
+/* ---- SCHEDULE TABLE MOBILE CARDS ---- */
+@media (max-width: 600px) {
+  .schedule-table {
+    table-layout: auto;
+  }
+  .schedule-table thead {
+    display: none;
+  }
+  .schedule-table tbody tr {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px 12px;
+    padding: 10px 12px;
+    border-bottom: 1px solid rgba(42, 58, 74, 0.5);
+    align-items: baseline;
+  }
+  .schedule-table tbody tr:last-child {
+    border-bottom: none;
+  }
+  .schedule-table td {
+    display: inline;
+    padding: 0;
+    border-bottom: none;
+    font-size: 14px;
+    overflow: visible;
+    text-overflow: unset;
+    white-space: normal;
+  }
+  .schedule-table td.sch-match {
+    width: 100%;
+    display: block;
+    font-size: 15px;
+    margin-bottom: 2px;
+    order: -1;
+  }
+  .schedule-table td.sch-status {
+    margin-left: auto;
+  }
+  .schedule-table td.sch-result {
+    width: 100%;
+    display: block;
+    color: var(--text-dim);
+  }
+  .schedule-table td.sch-result:empty {
+    display: none;
+  }
+  .schedule-table-header {
+    flex-wrap: wrap;
+  }
+}
+
 /* ---- SCHEDULE FLOATING BAR & FILTERS ---- */
 .schedule-filter-row {
   display: flex;

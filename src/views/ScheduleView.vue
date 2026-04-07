@@ -75,11 +75,11 @@
           <thead><tr><th>Time</th><th>Match</th><th>Venue</th><th>Result</th><th>Status</th></tr></thead>
           <tbody>
             <tr v-for="item in cluster.items" :key="item.id">
-              <td class="text-dim" style="white-space:nowrap">{{ item.time || '—' }}</td>
-              <td><strong>{{ item.title }}</strong></td>
-              <td class="text-dim">{{ item.venue && item.venue !== cluster.venue ? item.venue : '' }}</td>
-              <td class="text-sm">{{ item.description || '' }}</td>
-              <td>
+              <td class="text-dim sch-time" style="white-space:nowrap">{{ item.time || '—' }}</td>
+              <td class="sch-match"><strong>{{ item.title }}</strong></td>
+              <td class="text-dim sch-venue">{{ item.venue && item.venue !== cluster.venue ? item.venue : '' }}</td>
+              <td class="text-sm sch-result">{{ item.description || '' }}</td>
+              <td class="sch-status">
                 <span class="badge" :class="statusBadge(item.status)">{{ item.status }}</span>
                 <template v-if="store.isAdmin">
                   <select :value="item.status" @change="doChangeStatus(item, $event.target.value)" class="btn btn-sm" style="width:auto;cursor:pointer;padding:3px 6px;font-size:11px;margin-left:4px">
@@ -110,12 +110,12 @@
           <thead><tr><th>Date</th><th>Time</th><th>Match</th><th>Venue</th><th>Result</th><th>Status</th></tr></thead>
           <tbody>
             <tr v-for="item in group" :key="item.id">
-              <td class="text-dim" style="white-space:nowrap">{{ item.date }}</td>
-              <td class="text-dim" style="white-space:nowrap">{{ item.time || '—' }}</td>
-              <td><strong>{{ item.title }}</strong></td>
-              <td class="text-dim">{{ item.venue || '' }}</td>
-              <td class="text-sm">{{ item.description || '' }}</td>
-              <td>
+              <td class="text-dim sch-time" style="white-space:nowrap">{{ item.date }}</td>
+              <td class="text-dim sch-time" style="white-space:nowrap">{{ item.time || '—' }}</td>
+              <td class="sch-match"><strong>{{ item.title }}</strong></td>
+              <td class="text-dim sch-venue">{{ item.venue || '' }}</td>
+              <td class="text-sm sch-result">{{ item.description || '' }}</td>
+              <td class="sch-status">
                 <span class="badge" :class="statusBadge(item.status)">{{ item.status }}</span>
                 <template v-if="store.isAdmin">
                   <select :value="item.status" @change="doChangeStatus(item, $event.target.value)" class="btn btn-sm" style="width:auto;cursor:pointer;padding:3px 6px;font-size:11px;margin-left:4px">
@@ -147,12 +147,12 @@
             <thead><tr><th>Sport</th><th>Date</th><th>Time</th><th>Match</th><th>Result</th><th>Status</th></tr></thead>
             <tbody>
               <tr v-for="item in matches" :key="item.id + item.eventId">
-                <td><span>{{ item.icon }}</span> <router-link :to="`/events/${item.eventId}`" style="text-decoration:none;font-weight:600;color:var(--text)">{{ item.sport }}</router-link></td>
-                <td class="text-dim" style="white-space:nowrap">{{ item.date }}</td>
-                <td class="text-dim" style="white-space:nowrap">{{ item.time || '—' }}</td>
-                <td><strong>{{ item.title }}</strong></td>
-                <td class="text-sm">{{ item.description || '' }}</td>
-                <td><span class="badge" :class="statusBadge(item.status)">{{ item.status }}</span></td>
+                <td class="sch-sport"><span>{{ item.icon }}</span> <router-link :to="`/events/${item.eventId}`" style="text-decoration:none;font-weight:600;color:var(--text)">{{ item.sport }}</router-link></td>
+                <td class="text-dim sch-time" style="white-space:nowrap">{{ item.date }}</td>
+                <td class="text-dim sch-time" style="white-space:nowrap">{{ item.time || '—' }}</td>
+                <td class="sch-match"><strong>{{ item.title }}</strong></td>
+                <td class="text-sm sch-result">{{ item.description || '' }}</td>
+                <td class="sch-status"><span class="badge" :class="statusBadge(item.status)">{{ item.status }}</span></td>
               </tr>
             </tbody>
           </table>
