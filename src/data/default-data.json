@@ -853,7 +853,7 @@
       "sport": "Basketball",
       "icon": "🏀",
       "type": "team",
-      "status": "in-progress",
+      "status": "completed",
       "venue": "KV Court",
       "categories": "Men's, Women's",
       "teamSize": "Men's: 5–12 players; Women's: 5+3 players",
@@ -1063,15 +1063,6 @@
           "status": "completed"
         },
         {
-          "id": "sch-bb-final",
-          "title": "Final: CNS vs UG Seniors",
-          "date": "2026-04-05",
-          "time": "",
-          "venue": "KV Court",
-          "description": "Final",
-          "status": "scheduled"
-        },
-        {
           "id": "sch-bb-3",
           "title": "3rd Place: CPS vs ECE",
           "date": "2026-04-07",
@@ -1081,7 +1072,7 @@
           "status": "completed"
         },
         {
-          "id": "sch-bb-4",
+          "id": "sch-bb-final",
           "title": "Final: CNS vs UG Seniors",
           "date": "2026-04-07",
           "time": "9:15 PM - 10:30 PM",
@@ -1267,7 +1258,7 @@
                 "score": ""
               }
             ],
-            "winnerId": null
+            "winnerId": "team-bb-ugseniors"
           }
         ]
       }
@@ -2800,7 +2791,7 @@
           "date": "2026-04-03",
           "time": "7:00 PM",
           "venue": "NBH",
-          "description": "Round 3 Pool C — Ref: Pratik",
+          "description": "Winner: Chemistry-1 — Pool C Topper",
           "status": "completed"
         },
         {
@@ -2818,7 +2809,7 @@
           "date": "2026-04-03",
           "time": "9:00 PM",
           "venue": "A Block",
-          "description": "Round 3 Pool D — Ref: Jitendra",
+          "description": "Winner: UG Seniors 1 — Pool D Topper",
           "status": "completed"
         }
       ],
@@ -3042,18 +3033,18 @@
           "table": [
             {
               "team": "Civil-1",
-              "p": 2,
-              "w": 2,
+              "p": 3,
+              "w": 3,
               "d": 0,
               "l": 0,
-              "pts": 6
+              "pts": 9
             },
             {
               "team": "Physics-1",
-              "p": 2,
+              "p": 3,
               "w": 2,
               "d": 0,
-              "l": 0,
+              "l": 1,
               "pts": 6
             },
             {
@@ -3103,19 +3094,19 @@
           "qualify": 1,
           "table": [
             {
+              "team": "Chemistry-1",
+              "p": 3,
+              "w": 3,
+              "d": 0,
+              "l": 0,
+              "pts": 9
+            },
+            {
               "team": "UG Seniors 2",
               "p": 3,
               "w": 2,
               "d": 0,
-              "l": 0,
-              "pts": 6
-            },
-            {
-              "team": "Chemistry-1",
-              "p": 3,
-              "w": 2,
-              "d": 0,
-              "l": 0,
+              "l": 1,
               "pts": 6
             },
             {
@@ -3167,17 +3158,17 @@
             {
               "team": "UG Seniors 1",
               "p": 3,
-              "w": 2,
+              "w": 3,
               "d": 0,
               "l": 0,
-              "pts": 6
+              "pts": 9
             },
             {
               "team": "Aerospace-1",
               "p": 3,
               "w": 2,
               "d": 0,
-              "l": 0,
+              "l": 1,
               "pts": 6
             },
             {
@@ -3251,12 +3242,12 @@
             "slots": [
               {
                 "seedId": null,
-                "name": "Pool C Winner",
+                "name": "Pool C Winner (Chemistry-1)",
                 "score": ""
               },
               {
                 "seedId": null,
-                "name": "Pool D Winner",
+                "name": "Pool D Winner (UG Seniors 1)",
                 "score": ""
               }
             ],
@@ -3885,15 +3876,6 @@
           "status": "scheduled"
         },
         {
-          "id": "sch-kk-4",
-          "title": "Pool B: UG Seniors vs CeNSE",
-          "date": "2026-04-07",
-          "time": "6:00 PM",
-          "venue": "KV Ground",
-          "description": "Pool B",
-          "status": "scheduled"
-        },
-        {
           "id": "sch-kk-w2",
           "title": "Women's: Civil vs CeNSE",
           "date": "2026-04-07",
@@ -3957,15 +3939,6 @@
           "status": "scheduled"
         },
         {
-          "id": "sch-kk-8",
-          "title": "Pool B: UG Seniors vs UG Juniors",
-          "date": "2026-04-09",
-          "time": "8:00 PM",
-          "venue": "KV Ground",
-          "description": "Pool B",
-          "status": "scheduled"
-        },
-        {
           "id": "sch-kk-w6",
           "title": "Women's: UG vs DESE",
           "date": "2026-04-10",
@@ -3993,15 +3966,6 @@
           "status": "scheduled"
         },
         {
-          "id": "sch-kk-9",
-          "title": "Pool A: Alumni vs DESE",
-          "date": "2026-04-11",
-          "time": "7:00 AM",
-          "venue": "KV Ground",
-          "description": "Pool A",
-          "status": "scheduled"
-        },
-        {
           "id": "sch-kk-12",
           "title": "3rd Place: Loser SF1 vs Loser SF2",
           "date": "2026-04-12",
@@ -4025,7 +3989,7 @@
           "date": "2026-04-08",
           "time": "7:00 AM",
           "venue": "KV Ground",
-          "description": "",
+          "description": "Pool B",
           "status": "scheduled"
         },
         {
@@ -4034,7 +3998,7 @@
           "date": "2026-04-08",
           "time": "6:00 PM",
           "venue": "KV Ground",
-          "description": "",
+          "description": "Pool B",
           "status": "scheduled"
         },
         {
@@ -4043,7 +4007,7 @@
           "date": "2026-04-11",
           "time": "7:00 AM",
           "venue": "KV Ground",
-          "description": "",
+          "description": "Pool A",
           "status": "scheduled"
         }
       ],
@@ -4053,19 +4017,27 @@
           "qualify": 2,
           "table": [
             {
-              "team": "Civil",
-              "p": 0,
-              "w": 0,
+              "team": "Alumni",
+              "p": 1,
+              "w": 1,
               "d": 0,
               "l": 0,
-              "pts": 0
+              "pts": 2
             },
             {
-              "team": "Alumni",
-              "p": 0,
+              "team": "Civil",
+              "p": 2,
+              "w": 1,
+              "d": 0,
+              "l": 1,
+              "pts": 2
+            },
+            {
+              "team": "ICER",
+              "p": 1,
               "w": 0,
               "d": 0,
-              "l": 0,
+              "l": 1,
               "pts": 0
             },
             {
@@ -4084,30 +4056,30 @@
           "table": [
             {
               "team": "UG Seniors",
-              "p": 0,
-              "w": 0,
+              "p": 1,
+              "w": 1,
               "d": 0,
               "l": 0,
-              "pts": 0
+              "pts": 2
             },
             {
               "team": "UG Juniors",
-              "p": 0,
-              "w": 0,
+              "p": 1,
+              "w": 1,
               "d": 0,
               "l": 0,
+              "pts": 2
+            },
+            {
+              "team": "CeNSE",
+              "p": 2,
+              "w": 0,
+              "d": 0,
+              "l": 2,
               "pts": 0
             },
             {
               "team": "ICER",
-              "p": 0,
-              "w": 0,
-              "d": 0,
-              "l": 0,
-              "pts": 0
-            },
-            {
-              "team": "CeNSE",
               "p": 0,
               "w": 0,
               "d": 0,
@@ -4122,26 +4094,26 @@
           "table": [
             {
               "team": "UG",
-              "p": 0,
-              "w": 0,
+              "p": 1,
+              "w": 1,
               "d": 0,
               "l": 0,
-              "pts": 0
-            },
-            {
-              "team": "CeNSE",
-              "p": 0,
-              "w": 0,
-              "d": 0,
-              "l": 0,
-              "pts": 0
+              "pts": 2
             },
             {
               "team": "Civil",
-              "p": 0,
-              "w": 0,
+              "p": 1,
+              "w": 1,
               "d": 0,
               "l": 0,
+              "pts": 2
+            },
+            {
+              "team": "CeNSE",
+              "p": 2,
+              "w": 0,
+              "d": 0,
+              "l": 2,
               "pts": 0
             },
             {
