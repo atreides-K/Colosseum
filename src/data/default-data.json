@@ -3890,8 +3890,8 @@
           "date": "2026-04-07",
           "time": "8:00 PM",
           "venue": "KV Ground",
-          "description": "Pool B",
-          "status": "scheduled"
+          "description": "Cancelled — ICER moved to Pool A per updated schedule",
+          "status": "cancelled"
         },
         {
           "id": "sch-kk-6",
@@ -3899,8 +3899,8 @@
           "date": "2026-04-08",
           "time": "6:00 PM",
           "venue": "KV Ground",
-          "description": "Pool B",
-          "status": "scheduled"
+          "description": "Cancelled — ICER moved to Pool A per updated schedule",
+          "status": "cancelled"
         },
         {
           "id": "sch-kk-w3",
@@ -3926,8 +3926,8 @@
           "date": "2026-04-09",
           "time": "6:00 PM",
           "venue": "KV Ground",
-          "description": "Pool B",
-          "status": "scheduled"
+          "description": "Cancelled — ICER moved to Pool A per updated schedule",
+          "status": "cancelled"
         },
         {
           "id": "sch-kk-w5",
@@ -4076,14 +4076,6 @@
               "w": 0,
               "d": 0,
               "l": 2,
-              "pts": 0
-            },
-            {
-              "team": "ICER",
-              "p": 0,
-              "w": 0,
-              "d": 0,
-              "l": 0,
               "pts": 0
             }
           ]
