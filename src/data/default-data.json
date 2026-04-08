@@ -1776,19 +1776,19 @@
               "pts": 0
             },
             {
-              "team": "Supa Strikas",
-              "p": 0,
-              "w": 0,
-              "d": 0,
-              "l": 0,
-              "pts": 0
-            },
-            {
               "team": "Civil Syndicate",
               "p": 1,
               "w": 0,
               "d": 0,
               "l": 1,
+              "pts": 0
+            },
+            {
+              "team": "Supa Strikas",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
               "pts": 0
             }
           ]
@@ -1882,19 +1882,19 @@
               "pts": 3
             },
             {
-              "team": "Underrated DOMS",
-              "p": 0,
-              "w": 0,
-              "d": 0,
-              "l": 0,
-              "pts": 0
-            },
-            {
               "team": "IAP Flickers",
               "p": 1,
               "w": 0,
               "d": 0,
               "l": 1,
+              "pts": 0
+            },
+            {
+              "team": "Underrated DOMS",
+              "p": 0,
+              "w": 0,
+              "d": 0,
+              "l": 0,
               "pts": 0
             }
           ]
