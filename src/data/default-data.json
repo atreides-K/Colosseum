@@ -1046,36 +1046,36 @@
         },
         {
           "id": "sch-bb-sf1",
-          "title": "SF1: ECE vs CNS",
+          "title": "SF1: UG Seniors vs UG Juniors",
           "date": "2026-04-03",
-          "time": "9:00 PM - 10:00 PM",
-          "venue": "KV Court",
-          "description": "Winner: CNS",
-          "status": "completed"
-        },
-        {
-          "id": "sch-bb-sf2",
-          "title": "SF2: UG Seniors vs CPS",
-          "date": "2026-04-04",
-          "time": "9:00 PM - 10:00 PM",
+          "time": "7:00 AM - 8:00 AM",
           "venue": "KV Court",
           "description": "Winner: UG Seniors",
           "status": "completed"
         },
         {
-          "id": "sch-bb-3",
-          "title": "3rd Place: CPS vs ECE",
-          "date": "2026-04-07",
-          "time": "8:00 PM - 9:15 PM",
+          "id": "sch-bb-sf2",
+          "title": "SF2: Bioeng vs CNS",
+          "date": "2026-04-03",
+          "time": "8:30 AM - 9:30 AM",
           "venue": "KV Court",
-          "description": "Winner: ECE",
+          "description": "Winner: Bioeng",
+          "status": "completed"
+        },
+        {
+          "id": "sch-bb-3",
+          "title": "3rd Place: UG Juniors vs CNS",
+          "date": "2026-04-06",
+          "time": "7:30 PM - 8:30 PM",
+          "venue": "KV Court",
+          "description": "Winner: UG Juniors",
           "status": "completed"
         },
         {
           "id": "sch-bb-final",
-          "title": "Final: CNS vs UG Seniors",
-          "date": "2026-04-07",
-          "time": "9:15 PM - 10:30 PM",
+          "title": "Finals: UG Seniors vs Bioeng",
+          "date": "2026-04-05",
+          "time": "5:30 PM - 6:30 PM",
           "venue": "KV Court",
           "description": "Winner: UG Seniors",
           "status": "completed"
@@ -1212,8 +1212,26 @@
             "position": 0,
             "slots": [
               {
-                "seedId": "team-bb-ece",
-                "name": "ECE (Pool 3)",
+                "seedId": "team-bb-ugseniors",
+                "name": "UG Seniors (Pool 2)",
+                "score": ""
+              },
+              {
+                "seedId": "team-bb-ugjuniors",
+                "name": "UG Juniors (Pool 4)",
+                "score": ""
+              }
+            ],
+            "winnerId": "team-bb-ugseniors"
+          },
+          {
+            "id": "bb-sf2",
+            "round": 0,
+            "position": 1,
+            "slots": [
+              {
+                "seedId": "team-bb-bioeng",
+                "name": "Bioeng (Pool 1)",
                 "score": ""
               },
               {
@@ -1222,25 +1240,7 @@
                 "score": ""
               }
             ],
-            "winnerId": "team-bb-cns"
-          },
-          {
-            "id": "bb-sf2",
-            "round": 0,
-            "position": 1,
-            "slots": [
-              {
-                "seedId": "team-bb-ugseniors",
-                "name": "UG Seniors (Pool 2)",
-                "score": ""
-              },
-              {
-                "seedId": "team-bb-cps",
-                "name": "CPS (Pool 4)",
-                "score": ""
-              }
-            ],
-            "winnerId": "team-bb-ugseniors"
+            "winnerId": "team-bb-bioeng"
           },
           {
             "id": "bb-final",
@@ -1248,13 +1248,13 @@
             "position": 0,
             "slots": [
               {
-                "seedId": "team-bb-cns",
-                "name": "CNS",
+                "seedId": "team-bb-ugseniors",
+                "name": "UG Seniors",
                 "score": ""
               },
               {
-                "seedId": "team-bb-ugseniors",
-                "name": "UG Seniors",
+                "seedId": "team-bb-bioeng",
+                "name": "Bioeng",
                 "score": ""
               }
             ],
