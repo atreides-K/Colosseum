@@ -958,7 +958,7 @@
           "id": "sch-bball-3",
           "title": "Pool 4: CPS vs Electrical",
           "date": "2026-03-31",
-          "time": "",
+          "time": "4:00 PM - 5:00 PM",
           "venue": "KV Court",
           "description": "Winner: CPS",
           "status": "completed"
@@ -967,7 +967,7 @@
           "id": "sch-bball-4",
           "title": "Pool 3: ECE vs CeNSE",
           "date": "2026-03-31",
-          "time": "",
+          "time": "6:00 PM - 7:00PM",
           "venue": "KV Court",
           "description": "Winner: ECE",
           "status": "completed"
@@ -976,7 +976,7 @@
           "id": "sch-bball-5",
           "title": "Pool 2: Mech vs UG Seniors",
           "date": "2026-03-31",
-          "time": "",
+          "time": "7:00 PM - 8:00 PM",
           "venue": "KV Court",
           "description": "Winner: UG Seniors",
           "status": "completed"
@@ -985,7 +985,7 @@
           "id": "sch-bball-6",
           "title": "Pool 1: CNS vs CSA",
           "date": "2026-03-31",
-          "time": "",
+          "time": "8:00 PM - 9:00 PM",
           "venue": "KV Court",
           "description": "Winner: CNS",
           "status": "completed"
@@ -1070,6 +1070,24 @@
           "venue": "KV Court",
           "description": "Final",
           "status": "scheduled"
+        },
+        {
+          "id": "sch-bb-3",
+          "title": "3rd Place: CPS vs ECE",
+          "date": "2026-04-07",
+          "time": "8:00 PM - 9:15 PM",
+          "venue": "KV Court",
+          "description": "Winner: ECE",
+          "status": "completed"
+        },
+        {
+          "id": "sch-bb-4",
+          "title": "Final: CNS vs UG Seniors",
+          "date": "2026-04-07",
+          "time": "9:15 PM - 10:30 PM",
+          "venue": "KV Court",
+          "description": "Winner: UG Seniors",
+          "status": "completed"
         }
       ],
       "standings": [
@@ -4000,6 +4018,33 @@
           "venue": "KV Ground",
           "description": "Final",
           "status": "scheduled"
+        },
+        {
+          "id": "sch-kk-14",
+          "title": "Pool B: UG Seniors vs CeNSE",
+          "date": "2026-04-08",
+          "time": "7:00 AM",
+          "venue": "KV Ground",
+          "description": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-kk-15",
+          "title": "Pool B: UG Seniors vs UG Juniors",
+          "date": "2026-04-08",
+          "time": "6:00 PM",
+          "venue": "KV Ground",
+          "description": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-kk-16",
+          "title": "Pool A: Alumni vs ICER",
+          "date": "2026-04-11",
+          "time": "7:00 AM",
+          "venue": "KV Ground",
+          "description": "",
+          "status": "scheduled"
         }
       ],
       "standings": [
@@ -5616,8 +5661,8 @@
           "date": "2026-04-07",
           "time": "6:00 PM - 6:45 PM",
           "venue": "KV VOLLEYBALL COURT",
-          "description": "Pool B",
-          "status": "scheduled"
+          "description": "Pool B | Winner: CeNSE",
+          "status": "completed"
         },
         {
           "id": "sch-vb-33",
@@ -5625,8 +5670,8 @@
           "date": "2026-04-07",
           "time": "6:45 PM - 7:30 PM",
           "venue": "KV VOLLEYBALL COURT",
-          "description": "Pool A",
-          "status": "scheduled"
+          "description": "Pool A | Winner: Admin",
+          "status": "completed"
         },
         {
           "id": "sch-vb-34",
@@ -5634,8 +5679,8 @@
           "date": "2026-04-07",
           "time": "7:30 PM - 8:30 PM",
           "venue": "KV VOLLEYBALL COURT",
-          "description": "Pool A",
-          "status": "scheduled"
+          "description": "Pool A | Winner: ECE-1",
+          "status": "completed"
         },
         {
           "id": "sch-vb-35",
@@ -5643,8 +5688,8 @@
           "date": "2026-04-07",
           "time": "8:30 PM - 9:30 PM",
           "venue": "KV VOLLEYBALL COURT",
-          "description": "Pool B",
-          "status": "scheduled"
+          "description": "Pool B | Winner: UG-1",
+          "status": "completed"
         }
       ],
       "categories": "Men's, Women's",
@@ -5797,11 +5842,11 @@
           "table": [
             {
               "team": "ECE-1",
-              "p": 3,
-              "w": 3,
+              "p": 4,
+              "w": 4,
               "d": 0,
               "l": 0,
-              "pts": 9
+              "pts": 12
             },
             {
               "team": "CPS",
@@ -5813,11 +5858,11 @@
             },
             {
               "team": "Admin",
-              "p": 2,
-              "w": 1,
+              "p": 4,
+              "w": 2,
               "d": 0,
-              "l": 1,
-              "pts": 3
+              "l": 2,
+              "pts": 6
             },
             {
               "team": "CNS",
@@ -5829,10 +5874,10 @@
             },
             {
               "team": "CSA",
-              "p": 3,
+              "p": 4,
               "w": 0,
               "d": 0,
-              "l": 3,
+              "l": 4,
               "pts": 0
             }
           ]
@@ -5843,34 +5888,34 @@
           "table": [
             {
               "team": "CeNSE",
-              "p": 3,
-              "w": 3,
+              "p": 4,
+              "w": 4,
               "d": 0,
               "l": 0,
+              "pts": 12
+            },
+            {
+              "team": "UG-1",
+              "p": 4,
+              "w": 3,
+              "d": 0,
+              "l": 1,
               "pts": 9
             },
             {
               "team": "Samadhan",
-              "p": 3,
+              "p": 4,
               "w": 2,
               "d": 0,
-              "l": 1,
-              "pts": 6
-            },
-            {
-              "team": "UG-1",
-              "p": 3,
-              "w": 2,
-              "d": 0,
-              "l": 1,
+              "l": 2,
               "pts": 6
             },
             {
               "team": "UG-2",
-              "p": 3,
+              "p": 4,
               "w": 1,
               "d": 0,
-              "l": 2,
+              "l": 3,
               "pts": 3
             },
             {
