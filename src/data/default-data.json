@@ -4257,12 +4257,25 @@
           "secondScore": "410 kg",
           "third": "Subash",
           "thirdScore": ""
+        },
+        {
+          "category": "Women's Open (Wilks)",
+          "first": "Anchal",
+          "firstScore": "258.85 Wilks",
+          "second": "Kavya",
+          "secondScore": "230.50 Wilks",
+          "third": "Shinjini",
+          "thirdScore": "220.14 Wilks"
         }
       ],
       "resultsImages": [
         {
           "title": "Men's Full Score Sheet (Squat + Bench + Deadlift totals)",
           "src": "results/powerlifting-mens.jpeg"
+        },
+        {
+          "title": "Women's Full Score Sheet (Wilks-adjusted ranking)",
+          "src": "results/powerlifting-womens.jpeg"
         }
       ],
       "schedule": [
@@ -4309,6 +4322,15 @@
           "time": "5:30 PM",
           "venue": "Janta Gym",
           "description": "1st: Charles  |  2nd: Harsh  |  3rd: Subash",
+          "status": "completed"
+        },
+        {
+          "id": "sch-powerlifting-women-open",
+          "title": "Women's Open — Final Results",
+          "date": "2026-04-07",
+          "time": "5:30 PM",
+          "venue": "Janta Gym",
+          "description": "1st: Anchal (258.85 Wilks)  |  2nd: Kavya (230.50 Wilks)  |  3rd: Shinjini (220.14 Wilks)",
           "status": "completed"
         }
       ],
