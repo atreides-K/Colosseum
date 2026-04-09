@@ -1045,42 +1045,6 @@
           "status": "completed"
         },
         {
-          "id": "sch-bb-sf1",
-          "title": "SF1: UG Seniors vs UG Juniors",
-          "date": "2026-04-03",
-          "time": "7:00 AM - 8:00 AM",
-          "venue": "KV Court",
-          "description": "Winner: UG Seniors",
-          "status": "completed"
-        },
-        {
-          "id": "sch-bb-sf2",
-          "title": "SF2: Bioeng vs CNS",
-          "date": "2026-04-03",
-          "time": "8:30 AM - 9:30 AM",
-          "venue": "KV Court",
-          "description": "Winner: Bioeng",
-          "status": "completed"
-        },
-        {
-          "id": "sch-bb-3",
-          "title": "3rd Place: UG Juniors vs CNS",
-          "date": "2026-04-06",
-          "time": "7:30 PM - 8:30 PM",
-          "venue": "KV Court",
-          "description": "Winner: UG Juniors",
-          "status": "completed"
-        },
-        {
-          "id": "sch-bb-final",
-          "title": "Finals: UG Seniors vs Bioeng",
-          "date": "2026-04-05",
-          "time": "5:30 PM - 6:30 PM",
-          "venue": "KV Court",
-          "description": "Winner: UG Seniors",
-          "status": "completed"
-        },
-        {
           "id": "sch-bb-4",
           "title": "SF1: ECE vs CNS",
           "date": "2026-04-03",
@@ -1253,8 +1217,8 @@
                 "score": ""
               },
               {
-                "seedId": "team-bb-ugjuniors",
-                "name": "UG Juniors (Pool 4)",
+                "seedId": "team-bb-cps",
+                "name": "CPS (Pool 4)",
                 "score": ""
               }
             ],
@@ -1266,8 +1230,8 @@
             "position": 1,
             "slots": [
               {
-                "seedId": "team-bb-bioeng",
-                "name": "Bioeng (Pool 1)",
+                "seedId": "team-bb-ece",
+                "name": "ECE (Pool 3)",
                 "score": ""
               },
               {
@@ -1276,7 +1240,7 @@
                 "score": ""
               }
             ],
-            "winnerId": "team-bb-bioeng"
+            "winnerId": "team-bb-cns"
           },
           {
             "id": "bb-final",
@@ -1289,8 +1253,8 @@
                 "score": ""
               },
               {
-                "seedId": "team-bb-bioeng",
-                "name": "Bioeng",
+                "seedId": "team-bb-cns",
+                "name": "CNS",
                 "score": ""
               }
             ],
