@@ -4246,17 +4246,53 @@
       "sport": "Powerlifting",
       "icon": "💪",
       "type": "individual",
-      "status": "upcoming",
+      "status": "completed",
       "venue": "Janta Gym",
       "schedule": [
         {
-          "id": "sch-powerlifting-1",
-          "title": "Powerlifting Competition",
+          "id": "sch-powerlifting-men-u60",
+          "title": "Men's Below 60 kg — Final Results",
           "date": "2026-04-07",
-          "time": "5:30 PM onwards",
+          "time": "5:30 PM",
           "venue": "Janta Gym",
-          "description": "Individual participation. Volunteers: 2, Refreshments: 50",
-          "status": "scheduled"
+          "description": "1st: Srivardhan  |  2nd: Kunal  |  3rd: Pawan Kumar",
+          "status": "completed"
+        },
+        {
+          "id": "sch-powerlifting-men-60-70",
+          "title": "Men's 60–70 kg — Final Results",
+          "date": "2026-04-07",
+          "time": "5:30 PM",
+          "venue": "Janta Gym",
+          "description": "1st: Manik Bhowmik  |  2nd: Vatsal Khapre  |  3rd: Vineet",
+          "status": "completed"
+        },
+        {
+          "id": "sch-powerlifting-men-70-80",
+          "title": "Men's 70–80 kg — Final Results",
+          "date": "2026-04-07",
+          "time": "5:30 PM",
+          "venue": "Janta Gym",
+          "description": "1st: TBA  |  2nd: Vikas  |  3rd: Amandeep Nokhwal",
+          "status": "completed"
+        },
+        {
+          "id": "sch-powerlifting-men-80-90",
+          "title": "Men's 80–90 kg — Final Results",
+          "date": "2026-04-07",
+          "time": "5:30 PM",
+          "venue": "Janta Gym",
+          "description": "1st: TBA  |  2nd: TBA  |  3rd: Manoj",
+          "status": "completed"
+        },
+        {
+          "id": "sch-powerlifting-men-above90",
+          "title": "Men's Above 90 kg — Final Results",
+          "date": "2026-04-07",
+          "time": "5:30 PM",
+          "venue": "Janta Gym",
+          "description": "1st: Charles  |  2nd: Harsh  |  3rd: Subash",
+          "status": "completed"
         }
       ],
       "categories": "Men's, Women's (5 weight categories each)",
