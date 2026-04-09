@@ -1079,6 +1079,42 @@
           "venue": "KV Court",
           "description": "Winner: UG Seniors",
           "status": "completed"
+        },
+        {
+          "id": "sch-bb-4",
+          "title": "SF1: ECE vs CNS",
+          "date": "2026-04-03",
+          "time": "9:00 PM - 10:00 PM",
+          "venue": "KV Court",
+          "description": "Winner: CNS",
+          "status": "completed"
+        },
+        {
+          "id": "sch-bb-5",
+          "title": "SF2: UG Seniors vs CPS",
+          "date": "2026-04-04",
+          "time": "9:00 PM - 10:00 PM",
+          "venue": "KV Court",
+          "description": "Winner: UG Seniors",
+          "status": "completed"
+        },
+        {
+          "id": "sch-bb-6",
+          "title": "3rd Place: CPS vs ECE",
+          "date": "2026-04-07",
+          "time": "8:00 PM - 9:15 PM",
+          "venue": "KV Court",
+          "description": "Winner: ECE",
+          "status": "completed"
+        },
+        {
+          "id": "sch-bb-7",
+          "title": "Final: CNS vs UG Seniors",
+          "date": "2026-04-07",
+          "time": "9:15 PM - 10:30 PM",
+          "venue": "KV Court",
+          "description": "Winner: UG Seniors",
+          "status": "completed"
         }
       ],
       "standings": [
@@ -1776,19 +1812,19 @@
               "pts": 0
             },
             {
-              "team": "Civil Syndicate",
-              "p": 1,
-              "w": 0,
-              "d": 0,
-              "l": 1,
-              "pts": 0
-            },
-            {
               "team": "Supa Strikas",
               "p": 0,
               "w": 0,
               "d": 0,
               "l": 0,
+              "pts": 0
+            },
+            {
+              "team": "Civil Syndicate",
+              "p": 1,
+              "w": 0,
+              "d": 0,
+              "l": 1,
               "pts": 0
             }
           ]
@@ -1882,19 +1918,19 @@
               "pts": 3
             },
             {
-              "team": "IAP Flickers",
-              "p": 1,
-              "w": 0,
-              "d": 0,
-              "l": 1,
-              "pts": 0
-            },
-            {
               "team": "Underrated DOMS",
               "p": 0,
               "w": 0,
               "d": 0,
               "l": 0,
+              "pts": 0
+            },
+            {
+              "team": "IAP Flickers",
+              "p": 1,
+              "w": 0,
+              "d": 0,
+              "l": 1,
               "pts": 0
             }
           ]
