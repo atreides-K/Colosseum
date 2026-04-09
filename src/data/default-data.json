@@ -4248,6 +4248,38 @@
       "type": "individual",
       "status": "completed",
       "venue": "Janta Gym",
+      "podium": [
+        {
+          "category": "Men's Below 60 kg",
+          "first": "Srivardhan",
+          "second": "Kunal",
+          "third": "Pawan Kumar"
+        },
+        {
+          "category": "Men's 60–70 kg",
+          "first": "Manik Bhowmik",
+          "second": "Vatsal Khapre",
+          "third": "Vineet"
+        },
+        {
+          "category": "Men's 70–80 kg",
+          "first": "TBA",
+          "second": "Vikas",
+          "third": "Amandeep Nokhwal"
+        },
+        {
+          "category": "Men's 80–90 kg",
+          "first": "TBA",
+          "second": "TBA",
+          "third": "Manoj"
+        },
+        {
+          "category": "Men's Above 90 kg",
+          "first": "Charles",
+          "second": "Harsh",
+          "third": "Subash"
+        }
+      ],
       "schedule": [
         {
           "id": "sch-powerlifting-men-u60",

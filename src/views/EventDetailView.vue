@@ -315,6 +315,27 @@
 
     <!-- STANDINGS TAB -->
     <div v-if="tab === 'standings'">
+      <!-- Podium results (individual events) -->
+      <div v-if="evt.podium && evt.podium.length" class="podium-list">
+        <div v-for="cat in evt.podium" :key="cat.category" class="card podium-card">
+          <h3>{{ cat.category }}</h3>
+          <div class="podium-rows">
+            <div class="podium-row podium-1">
+              <span class="podium-rank">1st</span>
+              <span class="podium-name">{{ cat.first }}</span>
+            </div>
+            <div class="podium-row podium-2">
+              <span class="podium-rank">2nd</span>
+              <span class="podium-name">{{ cat.second }}</span>
+            </div>
+            <div class="podium-row podium-3">
+              <span class="podium-rank">3rd</span>
+              <span class="podium-name">{{ cat.third }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- Pool/Group Standings Tables -->
       <div v-if="evt.standings && evt.standings.length" class="standings-pools">
         <div v-for="pool in evt.standings" :key="pool.pool" class="card standings-pool-card">
@@ -411,7 +432,7 @@
       </div>
 
       <!-- Empty state -->
-      <div class="empty-state" v-if="!evt.bracket?.generated && !store.isAdmin && (!evt.standings || !evt.standings.length)">
+      <div class="empty-state" v-if="!evt.bracket?.generated && !store.isAdmin && (!evt.standings || !evt.standings.length) && (!evt.podium || !evt.podium.length)">
         <p>Standings not yet available.</p>
       </div>
     </div>
