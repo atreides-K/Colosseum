@@ -4252,32 +4252,53 @@
         {
           "category": "Men's Below 60 kg",
           "first": "Srivardhan",
+          "firstScore": "260 kg",
           "second": "Kunal",
-          "third": "Pawan Kumar"
+          "secondScore": "240 kg",
+          "third": "Pawan Kumar",
+          "thirdScore": "185 kg"
         },
         {
           "category": "Men's 60–70 kg",
           "first": "Manik Bhowmik",
+          "firstScore": "355 kg",
           "second": "Vatsal Khapre",
-          "third": "Vineet"
+          "secondScore": "310 kg",
+          "third": "Vineet",
+          "thirdScore": "245 kg"
         },
         {
           "category": "Men's 70–80 kg",
-          "first": "TBA",
+          "first": "Abhay",
+          "firstScore": "485 kg",
           "second": "Vikas",
-          "third": "Amandeep Nokhwal"
+          "secondScore": "415 kg",
+          "third": "Amandeep Nokhwal",
+          "thirdScore": "350 kg"
         },
         {
           "category": "Men's 80–90 kg",
-          "first": "TBA",
-          "second": "TBA",
-          "third": "Manoj"
+          "first": "Toshi",
+          "firstScore": "410 kg",
+          "second": "Narayan",
+          "secondScore": "330 kg",
+          "third": "Manoj",
+          "thirdScore": "300 kg"
         },
         {
           "category": "Men's Above 90 kg",
           "first": "Charles",
+          "firstScore": "515 kg",
           "second": "Harsh",
-          "third": "Subash"
+          "secondScore": "410 kg",
+          "third": "Subash",
+          "thirdScore": ""
+        }
+      ],
+      "resultsImages": [
+        {
+          "title": "Men's Full Score Sheet (Squat + Bench + Deadlift totals)",
+          "src": "results/powerlifting-mens.jpeg"
         }
       ],
       "schedule": [
@@ -4305,7 +4326,7 @@
           "date": "2026-04-07",
           "time": "5:30 PM",
           "venue": "Janta Gym",
-          "description": "1st: TBA  |  2nd: Vikas  |  3rd: Amandeep Nokhwal",
+          "description": "1st: Abhay  |  2nd: Vikas  |  3rd: Amandeep Nokhwal",
           "status": "completed"
         },
         {
@@ -4314,7 +4335,7 @@
           "date": "2026-04-07",
           "time": "5:30 PM",
           "venue": "Janta Gym",
-          "description": "1st: TBA  |  2nd: TBA  |  3rd: Manoj",
+          "description": "1st: Toshi  |  2nd: Narayan  |  3rd: Manoj",
           "status": "completed"
         },
         {

@@ -52,7 +52,7 @@ if (store.events) {
     // Copy new info fields from defaults
     const defEvt = defaults.events.find(d => d.id === evt.id)
     if (defEvt) {
-      for (const key of ['categories', 'teamSize', 'guestPlayers', 'format', 'registrationLink', 'registrationDeadline', 'whatsappLink', 'contacts', 'hasRules', 'registrationLinkWomens', 'venue', 'standings', 'podium']) {
+      for (const key of ['categories', 'teamSize', 'guestPlayers', 'format', 'registrationLink', 'registrationDeadline', 'whatsappLink', 'contacts', 'hasRules', 'registrationLinkWomens', 'venue', 'standings', 'podium', 'resultsImages']) {
         if (evt[key] === undefined && defEvt[key] !== undefined) {
           evt[key] = defEvt[key]
         }

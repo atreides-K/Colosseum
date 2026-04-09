@@ -323,16 +323,29 @@
             <div class="podium-row podium-1">
               <span class="podium-rank">1st</span>
               <span class="podium-name">{{ cat.first }}</span>
+              <span v-if="cat.firstScore" class="podium-score">{{ cat.firstScore }}</span>
             </div>
             <div class="podium-row podium-2">
               <span class="podium-rank">2nd</span>
               <span class="podium-name">{{ cat.second }}</span>
+              <span v-if="cat.secondScore" class="podium-score">{{ cat.secondScore }}</span>
             </div>
             <div class="podium-row podium-3">
               <span class="podium-rank">3rd</span>
               <span class="podium-name">{{ cat.third }}</span>
+              <span v-if="cat.thirdScore" class="podium-score">{{ cat.thirdScore }}</span>
             </div>
           </div>
+        </div>
+      </div>
+
+      <!-- Full results images -->
+      <div v-if="evt.resultsImages && evt.resultsImages.length" class="results-images">
+        <div v-for="(img, i) in evt.resultsImages" :key="i" class="card results-image-card">
+          <h3>{{ img.title }}</h3>
+          <a :href="img.src" target="_blank" rel="noopener">
+            <img :src="img.src" :alt="img.title" class="results-image" />
+          </a>
         </div>
       </div>
 
