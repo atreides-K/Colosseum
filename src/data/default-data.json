@@ -2782,7 +2782,7 @@
           "date": "2026-04-03",
           "time": "6:30 PM",
           "venue": "A Block",
-          "description": "Winner: Civil-1 (10-2, 10-4, 3-10)",
+          "description": "Winner: Civil-1 (2-10, 4-10, 10-3)",
           "status": "completed"
         },
         {
@@ -2791,12 +2791,12 @@
           "date": "2026-04-03",
           "time": "7:00 PM",
           "venue": "NBH",
-          "description": "Winner: Chemistry-1 — Pool C Topper",
+          "description": "Winner: Chemistry-1 (3-10, 10-7, 6-10) — Pool C Topper",
           "status": "completed"
         },
         {
           "id": "sch-foos-b7",
-          "title": "Pool B Final: Civil 1 vs Physics-1",
+          "title": "Pool B Final: Civil-1 vs Physics-1",
           "date": "2026-04-03",
           "time": "7:30 PM",
           "venue": "A Block",
@@ -2807,10 +2807,82 @@
           "id": "sch-foos-d7",
           "title": "Pool D Final: UG Seniors 1 vs Aerospace-1",
           "date": "2026-04-03",
+          "time": "7:00 PM",
+          "venue": "A Block",
+          "description": "Winner: UG Seniors 1 (3-10, 10-6, 10-4) — Pool D Topper",
+          "status": "completed"
+        },
+        {
+          "id": "sch-foos-rr1",
+          "title": "Round Robin: Civil-1 vs Chemistry-1",
+          "date": "2026-04-04",
           "time": "9:00 PM",
           "venue": "A Block",
-          "description": "Winner: UG Seniors 1 — Pool D Topper",
+          "description": "Winner: Chemistry-1 (8-10, 10-3, 3-10)",
           "status": "completed"
+        },
+        {
+          "id": "sch-foos-rr2",
+          "title": "Round Robin: UG Seniors-1 vs Chemistry-1",
+          "date": "2026-04-05",
+          "time": "9:00 PM",
+          "venue": "A Block",
+          "description": "Winner: UG Seniors-1 (6-10, 10-4, 10-5)",
+          "status": "completed"
+        },
+        {
+          "id": "sch-foos-rr3",
+          "title": "Round Robin: UG Seniors-1 vs CNS-1",
+          "date": "2026-04-06",
+          "time": "9:00 PM",
+          "venue": "A Block",
+          "description": "Winner: UG Seniors-1 (6-10, 10-2, 10-4)",
+          "status": "completed"
+        },
+        {
+          "id": "sch-foos-rr4",
+          "title": "Round Robin: CNS-1 vs Chemistry-1",
+          "date": "2026-04-07",
+          "time": "8:15 PM",
+          "venue": "A Block",
+          "description": "Winner: Chemistry-1 (8-10, 6-10, 4-10)",
+          "status": "completed"
+        },
+        {
+          "id": "sch-foos-rr5",
+          "title": "Round Robin: Civil-1 vs UG Seniors-1",
+          "date": "2026-04-08",
+          "time": "9:00 PM",
+          "venue": "A Block",
+          "description": "Winner: Civil-1 (10-5, 10-2, 4-10)",
+          "status": "completed"
+        },
+        {
+          "id": "sch-foos-rr6",
+          "title": "Round Robin: Civil-1 vs CNS-1",
+          "date": "2026-04-09",
+          "time": "9:00 PM",
+          "venue": "A Block",
+          "description": "Winner: Civil-1 (10-1, 10-4, 10-4)",
+          "status": "completed"
+        },
+        {
+          "id": "sch-foos-bronze",
+          "title": "Bronze Medal Match: UG Seniors-1 vs CNS-1",
+          "date": "2026-04-09",
+          "time": "6:00 PM",
+          "venue": "A Block",
+          "description": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "sch-foos-final",
+          "title": "Grand Finale: Civil-1 vs Chemistry-1",
+          "date": "2026-04-09",
+          "time": "9:00 PM",
+          "venue": "A Block",
+          "description": "",
+          "status": "scheduled"
         }
       ],
       "categories": "2 Open Doubles + 1 Mixed Doubles per match",
@@ -3212,42 +3284,62 @@
               "pts": 0
             }
           ]
+        },
+        {
+          "pool": "Round Robin",
+          "qualify": 2,
+          "table": [
+            {
+              "team": "Civil-1",
+              "p": 3,
+              "w": 2,
+              "d": 0,
+              "l": 1,
+              "pts": 6
+            },
+            {
+              "team": "Chemistry-1",
+              "p": 3,
+              "w": 2,
+              "d": 0,
+              "l": 1,
+              "pts": 6
+            },
+            {
+              "team": "UG Seniors-1",
+              "p": 3,
+              "w": 2,
+              "d": 0,
+              "l": 1,
+              "pts": 6
+            },
+            {
+              "team": "CNS-1",
+              "p": 3,
+              "w": 0,
+              "d": 0,
+              "l": 3,
+              "pts": 0
+            }
+          ]
         }
       ],
       "bracket": {
         "generated": true,
         "matches": [
           {
-            "id": "foos-sf1",
+            "id": "foos-bronze",
             "round": 0,
             "position": 0,
             "slots": [
               {
                 "seedId": null,
-                "name": "Pool A Winner (CNS-1)",
+                "name": "UG Seniors-1 (3rd)",
                 "score": ""
               },
               {
                 "seedId": null,
-                "name": "Pool B Winner (Civil-1)",
-                "score": ""
-              }
-            ],
-            "winnerId": null
-          },
-          {
-            "id": "foos-sf2",
-            "round": 0,
-            "position": 1,
-            "slots": [
-              {
-                "seedId": null,
-                "name": "Pool C Winner (Chemistry-1)",
-                "score": ""
-              },
-              {
-                "seedId": null,
-                "name": "Pool D Winner (UG Seniors 1)",
+                "name": "CNS-1 (4th)",
                 "score": ""
               }
             ],
@@ -3255,17 +3347,17 @@
           },
           {
             "id": "foos-final",
-            "round": 1,
-            "position": 0,
+            "round": 0,
+            "position": 1,
             "slots": [
               {
                 "seedId": null,
-                "name": "Winner SF1",
+                "name": "Civil-1 (1st)",
                 "score": ""
               },
               {
                 "seedId": null,
-                "name": "Winner SF2",
+                "name": "Chemistry-1 (2nd)",
                 "score": ""
               }
             ],
