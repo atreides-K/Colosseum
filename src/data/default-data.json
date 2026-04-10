@@ -2883,15 +2883,6 @@
           "venue": "A Block",
           "description": "",
           "status": "scheduled"
-        },
-        {
-          "id": "sch-foos-8",
-          "title": "Pool B Final: Civil 1 vs Physics-1",
-          "date": "2026-04-03",
-          "time": "7:30 PM",
-          "venue": "A Block",
-          "description": "Winner: Civil-1 (10-1, 6-10, 10-8)",
-          "status": "completed"
         }
       ],
       "categories": "2 Open Doubles + 1 Mixed Doubles per match",

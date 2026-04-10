@@ -105,6 +105,9 @@ def normalize_title(title):
     t = re.sub(r"\bsemi[\s-]*final\s*(\d)", r"semi-final \1", t)
     t = re.sub(r"\bqf(\d)", r"quarter-final \1", t)
     t = re.sub(r"\bquarter[\s-]*final\s*(\d)", r"quarter-final \1", t)
+    # Normalize team name separators: "Civil 1" == "Civil-1"
+    # Replace "word<space>digit" with "word-digit" for consistent matching
+    t = re.sub(r"(\b[a-z]+)\s+(\d+)\b", r"\1-\2", t)
     return t
 
 
@@ -218,6 +221,11 @@ def parse_schedule_rows(rows):
             continue
         # Skip if this looks like a header row
         if title.lower() in ("match/title", "match", "title", "match / title"):
+            continue
+        # Skip rows where the date column doesn't look like a date
+        # (catches standings data that bleeds into the schedule section)
+        normalized = normalize_date(date)
+        if normalized == date and not re.match(r"\d{4}-\d{2}-\d{2}", date):
             continue
 
         entries.append({
@@ -793,19 +801,21 @@ def sync_tab(event, tab_values, abbrev, changes_log):
         if teams_added > 0:
             event["teams"] = existing_teams
 
-    # --- Recalculate standings ---
-    if event.get("standings"):
-        old_standings = json.dumps(event["standings"])
-        recalculate_standings(event)
-        if json.dumps(event["standings"]) != old_standings:
-            change_count += 1
-
     # --- Build change summary ---
     parts = []
     if results_updated:
         parts.append(f"{results_updated} results updated")
     if new_entries:
         parts.append(f"{new_entries} new schedule entries")
+
+    # --- Recalculate standings only if results changed ---
+    if event.get("standings") and results_updated > 0:
+        old_standings = json.dumps(event["standings"])
+        recalculate_standings(event)
+        if json.dumps(event["standings"]) != old_standings:
+            change_count += 1
+            parts.append("standings recalculated")
+
     if sheet_teams:
         teams_added_count = sum(
             1 for st in sheet_teams
@@ -871,11 +881,6 @@ def main():
 
         changes = sync_tab(event, tab_values, abbrev, changes_log)
         total_changes += changes
-
-    # Recalculate standings for all events that have them
-    for ev in events:
-        if ev.get("standings") and ev.get("schedule"):
-            recalculate_standings(ev)
 
     has_changes = json.dumps(data, ensure_ascii=False) != original_data
 

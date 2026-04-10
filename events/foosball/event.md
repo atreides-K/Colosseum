@@ -5,8 +5,8 @@
 | **Type** | Team |
 | **Team Size** | 5 players + 1 backup; at least 1 player of different gender |
 | **Categories** | 2 Open Doubles + 1 Mixed Doubles per match |
-| **Venue** | TBA |
-| **Dates** | TBA |
+| **Venue** | Aryabhatta, A Block, NBH |
+| **Dates** | 1–9 April 2026 |
 | **Registration Deadline** | 29 March 2026, 11:00 PM |
 
 ## Format
