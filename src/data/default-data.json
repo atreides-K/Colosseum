@@ -2782,7 +2782,7 @@
           "date": "2026-04-03",
           "time": "6:30 PM",
           "venue": "A Block",
-          "description": "Winner: Civil-1 (2-10, 4-10, 10-3)",
+          "description": "Winner: Civil-1 (10-2, 10-4, 3-10)",
           "status": "completed"
         },
         {
@@ -2791,7 +2791,7 @@
           "date": "2026-04-03",
           "time": "7:00 PM",
           "venue": "NBH",
-          "description": "Winner: Chemistry-1 (3-10, 10-7, 6-10) — Pool C Topper",
+          "description": "Winner: Chemistry-1 — Pool C Topper",
           "status": "completed"
         },
         {
@@ -2807,9 +2807,9 @@
           "id": "sch-foos-d7",
           "title": "Pool D Final: UG Seniors 1 vs Aerospace-1",
           "date": "2026-04-03",
-          "time": "7:00 PM",
+          "time": "9:00 PM",
           "venue": "A Block",
-          "description": "Winner: UG Seniors 1 (3-10, 10-6, 10-4) — Pool D Topper",
+          "description": "Winner: UG Seniors 1 — Pool D Topper",
           "status": "completed"
         },
         {
@@ -4041,7 +4041,7 @@
         },
         {
           "id": "sch-kk-10",
-          "title": "Semi-Final 1: TBD vs TBD",
+          "title": "SF1: TBD vs TBD",
           "date": "2026-04-11",
           "time": "",
           "venue": "KV Ground",
@@ -4050,7 +4050,7 @@
         },
         {
           "id": "sch-kk-11",
-          "title": "Semi-Final 2: TBD vs TBD",
+          "title": "SF2: TBD vs TBD",
           "date": "2026-04-11",
           "time": "",
           "venue": "KV Ground",
