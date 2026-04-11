@@ -6138,13 +6138,31 @@
         "generated": true,
         "matches": [
           {
-            "id": "vb-sf1",
+            "id": "vb-q1",
             "round": 0,
             "position": 0,
             "slots": [
               {
                 "seedId": null,
                 "name": "1st Pool A",
+                "score": ""
+              },
+              {
+                "seedId": null,
+                "name": "1st Pool B",
+                "score": ""
+              }
+            ],
+            "winnerId": null
+          },
+          {
+            "id": "vb-eli",
+            "round": 0,
+            "position": 1,
+            "slots": [
+              {
+                "seedId": null,
+                "name": "2nd Pool A",
                 "score": ""
               },
               {
@@ -6156,18 +6174,18 @@
             "winnerId": null
           },
           {
-            "id": "vb-sf2",
-            "round": 0,
-            "position": 1,
+            "id": "vb-q2",
+            "round": 1,
+            "position": 0,
             "slots": [
               {
                 "seedId": null,
-                "name": "1st Pool B",
+                "name": "Q1 Loser",
                 "score": ""
               },
               {
                 "seedId": null,
-                "name": "2nd Pool A",
+                "name": "Eliminator Winner",
                 "score": ""
               }
             ],
@@ -6175,17 +6193,17 @@
           },
           {
             "id": "vb-final",
-            "round": 1,
+            "round": 2,
             "position": 0,
             "slots": [
               {
                 "seedId": null,
-                "name": "Winner SF1",
+                "name": "Q1 Winner",
                 "score": ""
               },
               {
                 "seedId": null,
-                "name": "Winner SF2",
+                "name": "Q2 Winner",
                 "score": ""
               }
             ],
