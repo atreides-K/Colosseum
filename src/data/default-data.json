@@ -6143,13 +6143,13 @@
             "position": 0,
             "slots": [
               {
-                "seedId": null,
-                "name": "1st Pool A",
+                "seedId": "team-vb-ece1",
+                "name": "ECE-1",
                 "score": ""
               },
               {
-                "seedId": null,
-                "name": "1st Pool B",
+                "seedId": "team-vb-cense",
+                "name": "CeNSE",
                 "score": ""
               }
             ],
@@ -6161,13 +6161,13 @@
             "position": 1,
             "slots": [
               {
-                "seedId": null,
-                "name": "2nd Pool A",
+                "seedId": "team-vb-cps",
+                "name": "CPS",
                 "score": ""
               },
               {
-                "seedId": null,
-                "name": "2nd Pool B",
+                "seedId": "team-vb-ug1",
+                "name": "UG-1",
                 "score": ""
               }
             ],
