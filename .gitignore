@@ -23,3 +23,10 @@ dist-ssr
 *.sln
 *.sw?
 .mcp.json
+
+# Playwright MCP transient output
+.playwright-mcp/
+
+# Python cache
+__pycache__/
+*.pyc
