@@ -2144,8 +2144,8 @@
           "date": "2026-04-05",
           "time": "6:30 PM",
           "venue": "",
-          "description": "Group Stage",
-          "status": "scheduled"
+          "description": "Group A | Draw 1-1",
+          "status": "completed"
         },
         {
           "id": "sch-fb-m2",
@@ -2153,8 +2153,8 @@
           "date": "2026-04-05",
           "time": "7:30 PM",
           "venue": "",
-          "description": "Group Stage",
-          "status": "scheduled"
+          "description": "Group B | Winner: IAP (7-2)",
+          "status": "completed"
         },
         {
           "id": "sch-fb-m3",
@@ -2162,8 +2162,8 @@
           "date": "2026-04-05",
           "time": "8:30 PM",
           "venue": "",
-          "description": "Group Stage",
-          "status": "scheduled"
+          "description": "Group B | Winner: Underdawgs (5-1)",
+          "status": "completed"
         },
         {
           "id": "sch-fb-w3",
@@ -2189,8 +2189,8 @@
           "date": "2026-04-06",
           "time": "7:00 PM",
           "venue": "",
-          "description": "Group Stage",
-          "status": "scheduled"
+          "description": "Group A | Winner: Physics (2-1)",
+          "status": "completed"
         },
         {
           "id": "sch-fb-m5",
@@ -2198,8 +2198,8 @@
           "date": "2026-04-06",
           "time": "8:00 PM",
           "venue": "",
-          "description": "Group Stage",
-          "status": "scheduled"
+          "description": "Group A | Winner: Bioblasters (0-1)",
+          "status": "completed"
         },
         {
           "id": "sch-fb-m6",
@@ -2207,8 +2207,8 @@
           "date": "2026-04-06",
           "time": "9:00 PM",
           "venue": "",
-          "description": "Group Stage",
-          "status": "scheduled"
+          "description": "Group B | Winner: IAP (3-0, Underdawgs walkover)",
+          "status": "completed"
         },
         {
           "id": "sch-fb-w5",
@@ -2234,8 +2234,8 @@
           "date": "2026-04-08",
           "time": "7:00 PM",
           "venue": "",
-          "description": "Group Stage",
-          "status": "scheduled"
+          "description": "Group A | Winner: Mech Spartans (2-1)",
+          "status": "completed"
         },
         {
           "id": "sch-fb-m8",
@@ -2243,8 +2243,8 @@
           "date": "2026-04-08",
           "time": "8:00 PM",
           "venue": "",
-          "description": "Group Stage",
-          "status": "scheduled"
+          "description": "Group B | Winner: ECE (0-3, Underdawgs walkover)",
+          "status": "completed"
         },
         {
           "id": "sch-fb-m9",
@@ -2252,8 +2252,8 @@
           "date": "2026-04-08",
           "time": "9:00 PM",
           "venue": "",
-          "description": "Group Stage",
-          "status": "scheduled"
+          "description": "Group B | Draw 0-0",
+          "status": "completed"
         },
         {
           "id": "sch-fb-w7",
@@ -2279,8 +2279,8 @@
           "date": "2026-04-10",
           "time": "7:00 PM",
           "venue": "",
-          "description": "Group Stage",
-          "status": "scheduled"
+          "description": "Group A | Winner: Physics (1-0)",
+          "status": "completed"
         },
         {
           "id": "sch-fb-m11",
@@ -2288,8 +2288,8 @@
           "date": "2026-04-10",
           "time": "8:00 PM",
           "venue": "",
-          "description": "Group Stage",
-          "status": "scheduled"
+          "description": "Group A | Winner: Mech Spartans (0-2)",
+          "status": "completed"
         },
         {
           "id": "sch-fb-m12",
@@ -2297,8 +2297,8 @@
           "date": "2026-04-10",
           "time": "9:00 PM",
           "venue": "",
-          "description": "Group Stage",
-          "status": "scheduled"
+          "description": "Group B | Winner: CSA FC (7-0)",
+          "status": "completed"
         },
         {
           "id": "sch-fb-w9",
@@ -2320,20 +2320,20 @@
         },
         {
           "id": "sch-fb-s1",
-          "title": "S1: 1st Group A vs 2nd Group B (Men's Semi)",
+          "title": "S1: Physics vs CSA FC (Men's Semi)",
           "date": "2026-04-11",
           "time": "7:00 PM",
           "venue": "",
-          "description": "Men's Semi-final",
+          "description": "Men's Semi-final (1st Group A vs 2nd Group B)",
           "status": "scheduled"
         },
         {
           "id": "sch-fb-s2",
-          "title": "S2: 1st Group B vs 2nd Group A (Men's Semi)",
+          "title": "S2: IAP vs Mech Spartans (Men's Semi)",
           "date": "2026-04-11",
           "time": "8:00 PM",
           "venue": "",
-          "description": "Men's Semi-final",
+          "description": "Men's Semi-final (1st Group B vs 2nd Group A)",
           "status": "scheduled"
         },
         {
@@ -2353,6 +2353,28 @@
           "venue": "",
           "description": "Men's Final",
           "status": "scheduled"
+        }
+      ],
+      "standings": [
+        {
+          "pool": "Group A (Men's)",
+          "qualify": 2,
+          "table": [
+            { "team": "Physics", "p": 3, "w": 2, "d": 1, "l": 0, "pts": 7 },
+            { "team": "Mech Spartans", "p": 3, "w": 2, "d": 0, "l": 1, "pts": 6 },
+            { "team": "Bioblasters", "p": 3, "w": 1, "d": 0, "l": 2, "pts": 3 },
+            { "team": "CeNSE", "p": 3, "w": 0, "d": 1, "l": 2, "pts": 1 }
+          ]
+        },
+        {
+          "pool": "Group B (Men's)",
+          "qualify": 2,
+          "table": [
+            { "team": "IAP", "p": 3, "w": 2, "d": 1, "l": 0, "pts": 7 },
+            { "team": "CSA FC", "p": 3, "w": 1, "d": 1, "l": 1, "pts": 4 },
+            { "team": "Underdawgs", "p": 3, "w": 1, "d": 0, "l": 2, "pts": 3 },
+            { "team": "ECE", "p": 3, "w": 1, "d": 0, "l": 2, "pts": 3 }
+          ]
         }
       ],
       "teams": [
