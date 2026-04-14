@@ -367,6 +367,9 @@
                 <th>W</th>
                 <th>D</th>
                 <th>L</th>
+                <th v-if="pool.table.some(r => r.gf != null)">GF</th>
+                <th v-if="pool.table.some(r => r.ga != null)">GA</th>
+                <th v-if="pool.table.some(r => r.gd != null)">GD</th>
                 <th>Pts</th>
               </tr>
             </thead>
@@ -378,6 +381,9 @@
                 <td class="num">{{ row.w }}</td>
                 <td class="num">{{ row.d }}</td>
                 <td class="num">{{ row.l }}</td>
+                <td v-if="pool.table.some(r => r.gf != null)" class="num">{{ row.gf }}</td>
+                <td v-if="pool.table.some(r => r.ga != null)" class="num">{{ row.ga }}</td>
+                <td v-if="pool.table.some(r => r.gd != null)" class="num">{{ row.gd > 0 ? '+' + row.gd : row.gd }}</td>
                 <td class="num" style="font-weight:700">{{ row.pts }}</td>
               </tr>
             </tbody>

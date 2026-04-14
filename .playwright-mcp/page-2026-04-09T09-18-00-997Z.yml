@@ -1,0 +1,185 @@
+- generic [ref=e2]:
+  - navigation [ref=e464]:
+    - button "◀" [ref=e465] [cursor=pointer]
+    - generic [ref=e466]:
+      - generic [ref=e467]:
+        - img "Spectrum" [ref=e468]
+        - generic [ref=e469]: SPECTRUM 2026
+      - link "🏅 Events" [ref=e470] [cursor=pointer]:
+        - /url: "#/"
+        - generic [ref=e471]: 🏅
+        - generic [ref=e472]: Events
+      - link "🏠 Home" [ref=e473] [cursor=pointer]:
+        - /url: "#/home"
+        - generic [ref=e474]: 🏠
+        - generic [ref=e475]: Home
+      - link "📅 Schedule" [ref=e476] [cursor=pointer]:
+        - /url: "#/schedule"
+        - generic [ref=e477]: 📅
+        - generic [ref=e478]: Schedule
+    - generic [ref=e479]:
+      - generic [ref=e481]: Events
+      - generic [ref=e482]:
+        - link "🏃 Athletics" [ref=e483] [cursor=pointer]:
+          - /url: "#/events/evt-athletics"
+          - generic [ref=e484]: 🏃
+          - generic [ref=e485]: Athletics
+        - button "📌" [ref=e486] [cursor=pointer]
+      - generic [ref=e487]:
+        - link "🏸 Badminton" [ref=e488] [cursor=pointer]:
+          - /url: "#/events/evt-badminton"
+          - generic [ref=e489]: 🏸
+          - generic [ref=e490]: Badminton
+        - button "📌" [ref=e491] [cursor=pointer]
+      - generic [ref=e492]:
+        - link "🏀 Basketball" [ref=e493] [cursor=pointer]:
+          - /url: "#/events/evt-basketball"
+          - generic [ref=e494]: 🏀
+          - generic [ref=e495]: Basketball
+        - button "📌" [ref=e496] [cursor=pointer]
+      - generic [ref=e497]:
+        - link "🎯 Carrom" [ref=e498] [cursor=pointer]:
+          - /url: "#/events/evt-carrom"
+          - generic [ref=e499]: 🎯
+          - generic [ref=e500]: Carrom
+        - button "📌" [ref=e501] [cursor=pointer]
+      - generic [ref=e502]:
+        - link "♟️ Chess" [ref=e503] [cursor=pointer]:
+          - /url: "#/events/evt-chess"
+          - generic [ref=e504]: ♟️
+          - generic [ref=e505]: Chess
+        - button "📌" [ref=e506] [cursor=pointer]
+      - generic [ref=e507]:
+        - link "🚴 Cycling" [ref=e508] [cursor=pointer]:
+          - /url: "#/events/evt-cycling"
+          - generic [ref=e509]: 🚴
+          - generic [ref=e510]: Cycling
+        - button "📌" [ref=e511] [cursor=pointer]
+      - generic [ref=e512]:
+        - link "⚽ Football" [ref=e513] [cursor=pointer]:
+          - /url: "#/events/evt-football"
+          - generic [ref=e514]: ⚽
+          - generic [ref=e515]: Football
+        - button "📌" [ref=e516] [cursor=pointer]
+      - generic [ref=e517]:
+        - link "🎮 Foosball" [ref=e518] [cursor=pointer]:
+          - /url: "#/events/evt-foosball"
+          - generic [ref=e519]: 🎮
+          - generic [ref=e520]: Foosball
+        - button "📌" [ref=e521] [cursor=pointer]
+      - generic [ref=e522]:
+        - link "🥏 Ultimate Frisbee" [ref=e523] [cursor=pointer]:
+          - /url: "#/events/evt-frisbee"
+          - generic [ref=e524]: 🥏
+          - generic [ref=e525]: Ultimate Frisbee
+        - button "📌" [ref=e526] [cursor=pointer]
+      - generic [ref=e527]:
+        - link "🤾 Handball" [ref=e528] [cursor=pointer]:
+          - /url: "#/events/evt-handball"
+          - generic [ref=e529]: 🤾
+          - generic [ref=e530]: Handball
+        - button "📌" [ref=e531] [cursor=pointer]
+      - generic [ref=e532]:
+        - link "🏑 Hockey" [ref=e533] [cursor=pointer]:
+          - /url: "#/events/evt-hockey"
+          - generic [ref=e534]: 🏑
+          - generic [ref=e535]: Hockey
+        - button "📌" [ref=e536] [cursor=pointer]
+      - generic [ref=e537]:
+        - link "🤼 Kabaddi" [ref=e538] [cursor=pointer]:
+          - /url: "#/events/evt-kabaddi"
+          - generic [ref=e539]: 🤼
+          - generic [ref=e540]: Kabaddi
+        - button "📌" [ref=e541] [cursor=pointer]
+      - generic [ref=e542]:
+        - link "🤸 Kho-Kho" [ref=e543] [cursor=pointer]:
+          - /url: "#/events/evt-kho-kho"
+          - generic [ref=e544]: 🤸
+          - generic [ref=e545]: Kho-Kho
+        - button "📌" [ref=e546] [cursor=pointer]
+      - generic [ref=e547]:
+        - link "🎾 Lawn Tennis" [ref=e548] [cursor=pointer]:
+          - /url: "#/events/evt-lawn-tennis"
+          - generic [ref=e549]: 🎾
+          - generic [ref=e550]: Lawn Tennis
+        - button "📌" [ref=e551] [cursor=pointer]
+      - generic [ref=e552]:
+        - link "💪 Powerlifting" [ref=e553] [cursor=pointer]:
+          - /url: "#/events/evt-powerlifting"
+          - generic [ref=e554]: 💪
+          - generic [ref=e555]: Powerlifting
+        - button "📌" [ref=e556] [cursor=pointer]
+      - generic [ref=e557]:
+        - link "🎱 Snooker" [ref=e558] [cursor=pointer]:
+          - /url: "#/events/evt-snooker"
+          - generic [ref=e559]: 🎱
+          - generic [ref=e560]: Snooker
+        - button "📌" [ref=e561] [cursor=pointer]
+      - generic [ref=e562]:
+        - link "🏊 Swimming" [ref=e563] [cursor=pointer]:
+          - /url: "#/events/evt-swimming"
+          - generic [ref=e564]: 🏊
+          - generic [ref=e565]: Swimming
+        - button "📌" [ref=e566] [cursor=pointer]
+      - generic [ref=e567]:
+        - link "🏓 Table Tennis" [ref=e568] [cursor=pointer]:
+          - /url: "#/events/evt-table-tennis"
+          - generic [ref=e569]: 🏓
+          - generic [ref=e570]: Table Tennis
+        - button "📌" [ref=e571] [cursor=pointer]
+      - generic [ref=e572]:
+        - link "🏐 Throwball" [ref=e573] [cursor=pointer]:
+          - /url: "#/events/evt-throwball"
+          - generic [ref=e574]: 🏐
+          - generic [ref=e575]: Throwball
+        - button "📌" [ref=e576] [cursor=pointer]
+      - generic [ref=e577]:
+        - link "🏐 Volleyball" [ref=e578] [cursor=pointer]:
+          - /url: "#/events/evt-volleyball"
+          - generic [ref=e579]: 🏐
+          - generic [ref=e580]: Volleyball
+        - button "📌" [ref=e581] [cursor=pointer]
+  - generic [ref=e583]:
+    - generic [ref=e584]:
+      - generic [ref=e585]: 💪
+      - generic [ref=e586]:
+        - heading "Powerlifting" [level=1] [ref=e587]
+        - generic [ref=e588]:
+          - generic [ref=e589]: completed
+          - generic [ref=e590]: Individual
+          - generic [ref=e591]: Janta Gym
+      - button "📌 Pin Event" [ref=e593] [cursor=pointer]
+    - generic [ref=e595]:
+      - paragraph [ref=e596]:
+        - generic [ref=e597]: "Venue:"
+        - generic [ref=e598]: Janta Gym
+        - generic [ref=e599]: •
+        - generic [ref=e600]: "Participants:"
+        - generic [ref=e601]: 0 registered
+      - paragraph [ref=e602]:
+        - generic [ref=e603]: "Contact:"
+        - generic [ref=e604]: Organizer — 6290556638
+    - generic [ref=e605]:
+      - button "Info" [ref=e606] [cursor=pointer]
+      - button "Rules" [ref=e607] [cursor=pointer]
+      - button "Participants" [ref=e608] [cursor=pointer]
+      - button "Schedule" [ref=e609] [cursor=pointer]
+      - button "Standings" [ref=e610] [cursor=pointer]
+      - button "Notes" [ref=e611] [cursor=pointer]
+    - generic [ref=e614]:
+      - generic [ref=e616]:
+        - generic [ref=e617]: Categories
+        - generic [ref=e618]: Men's, Women's (5 weight categories each)
+      - generic [ref=e619]:
+        - heading "Format & Details" [level=3] [ref=e620]
+        - generic [ref=e621]:
+          - text: "3 lifts: Squat, Bench Press, Deadlift. 3 attempts per lift, best counts. Total = Squat + Bench + Deadlift. Tiebreak: lighter lifter ranks higher."
+          - strong [ref=e622]: "Men's Weight Classes:"
+          - text: <60kg, 60–70kg, 70–80kg, 80–90kg, 90+kg
+          - strong [ref=e623]: "Women's Weight Classes:"
+          - text: <50kg, 50–60kg, 60–70kg, 70–80kg, 80+kg
+          - text: Smith Machine for squats. Straps allowed for deadlifts only.
+      - generic [ref=e624]:
+        - link "Register" [ref=e625] [cursor=pointer]:
+          - /url: https://forms.office.com/Pages/ResponsePage.aspx?id=l80Vb6f240Gyxa1Bk5dkdlTBkVTJoDJCs1-GYIm5gP9UM0hTWTIzN1lXSVFWTDJENUs4RU
+        - button "View Rulebook" [ref=e626] [cursor=pointer]

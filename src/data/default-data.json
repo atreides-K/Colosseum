@@ -2324,8 +2324,8 @@
           "date": "2026-04-11",
           "time": "7:00 PM",
           "venue": "",
-          "description": "Men's Semi-final (1st Group A vs 2nd Group B)",
-          "status": "scheduled"
+          "description": "Men's Semi-final | Winner: IAP (0-3)",
+          "status": "completed"
         },
         {
           "id": "sch-fb-s2",
@@ -2333,8 +2333,8 @@
           "date": "2026-04-11",
           "time": "8:00 PM",
           "venue": "",
-          "description": "Men's Semi-final (1st Group B vs 2nd Group A)",
-          "status": "scheduled"
+          "description": "Men's Semi-final | Winner: CSA FC (4-2 after extra time)",
+          "status": "completed"
         },
         {
           "id": "sch-fb-wf",
@@ -2347,7 +2347,7 @@
         },
         {
           "id": "sch-fb-mf",
-          "title": "Men's Final: Semi 1 Winner vs Semi 2 Winner",
+          "title": "Men's Final: IAP vs CSA FC",
           "date": "2026-04-12",
           "time": "7:00 PM",
           "venue": "",
@@ -2360,20 +2360,20 @@
           "pool": "Group A (Men's)",
           "qualify": 2,
           "table": [
-            { "team": "Mech Spartans", "p": 3, "w": 2, "d": 0, "l": 1, "pts": 6 },
-            { "team": "Physics", "p": 3, "w": 1, "d": 2, "l": 0, "pts": 5 },
-            { "team": "Bioblasters", "p": 3, "w": 1, "d": 1, "l": 1, "pts": 4 },
-            { "team": "CeNSE", "p": 3, "w": 0, "d": 1, "l": 2, "pts": 1 }
+            { "team": "Mech Spartans", "p": 3, "w": 2, "d": 0, "l": 1, "gf": 5, "ga": 3, "gd": 2, "pts": 6 },
+            { "team": "Physics", "p": 3, "w": 1, "d": 2, "l": 0, "gf": 3, "ga": 2, "gd": 1, "pts": 5 },
+            { "team": "Bioblasters", "p": 3, "w": 1, "d": 1, "l": 1, "gf": 2, "ga": 2, "gd": 0, "pts": 4 },
+            { "team": "CeNSE", "p": 3, "w": 0, "d": 1, "l": 2, "gf": 1, "ga": 4, "gd": -3, "pts": 1 }
           ]
         },
         {
           "pool": "Group B (Men's)",
           "qualify": 2,
           "table": [
-            { "team": "CSA FC", "p": 3, "w": 2, "d": 1, "l": 0, "pts": 7 },
-            { "team": "IAP", "p": 3, "w": 2, "d": 1, "l": 0, "pts": 7 },
-            { "team": "ECE", "p": 3, "w": 1, "d": 0, "l": 2, "pts": 3 },
-            { "team": "Underdawgs", "p": 3, "w": 0, "d": 0, "l": 3, "pts": 0 }
+            { "team": "CSA FC", "p": 3, "w": 2, "d": 1, "l": 0, "gf": 12, "ga": 1, "gd": 11, "pts": 7 },
+            { "team": "IAP", "p": 3, "w": 2, "d": 1, "l": 0, "gf": 10, "ga": 2, "gd": 8, "pts": 7 },
+            { "team": "ECE", "p": 3, "w": 1, "d": 0, "l": 2, "gf": 5, "ga": 14, "gd": -9, "pts": 3 },
+            { "team": "Underdawgs", "p": 3, "w": 0, "d": 0, "l": 3, "gf": 1, "ga": 11, "gd": -10, "pts": 0 }
           ]
         }
       ],
