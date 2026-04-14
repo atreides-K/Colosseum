@@ -2162,7 +2162,7 @@
           "date": "2026-04-05",
           "time": "8:30 PM",
           "venue": "",
-          "description": "Group B | Winner: Underdawgs (5-1)",
+          "description": "Group B | Winner: CSA FC (1-5)",
           "status": "completed"
         },
         {
@@ -2279,7 +2279,7 @@
           "date": "2026-04-10",
           "time": "7:00 PM",
           "venue": "",
-          "description": "Group A | Winner: Physics (1-0)",
+          "description": "Group A | Draw 0-0",
           "status": "completed"
         },
         {
@@ -2320,7 +2320,7 @@
         },
         {
           "id": "sch-fb-s1",
-          "title": "S1: Physics vs CSA FC (Men's Semi)",
+          "title": "S1: Mech Spartans vs IAP (Men's Semi)",
           "date": "2026-04-11",
           "time": "7:00 PM",
           "venue": "",
@@ -2329,7 +2329,7 @@
         },
         {
           "id": "sch-fb-s2",
-          "title": "S2: IAP vs Mech Spartans (Men's Semi)",
+          "title": "S2: CSA FC vs Physics (Men's Semi)",
           "date": "2026-04-11",
           "time": "8:00 PM",
           "venue": "",
@@ -2360,9 +2360,9 @@
           "pool": "Group A (Men's)",
           "qualify": 2,
           "table": [
-            { "team": "Physics", "p": 3, "w": 2, "d": 1, "l": 0, "pts": 7 },
             { "team": "Mech Spartans", "p": 3, "w": 2, "d": 0, "l": 1, "pts": 6 },
-            { "team": "Bioblasters", "p": 3, "w": 1, "d": 0, "l": 2, "pts": 3 },
+            { "team": "Physics", "p": 3, "w": 1, "d": 2, "l": 0, "pts": 5 },
+            { "team": "Bioblasters", "p": 3, "w": 1, "d": 1, "l": 1, "pts": 4 },
             { "team": "CeNSE", "p": 3, "w": 0, "d": 1, "l": 2, "pts": 1 }
           ]
         },
@@ -2370,10 +2370,10 @@
           "pool": "Group B (Men's)",
           "qualify": 2,
           "table": [
+            { "team": "CSA FC", "p": 3, "w": 2, "d": 1, "l": 0, "pts": 7 },
             { "team": "IAP", "p": 3, "w": 2, "d": 1, "l": 0, "pts": 7 },
-            { "team": "CSA FC", "p": 3, "w": 1, "d": 1, "l": 1, "pts": 4 },
-            { "team": "Underdawgs", "p": 3, "w": 1, "d": 0, "l": 2, "pts": 3 },
-            { "team": "ECE", "p": 3, "w": 1, "d": 0, "l": 2, "pts": 3 }
+            { "team": "ECE", "p": 3, "w": 1, "d": 0, "l": 2, "pts": 3 },
+            { "team": "Underdawgs", "p": 3, "w": 0, "d": 0, "l": 3, "pts": 0 }
           ]
         }
       ],
