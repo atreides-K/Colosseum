@@ -30,7 +30,7 @@
       "sport": "Badminton",
       "icon": "🏸",
       "type": "team",
-      "status": "ongoing",
+      "status": "completed",
       "venue": "Gymkhana Badminton Courts",
       "categories": "Men's Singles, Women's Singles, Men's Doubles, Women's Doubles, Mixed Doubles",
       "teamSize": "Min 4 male + 3 female, max 12 players (including guests)",
@@ -41,6 +41,14 @@
       "whatsappLink": "",
       "contacts": [],
       "hasRules": true,
+      "podium": [
+        {
+          "category": "Team",
+          "first": "UG Seniors (UG1)",
+          "second": "CeNSE",
+          "third": "ECE"
+        }
+      ],
       "teams": [
         {
           "id": "team-bad-ug1",
@@ -1079,6 +1087,58 @@
           "venue": "KV Court",
           "description": "Winner: UG Seniors",
           "status": "completed"
+        },
+        {
+          "id": "sch-bb-w1",
+          "title": "SF1: UG Juniors vs UG Seniors (Women's)",
+          "date": "2026-04-03",
+          "time": "7:30 AM - 8:30 AM",
+          "venue": "KV Court",
+          "description": "Women's Semifinal | Winner: UG Seniors",
+          "status": "completed"
+        },
+        {
+          "id": "sch-bb-w2",
+          "title": "SF2: CNS vs BioEng (Women's)",
+          "date": "2026-04-03",
+          "time": "8:30 AM - 9:30 AM",
+          "venue": "KV Court",
+          "description": "Women's Semifinal | Winner: BioEng",
+          "status": "completed"
+        },
+        {
+          "id": "sch-bb-w3",
+          "title": "3rd Place: UG Juniors vs CNS (Women's)",
+          "date": "2026-04-06",
+          "time": "7:30 PM - 8:30 PM",
+          "venue": "KV Court",
+          "description": "Women's 3rd Place | Winner: UG Juniors",
+          "status": "completed"
+        },
+        {
+          "id": "sch-bb-w4",
+          "title": "Final: BioEng vs UG Seniors (Women's)",
+          "date": "2026-04-05",
+          "time": "5:30 PM - 6:30 PM",
+          "venue": "KV Court",
+          "description": "Women's Final | Winner: UG Seniors",
+          "status": "completed"
+        }
+      ],
+      "podium": [
+        {
+          "category": "Men's",
+          "first": "UG Seniors",
+          "second": "CNS",
+          "third": "ECE",
+          "fourth": "CPS"
+        },
+        {
+          "category": "Women's",
+          "first": "UG Seniors",
+          "second": "BioEng",
+          "third": "UG Juniors",
+          "fourth": "CNS"
         }
       ],
       "standings": [
@@ -1268,7 +1328,7 @@
       "sport": "Carrom",
       "icon": "🎯",
       "type": "team",
-      "status": "ongoing",
+      "status": "completed",
       "venue": "B Block TV Room (Carrom Room)",
       "categories": "Singles, Doubles-1, Doubles-2",
       "teamSize": "Max 7 players (min 1 woman), max 1 guest",
@@ -1288,6 +1348,14 @@
         }
       ],
       "hasRules": true,
+      "podium": [
+        {
+          "category": "Team",
+          "first": "CeNSE",
+          "second": "Aerospace Engineering",
+          "third": "IAP"
+        }
+      ],
       "schedule": [
         {
           "id": "sch-car-1",
@@ -1906,7 +1974,7 @@
       "sport": "Chess",
       "icon": "♟️",
       "type": "both",
-      "status": "upcoming",
+      "status": "completed",
       "venue": "TBA",
       "categories": "Open (Individual + Team events)",
       "teamSize": "Team: 4 open + 1 female + 2 reserves (max 2 guests per roster, 1 per match)",
@@ -1927,7 +1995,23 @@
           "email": "rajatn@iisc.ac.in"
         }
       ],
-      "hasRules": true
+      "hasRules": true,
+      "podium": [
+        {
+          "category": "Team",
+          "first": "UG Seniors",
+          "second": "UG Juniors",
+          "third": "Mechanical",
+          "fourth": "CSA"
+        },
+        {
+          "category": "Individual",
+          "first": "Sufaid (Math, guest for UG Juniors)",
+          "second": "Abhishek (UG Juniors)",
+          "third": "Vivek (Aerospace)",
+          "fourth": "Ayush (UG Seniors)"
+        }
+      ]
     },
     {
       "id": "evt-cycling",
@@ -3504,7 +3588,7 @@
       "sport": "Handball",
       "icon": "🤾",
       "type": "team",
-      "status": "upcoming",
+      "status": "completed",
       "venue": "TBA",
       "categories": "Men's, Women's",
       "teamSize": "7 players per side",
@@ -3525,6 +3609,19 @@
         }
       ],
       "hasRules": true,
+      "podium": [
+        {
+          "category": "Men's",
+          "first": "CSA",
+          "second": "Bioengineering",
+          "third": "CeNSE"
+        },
+        {
+          "category": "Women's",
+          "first": "CeNSE",
+          "second": "Civil"
+        }
+      ],
       "schedule": [
         {
           "id": "sch-hb-m1",
@@ -3856,7 +3953,7 @@
       "sport": "Kho-Kho",
       "icon": "🤸",
       "type": "team",
-      "status": "in-progress",
+      "status": "completed",
       "venue": "KV Ground",
       "categories": "Men's, Women's (separate registration)",
       "teamSize": "9–12 players, 9 on court",
@@ -3873,6 +3970,19 @@
         }
       ],
       "hasRules": true,
+      "podium": [
+        {
+          "category": "Men's",
+          "first": "Alumni",
+          "second": "UG Seniors",
+          "third": "UG Juniors"
+        },
+        {
+          "category": "Women's",
+          "first": "Civil",
+          "second": "UG Juniors"
+        }
+      ],
       "teams": [
         {
           "id": "team-kk-1",
@@ -4546,8 +4656,16 @@
       "sport": "Table Tennis",
       "icon": "🏓",
       "type": "team",
-      "status": "in-progress",
+      "status": "completed",
       "venue": "TT Hall (above A Mess)",
+      "podium": [
+        {
+          "category": "Team",
+          "first": "Electrical",
+          "second": "UG-A",
+          "third": "CeNSE-A"
+        }
+      ],
       "schedule": [
         {
           "id": "sch-tt-m1",

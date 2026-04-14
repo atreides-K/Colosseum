@@ -320,20 +320,25 @@
         <div v-for="cat in evt.podium" :key="cat.category" class="card podium-card">
           <h3>{{ cat.category }}</h3>
           <div class="podium-rows">
-            <div class="podium-row podium-1">
+            <div v-if="cat.first" class="podium-row podium-1">
               <span class="podium-rank">1st</span>
               <span class="podium-name">{{ cat.first }}</span>
               <span v-if="cat.firstScore" class="podium-score">{{ cat.firstScore }}</span>
             </div>
-            <div class="podium-row podium-2">
+            <div v-if="cat.second" class="podium-row podium-2">
               <span class="podium-rank">2nd</span>
               <span class="podium-name">{{ cat.second }}</span>
               <span v-if="cat.secondScore" class="podium-score">{{ cat.secondScore }}</span>
             </div>
-            <div class="podium-row podium-3">
+            <div v-if="cat.third" class="podium-row podium-3">
               <span class="podium-rank">3rd</span>
               <span class="podium-name">{{ cat.third }}</span>
               <span v-if="cat.thirdScore" class="podium-score">{{ cat.thirdScore }}</span>
+            </div>
+            <div v-if="cat.fourth" class="podium-row podium-4">
+              <span class="podium-rank">4th</span>
+              <span class="podium-name">{{ cat.fourth }}</span>
+              <span v-if="cat.fourthScore" class="podium-score">{{ cat.fourthScore }}</span>
             </div>
           </div>
         </div>

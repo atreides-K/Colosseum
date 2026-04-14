@@ -1054,6 +1054,13 @@ label {
 .podium-row.podium-3 .podium-rank {
   color: #cd7f32;
 }
+.podium-row.podium-4 {
+  background: rgba(255, 255, 255, 0.03);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+.podium-row.podium-4 .podium-rank {
+  color: var(--text-muted);
+}
 
 /* ---- RESULTS IMAGES ---- */
 .results-images {
