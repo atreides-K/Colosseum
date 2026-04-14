@@ -2046,7 +2046,7 @@
       "categories": "Men's (13 teams), Women's (5 teams)",
       "teamSize": "Men's: 10+1 (GK), min 8 to play, rolling subs; Women's: 15-min halves",
       "guestPlayers": "Max 4 on pitch at a time; alumni count as guests",
-      "format": "**Men's:** Knockouts (6 matches, Physics bye) → Group Stage (2 groups of 4) → Semis → Final. KO & Group: 20-min halves. Semis & Final: 25-min halves.\n\n**Women's:** Round robin (all play all) → Top 2 play Final. 15-min halves.\n\nPoints: Win = 3 | Draw = 1 | Loss = 0. Best loser from KO advances as 8th team.",
+      "format": "**Men's:** Knockouts (6 matches, Physics bye) → Group Stage (2 groups of 4) → Semis → Final. KO & Group: 20-min halves. Semis & Final: 25-min halves.\n\n**Group A:** Physics, CeNSE, Mech Spartans, Bioblasters (Best Loser)\n**Group B:** IAP, Underdawgs, CSA FC, ECE\n\n**Women's:** Round robin (all play all) → Top 2 play Final. 15-min halves.\n\nPoints: Win = 3 | Draw = 1 | Loss = 0. Best loser from KO advances as 8th team.",
       "registrationLink": "https://docs.google.com/forms/d/e/1FAIpQLSft_CHLHcUzO4A6IW0I-CMe9ZkrPdxUrfi_TCysCRbE3W0CiA/viewform",
       "registrationDeadline": "",
       "whatsappLink": "",
@@ -2090,8 +2090,8 @@
           "date": "2026-04-03",
           "time": "7:00 PM",
           "venue": "",
-          "description": "Men's Knockout",
-          "status": "scheduled"
+          "description": "Men's Knockout | Winner: IAP",
+          "status": "completed"
         },
         {
           "id": "sch-fb-k2",
@@ -2099,8 +2099,8 @@
           "date": "2026-04-03",
           "time": "8:00 PM",
           "venue": "",
-          "description": "Men's Knockout",
-          "status": "scheduled"
+          "description": "Men's Knockout | Winner: CeNSE",
+          "status": "completed"
         },
         {
           "id": "sch-fb-k3",
@@ -2108,8 +2108,8 @@
           "date": "2026-04-03",
           "time": "9:00 PM",
           "venue": "",
-          "description": "Men's Knockout",
-          "status": "scheduled"
+          "description": "Men's Knockout | Winner: Underdawgs",
+          "status": "completed"
         },
         {
           "id": "sch-fb-k4",
@@ -2117,8 +2117,8 @@
           "date": "2026-04-04",
           "time": "6:30 PM",
           "venue": "",
-          "description": "Men's Knockout",
-          "status": "scheduled"
+          "description": "Men's Knockout | Winner: CSA FC",
+          "status": "completed"
         },
         {
           "id": "sch-fb-k5",
@@ -2126,8 +2126,8 @@
           "date": "2026-04-04",
           "time": "7:30 PM",
           "venue": "",
-          "description": "Men's Knockout",
-          "status": "scheduled"
+          "description": "Men's Knockout | Winner: ECE (Bioblasters advance as Best Loser wildcard)",
+          "status": "completed"
         },
         {
           "id": "sch-fb-k6",
@@ -2135,12 +2135,12 @@
           "date": "2026-04-04",
           "time": "8:30 PM",
           "venue": "",
-          "description": "Men's Knockout",
-          "status": "scheduled"
+          "description": "Men's Knockout | Winner: Mech Spartans",
+          "status": "completed"
         },
         {
           "id": "sch-fb-m1",
-          "title": "M1: A1 vs A2 (Men's Group)",
+          "title": "M1: Physics vs CeNSE (Group A)",
           "date": "2026-04-05",
           "time": "6:30 PM",
           "venue": "",
@@ -2149,7 +2149,7 @@
         },
         {
           "id": "sch-fb-m2",
-          "title": "M2: B1 vs B4 (Men's Group)",
+          "title": "M2: IAP vs ECE (Group B)",
           "date": "2026-04-05",
           "time": "7:30 PM",
           "venue": "",
@@ -2158,7 +2158,7 @@
         },
         {
           "id": "sch-fb-m3",
-          "title": "M3: B2 vs B3 (Men's Group)",
+          "title": "M3: Underdawgs vs CSA FC (Group B)",
           "date": "2026-04-05",
           "time": "8:30 PM",
           "venue": "",
@@ -2185,7 +2185,7 @@
         },
         {
           "id": "sch-fb-m4",
-          "title": "M4: A1 vs A3 (Men's Group)",
+          "title": "M4: Physics vs Mech Spartans (Group A)",
           "date": "2026-04-06",
           "time": "7:00 PM",
           "venue": "",
@@ -2194,7 +2194,7 @@
         },
         {
           "id": "sch-fb-m5",
-          "title": "M5: A2 vs A4 (Men's Group)",
+          "title": "M5: CeNSE vs Bioblasters (Group A)",
           "date": "2026-04-06",
           "time": "8:00 PM",
           "venue": "",
@@ -2203,7 +2203,7 @@
         },
         {
           "id": "sch-fb-m6",
-          "title": "M6: B1 vs B2 (Men's Group)",
+          "title": "M6: IAP vs Underdawgs (Group B)",
           "date": "2026-04-06",
           "time": "9:00 PM",
           "venue": "",
@@ -2230,7 +2230,7 @@
         },
         {
           "id": "sch-fb-m7",
-          "title": "M7: A3 vs A4 (Men's Group)",
+          "title": "M7: Mech Spartans vs Bioblasters (Group A)",
           "date": "2026-04-08",
           "time": "7:00 PM",
           "venue": "",
@@ -2239,7 +2239,7 @@
         },
         {
           "id": "sch-fb-m8",
-          "title": "M8: B2 vs B4 (Men's Group)",
+          "title": "M8: Underdawgs vs ECE (Group B)",
           "date": "2026-04-08",
           "time": "8:00 PM",
           "venue": "",
@@ -2248,7 +2248,7 @@
         },
         {
           "id": "sch-fb-m9",
-          "title": "M9: B1 vs B3 (Men's Group)",
+          "title": "M9: IAP vs CSA FC (Group B)",
           "date": "2026-04-08",
           "time": "9:00 PM",
           "venue": "",
@@ -2275,7 +2275,7 @@
         },
         {
           "id": "sch-fb-m10",
-          "title": "M10: A1 vs A4 (Men's Group)",
+          "title": "M10: Physics vs Bioblasters (Group A)",
           "date": "2026-04-10",
           "time": "7:00 PM",
           "venue": "",
@@ -2284,7 +2284,7 @@
         },
         {
           "id": "sch-fb-m11",
-          "title": "M11: A2 vs A3 (Men's Group)",
+          "title": "M11: CeNSE vs Mech Spartans (Group A)",
           "date": "2026-04-10",
           "time": "8:00 PM",
           "venue": "",
@@ -2293,7 +2293,7 @@
         },
         {
           "id": "sch-fb-m12",
-          "title": "M12: B3 vs B4 (Men's Group)",
+          "title": "M12: CSA FC vs ECE (Group B)",
           "date": "2026-04-10",
           "time": "9:00 PM",
           "venue": "",
