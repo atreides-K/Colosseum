@@ -955,12 +955,13 @@ label {
 /* ---- STANDINGS TABLES ---- */
 .standings-pools {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
   gap: 16px;
   margin-bottom: 24px;
 }
 .standings-pool-card {
   padding: 16px;
+  overflow-x: auto;
 }
 .standings-pool-card h3 {
   margin-bottom: 12px;
@@ -969,10 +970,15 @@ label {
   letter-spacing: 0.05em;
   color: var(--text-dim);
 }
+.standings-table {
+  width: 100%;
+  border-collapse: collapse;
+}
 .standings-table th,
 .standings-table td {
-  padding: 6px 10px;
+  padding: 6px 6px;
   text-align: center;
+  white-space: nowrap;
 }
 .standings-table th:nth-child(2),
 .standings-table td:nth-child(2) {
