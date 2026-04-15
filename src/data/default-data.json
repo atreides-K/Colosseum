@@ -2494,17 +2494,17 @@
             "position": 0,
             "slots": [
               {
-                "seedId": null,
-                "name": "1st Group A",
-                "score": ""
+                "seedId": "team-football-17",
+                "name": "Mech Spartans",
+                "score": "0"
               },
               {
-                "seedId": null,
-                "name": "2nd Group B",
-                "score": ""
+                "seedId": "team-football-7",
+                "name": "IAP",
+                "score": "3"
               }
             ],
-            "winnerId": null
+            "winnerId": "team-football-7"
           },
           {
             "id": "fb-sf2",
@@ -2512,17 +2512,17 @@
             "position": 1,
             "slots": [
               {
-                "seedId": null,
-                "name": "1st Group B",
-                "score": ""
+                "seedId": "team-football-13",
+                "name": "CSA FC",
+                "score": "4"
               },
               {
-                "seedId": null,
-                "name": "2nd Group A",
-                "score": ""
+                "seedId": "team-football-6",
+                "name": "Physics",
+                "score": "2"
               }
             ],
-            "winnerId": null
+            "winnerId": "team-football-13"
           },
           {
             "id": "fb-final",
@@ -2530,13 +2530,13 @@
             "position": 0,
             "slots": [
               {
-                "seedId": null,
-                "name": "Winner SF1",
+                "seedId": "team-football-7",
+                "name": "IAP",
                 "score": ""
               },
               {
-                "seedId": null,
-                "name": "Winner SF2",
+                "seedId": "team-football-13",
+                "name": "CSA FC",
                 "score": ""
               }
             ],
